@@ -10,9 +10,10 @@ import {
   Trophy,
 } from "@phosphor-icons/react";
 import { EQ, MEETING, races, type Race, type Runner } from "./data";
+import NightOdds from "./NightOdds.tsx";
 import Sheet from "./Sheet";
 
-type View = "sheet" | "guide";
+type View = "sheet" | "guide" | "night";
 
 function ViewToggle({ view, onView }: { view: View; onView: (next: View) => void }) {
   const btn = (id: View, label: string) => (
@@ -30,6 +31,7 @@ function ViewToggle({ view, onView }: { view: View; onView: (next: View) => void
     <div className="no-print sticky top-0 z-30 flex items-center justify-between gap-3 bg-[#1a1212] px-3 py-2 md:px-6">
       <p className="font-mono text-[11px] uppercase tracking-wide text-[#ffe566]">HRC 19 Sep 2026</p>
       <div className="flex overflow-hidden border border-white/20">
+        {btn("night", "Night odds")}
         {btn("sheet", "LTO sheet")}
         {btn("guide", "Pretissue")}
       </div>
@@ -261,7 +263,16 @@ function RaceSection({ race }: { race: Race }) {
 
 export default function App() {
   const [active, setActive] = useState(0);
-  const [view, setView] = useState<View>("sheet");
+  const [view, setView] = useState<View>("night");
+
+  if (view === "night") {
+    return (
+      <>
+        <ViewToggle view={view} onView={setView} />
+        <NightOdds />
+      </>
+    );
+  }
 
   if (view === "sheet") {
     return (
