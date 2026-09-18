@@ -10,6 +10,32 @@ import {
   Trophy,
 } from "@phosphor-icons/react";
 import { EQ, MEETING, races, type Race, type Runner } from "./data";
+import Sheet from "./Sheet";
+
+type View = "sheet" | "guide";
+
+function ViewToggle({ view, onView }: { view: View; onView: (next: View) => void }) {
+  const btn = (id: View, label: string) => (
+    <button
+      type="button"
+      onClick={() => onView(id)}
+      className={`px-3 py-1.5 font-mono text-[11px] uppercase tracking-wide ${
+        view === id ? "bg-[#ffe566] text-[#111]" : "bg-white/10 text-white hover:bg-white/20"
+      }`}
+    >
+      {label}
+    </button>
+  );
+  return (
+    <div className="no-print sticky top-0 z-30 flex items-center justify-between gap-3 bg-[#1a1212] px-3 py-2 md:px-6">
+      <p className="font-mono text-[11px] uppercase tracking-wide text-[#ffe566]">HRC 19 Sep 2026</p>
+      <div className="flex overflow-hidden border border-white/20">
+        {btn("sheet", "LTO sheet")}
+        {btn("guide", "Pretissue")}
+      </div>
+    </div>
+  );
+}
 
 function eqLabel(code: string) {
   if (!code) return "none";
@@ -235,9 +261,20 @@ function RaceSection({ race }: { race: Race }) {
 
 export default function App() {
   const [active, setActive] = useState(0);
+  const [view, setView] = useState<View>("sheet");
+
+  if (view === "sheet") {
+    return (
+      <>
+        <ViewToggle view={view} onView={setView} />
+        <Sheet />
+      </>
+    );
+  }
 
   return (
     <div className="min-h-[100dvh] bg-ink text-paper">
+      <ViewToggle view={view} onView={setView} />
       <header className="border-b border-line">
         <div className="flex items-center justify-between gap-4 px-4 py-4 md:px-8">
           <p className="font-mono text-xs uppercase tracking-wide text-gold">HRC pretissue</p>

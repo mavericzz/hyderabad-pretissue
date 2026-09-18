@@ -80,3 +80,16 @@ body {
     scroll-behavior: auto;
   }
 }
+
+.lto-sheet {
+  font-family: Arial, Helvetica, "Segoe UI", sans-serif;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  .lto-sheet {
+    background: #fff;
+  }
+}
