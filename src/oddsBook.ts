@@ -19,6 +19,7 @@ export const NIGHT_META = {
 export const NIGHT_ODDS: Record<number, NightQuote[]> = {
   1: [
     { cloth: 1, night: 5.5, morning: null, call: "neg" },
+    { cloth: 3, night: 0.9, morning: null, call: "pos" },
     { cloth: 8, night: 2.25, morning: null, call: "watch" },
   ],
   2: [
@@ -34,6 +35,7 @@ export const NIGHT_ODDS: Record<number, NightQuote[]> = {
   4: [
     { cloth: 1, night: 5.0, morning: null, call: "neg" },
     { cloth: 2, night: 0.8, morning: null, call: "pos" },
+    { cloth: 4, night: 3.75, morning: null, call: "watch" },
     { cloth: 5, night: 4.0, morning: null, call: "watch" },
   ],
   5: [
