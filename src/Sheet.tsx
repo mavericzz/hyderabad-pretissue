@@ -1,6 +1,14 @@
 import type { ReactNode } from "react";
+import { withHandicap } from "./handicap";
 import { SHEET } from "./sheetData";
 import { cardNo, dash, ltoTone, odds, signed, type LtoCell, type SheetRace, type SheetRunner } from "./lto";
+
+function hcpTone(hcp: number | null): string {
+  if (typeof hcp !== "number") return "";
+  if (hcp < 0) return "text-[#006400] font-bold";
+  if (hcp > 0) return "text-[#c00000] font-bold";
+  return "";
+}
 
 function Td({
   children,
@@ -165,9 +173,7 @@ function RaceGrid({ race }: { race: SheetRace }) {
                 <Td className="bg-[#fff3cc]">{runner.age}</Td>
                 <Td className="bg-[#f7c7d0]">{signed(runner.rtgCh)}</Td>
                 <Td className="bg-[#b7d7ea]">{signed(runner.dp)}</Td>
-                <Td className={`bg-[#c6efda] ${typeof runner.hcp === "number" && runner.hcp < 0 ? "text-[#006400] font-bold" : ""}`}>
-                  {dash(runner.hcp)}
-                </Td>
+                <Td className={`bg-[#c6efda] ${hcpTone(runner.hcp)}`}>{signed(runner.hcp)}</Td>
                 <Td className="bg-[#ffe699]">{signed(runner.distDelta)}</Td>
                 <Td className="bg-[#f8cbad]">{signed(runner.wtDelta)}</Td>
                 <Td className="bg-[#e2efda]">{runner.cls}</Td>
@@ -254,7 +260,7 @@ export default function Sheet() {
 
       <div className="px-2 py-4 md:px-4">
         {SHEET.races.map((race) => (
-          <RaceGrid key={race.no} race={race} />
+          <RaceGrid key={race.no} race={withHandicap(race)} />
         ))}
         <p className="max-w-[110ch] px-1 pb-8 text-[11px] leading-relaxed text-[#444]">
           {SHEET.source} {SHEET.note} Green names are the win / place / upset. Red names are long absences. @ marks
