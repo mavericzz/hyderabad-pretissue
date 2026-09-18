@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import { withHandicap } from "./handicap";
 import { SHEET } from "./sheetData";
 import { cardNo, dash, ltoTone, odds, signed, type LtoCell, type SheetRace, type SheetRunner } from "./lto";
+import { swimFor, swimForRace, swimTone } from "./swim";
 
 function hcpTone(hcp: number | null): string {
   if (typeof hcp !== "number") return "";
@@ -153,8 +154,16 @@ function RaceGrid({ race }: { race: SheetRace }) {
             {race.runners.map((runner) => (
               <tr key={runner.cloth} className="odd:bg-white even:bg-[#fafafa]">
                 <Td className="bg-[#fff3cc] font-bold">{runner.cloth}</Td>
-                <Td className={`max-w-[14rem] truncate text-left font-bold ${nameClass(runner)}`} title={runner.name}>
+                <Td className={`max-w-[16rem] truncate text-left font-bold ${nameClass(runner)}`} title={runner.name}>
                   {runner.filly ? `@ ${runner.name}` : runner.name}
+                  {(() => {
+                    const swim = swimFor(race.no, runner.cloth);
+                    return swim ? (
+                      <span className={`ml-1 inline-block px-1 text-[9px] font-bold ${swimTone(swim.kind)}`} title={swim.note}>
+                        SW {swim.tag}
+                      </span>
+                    ) : null;
+                  })()}
                 </Td>
                 <Td className="max-w-[9rem] truncate text-left" title={runner.trainer}>
                   {runner.trainer}
@@ -234,6 +243,19 @@ function RaceGrid({ race }: { race: SheetRace }) {
       <p className="mt-1 px-1 text-[11px] text-[#555]">
         {race.no}. {race.name} · {race.dist} · {race.time} · {race.class}
       </p>
+      {swimForRace(race.no).length ? (
+        <ul className="mt-1 space-y-0.5 px-1 text-[11px] text-[#444]">
+          {swimForRace(race.no).map((swim) => {
+            const name = race.runners.find((runner) => runner.cloth === swim.cloth)?.name ?? `H${swim.cloth}`;
+            return (
+              <li key={swim.cloth}>
+                <span className={`mr-1 inline-block px-1 font-bold ${swimTone(swim.kind)}`}>SW {swim.tag}</span>
+                {swim.cloth}. {name}: {swim.note}
+              </li>
+            );
+          })}
+        </ul>
+      ) : null}
     </section>
   );
 }
@@ -264,7 +286,8 @@ export default function Sheet() {
         ))}
         <p className="max-w-[110ch] px-1 pb-8 text-[11px] leading-relaxed text-[#444]">
           {SHEET.source} {SHEET.note} Green names are the win / place / upset. Red names are long absences. @ marks
-          fillies and mares. This is a form sheet, not betting advice.
+          fillies and mares. SW is the Hyderabad pool 08-17 Sep: L means a visit on 15/16 Sep (late), t means tapered.
+          Gold Cup visitors will not appear on this HYD pool list. This is a form sheet, not betting advice.
         </p>
       </div>
     </div>

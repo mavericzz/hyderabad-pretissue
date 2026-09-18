@@ -8,10 +8,12 @@ import {
   Scales,
   Timer,
   Trophy,
+  Waves,
 } from "@phosphor-icons/react";
 import { EQ, MEETING, races, type Race, type Runner } from "./data";
 import NightOdds from "./NightOdds.tsx";
 import Sheet from "./Sheet";
+import { swimFor, swimTone, SWIM } from "./swim";
 
 type View = "sheet" | "guide" | "night";
 
@@ -54,7 +56,18 @@ function rankTone(rank: number) {
   return "text-mute";
 }
 
-function RunnerCard({ runner, open, onToggle }: { runner: Runner; open: boolean; onToggle: () => void }) {
+function RunnerCard({
+  runner,
+  raceNo,
+  open,
+  onToggle,
+}: {
+  runner: Runner;
+  raceNo: number;
+  open: boolean;
+  onToggle: () => void;
+}) {
+  const swim = swimFor(raceNo, runner.cloth);
   return (
     <article className="border-t border-line">
       <button
@@ -71,6 +84,7 @@ function RunnerCard({ runner, open, onToggle }: { runner: Runner; open: boolean;
           <span className="block truncate text-[15px] font-medium tracking-tight text-paper">
             {runner.name}
             {runner.al ? <span className="ml-2 font-mono text-xs text-warn">app {runner.al}</span> : null}
+            {swim ? <span className="ml-2 font-mono text-xs text-warn">swim {swim.tag}</span> : null}
           </span>
           <span className="block truncate text-xs text-mute">
             {runner.age} · {runner.trainer} · {runner.jockey}
@@ -96,6 +110,11 @@ function RunnerCard({ runner, open, onToggle }: { runner: Runner; open: boolean;
             <p>
               <span className="text-paper">Last 5.</span> {runner.last5}
             </p>
+            {swim ? (
+              <p>
+                <span className="text-paper">HYD pool.</span> {swim.days.join(", ")} Sep. {swim.note}
+              </p>
+            ) : null}
           </div>
           <p className="max-w-[72ch] text-sm leading-relaxed text-mute">
             <span className="text-paper">Similar-race line. </span>
@@ -251,6 +270,7 @@ function RaceSection({ race }: { race: Race }) {
         {race.runners.map((runner) => (
           <RunnerCard
             key={runner.cloth}
+            raceNo={race.no}
             runner={runner}
             open={openId === runner.cloth}
             onToggle={() => setOpenId((id) => (id === runner.cloth ? null : runner.cloth))}
@@ -452,6 +472,51 @@ export default function App() {
               Materiality: blinkers and pacifiers for the handicap debut. She's A Bomb: tongue strap and blinkers kept
               on after the maiden win. Zuccaro and Ramiel: hoods for the Gold Cup.
             </p>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-line px-4 py-10 md:px-8">
+        <h2 className="flex items-center gap-2 text-2xl font-medium tracking-tight">
+          <Waves size={22} /> Hyderabad pool 08-17 Sep
+        </h2>
+        <p className="mt-3 max-w-[72ch] text-sm leading-relaxed text-mute">
+          X is a pool visit. This list is HYD string only, so Gold Cup visitors will not show. Late (15/16 Sep) means
+          they were still in the water three or four days from the race. None of the win picks swam. The value is in
+          confirming fades.
+        </p>
+        <div className="mt-5 grid gap-6 md:grid-cols-2">
+          <div>
+            <h3 className="text-sm font-medium text-lose">Late / heavy. Confirm the fade.</h3>
+            <ul className="mt-2 space-y-2 text-sm leading-relaxed text-mute">
+              {SWIM.filter((row) => row.kind === "late" || row.kind === "heavy").map((row) => {
+                const name = races.find((race) => race.no === row.race)?.runners.find((r) => r.cloth === row.cloth)?.name;
+                return (
+                  <li key={`${row.race}-${row.cloth}`}>
+                    <span className={`mr-2 inline-block px-1 font-mono text-[11px] ${swimTone(row.kind)}`}>
+                      R{row.race} {row.cloth} SW {row.tag}
+                    </span>
+                    {name}. {row.note}
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-sm font-medium">Tapered. Milder.</h3>
+            <ul className="mt-2 space-y-2 text-sm leading-relaxed text-mute">
+              {SWIM.filter((row) => row.kind === "taper").map((row) => {
+                const name = races.find((race) => race.no === row.race)?.runners.find((r) => r.cloth === row.cloth)?.name;
+                return (
+                  <li key={`${row.race}-${row.cloth}`}>
+                    <span className={`mr-2 inline-block px-1 font-mono text-[11px] ${swimTone(row.kind)}`}>
+                      R{row.race} {row.cloth} SW {row.tag}
+                    </span>
+                    {name}. {row.note}
+                  </li>
+                );
+              })}
+            </ul>
           </div>
         </div>
       </section>
