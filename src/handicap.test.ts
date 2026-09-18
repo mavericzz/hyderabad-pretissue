@@ -119,18 +119,25 @@ describe("Hyderabad 19 Sep card", () => {
   it("stops using LTO figures as maiden handicap ratings", () => {
     const race = withHandicap(SHEET.races[0]);
     assert.deepEqual(race.picks.hcpRtg, [3, 4, 6, 5]);
-    assert.equal(race.runners.find((r) => r.cloth === 8)?.hcp, 0);
+    assert.equal(race.runners.find((r) => r.cloth === 8)?.hcp, null);
+    assert.equal(race.runners.find((r) => r.cloth === 3)?.hcp, 37);
   });
 
-  it("gives She's A Bomb the 5kg claim and Rate Of Interest 0, not -11 vs topweight", () => {
+  it("shows today's handicap rating, not 0kg vs topweight", () => {
     const race = withHandicap(SHEET.races[2]);
     const bomb = race.runners.find((r) => r.cloth === 2);
     const flare = race.runners.find((r) => r.cloth === 5);
     const last = race.runners.find((r) => r.cloth === 10);
+    const top = race.runners.find((r) => r.cloth === 1);
     assert.equal(bomb?.name, "SHE'S A BOMB");
-    assert.equal(bomb?.hcp, -5);
-    assert.equal(flare?.hcp, -5);
-    assert.equal(last?.hcp, 0);
+    assert.equal(bomb?.hcp, 52);
+    assert.equal(bomb?.hcpKg, -5);
+    assert.equal(flare?.hcp, 42);
+    assert.equal(flare?.hcpKg, -5);
+    assert.equal(last?.hcp, 22);
+    assert.equal(last?.hcpKg, 0);
+    assert.equal(top?.hcp, 43);
+    assert.ok(race.runners.every((r) => r.hcp !== 0));
     assert.deepEqual(race.picks.hcpRtg, [2, 1, 5, 3]);
   });
 
@@ -138,7 +145,9 @@ describe("Hyderabad 19 Sep card", () => {
     const totaram = withHandicap(SHEET.races[3]);
     const gold = withHandicap(SHEET.races[4]);
     assert.equal(totaram.picks.hcpRtg[0], 2);
+    assert.equal(totaram.runners.find((r) => r.cloth === 2)?.hcp, 107);
     assert.equal(gold.picks.hcpRtg[0], 4);
-    assert.equal(gold.runners.find((r) => r.cloth === 4)?.hcp, 0);
+    assert.equal(gold.runners.find((r) => r.cloth === 4)?.hcp, 123);
+    assert.equal(gold.runners.find((r) => r.cloth === 1)?.hcp, 110);
   });
 });

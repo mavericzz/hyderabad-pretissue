@@ -5,7 +5,7 @@ export const SHEET: SheetMeeting = {
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "19-09-2026 - HYD - SATURDAY - 6 CARD",
   "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 18 Sep 2026.",
-  "note": "BNC RTG is the official current handicap mark (the second IndiaRace figure; 27 42 means last 27, now 42). HCP is kg vs a 0.5kg-per-point scale after apprentice claim: 0 = on the handicap, negative = well in, positive = out of the handicap in terms races. HCP RTG is that official mark plus 2 points per kg well-in — never an LTO form figure and never kg below topweight. LTO is last two completed starts. Figure = 100 - (pos-1)*6.5 - beaten*3.2, +14 for a win, short-price winners lifted. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). First starters and runs beaten 25L+ show ###. Tissue is a 120% book, not official HRC odds. Results stay blank until after the race.",
+  "note": "BNC RTG is the last published official mark. HCP is today's handicap rating: that mark plus 2 points per kg well-in after apprentice claim (She's A Bomb 42 + 5kg claim = 52). Unrated horses show -. Green HCP is well-in, red is out of the handicap in terms races. HCP RTG picks the four highest HCP figures. LTO is last two completed starts. Figure = 100 - (pos-1)*6.5 - beaten*3.2, +14 for a win, short-price winners lifted. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). First starters and runs beaten 25L+ show ###. Tissue is a 120% book, not official HRC odds. Results stay blank until after the race.",
   "races": [
     {
       "no": 1,
@@ -56,10 +56,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 100,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": null,
           "dp": 4,
           "days": 14,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 2,
@@ -98,10 +99,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": null,
           "wtDelta": null,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": null,
           "dp": null,
           "days": null,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 3,
@@ -140,10 +142,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -200,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": 37,
           "dp": 2,
           "days": 12,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 4,
@@ -182,10 +185,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 100,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": 29,
           "dp": 4,
           "days": 14,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 5,
@@ -224,10 +228,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 100,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": 28,
           "dp": 4,
           "days": 5,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 6,
@@ -266,10 +271,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -400,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": 29,
           "dp": 0,
           "days": 6,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 7,
@@ -308,10 +314,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -200,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": 28,
           "dp": 2,
           "days": 12,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 8,
@@ -350,10 +357,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 100,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 0,
+          "hcp": null,
           "dp": 4,
           "days": 5,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         }
       ],
       "picks": {
@@ -429,10 +437,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": 4,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 42,
           "dp": -2,
           "days": 34,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 2,
@@ -471,10 +480,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -500,
           "wtDelta": -0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 39,
           "dp": -4,
           "days": 27,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 3,
@@ -513,10 +523,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": 2,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 38,
           "dp": -2,
           "days": 34,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 4,
@@ -555,10 +566,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": 2.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 36,
           "dp": -2,
           "days": 41,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 5,
@@ -597,10 +609,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": -1,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 33,
           "dp": 2,
           "days": 14,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 6,
@@ -639,10 +652,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -100,
           "wtDelta": -0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 30,
           "dp": -2,
           "days": 47,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 7,
@@ -681,10 +695,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": -1,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 28,
           "dp": 2,
           "days": 14,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 8,
@@ -723,10 +738,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": null,
           "wtDelta": null,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 27,
           "dp": null,
           "days": null,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 9,
@@ -765,10 +781,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": -6,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 24,
           "dp": 2,
           "days": 20,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         }
       ],
       "picks": {
@@ -844,10 +861,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": 0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 43,
           "dp": 2,
           "days": 6,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 2,
@@ -886,10 +904,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -100,
           "wtDelta": 5.5,
           "cls": "Class 4",
-          "hcp": -5,
+          "hcp": 52,
           "dp": 2,
           "days": 19,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": -5
         },
         {
           "cloth": 3,
@@ -928,10 +947,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -100,
           "wtDelta": 1.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 37,
           "dp": -2,
           "days": 41,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 4,
@@ -970,10 +990,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": -2.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 37,
           "dp": -2,
           "days": 27,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 5,
@@ -1012,10 +1033,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -500,
           "wtDelta": 0.5,
           "cls": "Class 4",
-          "hcp": -5,
+          "hcp": 42,
           "dp": -4,
           "days": 34,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": -5
         },
         {
           "cloth": 6,
@@ -1054,10 +1076,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": -1.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 31,
           "dp": 2,
           "days": 14,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 7,
@@ -1096,10 +1119,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -300,
           "wtDelta": -3,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 28,
           "dp": -10,
           "days": 354,
-          "tone": "risk"
+          "tone": "risk",
+          "hcpKg": 0
         },
         {
           "cloth": 8,
@@ -1138,10 +1162,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -100,
           "wtDelta": -5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 26,
           "dp": 4,
           "days": 14,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 9,
@@ -1180,10 +1205,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -100,
           "wtDelta": 0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 25,
           "dp": -8,
           "days": 349,
-          "tone": "risk"
+          "tone": "risk",
+          "hcpKg": 0
         },
         {
           "cloth": 10,
@@ -1222,10 +1248,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": -6,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 22,
           "dp": 2,
           "days": 20,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         }
       ],
       "picks": {
@@ -1301,10 +1328,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -200,
           "wtDelta": 8,
           "cls": "Terms",
-          "hcp": 16.5,
+          "hcp": 48,
           "dp": 0,
           "days": 20,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 16.5
         },
         {
           "cloth": 2,
@@ -1343,10 +1371,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": -5.5,
           "cls": "Terms",
-          "hcp": 0,
+          "hcp": 107,
           "dp": 0,
           "days": 27,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 3,
@@ -1385,10 +1414,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -600,
           "wtDelta": 0,
           "cls": "Terms",
-          "hcp": 17.5,
+          "hcp": 35,
           "dp": 0,
           "days": 12,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 17.5
         },
         {
           "cloth": 4,
@@ -1427,10 +1457,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -200,
           "wtDelta": 3.5,
           "cls": "Terms",
-          "hcp": 7.5,
+          "hcp": 75,
           "dp": 0,
           "days": 20,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 7.5
         },
         {
           "cloth": 5,
@@ -1469,10 +1500,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -200,
           "wtDelta": -6.5,
           "cls": "Terms",
-          "hcp": 1,
+          "hcp": 98,
           "dp": 2,
           "days": 6,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 1
         },
         {
           "cloth": 6,
@@ -1511,10 +1543,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": -2,
           "cls": "Terms",
-          "hcp": 17.5,
+          "hcp": 32,
           "dp": 4,
           "days": 12,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 17.5
         },
         {
           "cloth": 7,
@@ -1553,10 +1586,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": -5,
           "cls": "Terms",
-          "hcp": 15,
+          "hcp": 39,
           "dp": 4,
           "days": 12,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 15
         },
         {
           "cloth": 8,
@@ -1595,10 +1629,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": -8,
           "cls": "Terms",
-          "hcp": 15,
+          "hcp": 39,
           "dp": 0,
           "days": 33,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 15
         },
         {
           "cloth": 9,
@@ -1637,10 +1672,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -200,
           "wtDelta": -3,
           "cls": "Terms",
-          "hcp": 4.5,
+          "hcp": 81,
           "dp": 2,
           "days": 6,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 4.5
         }
       ],
       "picks": {
@@ -1716,10 +1752,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": 0,
           "cls": "Gr.2",
-          "hcp": 5,
+          "hcp": 110,
           "dp": 2,
           "days": 21,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 5
         },
         {
           "cloth": 2,
@@ -1758,10 +1795,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -400,
           "wtDelta": -0.5,
           "cls": "Gr.2",
-          "hcp": 2.5,
+          "hcp": 116,
           "dp": -6,
           "days": 50,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 2.5
         },
         {
           "cloth": 3,
@@ -1800,10 +1838,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": -400,
           "wtDelta": -1.5,
           "cls": "Gr.2",
-          "hcp": 5,
+          "hcp": 104,
           "dp": -6,
           "days": 50,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 5
         },
         {
           "cloth": 4,
@@ -1842,10 +1881,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 200,
           "wtDelta": -0.5,
           "cls": "Gr.2",
-          "hcp": 0,
+          "hcp": 123,
           "dp": -10,
           "days": 76,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 5,
@@ -1884,10 +1924,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 200,
           "wtDelta": -0.5,
           "cls": "Gr.2",
-          "hcp": 6,
+          "hcp": 97,
           "dp": -10,
           "days": 76,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 6
         },
         {
           "cloth": 6,
@@ -1926,10 +1967,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 1000,
           "wtDelta": -6,
           "cls": "Gr.2",
-          "hcp": 8.5,
+          "hcp": 82,
           "dp": -4,
           "days": 33,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 8.5
         },
         {
           "cloth": 7,
@@ -1968,10 +2010,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 400,
           "wtDelta": -1.5,
           "cls": "Gr.2",
-          "hcp": 12,
+          "hcp": 66,
           "dp": -4,
           "days": 33,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 12
         }
       ],
       "picks": {
@@ -2047,10 +2090,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 200,
           "wtDelta": 1,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 43,
           "dp": -2,
           "days": 34,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 2,
@@ -2089,10 +2133,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": 5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 38,
           "dp": 4,
           "days": 12,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 3,
@@ -2131,10 +2176,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": 0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 38,
           "dp": 4,
           "days": 12,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 4,
@@ -2173,10 +2219,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": 0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 35,
           "dp": 0,
           "days": 27,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 5,
@@ -2215,10 +2262,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 200,
           "wtDelta": -0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 31,
           "dp": 2,
           "days": 14,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 6,
@@ -2257,10 +2305,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 200,
           "wtDelta": -1.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 31,
           "dp": -2,
           "days": 27,
-          "tone": "pick"
+          "tone": "pick",
+          "hcpKg": 0
         },
         {
           "cloth": 7,
@@ -2299,10 +2348,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 0,
           "wtDelta": 0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 26,
           "dp": 4,
           "days": 12,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 8,
@@ -2341,10 +2391,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 200,
           "wtDelta": -10,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 25,
           "dp": 0,
           "days": 19,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 9,
@@ -2383,10 +2434,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 500,
           "wtDelta": -0.5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 25,
           "dp": -6,
           "days": 40,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         },
         {
           "cloth": 10,
@@ -2425,10 +2477,11 @@ export const SHEET: SheetMeeting = {
           "distDelta": 400,
           "wtDelta": -5,
           "cls": "Class 4",
-          "hcp": 0,
+          "hcp": 21,
           "dp": 0,
           "days": 14,
-          "tone": "plain"
+          "tone": "plain",
+          "hcpKg": 0
         }
       ],
       "picks": {

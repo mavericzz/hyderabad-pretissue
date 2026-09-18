@@ -118,13 +118,20 @@ export function analyseHandicap(race: HcpRace): HcpResult {
   return { hcp, picks, effective };
 }
 
-export function withHandicap<T extends HcpRace & { picks: { hcpRtg: number[] }; runners: Array<HcpHorse & { hcp: number | null }> }>(
-  race: T,
-): T {
-  const { hcp, picks } = analyseHandicap(race);
+export function withHandicap<
+  T extends HcpRace & {
+    picks: { hcpRtg: number[] };
+    runners: Array<HcpHorse & { hcp: number | null; hcpKg?: number | null }>;
+  },
+>(race: T): T {
+  const { hcp: hcpKg, picks, effective } = analyseHandicap(race);
   return {
     ...race,
-    runners: race.runners.map((r) => ({ ...r, hcp: hcp[r.cloth] ?? null })),
+    runners: race.runners.map((r) => ({
+      ...r,
+      hcp: effective[r.cloth] ?? null,
+      hcpKg: hcpKg[r.cloth] ?? null,
+    })),
     picks: { ...race.picks, hcpRtg: picks },
   };
 }

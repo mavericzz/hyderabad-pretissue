@@ -4,11 +4,17 @@ import { SHEET } from "./sheetData";
 import { cardNo, dash, ltoTone, odds, signed, type LtoCell, type SheetRace, type SheetRunner } from "./lto";
 import { swimFor, swimForRace, swimTone } from "./swim";
 
-function hcpTone(hcp: number | null): string {
-  if (typeof hcp !== "number") return "";
-  if (hcp < 0) return "text-[#006400] font-bold";
-  if (hcp > 0) return "text-[#c00000] font-bold";
-  return "";
+function hcpTone(hcpKg: number | null | undefined): string {
+  if (typeof hcpKg !== "number" || hcpKg === 0) return "font-bold";
+  if (hcpKg < 0) return "text-[#006400] font-bold";
+  return "text-[#c00000] font-bold";
+}
+
+function hcpTitle(runner: SheetRunner): string | undefined {
+  if (runner.hcp == null) return "No official mark";
+  if (runner.hcpKg == null || runner.hcpKg === 0) return "Official mark — on the 0.5kg/point scale";
+  if (runner.hcpKg < 0) return `Official ${runner.bnc} plus ${-runner.hcpKg}kg claim/terms (${-2 * runner.hcpKg} rating points)`;
+  return `Official ${runner.bnc} but ${runner.hcpKg}kg out of the handicap`;
 }
 
 function Td({
@@ -182,7 +188,9 @@ function RaceGrid({ race }: { race: SheetRace }) {
                 <Td className="bg-[#fff3cc]">{runner.age}</Td>
                 <Td className="bg-[#f7c7d0]">{signed(runner.rtgCh)}</Td>
                 <Td className="bg-[#b7d7ea]">{signed(runner.dp)}</Td>
-                <Td className={`bg-[#c6efda] ${hcpTone(runner.hcp)}`}>{signed(runner.hcp)}</Td>
+                <Td className={`bg-[#c6efda] ${hcpTone(runner.hcpKg)}`} title={hcpTitle(runner)}>
+                  {dash(runner.hcp)}
+                </Td>
                 <Td className="bg-[#ffe699]">{signed(runner.distDelta)}</Td>
                 <Td className="bg-[#f8cbad]">{signed(runner.wtDelta)}</Td>
                 <Td className="bg-[#e2efda]">{runner.cls}</Td>

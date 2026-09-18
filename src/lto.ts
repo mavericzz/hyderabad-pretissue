@@ -31,6 +31,7 @@ export type SheetRunner = {
   wtDelta: number | null;
   cls: string;
   hcp: number | null;
+  hcpKg?: number | null;
   dp: number | null;
   days: number | null;
   tone: "pick" | "risk" | "plain";
