@@ -13,7 +13,7 @@ export const NIGHT_META = {
   version: "VERSION -1R",
   when: "19-09-2026 - HYD - 16TH DAY - 6 CARD",
   source: "Night quotes as provided, version 1R. Cloth numbers match the Hyderabad racecard.",
-  note: "Green is a positive night call, red is a fade, yellow is a watch. Morning column is empty until the morning card arrives. Then shortened (morning tighter than night) reads positive and drifted reads negative.",
+  note: "Green is a positive night call, red is a fade, yellow is a watch. No separate morning card was sent. The Morning column is official SP on the same Indian scale (0.90 = 9/10). Shortened vs night reads positive; drifted reads negative.",
 };
 
 export const NIGHT_ODDS: Record<number, NightQuote[]> = {

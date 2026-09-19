@@ -85,6 +85,20 @@ body {
   font-family: Arial, Helvetica, "Segoe UI", sans-serif;
 }
 
+tr.horse-focus td {
+  background-image: linear-gradient(rgba(255, 243, 160, 0.55), rgba(255, 243, 160, 0.55));
+}
+
+td.horse-focus,
+tr.horse-focus td:first-child {
+  box-shadow: inset 0 0 0 2px #c9a227;
+}
+
+article.horse-focus {
+  box-shadow: inset 4px 0 0 #c9a227;
+  background: #243022;
+}
+
 @media print {
   .no-print {
     display: none !important;

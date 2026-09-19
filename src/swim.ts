@@ -37,12 +37,12 @@ export const SWIM: SwimEntry[] = [
   entry(6, 3, ["08", "09", "12", "16"], "Four visits, last on the 16th. 7yo mare keeping legs quiet."),
 ];
 
-export function swimFor(race: number, cloth: number): SwimEntry | undefined {
-  return SWIM.find((row) => row.race === race && row.cloth === cloth);
+export function swimFor(race: number, cloth: number, list: SwimEntry[] = SWIM): SwimEntry | undefined {
+  return list.find((row) => row.race === race && row.cloth === cloth);
 }
 
-export function swimForRace(race: number): SwimEntry[] {
-  return SWIM.filter((row) => row.race === race);
+export function swimForRace(race: number, list: SwimEntry[] = SWIM): SwimEntry[] {
+  return list.filter((row) => row.race === race);
 }
 
 export function swimTone(kind: SwimKind): string {

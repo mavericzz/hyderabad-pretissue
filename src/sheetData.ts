@@ -5,7 +5,7 @@ export const SHEET: SheetMeeting = {
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "19-09-2026 - HYD - SATURDAY - 6 CARD",
   "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 18 Sep 2026.",
-  "note": "BNC RTG is the last published official mark. HCP is today's handicap rating: that mark plus 2 points per kg well-in after apprentice claim (She's A Bomb 42 + 5kg claim = 52). Unrated horses show -. Green HCP is well-in, red is out of the handicap in terms races. HCP RTG picks the four highest HCP figures. LTO is last two completed starts. Figure = 100 - (pos-1)*6.5 - beaten*3.2, +14 for a win, short-price winners lifted. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). First starters and runs beaten 25L+ show ###. Tissue is a 120% book, not official HRC odds. Results stay blank until after the race.",
+  "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. Clocks use AdjTime = T_winner + L×0.17 − (W − W_avg)/5. A latest win uses the official raise (She's A Bomb 27 to 42). HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight (claim or terms gift), red is well-out. Maidens stay on set weights so fillies are not marked well-in for 54.5 kg. HCP RTG / LTO RTG pick the four highest figures. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official HRC odds. Results stay blank until after the race.",
   "races": [
     {
       "no": 1,
@@ -45,7 +45,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "20",
             "btl": 4.5,
-            "lto": 84
+            "lto": 84,
+            "distM": 1100,
+            "rtg": null,
+            "cls": "Maiden"
           },
           "nty": 6,
           "open": 7.08,
@@ -123,7 +126,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "1.9",
             "btl": 2.5,
-            "lto": 77
+            "lto": 77,
+            "distM": 1400,
+            "rtg": null,
+            "cls": "Maiden"
           },
           "l1": {
             "days": 12,
@@ -131,7 +137,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "5",
             "btl": 1.5,
-            "lto": 88
+            "lto": 88,
+            "distM": 1400,
+            "rtg": 34,
+            "cls": "Maiden"
           },
           "nty": 4,
           "open": 4.72,
@@ -166,7 +175,10 @@ export const SHEET: SheetMeeting = {
             "pos": 11,
             "odds": "20",
             "btl": 9,
-            "lto": 11
+            "lto": 11,
+            "distM": 1100,
+            "rtg": 30,
+            "cls": "Maiden"
           },
           "l1": {
             "days": 14,
@@ -174,7 +186,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "20",
             "btl": 7,
-            "lto": 56
+            "lto": 56,
+            "distM": 1100,
+            "rtg": 30,
+            "cls": "Maiden"
           },
           "nty": 26,
           "open": 30.68,
@@ -209,7 +224,10 @@ export const SHEET: SheetMeeting = {
             "pos": 11,
             "odds": "20",
             "btl": 21,
-            "lto": -20
+            "lto": -20,
+            "distM": 1400,
+            "rtg": null,
+            "cls": "Maiden"
           },
           "l1": {
             "days": 5,
@@ -217,7 +235,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "12",
             "btl": 5.25,
-            "lto": 72
+            "lto": 72,
+            "distM": 1100,
+            "rtg": 27,
+            "cls": "Maiden"
           },
           "nty": 9,
           "open": 10.62,
@@ -252,7 +273,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "10",
             "btl": 13,
-            "lto": 40
+            "lto": 40,
+            "distM": 1200,
+            "rtg": 29,
+            "cls": "Maiden"
           },
           "l1": {
             "days": 6,
@@ -260,7 +284,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "10",
             "btl": 11,
-            "lto": 40
+            "lto": 40,
+            "distM": 1600,
+            "rtg": 29,
+            "cls": "Maiden"
           },
           "nty": 11,
           "open": 12.98,
@@ -295,7 +322,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "20",
             "btl": 0.5,
-            "lto": 90
+            "lto": 90,
+            "distM": 1100,
+            "rtg": 27,
+            "cls": "Maiden"
           },
           "l1": {
             "days": 12,
@@ -303,7 +333,10 @@ export const SHEET: SheetMeeting = {
             "pos": 9,
             "odds": "20",
             "btl": 19.75,
-            "lto": -11
+            "lto": -11,
+            "distM": 1400,
+            "rtg": 28,
+            "cls": "Maiden"
           },
           "nty": 13,
           "open": 15.34,
@@ -346,7 +379,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "20",
             "btl": 0.75,
-            "lto": 96
+            "lto": 96,
+            "distM": 1100,
+            "rtg": null,
+            "cls": "Maiden"
           },
           "nty": 3.5,
           "open": 4.13,
@@ -418,7 +454,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "6",
             "btl": 11.5,
-            "lto": 56
+            "lto": 56,
+            "distM": 1400,
+            "rtg": 38,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 34,
@@ -426,7 +465,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "20",
             "btl": 5.75,
-            "lto": 54
+            "lto": 54,
+            "distM": 1400,
+            "rtg": 42,
+            "cls": "Term Race"
           },
           "nty": 4,
           "open": 4.72,
@@ -461,7 +503,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "20",
             "btl": 15.75,
-            "lto": 22
+            "lto": 22,
+            "distM": 1600,
+            "rtg": 39,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 27,
@@ -469,7 +514,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "4",
             "btl": 13.5,
-            "lto": 36
+            "lto": 36,
+            "distM": 1600,
+            "rtg": 39,
+            "cls": "Class 4"
           },
           "nty": 9,
           "open": 10.62,
@@ -504,7 +552,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "9",
             "btl": 0,
-            "lto": 114
+            "lto": 114,
+            "distM": 1100,
+            "rtg": 30,
+            "cls": "Maiden"
           },
           "l1": {
             "days": 34,
@@ -512,7 +563,10 @@ export const SHEET: SheetMeeting = {
             "pos": 9,
             "odds": "20",
             "btl": 17,
-            "lto": -2
+            "lto": -2,
+            "distM": 1400,
+            "rtg": 38,
+            "cls": "Term Race"
           },
           "nty": 5,
           "open": 5.9,
@@ -555,7 +609,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "5.5",
             "btl": 0,
-            "lto": 120
+            "lto": 120,
+            "distM": 1100,
+            "rtg": null,
+            "cls": "Maiden"
           },
           "nty": 3.5,
           "open": 4.13,
@@ -590,7 +647,10 @@ export const SHEET: SheetMeeting = {
             "pos": 7,
             "odds": "6",
             "btl": 10.5,
-            "lto": 27
+            "lto": 27,
+            "distM": 1200,
+            "rtg": 35,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 14,
@@ -598,7 +658,10 @@ export const SHEET: SheetMeeting = {
             "pos": 14,
             "odds": "20",
             "btl": 37,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1400,
+            "rtg": 35,
+            "cls": "Class 4"
           },
           "nty": 21,
           "open": 24.78,
@@ -641,7 +704,10 @@ export const SHEET: SheetMeeting = {
             "pos": 11,
             "odds": "20",
             "btl": 45.25,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1200,
+            "rtg": 30,
+            "cls": "Class 4"
           },
           "nty": 34,
           "open": 40.12,
@@ -676,7 +742,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "20",
             "btl": 9.25,
-            "lto": 49
+            "lto": 49,
+            "distM": 1100,
+            "rtg": 30,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 14,
@@ -684,7 +753,10 @@ export const SHEET: SheetMeeting = {
             "pos": 10,
             "odds": "20",
             "btl": 30.75,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1400,
+            "rtg": 30,
+            "cls": "Class 4"
           },
           "nty": 13,
           "open": 15.34,
@@ -762,7 +834,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "20",
             "btl": 11,
-            "lto": 37
+            "lto": 37,
+            "distM": 1200,
+            "rtg": 24,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 20,
@@ -770,7 +845,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "15",
             "btl": 21,
-            "lto": 10
+            "lto": 10,
+            "distM": 1100,
+            "rtg": 24,
+            "cls": "Class 4"
           },
           "nty": 21,
           "open": 24.78,
@@ -842,7 +920,10 @@ export const SHEET: SheetMeeting = {
             "pos": 9,
             "odds": "20",
             "btl": 18.25,
-            "lto": -6
+            "lto": -6,
+            "distM": 1400,
+            "rtg": 45,
+            "cls": "Class 3"
           },
           "l1": {
             "days": 6,
@@ -850,7 +931,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "20",
             "btl": 15.5,
-            "lto": 29
+            "lto": 29,
+            "distM": 1400,
+            "rtg": 45,
+            "cls": "Class 4"
           },
           "nty": 21,
           "open": 24.78,
@@ -885,7 +969,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "15",
             "btl": 13,
-            "lto": 35
+            "lto": 35,
+            "distM": 1400,
+            "rtg": 27,
+            "cls": "Maiden"
           },
           "l1": {
             "days": 19,
@@ -893,7 +980,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "8",
             "btl": 0,
-            "lto": 114
+            "lto": 114,
+            "distM": 1200,
+            "rtg": 27,
+            "cls": "Maiden"
           },
           "nty": 3,
           "open": 3.54,
@@ -928,7 +1018,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "5",
             "btl": 2.75,
-            "lto": 84
+            "lto": 84,
+            "distM": 1200,
+            "rtg": 31,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 41,
@@ -936,7 +1029,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "2.5",
             "btl": 1.5,
-            "lto": 87
+            "lto": 87,
+            "distM": 1200,
+            "rtg": 34,
+            "cls": "Class 4"
           },
           "nty": 4,
           "open": 4.72,
@@ -971,7 +1067,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "10",
             "btl": 5,
-            "lto": 66
+            "lto": 66,
+            "distM": 1200,
+            "rtg": 37,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 27,
@@ -979,7 +1078,10 @@ export const SHEET: SheetMeeting = {
             "pos": 12,
             "odds": "12",
             "btl": 40.75,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1400,
+            "rtg": 37,
+            "cls": "Class 4"
           },
           "nty": 6,
           "open": 7.08,
@@ -1014,7 +1116,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "2.5",
             "btl": 15.25,
-            "lto": 17
+            "lto": 17,
+            "distM": 1800,
+            "rtg": 32,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 34,
@@ -1022,7 +1127,10 @@ export const SHEET: SheetMeeting = {
             "pos": 10,
             "odds": "12",
             "btl": 33,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1600,
+            "rtg": 32,
+            "cls": "Class 4"
           },
           "nty": 9,
           "open": 10.62,
@@ -1057,7 +1165,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "40",
             "btl": 24.25,
-            "lto": 6
+            "lto": 6,
+            "distM": 1800,
+            "rtg": 34,
+            "cls": "Clas 4"
           },
           "l1": {
             "days": 14,
@@ -1065,7 +1176,10 @@ export const SHEET: SheetMeeting = {
             "pos": 9,
             "odds": "20",
             "btl": 26,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1400,
+            "rtg": 34,
+            "cls": "Class 4"
           },
           "nty": 21,
           "open": 24.78,
@@ -1108,7 +1222,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "20",
             "btl": 14.25,
-            "lto": 26
+            "lto": 26,
+            "distM": 1400,
+            "rtg": null,
+            "cls": "Maiden"
           },
           "nty": 26,
           "open": 30.68,
@@ -1143,7 +1260,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "10",
             "btl": 18.75,
-            "lto": 9
+            "lto": 9,
+            "distM": 1200,
+            "rtg": 26,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 14,
@@ -1151,7 +1271,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "20",
             "btl": 14.5,
-            "lto": 39
+            "lto": 39,
+            "distM": 1200,
+            "rtg": 26,
+            "cls": "Class 4"
           },
           "nty": 13,
           "open": 15.34,
@@ -1194,7 +1317,10 @@ export const SHEET: SheetMeeting = {
             "pos": 15,
             "odds": "20",
             "btl": 38.5,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1200,
+            "rtg": 27,
+            "cls": "Class 4"
           },
           "nty": 34,
           "open": 40.12,
@@ -1229,7 +1355,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 11.75,
-            "lto": 21
+            "lto": 21,
+            "distM": 1100,
+            "rtg": 22,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 20,
@@ -1237,7 +1366,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 25,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1100,
+            "rtg": 22,
+            "cls": "Class 4"
           },
           "nty": 26,
           "open": 30.68,
@@ -1309,7 +1441,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "7",
             "btl": 9.75,
-            "lto": 36
+            "lto": 36,
+            "distM": 1600,
+            "rtg": 81,
+            "cls": "For Horses"
           },
           "l1": {
             "days": 20,
@@ -1317,7 +1452,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 8.25,
-            "lto": 33
+            "lto": 33,
+            "distM": 1400,
+            "rtg": 81,
+            "cls": "Class 1"
           },
           "nty": 13,
           "open": 15.34,
@@ -1352,7 +1490,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "4",
             "btl": 2.5,
-            "lto": 65
+            "lto": 65,
+            "distM": 1200,
+            "rtg": 99,
+            "cls": "Class 1"
           },
           "l1": {
             "days": 27,
@@ -1360,7 +1501,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "2.75",
             "btl": 0,
-            "lto": 127
+            "lto": 127,
+            "distM": 1200,
+            "rtg": 99,
+            "cls": "Class 1"
           },
           "nty": 3.25,
           "open": 3.83,
@@ -1395,7 +1539,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 25.75,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1800,
+            "rtg": 75,
+            "cls": "Class 2"
           },
           "l1": {
             "days": 12,
@@ -1403,7 +1550,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 18.75,
-            "lto": -1
+            "lto": -1,
+            "distM": 1800,
+            "rtg": 73,
+            "cls": "For Horses"
           },
           "nty": 34,
           "open": 40.12,
@@ -1438,7 +1588,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "20",
             "btl": 3,
-            "lto": 69
+            "lto": 69,
+            "distM": 1400,
+            "rtg": 92,
+            "cls": "For Horses"
           },
           "l1": {
             "days": 20,
@@ -1446,7 +1599,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "5.5",
             "btl": 3.5,
-            "lto": 62
+            "lto": 62,
+            "distM": 1400,
+            "rtg": 90,
+            "cls": "Class 1"
           },
           "nty": 9,
           "open": 10.62,
@@ -1481,7 +1637,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "8",
             "btl": 2,
-            "lto": 87
+            "lto": 87,
+            "distM": 1400,
+            "rtg": 95,
+            "cls": "For Horses"
           },
           "l1": {
             "days": 6,
@@ -1489,7 +1648,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "12",
             "btl": 2.75,
-            "lto": 86
+            "lto": 86,
+            "distM": 1400,
+            "rtg": 97,
+            "cls": "Class 1"
           },
           "nty": 5,
           "open": 5.9,
@@ -1524,7 +1686,10 @@ export const SHEET: SheetMeeting = {
             "pos": 7,
             "odds": "15",
             "btl": 25.25,
-            "lto": "###"
+            "lto": "###",
+            "distM": 1600,
+            "rtg": 71,
+            "cls": "Class 2"
           },
           "l1": {
             "days": 12,
@@ -1532,7 +1697,10 @@ export const SHEET: SheetMeeting = {
             "pos": 9,
             "odds": "20",
             "btl": 9.5,
-            "lto": 22
+            "lto": 22,
+            "distM": 1200,
+            "rtg": 69,
+            "cls": "Class 2"
           },
           "nty": 26,
           "open": 30.68,
@@ -1567,7 +1735,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 16.75,
-            "lto": 5
+            "lto": 5,
+            "distM": 1400,
+            "rtg": 73,
+            "cls": "Class 2"
           },
           "l1": {
             "days": 12,
@@ -1575,7 +1746,10 @@ export const SHEET: SheetMeeting = {
             "pos": 10,
             "odds": "20",
             "btl": 16.5,
-            "lto": -7
+            "lto": -7,
+            "distM": 1200,
+            "rtg": 71,
+            "cls": "Class 2"
           },
           "nty": 21,
           "open": 24.78,
@@ -1610,7 +1784,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "9",
             "btl": 0,
-            "lto": 94
+            "lto": 94,
+            "distM": 1200,
+            "rtg": 57,
+            "cls": "Class 3"
           },
           "l1": {
             "days": 33,
@@ -1618,7 +1795,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "1.6",
             "btl": 0,
-            "lto": 130
+            "lto": 130,
+            "distM": 1200,
+            "rtg": 60,
+            "cls": "Class 3"
           },
           "nty": 4,
           "open": 4.72,
@@ -1653,7 +1833,10 @@ export const SHEET: SheetMeeting = {
             "pos": 7,
             "odds": "20",
             "btl": 3.5,
-            "lto": 54
+            "lto": 54,
+            "distM": 1400,
+            "rtg": 87,
+            "cls": "For Horses"
           },
           "l1": {
             "days": 6,
@@ -1661,7 +1844,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "5.5",
             "btl": 2.75,
-            "lto": 84
+            "lto": 84,
+            "distM": 1400,
+            "rtg": 87,
+            "cls": "Class 1"
           },
           "nty": 7,
           "open": 8.26,
@@ -1733,7 +1919,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "3.5",
             "btl": 1,
-            "lto": 89
+            "lto": 89,
+            "distM": 2800,
+            "rtg": 120,
+            "cls": "Term Race"
           },
           "l1": {
             "days": 21,
@@ -1741,7 +1930,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "15",
             "btl": 0,
-            "lto": 114
+            "lto": 114,
+            "distM": 2400,
+            "rtg": 120,
+            "cls": "For Horses"
           },
           "nty": 3.5,
           "open": 4.13,
@@ -1776,7 +1968,10 @@ export const SHEET: SheetMeeting = {
             "pos": 9,
             "odds": "20",
             "btl": 15.5,
-            "lto": 3
+            "lto": 3,
+            "distM": 2200,
+            "rtg": 114,
+            "cls": "Term Race"
           },
           "l1": {
             "days": 50,
@@ -1784,7 +1979,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "12",
             "btl": 0,
-            "lto": 114
+            "lto": 114,
+            "distM": 2800,
+            "rtg": 110,
+            "cls": "Term Race"
           },
           "nty": 7,
           "open": 8.26,
@@ -1819,7 +2017,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "2.8",
             "btl": 0,
-            "lto": 127
+            "lto": 127,
+            "distM": 2800,
+            "rtg": 114,
+            "cls": "Term Race"
           },
           "l1": {
             "days": 50,
@@ -1827,7 +2028,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "3.25",
             "btl": 2.25,
-            "lto": 78
+            "lto": 78,
+            "distM": 2800,
+            "rtg": 114,
+            "cls": "Term Race"
           },
           "nty": 5,
           "open": 5.9,
@@ -1862,7 +2066,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "1.6",
             "btl": 0,
-            "lto": 130
+            "lto": 130,
+            "distM": 1600,
+            "rtg": 117,
+            "cls": "For Horses"
           },
           "l1": {
             "days": 76,
@@ -1870,7 +2077,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "1.85",
             "btl": 0,
-            "lto": 129
+            "lto": 129,
+            "distM": 2200,
+            "rtg": 117,
+            "cls": "Term Race"
           },
           "nty": 2.75,
           "open": 3.24,
@@ -1905,7 +2115,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "3",
             "btl": 3.75,
-            "lto": 73
+            "lto": 73,
+            "distM": 1800,
+            "rtg": 96,
+            "cls": "Term Race"
           },
           "l1": {
             "days": 76,
@@ -1913,7 +2126,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "8",
             "btl": 9.25,
-            "lto": 44
+            "lto": 44,
+            "distM": 2200,
+            "rtg": 109,
+            "cls": "Term Race"
           },
           "nty": 9,
           "open": 10.62,
@@ -1948,7 +2164,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "20",
             "btl": 10.25,
-            "lto": 52
+            "lto": 52,
+            "distM": 2400,
+            "rtg": 106,
+            "cls": "Term Race"
           },
           "l1": {
             "days": 33,
@@ -1956,7 +2175,10 @@ export const SHEET: SheetMeeting = {
             "pos": 10,
             "odds": "12",
             "btl": 11.5,
-            "lto": 6
+            "lto": 6,
+            "distM": 1400,
+            "rtg": 99,
+            "cls": "For Horses"
           },
           "nty": 26,
           "open": 30.68,
@@ -1991,7 +2213,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "1.9",
             "btl": 0,
-            "lto": 129
+            "lto": 129,
+            "distM": 1400,
+            "rtg": 69,
+            "cls": "Class 2"
           },
           "l1": {
             "days": 33,
@@ -1999,7 +2224,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "15",
             "btl": 0.75,
-            "lto": 94
+            "lto": 94,
+            "distM": 2000,
+            "rtg": 82,
+            "cls": "Term Race"
           },
           "nty": 21,
           "open": 24.78,
@@ -2071,7 +2299,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "5",
             "btl": 18,
-            "lto": 9
+            "lto": 9,
+            "distM": 1600,
+            "rtg": 44,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 34,
@@ -2079,7 +2310,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "9",
             "btl": 6.75,
-            "lto": 66
+            "lto": 66,
+            "distM": 1400,
+            "rtg": 42,
+            "cls": "Class 4"
           },
           "nty": 4,
           "open": 4.72,
@@ -2114,7 +2348,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "10",
             "btl": 10.5,
-            "lto": 35
+            "lto": 35,
+            "distM": 1400,
+            "rtg": 29,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 12,
@@ -2122,7 +2359,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "6",
             "btl": 0,
-            "lto": 119
+            "lto": 119,
+            "distM": 1600,
+            "rtg": 29,
+            "cls": "Class 4"
           },
           "nty": 6,
           "open": 7.08,
@@ -2157,7 +2397,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "12",
             "btl": 13,
-            "lto": 34
+            "lto": 34,
+            "distM": 1600,
+            "rtg": 38,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 12,
@@ -2165,7 +2408,10 @@ export const SHEET: SheetMeeting = {
             "pos": 6,
             "odds": "15",
             "btl": 8.75,
-            "lto": 42
+            "lto": 42,
+            "distM": 1600,
+            "rtg": 38,
+            "cls": "Class 4"
           },
           "nty": 11,
           "open": 12.98,
@@ -2200,7 +2446,10 @@ export const SHEET: SheetMeeting = {
             "pos": 1,
             "odds": "3.25",
             "btl": 0,
-            "lto": 126
+            "lto": 126,
+            "distM": 1600,
+            "rtg": 25,
+            "cls": "Class 5"
           },
           "l1": {
             "days": 27,
@@ -2208,7 +2457,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "3.5",
             "btl": 4.25,
-            "lto": 72
+            "lto": 72,
+            "distM": 1600,
+            "rtg": 34,
+            "cls": "Class 4"
           },
           "nty": 3.5,
           "open": 4.13,
@@ -2243,7 +2495,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "12",
             "btl": 12,
-            "lto": 37
+            "lto": 37,
+            "distM": 1400,
+            "rtg": 33,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 14,
@@ -2251,7 +2506,10 @@ export const SHEET: SheetMeeting = {
             "pos": 5,
             "odds": "20",
             "btl": 19.25,
-            "lto": 17
+            "lto": 17,
+            "distM": 1400,
+            "rtg": 33,
+            "cls": "Class 4"
           },
           "nty": 13,
           "open": 15.34,
@@ -2286,7 +2544,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "6",
             "btl": 7,
-            "lto": 57
+            "lto": 57,
+            "distM": 1200,
+            "rtg": 30,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 27,
@@ -2294,7 +2555,10 @@ export const SHEET: SheetMeeting = {
             "pos": 3,
             "odds": "15",
             "btl": 6.5,
-            "lto": 69
+            "lto": 69,
+            "distM": 1400,
+            "rtg": 30,
+            "cls": "Class 4"
           },
           "nty": 5,
           "open": 5.9,
@@ -2329,7 +2593,10 @@ export const SHEET: SheetMeeting = {
             "pos": 7,
             "odds": "20",
             "btl": 15.75,
-            "lto": 15
+            "lto": 15,
+            "distM": 1400,
+            "rtg": 28,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 12,
@@ -2337,7 +2604,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 13.5,
-            "lto": 16
+            "lto": 16,
+            "distM": 1600,
+            "rtg": 26,
+            "cls": "Class 4"
           },
           "nty": 34,
           "open": 40.12,
@@ -2372,7 +2642,10 @@ export const SHEET: SheetMeeting = {
             "pos": 2,
             "odds": "3",
             "btl": 4,
-            "lto": 79
+            "lto": 79,
+            "distM": 1600,
+            "rtg": 22,
+            "cls": "Class 5"
           },
           "l1": {
             "days": 19,
@@ -2380,7 +2653,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "2.75",
             "btl": 8.25,
-            "lto": 52
+            "lto": 52,
+            "distM": 1400,
+            "rtg": 25,
+            "cls": "Class 5"
           },
           "nty": 7,
           "open": 8.26,
@@ -2415,7 +2691,10 @@ export const SHEET: SheetMeeting = {
             "pos": 7,
             "odds": "20",
             "btl": 12.5,
-            "lto": 26
+            "lto": 26,
+            "distM": 1200,
+            "rtg": 27,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 40,
@@ -2423,7 +2702,10 @@ export const SHEET: SheetMeeting = {
             "pos": 4,
             "odds": "15",
             "btl": 9.25,
-            "lto": 54
+            "lto": 54,
+            "distM": 1100,
+            "rtg": 25,
+            "cls": "Class 4"
           },
           "nty": 21,
           "open": 24.78,
@@ -2458,7 +2740,10 @@ export const SHEET: SheetMeeting = {
             "pos": 8,
             "odds": "20",
             "btl": 20.75,
-            "lto": -7
+            "lto": -7,
+            "distM": 1400,
+            "rtg": 22,
+            "cls": "Class 4"
           },
           "l1": {
             "days": 14,
@@ -2466,7 +2751,10 @@ export const SHEET: SheetMeeting = {
             "pos": 7,
             "odds": "20",
             "btl": 17.5,
-            "lto": 10
+            "lto": 10,
+            "distM": 1200,
+            "rtg": 22,
+            "cls": "Class 4"
           },
           "nty": 41,
           "open": 48.38,
@@ -2509,4 +2797,4 @@ export const SHEET: SheetMeeting = {
       }
     }
   ]
-} satisfies SheetMeeting;
+};

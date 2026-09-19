@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Daily IndiaRace card scrape and HCP / LTO rebuild.
+
+  Schedule (local time, this Mac is IST):
+    06:15  today's remaining cards
+    12:15  midday refresh (odds / late declarations)
+    18:15  tomorrow's racecards
+    21:15  evening refresh
+
+  Install:
+    cp scripts/com.indiarace.daily.plist ~/Library/LaunchAgents/
+    launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.indiarace.daily.plist 2>/dev/null || true
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.indiarace.daily.plist
+
+  Run now:
+    launchctl start com.indiarace.daily
+    # or: npm run daily -- --from 2026-09-20 --days 3
+
+  Logs:
+    db/migrations/IndiaRace/logs/indiarace_daily_YYYY-MM-DD.log
+
+  After a successful scrape the job commits src/meetings and pushes
+  origin/main, which deploys GitHub Pages:
+    https://mavericzz.github.io/hyderabad-pretissue/
+
+  Skip deploy for a local scrape:
+    INDIARACE_SKIP_DEPLOY=1 npm run daily
+-->
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.indiarace.daily</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/bash</string>
+        <string>/Users/toshasharma/Downloads/Github/thoroughbred/db/migrations/IndiaRace/scripts/run_indiarace_daily.sh</string>
+    </array>
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict>
+            <key>Hour</key>
+            <integer>6</integer>
+            <key>Minute</key>
+            <integer>15</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>12</integer>
+            <key>Minute</key>
+            <integer>15</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>18</integer>
+            <key>Minute</key>
+            <integer>15</integer>
+        </dict>
+        <dict>
+            <key>Hour</key>
+            <integer>21</integer>
+            <key>Minute</key>
+            <integer>15</integer>
+        </dict>
+    </array>
+    <key>StandardOutPath</key>
+    <string>/Users/toshasharma/Downloads/Github/thoroughbred/db/migrations/IndiaRace/logs/launchd_indiarace_stdout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/toshasharma/Downloads/Github/thoroughbred/db/migrations/IndiaRace/logs/launchd_indiarace_stderr.log</string>
+    <key>RunAtLoad</key>
+    <false/>
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>PATH</key>
+        <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+        <key>HOME</key>
+        <string>/Users/toshasharma</string>
+        <key>TZ</key>
+        <string>Asia/Kolkata</string>
+    </dict>
+</dict>
+</plist>

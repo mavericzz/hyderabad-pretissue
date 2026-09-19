@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "test": "node --experimental-strip-types --test src/handicap.test.ts"
+    "test": "node --experimental-strip-types --test src/*.test.ts",
+    "daily": "node --experimental-strip-types --no-warnings scripts/indiarace/daily.ts",
+    "daily:ship": "bash scripts/run_indiarace_daily.sh"
   },
   "dependencies": {
     "@phosphor-icons/react": "^2.1.10",

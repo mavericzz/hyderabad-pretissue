@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   CaretDown,
   Flag,
@@ -10,18 +10,37 @@ import {
   Trophy,
   Waves,
 } from "@phosphor-icons/react";
-import { EQ, MEETING, races, type Race, type Runner } from "./data";
+import { EQ, type Race, type Runner } from "./data";
+import { Jump } from "./Jump";
 import NightOdds from "./NightOdds.tsx";
 import Sheet from "./Sheet";
-import { swimFor, swimTone, SWIM } from "./swim";
+import { centersOn, dateTabs, meetingFor, type MeetingBundle } from "./catalog";
+import { findByName, formatHash, go, isFocus, parseHash, scrollToLocation, type Location, type View } from "./nav";
+import { cardScore, finishFor, posLabel, raceResult, type Finish, type RaceResult } from "./results";
+import { swimFor, swimTone, type SwimEntry } from "./swim";
 
-type View = "sheet" | "guide" | "night";
+function useHashLocation(): Location {
+  const [loc, setLoc] = useState(() => parseHash(window.location.hash));
+  useEffect(() => {
+    const onHash = () => setLoc(parseHash(window.location.hash));
+    window.addEventListener("hashchange", onHash);
+    return () => window.removeEventListener("hashchange", onHash);
+  }, []);
+  useEffect(() => {
+    const timer = window.setTimeout(() => scrollToLocation(loc), 50);
+    return () => window.clearTimeout(timer);
+  }, [loc.view, loc.race, loc.cloth]);
+  return loc;
+}
 
-function ViewToggle({ view, onView }: { view: View; onView: (next: View) => void }) {
+function MeetingBar({ loc, meeting }: { loc: Location; meeting: MeetingBundle }) {
+  const dates = dateTabs();
+  const centers = centersOn(loc.date);
+  const view: View = loc.view === "night" && !meeting.hasNight ? "sheet" : loc.view;
   const btn = (id: View, label: string) => (
     <button
       type="button"
-      onClick={() => onView(id)}
+      onClick={() => go({ view: id, race: loc.race, cloth: loc.cloth })}
       className={`px-3 py-1.5 font-mono text-[11px] uppercase tracking-wide ${
         view === id ? "bg-[#ffe566] text-[#111]" : "bg-white/10 text-white hover:bg-white/20"
       }`}
@@ -30,12 +49,68 @@ function ViewToggle({ view, onView }: { view: View; onView: (next: View) => void
     </button>
   );
   return (
-    <div className="no-print sticky top-0 z-30 flex items-center justify-between gap-3 bg-[#1a1212] px-3 py-2 md:px-6">
-      <p className="font-mono text-[11px] uppercase tracking-wide text-[#ffe566]">HRC 19 Sep 2026</p>
-      <div className="flex overflow-hidden border border-white/20">
-        {btn("night", "Night odds")}
-        {btn("sheet", "LTO sheet")}
-        {btn("guide", "Pretissue")}
+    <div className="no-print sticky top-0 z-30 space-y-2 bg-[#1a1212] px-3 py-2 md:px-6">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <div className="flex overflow-hidden border border-white/20">
+          {dates.map((tab) => {
+            const active = loc.date === tab.date;
+            return (
+              <button
+                key={tab.date}
+                type="button"
+                onClick={() => {
+                  const next = centersOn(tab.date)[0];
+                  go({
+                    date: tab.date,
+                    center: next.center,
+                    view: next.hasNight ? "night" : "sheet",
+                    race: null,
+                    cloth: null,
+                  });
+                }}
+                className={`px-3 py-1.5 font-mono text-[11px] uppercase tracking-wide ${
+                  active ? "bg-[#ffe566] text-[#111]" : "bg-white/10 text-white hover:bg-white/20"
+                }`}
+              >
+                {tab.label}
+              </button>
+            );
+          })}
+        </div>
+        <label className="flex items-center gap-2 font-mono text-[11px] uppercase tracking-wide text-[#ffe566]">
+          Center
+          <select
+            value={meeting.center}
+            onChange={(event) => {
+              const center = event.target.value as MeetingBundle["center"];
+              const next = meetingFor(loc.date, center);
+              go({
+                center: next.center,
+                view: next.hasNight ? view : view === "night" ? "sheet" : view,
+                race: null,
+                cloth: null,
+              });
+            }}
+            className="border border-white/20 bg-[#1a1212] px-2 py-1 text-white"
+          >
+            {centers.map((item) => (
+              <option key={item.id} value={item.center}>
+                {item.centerLabel}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+      <div className="flex items-center justify-between gap-3">
+        <p className="font-mono text-[11px] uppercase tracking-wide text-[#ffe566]">
+          {meeting.short} {meeting.meta.date}
+          {meeting.results.length ? " · results" : " · pretissue"}
+        </p>
+        <div className="flex overflow-hidden border border-white/20">
+          {meeting.hasNight ? btn("night", "Night odds") : null}
+          {btn("sheet", "LTO sheet")}
+          {btn("guide", "Pretissue")}
+        </div>
       </div>
     </div>
   );
@@ -56,20 +131,38 @@ function rankTone(rank: number) {
   return "text-mute";
 }
 
+function finishTone(finish: Finish | undefined): string {
+  if (!finish) return "text-mute";
+  if (finish.dnf) return "text-warn";
+  if (finish.pos === 1) return "text-gold";
+  if (finish.pos === 2 || finish.pos === 3) return "text-paper";
+  return "text-mute";
+}
+
 function RunnerCard({
   runner,
   raceNo,
   open,
+  focused,
   onToggle,
+  results,
+  swimList,
 }: {
   runner: Runner;
   raceNo: number;
   open: boolean;
+  focused: boolean;
   onToggle: () => void;
+  results: RaceResult[];
+  swimList: SwimEntry[];
 }) {
-  const swim = swimFor(raceNo, runner.cloth);
+  const swim = swimFor(raceNo, runner.cloth, swimList);
+  const finish = finishFor(raceNo, runner.cloth, results);
   return (
-    <article className="border-t border-line">
+    <article
+      id={`race-${raceNo}-h${runner.cloth}`}
+      className={`scroll-mt-24 border-t border-line ${focused ? "horse-focus" : ""}`}
+    >
       <button
         type="button"
         onClick={onToggle}
@@ -83,6 +176,13 @@ function RunnerCard({
         <span className="min-w-0">
           <span className="block truncate text-[15px] font-medium tracking-tight text-paper">
             {runner.name}
+            {finish ? (
+              <span className={`ml-2 font-mono text-xs ${finishTone(finish)}`}>
+                {" "}
+                {posLabel(finish)}
+                {finish.sp ? ` ${finish.sp}` : ""}
+              </span>
+            ) : null}
             {runner.al ? <span className="ml-2 font-mono text-xs text-warn">app {runner.al}</span> : null}
             {swim ? <span className="ml-2 font-mono text-xs text-warn">swim {swim.tag}</span> : null}
           </span>
@@ -99,6 +199,14 @@ function RunnerCard({
       </button>
       {open ? (
         <div className="space-y-4 bg-panel-2 px-3 py-4 md:px-5">
+          <p className="flex flex-wrap gap-3 font-mono text-xs uppercase tracking-wide">
+            <Jump to={{ view: "night", race: raceNo, cloth: runner.cloth }} className="text-gold hover:underline">
+              Night odds
+            </Jump>
+            <Jump to={{ view: "sheet", race: raceNo, cloth: runner.cloth }} className="text-gold hover:underline">
+              LTO sheet
+            </Jump>
+          </p>
           <p className="max-w-[72ch] text-sm leading-relaxed text-paper/90">{runner.verdict}</p>
           <div className="grid gap-3 text-xs text-mute md:grid-cols-3">
             <p>
@@ -191,10 +299,13 @@ function RunnerCard({
   );
 }
 
-function RaceSection({ race }: { race: Race }) {
-  const [openId, setOpenId] = useState<number | null>(race.runners.find((r) => r.rank === 1)?.cloth ?? null);
+function RaceSection({ race, loc, meeting }: { race: Race; loc: Location; meeting: MeetingBundle }) {
   const ranked = useMemo(() => [...race.runners].sort((a, b) => a.rank - b.rank), [race.runners]);
   const top = ranked.slice(0, 3);
+  const rank1 = ranked[0]?.cloth ?? null;
+  const focusedHere = loc.view === "guide" && loc.race === race.no;
+  const openId = focusedHere ? (loc.cloth ?? rank1) : rank1;
+  const got = raceResult(race.no, meeting.results);
 
   return (
     <section id={`race-${race.no}`} className="scroll-mt-24 border-t border-line">
@@ -202,6 +313,7 @@ function RaceSection({ race }: { race: Race }) {
         <div>
           <p className="font-mono text-xs text-gold">
             Race {race.no} · ({race.official}) · {race.time}
+            {got ? ` · official ${got.winTime}` : ""}
           </p>
           <h2 className="mt-2 max-w-[18ch] text-3xl font-medium leading-[1.1] tracking-tight md:text-4xl">
             {race.name}
@@ -231,6 +343,12 @@ function RaceSection({ race }: { race: Race }) {
           {race.nap ? (
             <p className="font-mono text-xs uppercase tracking-wide text-gold">Day's nap</p>
           ) : null}
+          {got ? (
+            <p className="text-sm leading-relaxed text-mute">
+              <span className="text-paper">Official. </span>
+              1st {got.first} · 2nd {got.second} · 3rd {got.third} · {got.winTime}
+            </p>
+          ) : null}
         </div>
       </header>
 
@@ -240,7 +358,15 @@ function RaceSection({ race }: { race: Race }) {
             <div key={runner.cloth} className="bg-panel p-4">
               <p className="font-mono text-xs text-mute">{i === 0 ? "Win" : i === 1 ? "Danger" : "Place"}</p>
               <p className="mt-1 text-lg font-medium tracking-tight">
-                {runner.cloth}. {runner.name}
+                <Jump to={{ view: "sheet", race: race.no, cloth: runner.cloth }} className="hover:text-gold">
+                  {runner.cloth}. {runner.name}
+                </Jump>
+                {(() => {
+                  const finish = finishFor(race.no, runner.cloth, meeting.results);
+                  return finish ? (
+                    <span className={`ml-2 font-mono text-xs ${finishTone(finish)}`}>{posLabel(finish)}</span>
+                  ) : null;
+                })()}
               </p>
               <p className="mt-1 font-mono text-gold">{runner.tissue}</p>
               <p className="mt-2 text-xs text-mute">
@@ -251,8 +377,14 @@ function RaceSection({ race }: { race: Race }) {
         </div>
         <p className="mt-4 text-sm text-mute">
           <span className="text-paper">Tissue. </span>
-          {race.tissueNote} IndiaRace: {race.irPick}. This sheet: {race.ourPick}.
+          {race.tissueNote} IndiaRace: {race.irPick}. This sheet: {race.ourPick}. Original WIN pick is unchanged.
         </p>
+        {got ? (
+          <p className="mt-2 max-w-[72ch] text-sm leading-relaxed text-mute">
+            <span className="text-paper">What went wrong. </span>
+            {got.note}
+          </p>
+        ) : null}
       </div>
 
       <div className="mt-6 border-y border-line">
@@ -273,7 +405,16 @@ function RaceSection({ race }: { race: Race }) {
             raceNo={race.no}
             runner={runner}
             open={openId === runner.cloth}
-            onToggle={() => setOpenId((id) => (id === runner.cloth ? null : runner.cloth))}
+            focused={isFocus(loc, race.no, runner.cloth)}
+            results={meeting.results}
+            swimList={meeting.swim}
+            onToggle={() =>
+              go({
+                view: "guide",
+                race: race.no,
+                cloth: openId === runner.cloth ? null : runner.cloth,
+              })
+            }
           />
         ))}
       </div>
@@ -281,15 +422,53 @@ function RaceSection({ race }: { race: Race }) {
   );
 }
 
-export default function App() {
-  const [active, setActive] = useState(0);
-  const [view, setView] = useState<View>("night");
+function GearNotes({ meeting }: { meeting: MeetingBundle }) {
+  const claims = meeting.races.flatMap((race) =>
+    race.runners.filter((runner) => runner.al).map((runner) => `${runner.name} R${race.no} (${runner.al})`),
+  );
+  const steel = meeting.races.flatMap((race) =>
+    race.runners.filter((runner) => runner.shoes === "S").map((runner) => runner.name),
+  );
+  return (
+    <section className="border-t border-line px-4 py-10 md:px-8">
+      <h2 className="text-2xl font-medium tracking-tight">Apprentice, steel, gear</h2>
+      <div className="mt-5 grid gap-6 md:grid-cols-2">
+        <div>
+          <h3 className="flex items-center gap-2 text-sm font-medium">
+            <Hash size={16} /> Claims
+          </h3>
+          <p className="mt-2 text-sm leading-relaxed text-mute">
+            {claims.length ? claims.join(" · ") : "No published apprentice claims on this card."}
+          </p>
+        </div>
+        <div>
+          <h3 className="flex items-center gap-2 text-sm font-medium">
+            <Timer size={16} /> Steel shoes
+          </h3>
+          <p className="mt-2 text-sm leading-relaxed text-mute">
+            {steel.length ? `${steel.join(", ")}. Treat steel as a negative unless the horse is a wet specialist.` : "No steel shoes listed."}
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+}
 
-  if (view === "night") {
+export default function App() {
+  const loc = useHashLocation();
+  const meeting = meetingFor(loc.date, loc.center);
+  const view: View = loc.view === "night" && !meeting.hasNight ? "sheet" : loc.view;
+  const races = meeting.races;
+  const meta = meeting.meta;
+  const dayBest = findByName(meta.dayBest, races);
+  const nextBest = findByName(meta.nextBest, races);
+  const longshot = findByName(meta.longshot, races);
+
+  if (view === "night" && meeting.hasNight) {
     return (
       <>
-        <ViewToggle view={view} onView={setView} />
-        <NightOdds />
+        <MeetingBar loc={loc} meeting={meeting} />
+        <NightOdds loc={loc} meeting={meeting} />
       </>
     );
   }
@@ -297,32 +476,39 @@ export default function App() {
   if (view === "sheet") {
     return (
       <>
-        <ViewToggle view={view} onView={setView} />
-        <Sheet />
+        <MeetingBar loc={loc} meeting={meeting} />
+        <Sheet loc={loc} meeting={meeting} />
       </>
     );
   }
 
+  const scored = meeting.results.length > 0;
+  const score = cardScore(
+    meeting.sheet.races.map((race) => race.picks),
+    meeting.results,
+  );
+
   return (
     <div className="min-h-[100dvh] bg-ink text-paper">
-      <ViewToggle view={view} onView={setView} />
+      <MeetingBar loc={loc} meeting={meeting} />
       <header className="border-b border-line">
         <div className="flex items-center justify-between gap-4 px-4 py-4 md:px-8">
-          <p className="font-mono text-xs uppercase tracking-wide text-gold">HRC pretissue</p>
-          <p className="hidden text-xs text-mute md:block">{MEETING.date}</p>
-          <a href="#card" className="text-sm text-paper underline decoration-gold/50 underline-offset-4">
+          <p className="font-mono text-xs uppercase tracking-wide text-gold">{meeting.short} pretissue</p>
+          <p className="hidden text-xs text-mute md:block">{meta.date}</p>
+          <Jump to={{ view: "guide", race: null, cloth: null }} className="text-sm text-paper underline decoration-gold/50 underline-offset-4">
             Open card
-          </a>
+          </Jump>
         </div>
         <div className="grid gap-8 px-4 pb-10 pt-6 md:grid-cols-[minmax(0,1.3fr)_minmax(0,0.9fr)] md:px-8">
           <div>
-            <p className="text-sm text-mute">Hyderabad Race Club · first {MEETING.first}</p>
-            <h1 className="mt-3 max-w-[14ch] text-4xl font-medium leading-[1.05] tracking-tight md:text-6xl">
-              Saturday 19 Sep 2026
-            </h1>
+            <p className="text-sm text-mute">
+              {meta.venue} · first {meta.first}
+            </p>
+            <h1 className="mt-3 max-w-[16ch] text-4xl font-medium leading-[1.05] tracking-tight md:text-6xl">{meta.date}</h1>
             <p className="mt-4 max-w-[42ch] text-sm leading-relaxed text-mute">
-              Full-card handicap from the IndiaRace racecard: weights, barriers, apprentice claims, equipment, past runs
-              in similar races, and trackwork.
+              {scored
+                ? `Results in from IndiaRace. Original WIN / PLC / UPSET cloths are unchanged. Score: WIN ${score.win}/${score.n} · PLC ${score.plc}/${score.n} · UPSET ${score.upset}/${score.n}. ${meeting.resultSource}`
+                : `Same HCP / LTO model as the Hyderabad Saturday sheet. Tissue is a 120% book. IndiaRace selections are quoted where published.`}
             </p>
           </div>
           <dl className="grid grid-cols-1 gap-4 self-end">
@@ -331,33 +517,57 @@ export default function App() {
                 <Lightning size={14} /> Day's best
               </dt>
               <dd className="mt-1 text-xl font-medium">
-                {MEETING.dayBest}{" "}
-                <span className="font-mono text-sm text-gold">R{MEETING.dayBestRace}</span>
+                {dayBest ? (
+                  <Jump to={{ view: "sheet", race: dayBest.race, cloth: dayBest.cloth }} className="hover:text-gold">
+                    {meta.dayBest} <span className="font-mono text-sm text-gold">R{meta.dayBestRace}</span>
+                  </Jump>
+                ) : (
+                  <>
+                    {meta.dayBest} <span className="font-mono text-sm text-gold">R{meta.dayBestRace}</span>
+                  </>
+                )}
               </dd>
             </div>
             <div className="border-t border-line pt-3">
               <dt className="text-xs text-mute">Next best / price</dt>
               <dd className="mt-1">
-                {MEETING.nextBest} · {MEETING.longshot}
+                {nextBest ? (
+                  <Jump to={{ view: "sheet", race: nextBest.race, cloth: nextBest.cloth }} className="hover:text-gold">
+                    {meta.nextBest}
+                  </Jump>
+                ) : (
+                  meta.nextBest
+                )}
+                {" · "}
+                {longshot ? (
+                  <Jump to={{ view: "sheet", race: longshot.race, cloth: longshot.cloth }} className="hover:text-gold">
+                    {meta.longshot}
+                  </Jump>
+                ) : (
+                  meta.longshot
+                )}
               </dd>
             </div>
             <div className="border-t border-line pt-3">
               <dt className="text-xs text-mute">IndiaRace day's best</dt>
-              <dd className="mt-1 font-mono text-sm">{MEETING.irDayBest}</dd>
+              <dd className="mt-1 font-mono text-sm">{meta.irDayBest}</dd>
             </div>
           </dl>
         </div>
       </header>
 
-      <nav className="sticky top-0 z-20 border-b border-line bg-ink/95 backdrop-blur">
+      <nav className="sticky top-[6.5rem] z-20 border-b border-line bg-ink/95 backdrop-blur">
         <ul className="flex gap-1 overflow-x-auto px-2 py-2 md:px-8">
           {races.map((race) => (
             <li key={race.no}>
               <a
-                href={`#race-${race.no}`}
-                onClick={() => setActive(race.no)}
+                href={formatHash({ ...loc, view: "guide", race: race.no, cloth: null })}
+                onClick={(event) => {
+                  event.preventDefault();
+                  go({ view: "guide", race: race.no, cloth: null });
+                }}
                 className={`block whitespace-nowrap px-3 py-2 font-mono text-xs ${
-                  active === race.no ? "bg-panel text-gold" : "text-mute hover:text-paper"
+                  loc.race === race.no ? "bg-panel text-gold" : "text-mute hover:text-paper"
                 }`}
               >
                 R{race.no} {race.dist}
@@ -372,8 +582,8 @@ export default function App() {
           <p className="flex items-center gap-2 text-xs text-mute">
             <MapPin size={14} /> Venue
           </p>
-          <p className="mt-2 text-lg">{MEETING.venue}</p>
-          <p className="mt-3 text-sm leading-relaxed text-mute">{MEETING.going}</p>
+          <p className="mt-2 text-lg">{meta.venue}</p>
+          <p className="mt-3 text-sm leading-relaxed text-mute">{meta.going}</p>
         </div>
         <div className="bg-ink p-5 md:p-8">
           <p className="flex items-center gap-2 text-xs text-mute">
@@ -389,10 +599,11 @@ export default function App() {
           <p className="flex items-center gap-2 text-xs text-mute">
             <Trophy size={14} /> Feature
           </p>
-          <p className="mt-2 text-lg">President of India Gold Cup (Gr.2)</p>
+          <p className="mt-2 text-lg">{meta.feature ?? meeting.sheet.races[0]?.name}</p>
           <p className="mt-3 text-sm leading-relaxed text-mute">
-            2400m, 04:15 PM. Last year Star Of Night (4yo, light) beat Dyf (8/13, 60kg). Same tax sits on Duke of Tuscany
-            this year. Zuccaro gets the terms.
+            {meeting.extraCopy
+              ? "2400m, 04:15 PM. Last year Star Of Night (4yo, light) beat Dyf (8/13, 60kg). Same tax sits on Duke of Tuscany this year. Zuccaro gets the terms."
+              : races.find((race) => race.nap)?.class ?? meeting.sheet.races.find((race) => race.no === meta.dayBestRace)?.class}
           </p>
         </div>
       </section>
@@ -416,18 +627,36 @@ export default function App() {
                 return (
                   <tr key={race.no} className="border-b border-line/80">
                     <td className="py-3">
-                      <a href={`#race-${race.no}`} className="hover:text-gold">
+                      <Jump to={{ view: "guide", race: race.no, cloth: null }} className="hover:text-gold">
                         <span className="font-mono text-gold">R{race.no}</span> {race.name}
-                      </a>
+                      </Jump>
                     </td>
                     <td className="font-medium">
-                      {ranked[0].name} <span className="font-mono text-gold">{ranked[0].tissue}</span>
+                      {ranked[0] ? (
+                        <Jump to={{ view: "sheet", race: race.no, cloth: ranked[0].cloth }} className="hover:text-gold">
+                          {ranked[0].name} <span className="font-mono text-gold">{ranked[0].tissue}</span>
+                        </Jump>
+                      ) : (
+                        "—"
+                      )}
                     </td>
                     <td>
-                      {ranked[1].name} <span className="font-mono text-mute">{ranked[1].tissue}</span>
+                      {ranked[1] ? (
+                        <Jump to={{ view: "sheet", race: race.no, cloth: ranked[1].cloth }} className="hover:text-gold">
+                          {ranked[1].name} <span className="font-mono text-mute">{ranked[1].tissue}</span>
+                        </Jump>
+                      ) : (
+                        "—"
+                      )}
                     </td>
                     <td>
-                      {ranked[2].name} <span className="font-mono text-mute">{ranked[2].tissue}</span>
+                      {ranked[2] ? (
+                        <Jump to={{ view: "sheet", race: race.no, cloth: ranked[2].cloth }} className="hover:text-gold">
+                          {ranked[2].name} <span className="font-mono text-mute">{ranked[2].tissue}</span>
+                        </Jump>
+                      ) : (
+                        "—"
+                      )}
                     </td>
                     <td className="text-xs text-mute">{race.irPick}</td>
                   </tr>
@@ -439,94 +668,109 @@ export default function App() {
       </section>
 
       {races.map((race) => (
-        <RaceSection key={race.no} race={race} />
+        <RaceSection key={race.no} race={race} loc={loc} meeting={meeting} />
       ))}
 
-      <section className="border-t border-line px-4 py-10 md:px-8">
-        <h2 className="text-2xl font-medium tracking-tight">Apprentice, steel, gear</h2>
-        <div className="mt-5 grid gap-6 md:grid-cols-3">
-          <div>
-            <h3 className="flex items-center gap-2 text-sm font-medium">
-              <Hash size={16} /> Claims
-            </h3>
-            <p className="mt-2 text-sm leading-relaxed text-mute">
-              Only two 5kg claims on the card: Surendra Singh on She's A Bomb (races off 55kg, not 60kg) and V S
-              Shekhawat on Flare. No maiden in race 1 can claim.
-            </p>
-          </div>
-          <div>
-            <h3 className="flex items-center gap-2 text-sm font-medium">
-              <Timer size={16} /> Steel shoes
-            </h3>
-            <p className="mt-2 text-sm leading-relaxed text-mute">
-              Celestial Power, Anemoi, Barbarossa, Coming Home, Lego, Commanding Warrior, Detective, Photograph,
-              December Rain, See My Attitude. Treat steel as a negative on this turf unless the horse is a known wet
-              specialist.
-            </p>
-          </div>
-          <div>
-            <h3 className="flex items-center gap-2 text-sm font-medium">
-              <Flag size={16} /> First-time gear
-            </h3>
-            <p className="mt-2 text-sm leading-relaxed text-mute">
-              Materiality: blinkers and pacifiers for the handicap debut. She's A Bomb: tongue strap and blinkers kept
-              on after the maiden win. Zuccaro and Ramiel: hoods for the Gold Cup.
-            </p>
-          </div>
-        </div>
-      </section>
+      {meeting.extraCopy ? (
+        <>
+          <section className="border-t border-line px-4 py-10 md:px-8">
+            <h2 className="text-2xl font-medium tracking-tight">Apprentice, steel, gear</h2>
+            <div className="mt-5 grid gap-6 md:grid-cols-3">
+              <div>
+                <h3 className="flex items-center gap-2 text-sm font-medium">
+                  <Hash size={16} /> Claims
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-mute">
+                  Only two 5kg claims on the card: Surendra Singh on She's A Bomb (races off 55kg, not 60kg) and V S
+                  Shekhawat on Flare. No maiden in race 1 can claim.
+                </p>
+              </div>
+              <div>
+                <h3 className="flex items-center gap-2 text-sm font-medium">
+                  <Timer size={16} /> Steel shoes
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-mute">
+                  Celestial Power, Anemoi, Barbarossa, Coming Home, Lego, Commanding Warrior, Detective, Photograph,
+                  December Rain, See My Attitude. Treat steel as a negative on this turf unless the horse is a known wet
+                  specialist.
+                </p>
+              </div>
+              <div>
+                <h3 className="flex items-center gap-2 text-sm font-medium">
+                  <Flag size={16} /> First-time gear
+                </h3>
+                <p className="mt-2 text-sm leading-relaxed text-mute">
+                  Materiality: blinkers and pacifiers for the handicap debut. She's A Bomb: tongue strap and blinkers kept
+                  on after the maiden win. Zuccaro and Ramiel: hoods for the Gold Cup.
+                </p>
+              </div>
+            </div>
+          </section>
 
-      <section className="border-t border-line px-4 py-10 md:px-8">
-        <h2 className="flex items-center gap-2 text-2xl font-medium tracking-tight">
-          <Waves size={22} /> Hyderabad pool 08-17 Sep
-        </h2>
-        <p className="mt-3 max-w-[72ch] text-sm leading-relaxed text-mute">
-          X is a pool visit. This list is HYD string only, so Gold Cup visitors will not show. Late (15/16 Sep) means
-          they were still in the water three or four days from the race. None of the win picks swam. The value is in
-          confirming fades.
-        </p>
-        <div className="mt-5 grid gap-6 md:grid-cols-2">
-          <div>
-            <h3 className="text-sm font-medium text-lose">Late / heavy. Confirm the fade.</h3>
-            <ul className="mt-2 space-y-2 text-sm leading-relaxed text-mute">
-              {SWIM.filter((row) => row.kind === "late" || row.kind === "heavy").map((row) => {
-                const name = races.find((race) => race.no === row.race)?.runners.find((r) => r.cloth === row.cloth)?.name;
-                return (
-                  <li key={`${row.race}-${row.cloth}`}>
-                    <span className={`mr-2 inline-block px-1 font-mono text-[11px] ${swimTone(row.kind)}`}>
-                      R{row.race} {row.cloth} SW {row.tag}
-                    </span>
-                    {name}. {row.note}
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-sm font-medium">Tapered. Milder.</h3>
-            <ul className="mt-2 space-y-2 text-sm leading-relaxed text-mute">
-              {SWIM.filter((row) => row.kind === "taper").map((row) => {
-                const name = races.find((race) => race.no === row.race)?.runners.find((r) => r.cloth === row.cloth)?.name;
-                return (
-                  <li key={`${row.race}-${row.cloth}`}>
-                    <span className={`mr-2 inline-block px-1 font-mono text-[11px] ${swimTone(row.kind)}`}>
-                      R{row.race} {row.cloth} SW {row.tag}
-                    </span>
-                    {name}. {row.note}
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        </div>
-      </section>
+          <section className="border-t border-line px-4 py-10 md:px-8">
+            <h2 className="flex items-center gap-2 text-2xl font-medium tracking-tight">
+              <Waves size={22} /> Hyderabad pool 08-17 Sep
+            </h2>
+            <p className="mt-3 max-w-[72ch] text-sm leading-relaxed text-mute">
+              X is a pool visit. This list is HYD string only, so Gold Cup visitors will not show. Late (15/16 Sep) means
+              they were still in the water three or four days from the race. None of the win picks swam. The value is in
+              confirming fades.
+            </p>
+            <div className="mt-5 grid gap-6 md:grid-cols-2">
+              <div>
+                <h3 className="text-sm font-medium text-lose">Late / heavy. Confirm the fade.</h3>
+                <ul className="mt-2 space-y-2 text-sm leading-relaxed text-mute">
+                  {meeting.swim
+                    .filter((row) => row.kind === "late" || row.kind === "heavy")
+                    .map((row) => {
+                      const name = races.find((race) => race.no === row.race)?.runners.find((r) => r.cloth === row.cloth)?.name;
+                      return (
+                        <li key={`${row.race}-${row.cloth}`}>
+                          <span className={`mr-2 inline-block px-1 font-mono text-[11px] ${swimTone(row.kind)}`}>
+                            R{row.race} {row.cloth} SW {row.tag}
+                          </span>
+                          <Jump to={{ view: "sheet", race: row.race, cloth: row.cloth }} className="hover:text-paper">
+                            {name}
+                          </Jump>
+                          . {row.note}
+                        </li>
+                      );
+                    })}
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-sm font-medium">Tapered. Milder.</h3>
+                <ul className="mt-2 space-y-2 text-sm leading-relaxed text-mute">
+                  {meeting.swim
+                    .filter((row) => row.kind === "taper")
+                    .map((row) => {
+                      const name = races.find((race) => race.no === row.race)?.runners.find((r) => r.cloth === row.cloth)?.name;
+                      return (
+                        <li key={`${row.race}-${row.cloth}`}>
+                          <span className={`mr-2 inline-block px-1 font-mono text-[11px] ${swimTone(row.kind)}`}>
+                            R{row.race} {row.cloth} SW {row.tag}
+                          </span>
+                          <Jump to={{ view: "sheet", race: row.race, cloth: row.cloth }} className="hover:text-paper">
+                            {name}
+                          </Jump>
+                          . {row.note}
+                        </li>
+                      );
+                    })}
+                </ul>
+              </div>
+            </div>
+          </section>
+        </>
+      ) : (
+        <GearNotes meeting={meeting} />
+      )}
 
       <footer className="border-t border-line px-4 py-8 text-xs leading-relaxed text-mute md:px-8">
-        <p>{MEETING.source}.</p>
+        <p>{meta.source}.</p>
         <p className="mt-2 max-w-[70ch]">
-          This is a form-guide pretissue, not betting advice and not official Hyderabad Race Club odds. IndiaRace
-          selections are quoted for comparison. Times, ratings and trackwork can be revised by the club after final
-          scratching.
+          This is a form-guide pretissue, not betting advice and not official club odds. IndiaRace selections are quoted
+          for comparison. Times, ratings and trackwork can be revised by the club after final scratching.
         </p>
       </footer>
     </div>

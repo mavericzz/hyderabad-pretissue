@@ -5,6 +5,11 @@ export type LtoCell = {
   odds: string | null;
   btl: number | null;
   lto: number | "###" | null;
+  distM?: number | null;
+  rtg?: number | null;
+  cls?: string;
+  /** Last-run carried kg. When set, PR applies the 1/5th weight-to-time rule. */
+  wt?: number | null;
 };
 
 export type SheetRunner = {

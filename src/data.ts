@@ -60,7 +60,21 @@ export type Race = {
   runners: Runner[];
 };
 
-export const MEETING = {
+export type MeetingInfo = {
+  venue: string;
+  date: string;
+  first: string;
+  source: string;
+  going: string;
+  dayBest: string;
+  dayBestRace: number;
+  nextBest: string;
+  longshot: string;
+  irDayBest: string;
+  feature?: string;
+};
+
+export const MEETING: MeetingInfo = {
   venue: "Hyderabad Race Club",
   date: "Saturday 19 September 2026",
   first: "01:55 PM",
@@ -71,6 +85,7 @@ export const MEETING = {
   nextBest: "ZUCCARO",
   longshot: "EMERALD TOUCH",
   irDayBest: "SHE'S A BOMB 3 (2)",
+  feature: "President of India Gold Cup (Gr.2)",
 };
 
 export const EQ: Record<string, string> = {
