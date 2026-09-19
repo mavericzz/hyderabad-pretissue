@@ -6583,7 +6583,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 50.5
           },
-          "nty": null,
+          "nty": 2.75,
           "open": null,
           "tissue": "24/1",
           "rank": 6,
@@ -6634,7 +6634,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 51.5
           },
-          "nty": null,
+          "nty": 5,
           "open": null,
           "tissue": "141/8",
           "rank": 3,
@@ -6685,7 +6685,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 59.5
           },
-          "nty": null,
+          "nty": 2,
           "open": null,
           "tissue": "1/2",
           "rank": 1,
@@ -6736,7 +6736,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 58.5
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "21/10",
           "rank": 2,
@@ -6787,7 +6787,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 53.5
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "24/1",
           "rank": 7,
@@ -6838,7 +6838,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 53.5
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "87/4",
           "rank": 4,
@@ -7028,7 +7028,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 2",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 5.5,
           "open": null,
           "tissue": "3/5",
           "rank": 1,
@@ -7079,7 +7079,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 2",
             "wt": 56
           },
-          "nty": null,
+          "nty": 3.25,
           "open": null,
           "tissue": "43/10",
           "rank": 3,
@@ -7130,7 +7130,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 2",
             "wt": 51
           },
-          "nty": null,
+          "nty": 4.5,
           "open": null,
           "tissue": "27/8",
           "rank": 2,
@@ -7181,7 +7181,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 2",
             "wt": 50
           },
-          "nty": null,
+          "nty": 1.6,
           "open": null,
           "tissue": "103/5",
           "rank": 5,
@@ -7232,7 +7232,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 54
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "39/5",
           "rank": 4,
@@ -7320,7 +7320,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 59.5
           },
-          "nty": null,
+          "nty": 1.6,
           "open": null,
           "tissue": "1/2",
           "rank": 1,
@@ -7473,7 +7473,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 1.1,
           "open": null,
           "tissue": "4/1",
           "rank": 2,
@@ -7575,7 +7575,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 51
           },
-          "nty": null,
+          "nty": 7,
           "open": null,
           "tissue": "31/2",
           "rank": 6,
@@ -7867,7 +7867,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 2",
             "wt": 49
           },
-          "nty": null,
+          "nty": 2.75,
           "open": null,
           "tissue": "63/8",
           "rank": 6,
@@ -7918,7 +7918,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 56
           },
-          "nty": null,
+          "nty": 4.5,
           "open": null,
           "tissue": "19/10",
           "rank": 1,
@@ -7969,7 +7969,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 53.5
           },
-          "nty": null,
+          "nty": 4.5,
           "open": null,
           "tissue": "28/5",
           "rank": 3,
@@ -8020,7 +8020,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 55.5
           },
-          "nty": null,
+          "nty": 1.8,
           "open": null,
           "tissue": "7/1",
           "rank": 4,
@@ -8071,7 +8071,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 54
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "7/1",
           "rank": 5,
@@ -8122,7 +8122,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 54
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "19/10",
           "rank": 2,
@@ -8173,7 +8173,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 54
           },
-          "nty": null,
+          "nty": 10,
           "open": null,
           "tissue": "24/1",
           "rank": 7,
@@ -8414,7 +8414,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 56.5
           },
-          "nty": null,
+          "nty": 2,
           "open": null,
           "tissue": "37/10",
           "rank": 3,
@@ -8516,7 +8516,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 1.6,
           "open": null,
           "tissue": "47/5",
           "rank": 4,
@@ -8831,7 +8831,7 @@ export const SHEET: SheetMeeting = {
             "btl": null,
             "lto": "###"
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "24/1",
           "rank": 8,
@@ -9168,7 +9168,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 0.65,
           "open": null,
           "tissue": "6/5",
           "rank": 1,
@@ -9405,7 +9405,7 @@ export const SHEET: SheetMeeting = {
             "cls": "For Horses",
             "wt": 56
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "125/8",
           "rank": 3,
@@ -9609,7 +9609,7 @@ export const SHEET: SheetMeeting = {
             "cls": "For Horses",
             "wt": 56.5
           },
-          "nty": null,
+          "nty": 0.25,
           "open": null,
           "tissue": "3/8",
           "rank": 1,
@@ -9660,7 +9660,7 @@ export const SHEET: SheetMeeting = {
             "cls": "For Horses",
             "wt": 53.5
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "7/4",
           "rank": 2,
@@ -9748,7 +9748,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 59
           },
-          "nty": null,
+          "nty": 1.3,
           "open": null,
           "tissue": "9/8",
           "rank": 1,
@@ -9799,7 +9799,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 57.5
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "34/5",
           "rank": 4,
@@ -9850,7 +9850,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 2.75,
           "open": null,
           "tissue": "5/2",
           "rank": 2,
@@ -9901,7 +9901,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 56
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "43/8",
           "rank": 3,
@@ -10003,7 +10003,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 54
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "24/1",
           "rank": 6,
@@ -10054,7 +10054,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 55
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "161/8",
           "rank": 5,
@@ -10258,7 +10258,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 51
           },
-          "nty": null,
+          "nty": 4,
           "open": null,
           "tissue": "24/1",
           "rank": 9,
@@ -10346,7 +10346,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 53
           },
-          "nty": null,
+          "nty": 3.25,
           "open": null,
           "tissue": "24/1",
           "rank": 8,
@@ -10397,7 +10397,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 61
           },
-          "nty": null,
+          "nty": 4,
           "open": null,
           "tissue": "7/4",
           "rank": 1,
@@ -10448,7 +10448,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "4/1",
           "rank": 3,
@@ -10499,7 +10499,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 59.5
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "7/4",
           "rank": 2,
@@ -10550,7 +10550,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 51.5
           },
-          "nty": null,
+          "nty": 8,
           "open": null,
           "tissue": "24/1",
           "rank": 6,
@@ -10601,7 +10601,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 49.5
           },
-          "nty": null,
+          "nty": 4.5,
           "open": null,
           "tissue": "24/1",
           "rank": 7,
@@ -10703,7 +10703,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 56
           },
-          "nty": null,
+          "nty": 1.6,
           "open": null,
           "tissue": "4/1",
           "rank": 4,
@@ -10748,47 +10748,53 @@ export const SHEET: SheetMeeting = {
 
 export const NIGHT = {
   "banner": "RWITC PUNE",
-  "title": "APPROX EARLIER NIGHT ODDS",
+  "title": "NIGHT / MORNING / OPENING ODDS",
   "version": "AUTO",
   "when": "20-09-2026 - PUN - SUNDAY - 9 CARD",
-  "source": "IndiaRace night odds column, converted to the same to-1 scale as the Hyderabad night book.",
-  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning column fills when IndiaRace posts morning odds or when results supply SP.",
+  "source": "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
   "odds": {
     "1": [
       {
         "cloth": 1,
         "night": 2.75,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 2,
         "night": 5,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 3,
         "night": 2,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 4,
         "night": 6,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 5,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "neg"
       },
       {
         "cloth": 6,
         "night": 6,
         "morning": null,
+        "opening": null,
         "call": "neg"
       }
     ],
@@ -10797,30 +10803,35 @@ export const NIGHT = {
         "cloth": 1,
         "night": 5.5,
         "morning": null,
+        "opening": null,
         "call": "neg"
       },
       {
         "cloth": 2,
         "night": 3.25,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 3,
         "night": 4.5,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 4,
         "night": 1.6,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 5,
         "night": 6,
         "morning": null,
+        "opening": null,
         "call": "neg"
       }
     ],
@@ -10829,18 +10840,21 @@ export const NIGHT = {
         "cloth": 1,
         "night": 1.6,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 4,
         "night": 1.1,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 6,
         "night": 7,
         "morning": null,
+        "opening": null,
         "call": "neg"
       }
     ],
@@ -10849,42 +10863,49 @@ export const NIGHT = {
         "cloth": 1,
         "night": 2.75,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 2,
         "night": 4.5,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 3,
         "night": 4.5,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 4,
         "night": 1.8,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 5,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 6,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "neg"
       },
       {
         "cloth": 7,
         "night": 10,
         "morning": null,
+        "opening": null,
         "call": "neg"
       }
     ],
@@ -10893,12 +10914,14 @@ export const NIGHT = {
         "cloth": 4,
         "night": 2,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 6,
         "night": 1.6,
         "morning": null,
+        "opening": null,
         "call": "pos"
       }
     ],
@@ -10907,12 +10930,14 @@ export const NIGHT = {
         "cloth": 3,
         "night": 6,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 10,
         "night": 0.65,
         "morning": null,
+        "opening": null,
         "call": "pos"
       }
     ],
@@ -10921,18 +10946,21 @@ export const NIGHT = {
         "cloth": 2,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 6,
         "night": 0.25,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 7,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "neg"
       }
     ],
@@ -10941,42 +10969,49 @@ export const NIGHT = {
         "cloth": 1,
         "night": 1.3,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 2,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 3,
         "night": 2.75,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 4,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 6,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "neg"
       },
       {
         "cloth": 7,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "neg"
       },
       {
         "cloth": 11,
         "night": 4,
         "morning": null,
+        "opening": null,
         "call": "watch"
       }
     ],
@@ -10985,42 +11020,49 @@ export const NIGHT = {
         "cloth": 1,
         "night": 3.25,
         "morning": null,
+        "opening": null,
         "call": "pos"
       },
       {
         "cloth": 2,
         "night": 4,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 3,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 4,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "neg"
       },
       {
         "cloth": 5,
         "night": 8,
         "morning": null,
+        "opening": null,
         "call": "neg"
       },
       {
         "cloth": 6,
         "night": 4.5,
         "morning": null,
+        "opening": null,
         "call": "watch"
       },
       {
         "cloth": 8,
         "night": 1.6,
         "morning": null,
+        "opening": null,
         "call": "pos"
       }
     ]

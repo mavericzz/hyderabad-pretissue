@@ -1,0 +1,63 @@
+name: Refresh IndiaRace odds
+
+# One job: racecard + Night/Morning/Opening odds, then commit src/meetings.
+# Push to main triggers pages.yml so GitHub Pages stays current.
+on:
+  schedule:
+    # IST 06:00-16:45  →  UTC 00:30-11:15
+    - cron: "*/15 0-10 * * *"
+    # IST 18:00-21:45  →  UTC 12:30-16:15
+    - cron: "*/15 12-15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-odds
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - uses: actions/cache@v4
+        with:
+          path: .cache/indiarace
+          key: indiarace-html-${{ github.run_id }}
+          restore-keys: |
+            indiarace-html-
+
+      - name: Scrape cards and Night / Morning / Opening odds
+        env:
+          TZ: Asia/Kolkata
+        run: node --experimental-strip-types --no-warnings scripts/indiarace/daily.ts --days 3
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Commit meetings if prices moved
+        env:
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          git add src/meetings
+          if git diff --cached --quiet; then
+            echo "no meeting file changes"
+            exit 0
+          fi
+          TODAY="$(TZ=Asia/Kolkata date +%Y-%m-%d)"
+          git commit -m "Publish IndiaRace cards for ${TODAY}."
+          git pull --rebase origin main
+          git push

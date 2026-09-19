@@ -2,8 +2,9 @@ export type NightCall = "pos" | "neg" | "watch";
 
 export type NightQuote = {
   cloth: number;
-  night: number;
+  night: number | null;
   morning: number | null;
+  opening?: number | null;
   call: NightCall;
 };
 
@@ -54,7 +55,8 @@ export const NIGHT_ODDS: Record<number, NightQuote[]> = {
 
 export const GRID_CLOTHS = [1, 2, 3, 4, 5, 8];
 
-export function fmtOdds(value: number): string {
+export function fmtOdds(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "-";
   return value.toFixed(2);
 }
 
@@ -62,14 +64,22 @@ export function quoteFor(raceNo: number, cloth: number): NightQuote | undefined 
   return NIGHT_ODDS[raceNo]?.find((q) => q.cloth === cloth);
 }
 
-export function morningMove(night: number, morning: number | null) {
-  if (morning === null) {
-    return { status: "pending" as const, label: "awaiting morning", pct: null };
+export function priceMove(from: number | null | undefined, to: number | null | undefined, pending: string) {
+  if (from == null || to == null || !from) {
+    return { status: "pending" as const, label: pending, pct: null };
   }
-  const pct = (night - morning) / night;
+  const pct = (from - to) / from;
   if (pct > 0.03) return { status: "positive" as const, label: "shortened", pct };
   if (pct < -0.03) return { status: "negative" as const, label: "drifted", pct };
   return { status: "steady" as const, label: "steady", pct };
+}
+
+export function morningMove(night: number | null, morning: number | null) {
+  return priceMove(night, morning, "awaiting morning");
+}
+
+export function openingMove(prior: number | null, opening: number | null) {
+  return priceMove(prior, opening, "awaiting opening");
 }
 
 export function callLabel(call: NightCall): string {

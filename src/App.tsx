@@ -107,7 +107,7 @@ function MeetingBar({ loc, meeting }: { loc: Location; meeting: MeetingBundle })
           {meeting.results.length ? " · results" : " · pretissue"}
         </p>
         <div className="flex overflow-hidden border border-white/20">
-          {meeting.hasNight ? btn("night", "Night odds") : null}
+          {meeting.hasNight ? btn("night", "Odds") : null}
           {btn("sheet", "LTO sheet")}
           {btn("guide", "Pretissue")}
         </div>

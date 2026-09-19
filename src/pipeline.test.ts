@@ -128,5 +128,30 @@ describe("IndiaRace HTML", () => {
     const parsed = parseOddsTables(odds, card.races);
     assert.equal(parsed[1]?.[0]?.cloth, 3);
     assert.equal(parsed[1]?.[0]?.night, 2);
+    assert.equal(parsed[1]?.[0]?.morning, null);
+    assert.equal(parsed[1]?.[0]?.opening, null);
+  });
+
+  it("maps morning and opening from the same odds table headers", () => {
+    const html = `
+      <h3>Race Card - PUNE - 20 Sep 2026</h3>
+      <div id="race-1">
+        <h2>The Janardhan Salver</h2><h3>Class 5</h3><h4>1000 M</h4><h4>01:00 PM</h4>
+        <tr class="dividend_tr">
+          <td>3<br><span>(7)</span></td><td></td>
+          <td><h5><a href="/Home/horseStatistics/1/HOUSE OF LORDS">HOUSE OF LORDS</a></h5></td>
+          <td>7y b g</td><td>o</td><td>t</td><td>j</td><td>59</td><td></td><td>A</td><td></td><td>21</td>
+        </tr>
+      </div>`;
+    const card = parseRacecard(html, 10)!;
+    const odds = `
+      <table>
+        <tr><th>S No</th><th>Horse Name</th><th>Jockey</th><th>Night Odds</th><th>Morning Odds</th><th>Opening Odds</th></tr>
+        <tr><td>1. HOUSE OF LORDS</td><td>Ramswarup</td><td>2/1</td><td>9/4</td><td>3/1</td></tr>
+      </table>`;
+    const parsed = parseOddsTables(odds, card.races);
+    assert.equal(parsed[1]?.[0]?.night, 2);
+    assert.equal(parsed[1]?.[0]?.morning, 2.25);
+    assert.equal(parsed[1]?.[0]?.opening, 3);
   });
 });

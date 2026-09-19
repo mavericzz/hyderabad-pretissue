@@ -1,6 +1,6 @@
 import type { MeetingBundle } from "./catalog";
 import { Jump } from "./Jump";
-import { callLabel, fmtOdds, morningMove, type NightCall, type NightQuote } from "./oddsBook";
+import { callLabel, fmtOdds, morningMove, openingMove, type NightCall, type NightQuote } from "./oddsBook";
 import { go, isFocus, type Location } from "./nav";
 import { finishFor, posLabel, posTone, raceResult, spAsNight } from "./results";
 
@@ -23,7 +23,7 @@ function cellClass(call: NightCall): string {
   return "bg-[#ffd966] text-[#111]";
 }
 
-function moveClass(status: ReturnType<typeof morningMove>["status"]): string {
+function moveClass(status: ReturnType<typeof morningMove>["status"] | ReturnType<typeof openingMove>["status"]): string {
   if (status === "positive") return "bg-[#c6efce] text-[#006400] font-bold";
   if (status === "negative") return "bg-[#f4cccc] text-[#c00000] font-bold";
   if (status === "steady") return "bg-[#fff2cc]";
@@ -75,7 +75,9 @@ function TallyRow({
   const runner = race?.runners.find((item) => item.cloth === quote.cloth);
   const sheet = meeting.sheet.races.find((item) => item.no === raceNo);
   const morning = morningOf(meeting, raceNo, quote);
+  const opening = quote.opening ?? null;
   const move = morningMove(quote.night, morning);
+  const openMove = openingMove(morning ?? quote.night, opening);
   const finish = finishFor(raceNo, quote.cloth, meeting.results);
   const pick =
     sheet?.picks.win === quote.cloth ? "WIN" : sheet?.picks.plc === quote.cloth ? "PLC" : sheet?.picks.upset === quote.cloth ? "UPSET" : "";
@@ -96,9 +98,11 @@ function TallyRow({
       <td className="border border-[#8f8f8f] px-2 py-1.5 text-left text-[#555]">{runner?.jockey ?? "-"}</td>
       <td className={`border border-[#8f8f8f] px-2 py-1.5 text-center font-bold ${cellClass(quote.call)}`}>{fmtOdds(quote.night)}</td>
       <td className="border border-[#8f8f8f] px-2 py-1.5 text-center" title={finish?.sp ? `Official SP ${finish.sp}` : ""}>
-        {morning === null ? "-" : fmtOdds(morning)}
+        {fmtOdds(morning)}
       </td>
       <td className={`border border-[#8f8f8f] px-2 py-1.5 text-center ${moveClass(move.status)}`}>{move.label}</td>
+      <td className="border border-[#8f8f8f] px-2 py-1.5 text-center font-mono">{fmtOdds(opening)}</td>
+      <td className={`border border-[#8f8f8f] px-2 py-1.5 text-center ${moveClass(openMove.status)}`}>{openMove.label}</td>
       <td className={`border border-[#8f8f8f] px-2 py-1.5 text-center font-bold uppercase ${cellClass(quote.call)}`}>
         {callLabel(quote.call)}
       </td>
@@ -112,9 +116,10 @@ export default function NightOdds({ loc, meeting }: { loc: Location; meeting: Me
   const night = meeting.night;
   if (!night) return null;
   const sheet = meeting.sheet;
-  const waiting = Object.entries(night.odds).every(([raceNo, quotes]) =>
+  const waitingMorning = Object.entries(night.odds).every(([raceNo, quotes]) =>
     quotes.every((quote) => morningOf(meeting, Number(raceNo), quote) === null),
   );
+  const waitingOpen = Object.values(night.odds).every((quotes) => quotes.every((quote) => quote.opening == null));
 
   return (
     <div className="min-h-[100dvh] bg-[#dbe6f1] text-[#111]" style={{ fontFamily: "Arial, Helvetica, sans-serif" }}>
@@ -123,7 +128,7 @@ export default function NightOdds({ loc, meeting }: { loc: Location; meeting: Me
         <h1 className="mt-1 text-xl font-bold tracking-wide text-[#ffe566] md:text-3xl">{night.title}</h1>
         <p className="mt-1 font-mono text-sm">{night.when}</p>
         <p className="mt-1 text-xs tracking-wide text-white/80">
-          {night.version} · {meeting.results.length ? "RESULTS IN · morning column is official SP" : "PRE-RACE"}
+          {night.version} · {meeting.results.length ? "RESULTS IN · morning column is official SP" : "PRE-RACE · NIGHT / MORNING / OPENING"}
         </p>
       </header>
 
@@ -161,7 +166,8 @@ export default function NightOdds({ loc, meeting }: { loc: Location; meeting: Me
         </p>
         <p className="mt-2 max-w-[90ch] px-1 text-[12px] leading-relaxed text-[#333]">
           {night.source} {night.note} {meeting.resultSource} Click a price or name to open that horse on the LTO sheet.
-          {waiting ? " Morning prices are not in yet. Send the morning card and this tab will tally the move on each cloth." : ""}
+          {waitingMorning ? " Morning prices are not in yet — the job will pick them up once IndiaRace posts the Morning Odds column." : ""}
+          {waitingOpen ? " Opening prices fill closer to post from the same odds page." : ""}
         </p>
 
         <div className="mt-6 space-y-6">
@@ -181,7 +187,7 @@ export default function NightOdds({ loc, meeting }: { loc: Location; meeting: Me
                       : `${race.dist} · ${race.time} · ${race.code}`}
                   </p>
                 </header>
-                <table className="w-full min-w-[720px] border-collapse text-[12px]">
+                <table className="w-full min-w-[880px] border-collapse text-[12px]">
                   <thead>
                     <tr className="bg-[#d6dce4] text-left">
                       <th className="border border-[#8f8f8f] px-2 py-1.5">No</th>
@@ -189,7 +195,9 @@ export default function NightOdds({ loc, meeting }: { loc: Location; meeting: Me
                       <th className="border border-[#8f8f8f] px-2 py-1.5">Jockey</th>
                       <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">Night</th>
                       <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">Morning / SP</th>
-                      <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">Move</th>
+                      <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">vs Night</th>
+                      <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">Opening</th>
+                      <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">vs Morn</th>
                       <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">Night call</th>
                       <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">Tissue</th>
                       <th className="border border-[#8f8f8f] px-2 py-1.5 text-center">Sheet</th>

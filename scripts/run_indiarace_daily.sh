@@ -1,6 +1,6 @@
 #!/bin/bash
-# Daily IndiaRace scrape → LTO sheet / pretissue, then push to GitHub Pages.
-# Called by launchd (com.indiarace.daily) or `npm run daily`.
+# IndiaRace scrape → LTO / pretissue / Night+Morning+Opening odds, then push Pages.
+# Called by launchd (com.indiarace.daily) or `npm run daily:ship`.
 #
 # Deploy: scrape writes src/meetings, this script commits that folder and
 # pushes origin/main. .github/workflows/pages.yml builds dist/ on GitHub.
@@ -12,11 +12,13 @@ export HOME="${HOME:-/Users/toshasharma}"
 export GIT_TERMINAL_PROMPT=0
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
-ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+ROOT="${INDIARACE_ROOT:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 LOG_DIR="$ROOT/logs"
 mkdir -p "$LOG_DIR"
 
 TODAY="$(TZ=Asia/Kolkata date +%Y-%m-%d)"
+HOUR="$(TZ=Asia/Kolkata date +%H)"
+HOUR=$((10#$HOUR))
 LOG="$LOG_DIR/indiarace_daily_${TODAY}.log"
 
 cd "$ROOT"
@@ -25,14 +27,19 @@ log() {
   echo "$(date): $*" | tee -a "$LOG"
 }
 
+if [[ "${INDIARACE_CRON:-}" == "1" ]] && (( HOUR < 6 || HOUR == 17 || HOUR > 21 )); then
+  log "outside 06-16 / 18-21 IST (hour $HOUR) — skip"
+  exit 0
+fi
+
 if ! command -v node >/dev/null 2>&1; then
   log "FATAL — node not found"
   exit 127
 fi
 
-log "IndiaRace daily starting (from $TODAY, 3 days)"
+log "IndiaRace daily starting (from $TODAY, 3 days, hour $HOUR)"
 set +e
-node --experimental-strip-types --no-warnings scripts/indiarace/daily.ts --from "$TODAY" --days 3 >>"$LOG" 2>&1
+node --experimental-strip-types --no-warnings scripts/indiarace/daily.ts --from "$TODAY" --days 3 "$@" >>"$LOG" 2>&1
 SCRAPE_EXIT=$?
 set -e
 

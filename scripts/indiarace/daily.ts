@@ -1,4 +1,4 @@
-import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
@@ -34,33 +34,44 @@ type Args = {
   from: string;
   days: number;
   delayMs: number;
+  fresh: boolean;
 };
 
 function parseArgs(argv: string[]): Args {
   const today = istToday();
-  const args: Args = { from: today, days: 3, delayMs: 250 };
+  const args: Args = { from: today, days: 3, delayMs: 250, fresh: false };
   for (let i = 0; i < argv.length; i++) {
     const key = argv[i];
     const val = argv[i + 1];
     if (key === "--from" && val) args.from = val;
     if (key === "--days" && val) args.days = Number(val);
     if (key === "--delay" && val) args.delayMs = Number(val);
+    if (key === "--fresh") args.fresh = true;
   }
   return args;
+}
+
+function cacheTtlMs(url: string): number {
+  if (/race_type=ODDS/i.test(url) || /indiarace\.com\/?$/i.test(url)) return 8 * 60 * 1000;
+  if (/race_type=RACECARD|race_type=SELECTIONS/i.test(url)) return 2 * 60 * 60 * 1000;
+  return 12 * 60 * 60 * 1000;
 }
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchText(url: string, delayMs: number): Promise<string> {
+async function fetchText(url: string, delayMs: number, fresh: boolean): Promise<string> {
   const key = url.replace(/[^\w.-]+/g, "_").slice(0, 180);
   const cachePath = path.join(CACHE_DIR, `${key}.html`);
-  try {
-    const cached = await readFile(cachePath, "utf8");
-    if (cached.length > 500) return cached;
-  } catch {
-    // network fetch below
+  if (!fresh) {
+    try {
+      const info = await stat(cachePath);
+      const cached = await readFile(cachePath, "utf8");
+      if (cached.length > 500 && Date.now() - info.mtimeMs < cacheTtlMs(url)) return cached;
+    } catch {
+      // network fetch below
+    }
   }
   const res = await fetch(url, { headers: { "User-Agent": UA, Accept: "text/html" } });
   if (!res.ok) throw new Error(`${res.status} ${url}`);
@@ -168,9 +179,9 @@ async function writeCatalog(): Promise<string[]> {
   return files.map((item) => item.id);
 }
 
-async function scrapeFixture(fix: Fixture, delayMs: number): Promise<BuiltMeeting | null> {
+async function scrapeFixture(fix: Fixture, delayMs: number, fresh: boolean): Promise<BuiltMeeting | null> {
   const cardUrl = `${BASE}/Home/racingCenterEvent?event_date=${fix.date}&race_type=RACECARD&venueId=${fix.venueId}`;
-  const html = await fetchText(cardUrl, delayMs);
+  const html = await fetchText(cardUrl, delayMs, fresh);
   if (!parseRaceIds(html).length) return null;
   const card = parseRacecard(html, fix.venueId);
   if (!card || card.date !== fix.date) return null;
@@ -186,22 +197,22 @@ async function scrapeFixture(fix: Fixture, delayMs: number): Promise<BuiltMeetin
     const race = card.races[i];
     const raceId = ids[i];
     if (!raceId) continue;
-    const formHtml = await fetchText(`${BASE}/Home/previousRunsWithTrack/${raceId}/racecard`, delayMs);
-    const workHtml = await fetchText(`${BASE}/Home/trackworkHistoryByRace/${raceId}/racecard`, delayMs);
+    const formHtml = await fetchText(`${BASE}/Home/previousRunsWithTrack/${raceId}/racecard`, delayMs, fresh);
+    const workHtml = await fetchText(`${BASE}/Home/trackworkHistoryByRace/${raceId}/racecard`, delayMs, fresh);
     formByRace[race.no] = parsePreviousRuns(formHtml);
     workByRace[race.no] = parseTrackwork(workHtml);
   }
   attachForm(card, formByRace, workByRace);
   let irDayBest = "";
   try {
-    const sel = await fetchText(`${BASE}/Home/racingCenterEvent?event_date=${fix.date}&race_type=SELECTIONS&venueId=${fix.venueId}`, delayMs);
+    const sel = await fetchText(`${BASE}/Home/racingCenterEvent?event_date=${fix.date}&race_type=SELECTIONS&venueId=${fix.venueId}`, delayMs, fresh);
     irDayBest = parseDayBest(sel);
   } catch (err) {
     console.warn(`selections failed ${id}:`, err);
   }
   let night: ReturnType<typeof parseOddsTables> = {};
   try {
-    const oddsHtml = await fetchText(`${BASE}/Home/racingCenterEvent?event_date=${fix.date}&race_type=ODDS&venueId=${fix.venueId}`, delayMs);
+    const oddsHtml = await fetchText(`${BASE}/Home/racingCenterEvent?event_date=${fix.date}&race_type=ODDS&venueId=${fix.venueId}`, delayMs, fresh);
     night = parseOddsTables(oddsHtml, card.races);
   } catch (err) {
     console.warn(`odds failed ${id}:`, err);
@@ -212,14 +223,14 @@ async function scrapeFixture(fix: Fixture, delayMs: number): Promise<BuiltMeetin
 async function main(): Promise<void> {
   const args = parseArgs(process.argv.slice(2));
   const window = datesOn(args.from, args.days);
-  console.log(`IndiaRace daily ${args.from} +${args.days - 1}d`);
+  console.log(`IndiaRace daily ${args.from} +${args.days - 1}d${args.fresh ? " --fresh" : ""}`);
   await mkdir(MEETINGS_DIR, { recursive: true });
-  const home = parseHomepageFixtures(await fetchText(`${BASE}/`, args.delayMs));
+  const home = parseHomepageFixtures(await fetchText(`${BASE}/`, args.delayMs, args.fresh));
   const fixtures = mergeFixtures(home, window);
   const built: string[] = [];
   for (const fix of fixtures) {
     try {
-      const meeting = await scrapeFixture(fix, args.delayMs);
+      const meeting = await scrapeFixture(fix, args.delayMs, args.fresh);
       if (!meeting) continue;
       const file = path.join(MEETINGS_DIR, meetingFileName(meeting));
       await writeFile(file, tsModule(meeting));

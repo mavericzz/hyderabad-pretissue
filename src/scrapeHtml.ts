@@ -236,16 +236,22 @@ export function parseDayBest(html: string): string {
   return stripHtml(match?.[1] ?? "").replace(/\s+/g, " ").trim();
 }
 
+function shiftedCol(header: string[], cols: string[], pattern: RegExp): string {
+  const idx = header.findIndex((col) => pattern.test(col));
+  if (idx < 0) return "";
+  const shift = Math.max(0, header.length - cols.length);
+  return cols[Math.max(0, idx - shift)] ?? "";
+}
+
 export function parseOddsTables(html: string, races: ScrapedRace[]): Record<number, ScrapedNight[]> {
   const out: Record<number, ScrapedNight[]> = {};
   const tables = [...html.matchAll(/<table[\s\S]*?<\/table>/gi)].map((match) => match[0]);
   let raceIndex = 0;
   for (const table of tables) {
-    if (!/Night Odds/i.test(table)) continue;
+    if (!/Night Odds|Morning Odds|Opening Odds/i.test(table)) continue;
     const race = races[raceIndex++];
     if (!race) continue;
     const header = cells([...table.matchAll(/<tr[\s\S]*?<\/tr>/gi)][0]?.[0] ?? "").map(stripHtml);
-    const nightIdx = header.findIndex((col) => /night/i.test(col));
     const rows: ScrapedNight[] = [];
     for (const row of [...table.matchAll(/<tr[\s\S]*?<\/tr>/gi)].slice(1)) {
       const cols = cells(row[0]).map(stripHtml);
@@ -254,17 +260,15 @@ export function parseOddsTables(html: string, races: ScrapedRace[]): Record<numb
         cols.some((col) => col.toUpperCase().replace(/^\d+\.\s*/, "").trim() === item.name),
       );
       if (!runner) continue;
-      const shifted = header.length - cols.length;
-      const nightRaw = nightIdx >= 0 ? cols[Math.max(0, nightIdx - Math.max(0, shifted))] : cols.find((col) => /\d+\s*\/\s*\d+/.test(col));
-      const mornRaw = cols[cols.indexOf(nightRaw ?? "") + 1] ?? "";
       rows.push({
         cloth: runner.cloth,
         name: runner.name,
-        night: parseOddsToOne(nightRaw ?? ""),
-        morning: parseOddsToOne(mornRaw),
+        night: parseOddsToOne(shiftedCol(header, cols, /night/i)),
+        morning: parseOddsToOne(shiftedCol(header, cols, /morning/i)),
+        opening: parseOddsToOne(shiftedCol(header, cols, /opening/i)),
       });
     }
-    if (rows.some((row) => row.night != null)) out[race.no] = rows;
+    if (rows.some((row) => row.night != null || row.morning != null || row.opening != null)) out[race.no] = rows;
   }
   return out;
 }

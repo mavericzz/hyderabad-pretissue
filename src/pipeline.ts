@@ -73,6 +73,7 @@ export type ScrapedNight = {
   name: string;
   night: number | null;
   morning: number | null;
+  opening: number | null;
 };
 
 export type ScrapedMeeting = {
@@ -390,7 +391,9 @@ function trackScore(form: ScrapedRun[], venueShort: string): number {
 }
 
 function nightCall(quotes: NightQuote[], cloth: number): NightCall {
-  const priced = [...quotes].sort((a, b) => a.night - b.night);
+  const priced = [...quotes].sort(
+    (a, b) => (a.night ?? a.morning ?? a.opening ?? 99) - (b.night ?? b.morning ?? b.opening ?? 99),
+  );
   const i = priced.findIndex((row) => row.cloth === cloth);
   if (i === 0 || i === 1) return "pos";
   if (i >= priced.length - 2) return "neg";
@@ -425,8 +428,8 @@ export function buildMeeting(scraped: ScrapedMeeting, scrapedOn = istToday()): B
         rtgCh: rating.ch,
         l2: runToCell(prev, date),
         l1: runToCell(last, date),
-        nty: null,
-        open: null,
+        nty: scraped.night[race.no]?.find((row) => row.cloth === runner.cloth)?.night ?? null,
+        open: scraped.night[race.no]?.find((row) => row.cloth === runner.cloth)?.opening ?? null,
         tissue: "24/1",
         rank: 99,
         speed: speedFig(last),
@@ -602,11 +605,12 @@ export function buildMeeting(scraped: ScrapedMeeting, scrapedOn = istToday()): B
   const grid = new Set<number>();
   for (const [raceNo, rows] of Object.entries(scraped.night)) {
     const quotes: NightQuote[] = rows
-      .filter((row) => row.night != null)
+      .filter((row) => row.night != null || row.morning != null || row.opening != null)
       .map((row) => ({
         cloth: row.cloth,
-        night: row.night as number,
+        night: row.night,
         morning: row.morning,
+        opening: row.opening,
         call: "watch" as NightCall,
       }));
     for (const quote of quotes) quote.call = nightCall(quotes, quote.cloth);
@@ -650,11 +654,11 @@ export function buildMeeting(scraped: ScrapedMeeting, scrapedOn = istToday()): B
     night: hasNight
       ? {
           banner: venue.banner,
-          title: "APPROX EARLIER NIGHT ODDS",
+          title: "NIGHT / MORNING / OPENING ODDS",
           version: "AUTO",
           when,
-          source: "IndiaRace night odds column, converted to the same to-1 scale as the Hyderabad night book.",
-          note: "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning column fills when IndiaRace posts morning odds or when results supply SP.",
+          source: "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+          note: "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
           odds: nightOdds,
           gridCloths: [...grid].sort((a, b) => a - b),
         }
