@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 6,
   "nextBest": "DUBAI TOUCH",
   "longshot": "LEATHER BACK",
-  "irDayBest": "unpublished",
+  "irDayBest": "YOU TUBER 3 (4)",
   "feature": "The Shiv Kumar Lal Memorial Trophy"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "9-runner. Class 5 / A Handicap For Horses Rated Upto 25, 4 Year Olds And Upward (Whips Not Permitted)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SUGRIVA (4) 2. ICONIC STAR (9) 3. FAIZAH (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SUGRIVA (4).",
-    "irPick": "unpublished",
+    "irPick": "1. SUGRIVA (4) 2. ICONIC STAR (9) 3. FAIZAH (2)",
     "ourPick": "SUGRIVA (4)",
     "nap": false,
     "runners": [
@@ -740,9 +740,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "9-runner. Class 5 / A Handicap For Horses Rated Upto 25, 4 Year Olds And Upward (Whips Not Permitted)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. STAR COUNCILLOR (3) 2. GOLDEN INZIO (5) 3. HOPEWELL ISLAND (8). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BOLD INDIAN (4).",
-    "irPick": "unpublished",
+    "irPick": "1. STAR COUNCILLOR (3) 2. GOLDEN INZIO (5) 3. HOPEWELL ISLAND (8)",
     "ourPick": "BOLD INDIAN (4)",
     "nap": false,
     "runners": [
@@ -1465,9 +1465,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. YOU TUBER (4) 2. MASTER CLASS (2) 3. GOLD TOUCH (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GOLD TOUCH (3).",
-    "irPick": "unpublished",
+    "irPick": "1. YOU TUBER (4) 2. MASTER CLASS (2) 3. GOLD TOUCH (3)",
     "ourPick": "GOLD TOUCH (3)",
     "nap": false,
     "runners": [
@@ -2165,9 +2165,9 @@ export const races: Race[] = [
     "purse": "₹0",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "15-runner. Maiden / For Horses 3 Year Olds Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. GRIT 'N' GRACE (12) 2. ATMAN (1) 3. ASHWA JAFFNA (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ANEMARA (9).",
-    "irPick": "unpublished",
+    "irPick": "1. GRIT 'N' GRACE (12) 2. ATMAN (1) 3. ASHWA JAFFNA (10)",
     "ourPick": "ANEMARA (9)",
     "nap": false,
     "runners": [
@@ -3366,9 +3366,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "12-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 5 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DINO (2) 2. LINDA (1) 3. AOS SI (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TRUST ME (3).",
-    "irPick": "unpublished",
+    "irPick": "1. DINO (2) 2. LINDA (1) 3. AOS SI (9)",
     "ourPick": "TRUST ME (3)",
     "nap": false,
     "runners": [
@@ -4412,9 +4412,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "8-runner. Class 3 / A Handicap For Horses Rated 40 To 65, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. PRINCE OF WALES (1) 2. HANUMANMAHABALA (4) 3. SUPER SPLASH (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win PRINCE OF WALES (1).",
-    "irPick": "unpublished",
+    "irPick": "1. PRINCE OF WALES (1) 2. HANUMANMAHABALA (4) 3. SUPER SPLASH (5)",
     "ourPick": "PRINCE OF WALES (1)",
     "nap": true,
     "runners": [
@@ -5116,9 +5116,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "16-runner. Class 3 / A Handicap For Horses Rated 40 To 65, 4 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DILIGENCE (7) 2. GREIF (2) 3. SAPPORO (13). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win DUBAI TOUCH (1).",
-    "irPick": "unpublished",
+    "irPick": "1. DILIGENCE (7) 2. GREIF (2) 3. SAPPORO (13)",
     "ourPick": "DUBAI TOUCH (1)",
     "nap": false,
     "runners": [
