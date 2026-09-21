@@ -1,0 +1,6617 @@
+import type { Race } from "../data.ts";
+import type { SheetMeeting } from "../lto.ts";
+
+export const MEETING = {
+  "venue": "KOLKATA (KOL)",
+  "date": "Wednesday 23 September 2026",
+  "first": "02:00 PM",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 21 Sep 26.",
+  "going": "Kolkata turf. Auto-built from the IndiaRace card; going is not independently verified.",
+  "dayBest": "BLACK EAGLE",
+  "dayBestRace": 5,
+  "nextBest": "MINDFUL",
+  "longshot": "CHARISMATIC",
+  "irDayBest": "unpublished",
+  "feature": "The Roll N Twist Handicap"
+};
+
+export const races: Race[] = [
+  {
+    "no": 1,
+    "official": 48,
+    "name": "The Roll N Twist Handicap",
+    "class": "Class 5 / For Horses Rated 1-26",
+    "dist": "2000m",
+    "time": "02:00 PM",
+    "purse": "₹300000",
+    "record": "23 Jan 2017 COLOMBIANA 57 Kgs 2:02.07 Secs",
+    "shape": "6-runner. Class 5 / For Horses Rated 1-26",
+    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "tissueNote": "120% book from HCP ranks. Win WONDERFUL (4).",
+    "irPick": "unpublished",
+    "ourPick": "WONDERFUL (4)",
+    "nap": false,
+    "runners": [
+      {
+        "cloth": 1,
+        "draw": 5,
+        "name": "CARNATION",
+        "age": "4y dkb f",
+        "pedigree": "Fiero(JPN) - Neath",
+        "trainer": "Neil Darashah",
+        "jockey": "Abhishek Mhatre",
+        "wt": "61.5",
+        "al": "2.5",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "24 / 24",
+        "last5": "3-3-2-14-8-.",
+        "tissue": "24/1",
+        "rank": 6,
+        "verdict": "Last: 13 Aug 26 KOL 1600M 8/8 beaten 22.75 at 12 off 24, 61.5kg. 41 days out. 2.5kg claim. Latest work 19 Sep KOL: Carnation (V. Vishwa), Seina (Vishal VBunde), Olaf (R Manish ), 1-16.5 1000/1-2.4, 800/49, 600/35, 400/23.6 Carnation Looked superior finishing 4 lengths ahead of Seina who finished 8 lengths ahead of Olaf.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1600M Class 5, 8/8 beaten 22.75 vs SPORTING TRAINER.",
+        "form": [
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "8",
+            "field": "8",
+            "beaten": "22.75L",
+            "wt": "61.5",
+            "odds": "12",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 4",
+            "pos": "14",
+            "field": "13",
+            "beaten": "44.75L",
+            "wt": "52",
+            "odds": "12",
+            "winner": "ROYAL MEMBER"
+          },
+          {
+            "date": "20 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "2",
+            "field": "5",
+            "beaten": "1.25L",
+            "wt": "61.5",
+            "odds": "8",
+            "winner": "ROYAL MEMBER"
+          },
+          {
+            "date": "06 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "3",
+            "field": "7",
+            "beaten": "3L",
+            "wt": "60",
+            "odds": "19/20",
+            "winner": "SIMRAN'S ATTITUDE"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "1200m monsoon track (-13)",
+            "note": "Carnation (V. Vishwa), Seina (Vishal VBunde), Olaf (R Manish ), 1-16.5 1000/1-2.4, 800/49, 600/35, 400/23.6 Carnation Looked superior finishing 4 lengths ahead of Seina who finished 8 lengths ahead of Olaf."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Olaf (R Manish), Carnation (Rb), Seina (Rb ), 34 Trio Moved Gin Order Half Lengths Each."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Carnation (R Manish ) 47 400/30 Moved Easy."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+3)",
+            "note": "Carnation (V Vishwa ) 1-03.5 600/47.2, 400/29.2 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 2,
+        "draw": 3,
+        "name": "SANAYA",
+        "age": "4y b f",
+        "pedigree": "Deauville(IRE) - Sana",
+        "trainer": "Bharath Singh",
+        "jockey": "Antony Raj S",
+        "wt": "61.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "24 / 24",
+        "last5": "4-3-4-4-5-.",
+        "tissue": "35/2",
+        "rank": 5,
+        "verdict": "Last: 20 Aug 26 KOL 2000M 5/5 beaten 4.75 at 11/4 off 24, 51.5kg. 34 days out. HCP -3. Latest work 17 Sep KOL: Sanaya (R Vaibhav ) 1-5 600/48, 400/31 moved easy.",
+        "similar": "Nearest trip: 20 Aug 26 KOL 2000M Class 4, 5/5 beaten 4.75 vs GOODWILL.",
+        "form": [
+          {
+            "date": "20 Aug 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "5",
+            "beaten": "4.75L",
+            "wt": "51.5",
+            "odds": "11/4",
+            "winner": "GOODWILL"
+          },
+          {
+            "date": "05 Mar 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "5",
+            "beaten": "3.75L",
+            "wt": "54",
+            "odds": "11/2",
+            "winner": "DIVINE GIFT"
+          },
+          {
+            "date": "30 Jan 26",
+            "venue": "KOL",
+            "dist": "2400m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "9",
+            "beaten": "2.25L",
+            "wt": "55.5",
+            "odds": "9/2",
+            "winner": "GARTH"
+          },
+          {
+            "date": "09 Jan 26",
+            "venue": "KOL",
+            "dist": "2400m",
+            "cls": "Class 4",
+            "pos": "3",
+            "field": "5",
+            "beaten": "2.5L",
+            "wt": "54",
+            "odds": "17/10",
+            "winner": "BLACK DIAMOND"
+          }
+        ],
+        "work": [
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Sanaya (R Vaibhav ) 1-5 600/48, 400/31 moved easy."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Sanaya (R Viabhav ) 1-5 600/54, 400/34 Moved Easy."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "Sanaya (R Vaibhav ) 48 400/31 Moved Easy."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-4)",
+            "note": "Sanaya (R Vaibhav ) 56 600/41.2, 400/25 excelled"
+          }
+        ]
+      },
+      {
+        "cloth": 3,
+        "draw": 1,
+        "name": "NORTHBOUND",
+        "age": "7y b g",
+        "pedigree": "Quasar - Pristina",
+        "trainer": "Vikash Jaiswal",
+        "jockey": "Varun",
+        "wt": "59.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "20 / 20",
+        "last5": "9-11-8-4-7-.",
+        "tissue": "18/5",
+        "rank": 3,
+        "verdict": "Last: 13 Aug 26 KOL 1400M 7/12 beaten 10.25 at 10 off 20, 59.5kg. 41 days out. HCP 11. Latest work 19 Sep KOL: Northbound (rb ) 49 400/32 moved easy.",
+        "similar": "Nearest trip: 23 Nov 25 KOL 2000M Class 4, 6/8 beaten 15 vs MULTI SUCCESS.",
+        "form": [
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "7",
+            "field": "12",
+            "beaten": "10.25L",
+            "wt": "59.5",
+            "odds": "10",
+            "winner": "VENENO"
+          },
+          {
+            "date": "20 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "4",
+            "field": "5",
+            "beaten": "9.5L",
+            "wt": "61.5",
+            "odds": "10",
+            "winner": "ROYAL MEMBER"
+          },
+          {
+            "date": "20 Feb 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "8",
+            "field": "9",
+            "beaten": "13.75L",
+            "wt": "55",
+            "odds": "15",
+            "winner": "THREE LITTLE WORDS"
+          },
+          {
+            "date": "07 Feb 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "11",
+            "field": "11",
+            "beaten": "16L",
+            "wt": "57",
+            "odds": "15",
+            "winner": "BANDUK WALI"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+4)",
+            "note": "Northbound (rb ) 49 400/32 moved easy."
+          },
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "1200m outer sand (+2)",
+            "note": "Northbound (Gopal ) 1-32.5 1000/1m 17, 800/1m 0, 600/45.2, 400/29.6 moved fluently."
+          },
+          {
+            "date": "15 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (Even)",
+            "note": "Northbound (Gopal Singh Apprentice ) 1-0 600/45, 400/28.8 Moved Fluently."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+1)",
+            "note": "Northbound (Yash Saini ) 46 400 31 eased up."
+          }
+        ]
+      },
+      {
+        "cloth": 4,
+        "draw": 4,
+        "name": "WONDERFUL",
+        "age": "7y b g",
+        "pedigree": "Excellent Art(GB) - Silver Beauty",
+        "trainer": "B Mahesh",
+        "jockey": "Vishal Bunde",
+        "wt": "59.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "20 / 20",
+        "last5": "4-9-10-4-4-.",
+        "tissue": "5/4",
+        "rank": 1,
+        "verdict": "Last: 09 Sep 26 KOL 1100M 4/9 beaten 7.75 at 20 off 20, 59.5kg. 14 days out. HCP 18. Latest work 19 Sep KOL: Wonderful (Jitendra ) 55 600/41.2, 400/28 tightened towards end.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 1100M Class 5, 4/9 beaten 7.75 vs HAPPY MORNING.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 5",
+            "pos": "4",
+            "field": "9",
+            "beaten": "7.75L",
+            "wt": "59.5",
+            "odds": "20",
+            "winner": "HAPPY MORNING"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "4",
+            "field": "8",
+            "beaten": "5.5L",
+            "wt": "59.5",
+            "odds": "10",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 4",
+            "pos": "10",
+            "field": "13",
+            "beaten": "20L",
+            "wt": "52",
+            "odds": "10",
+            "winner": "ROYAL MEMBER"
+          },
+          {
+            "date": "19 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 4",
+            "pos": "9",
+            "field": "10",
+            "beaten": "17.25L",
+            "wt": "55",
+            "odds": "15",
+            "winner": "VERRAZZANO"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m monsoon track (-5)",
+            "note": "Wonderful (Jitendra ) 55 600/41.2, 400/28 tightened towards end."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Wonderful (Jitendra Aprrentice ) 57.2 600/43, 400/27 Spurted Well."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Wonderful (Apprentice Jitendra ) 58 600/43, 400/27.2 Moved Nicely."
+          },
+          {
+            "date": "13 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Wonderful (Rb ) 33.5 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 5,
+        "draw": 6,
+        "name": "FORTUNE WARRIOR",
+        "age": "6y b g",
+        "pedigree": "Sanus Per Aquam(IRE) - Schiavone",
+        "trainer": "B R Reddy",
+        "jockey": "Gaurav Singh",
+        "wt": "59",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "19 / 19",
+        "last5": "6-5-4-5-3-.",
+        "tissue": "3/2",
+        "rank": 2,
+        "verdict": "Last: 16 Sep 26 KOL 1400M 0/8 beaten 0 at ? off 19, 59kg. 7 days out. HCP 17. Latest work 09 Sep KOL: Fortune Warrior (V R Jagadeesh), Roman Spirit (Apprentice ), 56 600/43.4, 400/29.2 Both Hold Up Easy, Former Finished A Length In Front.",
+        "similar": "Nearest trip: 26 Aug 26 KOL 2000M Class 5, 3/5 beaten 6.75 vs LINEUPANDCOLLECT.",
+        "form": [
+          {
+            "date": "16 Sep 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "0",
+            "field": "8",
+            "beaten": "0L",
+            "wt": "59",
+            "odds": "",
+            "winner": "HAPPY MORNING"
+          },
+          {
+            "date": "26 Aug 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 5",
+            "pos": "3",
+            "field": "5",
+            "beaten": "6.75L",
+            "wt": "59",
+            "odds": "4",
+            "winner": "LINEUPANDCOLLECT"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "5",
+            "field": "8",
+            "beaten": "7.75L",
+            "wt": "59",
+            "odds": "10",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "26 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "4",
+            "field": "6",
+            "beaten": "2.5L",
+            "wt": "60.5",
+            "odds": "9/4",
+            "winner": "ITALIAN GOLD"
+          }
+        ],
+        "work": [
+          {
+            "date": "09 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-4)",
+            "note": "Fortune Warrior (V R Jagadeesh), Roman Spirit (Apprentice ), 56 600/43.4, 400/29.2 Both Hold Up Easy, Former Finished A Length In Front."
+          },
+          {
+            "date": "08 Sep",
+            "venue": "KOL",
+            "clock": "1400m outer sand (+4)",
+            "note": "Fortune Warrior (V R Jagadeesh), Roman Spirit (Apprentice Ranveer Singh ), 1-49.2 1200/1-34. 1000/1-18. 800_1-0, 600/45, 400/29.6 Former Finished 6 Lengths Ahead."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+4)",
+            "note": "Fifty Shades (Vishal Bunde), Fortune Warrior (Ranveer Apprentice), 49.5 400/31.4 Former Finished Distance Ahead."
+          },
+          {
+            "date": "22 Aug",
+            "venue": "KOL",
+            "clock": "1000m outer sand (+15)",
+            "note": "Fortune Warrior (Gopal Singh Apprentice), Lineupandcollect (V R Jagadeesh ), 1-30 800/1-13, 600/55, 400/34 Both Unextended And Finished Together."
+          }
+        ]
+      },
+      {
+        "cloth": 6,
+        "draw": 2,
+        "name": "SOUL AQUARIAN",
+        "age": "4y b f",
+        "pedigree": "Sanus Per Aquam(IRE) - Crown Princess",
+        "trainer": "Javed Khan",
+        "jockey": "A Sandesh",
+        "wt": "56",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-HOOD",
+        "rtg": "13 / 13",
+        "last5": "5-3-4-6-5-.",
+        "tissue": "41/4",
+        "rank": 4,
+        "verdict": "Last: 09 Sep 26 KOL 1100M 5/9 beaten 9.25 at 12 off 13, 56kg. 14 days out. HCP 2. Latest work 18 Sep KOL: Soul Aquarian (Rb ) 1-5 600/47.4, 400/29.2 Moved On The Bit.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 1100M Class 5, 5/9 beaten 9.25 vs HAPPY MORNING.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 5",
+            "pos": "5",
+            "field": "9",
+            "beaten": "9.25L",
+            "wt": "56",
+            "odds": "12",
+            "winner": "HAPPY MORNING"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "6",
+            "field": "8",
+            "beaten": "8.25L",
+            "wt": "56",
+            "odds": "12",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "4",
+            "field": "6",
+            "beaten": "17.75L",
+            "wt": "56.5",
+            "odds": "9",
+            "winner": "STRONG TALONS"
+          },
+          {
+            "date": "12 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "3",
+            "field": "6",
+            "beaten": "6L",
+            "wt": "56.5",
+            "odds": "8",
+            "winner": "TRACK STRIKING"
+          }
+        ],
+        "work": [
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Soul Aquarian (Rb ) 1-5 600/47.4, 400/29.2 Moved On The Bit."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Soul Aquarian (Suraj Pal ) 32 moved easy."
+          },
+          {
+            "date": "29 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (+6)",
+            "note": "Soul Aquarian (rb ) 1-6 600/52, 400/34 eased up completely."
+          },
+          {
+            "date": "11 Aug",
+            "venue": "KOL",
+            "clock": "400m inner sand (+4)",
+            "note": "Soul Aquarian (rb ) 34 unextended."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": 2,
+    "official": 49,
+    "name": "The No Regrets Handicap",
+    "class": "Class 2 / For Horses Rated 61-86,Rated 41-66 Eligible",
+    "dist": "1800m",
+    "time": "02:30 PM",
+    "purse": "₹550000",
+    "record": "-",
+    "shape": "4-runner. Class 2 / For Horses Rated 61-86,Rated 41-66 Eligible",
+    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "tissueNote": "120% book from HCP ranks. Win MINDFUL (1).",
+    "irPick": "unpublished",
+    "ourPick": "MINDFUL (1)",
+    "nap": false,
+    "runners": [
+      {
+        "cloth": 1,
+        "draw": 4,
+        "name": "MINDFUL",
+        "age": "4y b c",
+        "pedigree": "Deauville(IRE) - Armaity",
+        "trainer": "Deepesh Narredu",
+        "jockey": "Yash Narredu",
+        "wt": "62.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "74 / 86",
+        "last5": "1-1-3-2-1-.",
+        "tissue": "1/4",
+        "rank": 1,
+        "verdict": "Last: 09 Sep 26 KOL 2000M 1/5 beaten won at 9/20 off 74, 59kg. 14 days out. HCP 86. Latest work 19 Sep KOL: Mindful (M Baskar ) 57 600/43, 400/28.2 moved fluently.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 2000M Class 2, 1/5 beaten 0 vs MINDFUL.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 2",
+            "pos": "1",
+            "field": "5",
+            "beaten": "won",
+            "wt": "59",
+            "odds": "9/20",
+            "winner": "MINDFUL"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 2",
+            "pos": "2",
+            "field": "11",
+            "beaten": "0L",
+            "wt": "56",
+            "odds": "5/2",
+            "winner": "CIGAR GALAXY"
+          },
+          {
+            "date": "05 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 2",
+            "pos": "3",
+            "field": "7",
+            "beaten": "3L",
+            "wt": "59",
+            "odds": "2",
+            "winner": "XANTHE"
+          },
+          {
+            "date": "07 Feb 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 2",
+            "pos": "1",
+            "field": "4",
+            "beaten": "won",
+            "wt": "55.5",
+            "odds": "7/20",
+            "winner": "MINDFUL"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Mindful (M Baskar ) 57 600/43, 400/28.2 moved fluently."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-4)",
+            "note": "Mindful (M Baskar ) 56 600/41.4, 400/26.8 moved nicely."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+8)",
+            "note": "Mindful (M Baskar ) 53 400/35.2 Moved Easy."
+          },
+          {
+            "date": "31 Aug",
+            "venue": "KOL",
+            "clock": "400m outer sand (-1)",
+            "note": "Mindful (M Baskar ) 29 Moved Freely."
+          }
+        ]
+      },
+      {
+        "cloth": 2,
+        "draw": 2,
+        "name": "GOLDEN GLOW",
+        "age": "6y b g",
+        "pedigree": "Excellent Art(GB) - Iceglow",
+        "trainer": "Sabeel Shariff",
+        "jockey": "Arman Khan",
+        "wt": "57.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "76 / 76",
+        "last5": "4-5-7-8-4-.",
+        "tissue": "24/1",
+        "rank": 4,
+        "verdict": "Last: 09 Sep 26 KOL 2000M 4/5 beaten 20.75 at 15 off 76, 60kg. 14 days out. HCP 45. Latest work 18 Sep KOL: Golden Glow (Arman Khan), Cash N Run (Azharuddin ), 47 400/29.4 Both Moved Up Together.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 2000M Class 2, 4/5 beaten 20.75 vs MINDFUL.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 2",
+            "pos": "4",
+            "field": "5",
+            "beaten": "20.75L",
+            "wt": "60",
+            "odds": "15",
+            "winner": "MINDFUL"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 2",
+            "pos": "8",
+            "field": "11",
+            "beaten": "17.75L",
+            "wt": "59.5",
+            "odds": "20",
+            "winner": "CIGAR GALAXY"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 2",
+            "pos": "7",
+            "field": "13",
+            "beaten": "3L",
+            "wt": "60",
+            "odds": "15",
+            "winner": "MERLET"
+          },
+          {
+            "date": "26 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 2",
+            "pos": "5",
+            "field": "8",
+            "beaten": "6L",
+            "wt": "60",
+            "odds": "13/2",
+            "winner": "FABLE"
+          }
+        ],
+        "work": [
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Golden Glow (Arman Khan), Cash N Run (Azharuddin ), 47 400/29.4 Both Moved Up Together."
+          },
+          {
+            "date": "13 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "Jimmy Bee (Aramn Khan), Golden Glow (Azharuddin ), 1-2.2 600/47.2, 400/30.2 Finished Together."
+          },
+          {
+            "date": "01 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+0)",
+            "note": "Golden Glow (Arman Khan), Cash N Run (Azharuddin ), 59.5 600/44, 400/27.6 Former Holds Latter."
+          },
+          {
+            "date": "29 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Golden Glow (Arman Khan ) 57.5 600/43, 400/28 moved smoothly."
+          }
+        ]
+      },
+      {
+        "cloth": 3,
+        "draw": 1,
+        "name": "AABUSHAN",
+        "age": "5y b g",
+        "pedigree": "Saamidd(GB) - Eliana",
+        "trainer": "P Quinn",
+        "jockey": "Hindu Singh",
+        "wt": "56.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "74 / 74",
+        "last5": "1-9-5-12-3-.",
+        "tissue": "41/2",
+        "rank": 3,
+        "verdict": "Last: 20 Aug 26 KOL 1600M 3/5 beaten 8.5 at 10 off 74, 56.5kg. 34 days out. HCP 55. Latest work 05 Sep KOL: Aabushan (Suraj Pal ) 1-3.5 600/49, 400/32 eased up.",
+        "similar": "Nearest trip: 20 Aug 26 KOL 1600M Class 2, 3/5 beaten 8.5 vs HEART.",
+        "form": [
+          {
+            "date": "20 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 2",
+            "pos": "3",
+            "field": "5",
+            "beaten": "8.5L",
+            "wt": "56.5",
+            "odds": "10",
+            "winner": "HEART"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 2",
+            "pos": "12",
+            "field": "13",
+            "beaten": "4.75L",
+            "wt": "59.5",
+            "odds": "12",
+            "winner": "MERLET"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 1",
+            "pos": "5",
+            "field": "11",
+            "beaten": "9.25L",
+            "wt": "52",
+            "odds": "15",
+            "winner": "SHINE"
+          },
+          {
+            "date": "12 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 1",
+            "pos": "9",
+            "field": "12",
+            "beaten": "12.5L",
+            "wt": "53",
+            "odds": "11/2",
+            "winner": "RULING STAR"
+          }
+        ],
+        "work": [
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+3)",
+            "note": "Aabushan (Suraj Pal ) 1-3.5 600/49, 400/32 eased up."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "Aabushan (Rb ) 48.5 400/31 Moved Easy."
+          },
+          {
+            "date": "30 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (+4)",
+            "note": "Aabushan (rb), Madras Cheque (rb ), 1-4 600/46, 400/30.6 fair finished up levelled."
+          },
+          {
+            "date": "19 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (+4)",
+            "note": "Madras Cheque (rb), Aabushan (rb ), 1-4.5 600/49.6, 400/33.4 both eased up, former finished 4 lengths ahead."
+          }
+        ]
+      },
+      {
+        "cloth": 4,
+        "draw": 3,
+        "name": "MULTIVERSE",
+        "age": "6y b g",
+        "pedigree": "Speaking Of Which(IRE) - Manifold",
+        "trainer": "B R Reddy",
+        "jockey": "P Tejeshwar",
+        "wt": "51.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "64 / 64",
+        "last5": "1-3-4-5-3-.",
+        "tissue": "69/8",
+        "rank": 2,
+        "verdict": "Last: 08 Sep 26 KOL 1800M 3/6 beaten 6.75 at 10 off 64, 61.5kg. 15 days out. HCP 63. Latest work 19 Sep KOL: Multiverse (P. Tejeshwar ) 43.5 jumped out well and started to move easy.",
+        "similar": "Nearest trip: 08 Sep 26 KOL 1800M Class 3, 3/6 beaten 6.75 vs BLACK DIAMOND.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1800m",
+            "cls": "Class 3",
+            "pos": "3",
+            "field": "6",
+            "beaten": "6.75L",
+            "wt": "61.5",
+            "odds": "10",
+            "winner": "BLACK DIAMOND"
+          },
+          {
+            "date": "19 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 2",
+            "pos": "5",
+            "field": "6",
+            "beaten": "14.5L",
+            "wt": "52",
+            "odds": "12",
+            "winner": "HEART"
+          },
+          {
+            "date": "05 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 2",
+            "pos": "4",
+            "field": "7",
+            "beaten": "4.75L",
+            "wt": "57.5",
+            "odds": "15",
+            "winner": "XANTHE"
+          },
+          {
+            "date": "14 Feb 26",
+            "venue": "KOL",
+            "dist": "2400m",
+            "cls": "Class 2",
+            "pos": "3",
+            "field": "4",
+            "beaten": "7L",
+            "wt": "56",
+            "odds": "9",
+            "winner": "STAR STUDDED"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "600m gate practice (-1)",
+            "note": "Multiverse (P. Tejeshwar ) 43.5 jumped out well and started to move easy."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "400m gate practices in monsoon (+3)",
+            "note": "Multiverse (P Tejeshwar In ) 33.5 Jumped Out Well And Started To Move Easy."
+          },
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Multiverse (V R Jagadeesh ) 1-5.5 600/47.2, 400/31.2 moved easy."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Multiverse (V R Jagadeesh ) 1-5.8 600/52, 400/35 Eased Up."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": 3,
+    "official": 50,
+    "name": "The Arktouros Plate",
+    "class": "Class 4 / For Horses Rated 21-46, 3 Years Old Only, Rated 1-26,. Eligible",
+    "dist": "1400m",
+    "time": "03:00 PM",
+    "purse": "₹1100000",
+    "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
+    "shape": "5-runner. Class 4 / For Horses Rated 21-46, 3 Years Old Only, Rated 1-26,. Eligible",
+    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "tissueNote": "120% book from HCP ranks. Win DREAMFLIGHT (3).",
+    "irPick": "unpublished",
+    "ourPick": "DREAMFLIGHT (3)",
+    "nap": false,
+    "runners": [
+      {
+        "cloth": 1,
+        "draw": 3,
+        "name": "AURA BENDER",
+        "age": "3y b c",
+        "pedigree": "Whatsthescript(IRE) - One Punch(USA)",
+        "trainer": "Aashay Doctor",
+        "jockey": "A M Tograllu",
+        "wt": "60",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "0 / 26",
+        "last5": "-",
+        "tissue": "24/1",
+        "rank": 2,
+        "verdict": "No published form. First starter or unraced on the IndiaRace card. HCP 26.",
+        "similar": "No race form.",
+        "form": [],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "1200m monsoon track (-11)",
+            "note": "Voula (P. Tejeshwar), Aura Bender (A M Tograllu), Only Dreams (Shah Alam apprentice ), 1-18.5 1000/1-3.2, 800/49, 600/35.6, 400/24.2 Voula kicked to finished distance ahead of Aura Bender who finished 4 lengths ahead of Only Dreams."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Only Dreams (Shah Alam Apprentice), Aura Bender (A M Tograllu ), 34.5 Former Was A Length In Front."
+          },
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Mulan (Jitendra), Aura Bender (A. M. Tograllu ), 47.5 400/28, extended together in the end."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+1)",
+            "note": "Aura Bender (P Tejeshwar), Mulkan (Vinit Chavan Apprentice ), 1-1.5 600/46.8, 400/29.8 former Trounced Latter."
+          }
+        ]
+      },
+      {
+        "cloth": 2,
+        "draw": 5,
+        "name": "IMPERIAL BLACK",
+        "age": "3y b c",
+        "pedigree": "Saamidd(GB) - Eliana",
+        "trainer": "Aashay Doctor",
+        "jockey": "Vishal Bunde",
+        "wt": "60",
+        "al": "",
+        "shoes": "A",
+        "eq": "BLK-TS",
+        "rtg": "26 / 26",
+        "last5": "5-.",
+        "tissue": "24/1",
+        "rank": 4,
+        "verdict": "Last: 26 Aug 26 KOL 1200M 5/5 beaten 5.75 at 9 off 26, 57.5kg. 28 days out. HCP 20. Latest work 19 Sep KOL: Imperial Black (A M Tograllu), Kindle (Shah Alam apprentice ), 57.5 600/43.6, 400/28.4 both moved up nicely former finished a length in front.",
+        "similar": "Nearest trip: 26 Aug 26 KOL 1200M Class 4, 5/5 beaten 5.75 vs TETSU.",
+        "form": [
+          {
+            "date": "26 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "5",
+            "beaten": "5.75L",
+            "wt": "57.5",
+            "odds": "9",
+            "winner": "TETSU"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Imperial Black (A M Tograllu), Kindle (Shah Alam apprentice ), 57.5 600/43.6, 400/28.4 both moved up nicely former finished a length in front."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Mutual Trust (Shah Alam Apprentice), Imperial Black (A M Tograllu ), 33.5 Former Finished 3 Lengths Ahead."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Raffaello (Shah Alam), Imperial Black (A M Tograllu ), 56.5 600/41.4, 400/25 former of the pair moved with more in hand"
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+6)",
+            "note": "Mutual Trust (Shah Alam), Imperial Black (A M Tograllu ), 51 400/33 pair moved up absolutely easy finished together."
+          }
+        ]
+      },
+      {
+        "cloth": 3,
+        "draw": 4,
+        "name": "DREAMFLIGHT",
+        "age": "3y b f",
+        "pedigree": "Dreamfield(GB) - Fly Like The Wind",
+        "trainer": "Vijay Singh",
+        "jockey": "Antony Raj S",
+        "wt": "58.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "",
+        "rtg": "0 / 23",
+        "last5": "3-3-.",
+        "tissue": "1/4",
+        "rank": 1,
+        "verdict": "Last: 30 Jan 26 KOL 1400M 3/4 beaten 7 at 9/4 off ?, 55.5kg. 236 days out. HCP 75. Latest work 19 Sep KOL: The Wind (Hindu Singh), Dreamflight (Apprentice ), 48.5 400/30 finished together.",
+        "similar": "Nearest trip: 30 Jan 26 KOL 1400M Term Race, 3/4 beaten 7 vs SAIKO.",
+        "form": [
+          {
+            "date": "30 Jan 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Term Race",
+            "pos": "3",
+            "field": "4",
+            "beaten": "7L",
+            "wt": "55.5",
+            "odds": "9/4",
+            "winner": "SAIKO"
+          },
+          {
+            "date": "01 Jan 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "For Horses",
+            "pos": "3",
+            "field": "5",
+            "beaten": "3.5L",
+            "wt": "53",
+            "odds": "20",
+            "winner": "LUTHER"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "The Wind (Hindu Singh), Dreamflight (Apprentice ), 48.5 400/30 finished together."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Mukeshair (Hindu Singh), Laguna Seca (Rb), Dreamflight (Rb ), 1-5 600/51.2, 400/34 Trio Moved Easy In Order 8 And 3 Lengths Accordingly."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+1)",
+            "note": "Dreamflight (Farid Ansari), (Mukeshair ), 1-1 600/46, 400/30 Former Finished Distance In Front."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+5)",
+            "note": "The Wind (Hindu Singh), Dreamflight (rb ), 35 former was 4 lengths in front."
+          }
+        ]
+      },
+      {
+        "cloth": 4,
+        "draw": 1,
+        "name": "THE WIND",
+        "age": "3y gr f",
+        "pedigree": "Western Aristocrat(USA) - British Empress",
+        "trainer": "Vijay Singh",
+        "jockey": "A Sandesh",
+        "wt": "58.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "0 / 23",
+        "last5": "5-5-4-.",
+        "tissue": "24/1",
+        "rank": 5,
+        "verdict": "Last: 19 Mar 26 KOL 1400M 4/5 beaten 11 at 15 off ?, 55kg. 188 days out. HCP 4. Latest work 19 Sep KOL: The Wind (Hindu Singh), Dreamflight (Apprentice ), 48.5 400/30 finished together.",
+        "similar": "Nearest trip: 19 Mar 26 KOL 1400M For Horses, 4/5 beaten 11 vs STORMCHASER.",
+        "form": [
+          {
+            "date": "19 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "For Horses",
+            "pos": "4",
+            "field": "5",
+            "beaten": "11L",
+            "wt": "55",
+            "odds": "15",
+            "winner": "STORMCHASER"
+          },
+          {
+            "date": "05 Mar 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "For Horses",
+            "pos": "5",
+            "field": "8",
+            "beaten": "5.5L",
+            "wt": "55",
+            "odds": "10",
+            "winner": "CIELO"
+          },
+          {
+            "date": "01 Jan 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "For Horses",
+            "pos": "5",
+            "field": "5",
+            "beaten": "19L",
+            "wt": "53",
+            "odds": "20",
+            "winner": "LUTHER"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "The Wind (Hindu Singh), Dreamflight (Apprentice ), 48.5 400/30 finished together."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+0)",
+            "note": "The Wind (Rb ) 59.5 600/45.6, 400/30 Moved Freely."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+5)",
+            "note": "The Wind (Hindu Singh), Dreamflight (rb ), 35 former was 4 lengths in front."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "The Wind (Farid Ansari), Dreamflight (rb ), 34.5 former moved distance in front."
+          }
+        ]
+      },
+      {
+        "cloth": 5,
+        "draw": 2,
+        "name": "VOULA",
+        "age": "3y ch f",
+        "pedigree": "Western Aristocrat(USA) - Halaqa(IRE)",
+        "trainer": "Aashay Doctor",
+        "jockey": "P Tejeshwar",
+        "wt": "58.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "",
+        "rtg": "0 / 23",
+        "last5": "-",
+        "tissue": "24/1",
+        "rank": 3,
+        "verdict": "No published form. First starter or unraced on the IndiaRace card. HCP 23.",
+        "similar": "No race form.",
+        "form": [],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "1200m monsoon track (-11)",
+            "note": "Voula (P. Tejeshwar), Aura Bender (A M Tograllu), Only Dreams (Shah Alam apprentice ), 1-18.5 1000/1-3.2, 800/49, 600/35.6, 400/24.2 Voula kicked to finished distance ahead of Aura Bender who finished 4 lengths ahead of Only Dreams."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Voula (P Tejeshwar ) 1-5 600/50.2, 400/31.2 Moved Easy."
+          },
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+4)",
+            "note": "Voula (P. Tejeshwar ) 49.5 400/30.8 moved easy."
+          },
+          {
+            "date": "15 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Voula (P Tejeshwar ) 33 Moved Easy."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": 4,
+    "official": 51,
+    "name": "The Idaho Handicap",
+    "class": "Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
+    "dist": "1600m",
+    "time": "03:30 PM",
+    "purse": "₹500000",
+    "record": "04 Mar 2018 WHOMAKESTHERULES 59 Kgs 1:34.80 Secs",
+    "shape": "5-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
+    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "tissueNote": "120% book from HCP ranks. Win THIS IS GOLD (2).",
+    "irPick": "unpublished",
+    "ourPick": "THIS IS GOLD (2)",
+    "nap": false,
+    "runners": [
+      {
+        "cloth": 1,
+        "draw": 4,
+        "name": "NATURAL GRACE",
+        "age": "5y b m",
+        "pedigree": "Phoenix Tower(USA) - Jazzy Jordan(USA)",
+        "trainer": "Neil Darashah",
+        "jockey": "Abhishek Mhatre",
+        "wt": "62",
+        "al": "2.5",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "65 / 65",
+        "last5": "4-4-6-7-4-.",
+        "tissue": "5/4",
+        "rank": 2,
+        "verdict": "Last: 13 Aug 26 KOL 1400M 4/12 beaten 6 at 15 off 65, 62kg. 41 days out. 2.5kg claim. HCP 72. Latest work 19 Sep KOL: Natural Grace (Vishal Bunde ) 58.5 600/43.4, 400/27.8 moved up nicely.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1400M Class 3, 4/12 beaten 6 vs EXCEED.",
+        "form": [
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "4",
+            "field": "12",
+            "beaten": "6L",
+            "wt": "62",
+            "odds": "15",
+            "winner": "EXCEED"
+          },
+          {
+            "date": "26 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 2",
+            "pos": "7",
+            "field": "8",
+            "beaten": "8.75L",
+            "wt": "54",
+            "odds": "12",
+            "winner": "FABLE"
+          },
+          {
+            "date": "25 Feb 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 2",
+            "pos": "6",
+            "field": "7",
+            "beaten": "6.75L",
+            "wt": "59.5",
+            "odds": "12",
+            "winner": "ABHICANDRA"
+          },
+          {
+            "date": "07 Feb 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 2",
+            "pos": "0",
+            "field": "4",
+            "beaten": "0L",
+            "wt": "60",
+            "odds": "",
+            "winner": "MINDFUL"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Natural Grace (Vishal Bunde ) 58.5 600/43.4, 400/27.8 moved up nicely."
+          },
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Natural Grace (rb ) 33 moved easy."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "800m monsoon track (-6)",
+            "note": "Natural Grace (Vishal Bunde ) 53.5 600/39.8, 400/25 moved fluently."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Natural Grace (rb ) 33 moved easy."
+          }
+        ]
+      },
+      {
+        "cloth": 2,
+        "draw": 2,
+        "name": "THIS IS GOLD",
+        "age": "5y ch m",
+        "pedigree": "Kingda Ka(AUS) - Al Khazneh",
+        "trainer": "Deepesh Narredu",
+        "jockey": "Aryan Jagtap",
+        "wt": "62",
+        "al": "5",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "65 / 65",
+        "last5": "10-2-2-3-3-.",
+        "tissue": "1/2",
+        "rank": 1,
+        "verdict": "Last: 20 Aug 26 KOL 1600M 3/4 beaten 6.5 at 15 off 65, 62kg. 34 days out. 5kg claim. HCP 76. Latest work 16 Sep KOL: This Is Gold (V Jaiswal ) 58.5 600/43, 400/28 Moved Smoothly.",
+        "similar": "Nearest trip: 20 Aug 26 KOL 1600M Class 3, 3/4 beaten 6.5 vs ADMIRINGLY.",
+        "form": [
+          {
+            "date": "20 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 3",
+            "pos": "3",
+            "field": "4",
+            "beaten": "6.5L",
+            "wt": "62",
+            "odds": "15",
+            "winner": "ADMIRINGLY"
+          },
+          {
+            "date": "11 Jan 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 2",
+            "pos": "3",
+            "field": "5",
+            "beaten": "1.75L",
+            "wt": "54",
+            "odds": "3",
+            "winner": "AABUSHAN"
+          },
+          {
+            "date": "18 Dec 25",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "2",
+            "field": "10",
+            "beaten": "0L",
+            "wt": "61.5",
+            "odds": "13/10",
+            "winner": "ANIGRAHA"
+          },
+          {
+            "date": "27 Sep 25",
+            "venue": "CHE",
+            "dist": "1600m",
+            "cls": "Class 3",
+            "pos": "2",
+            "field": "7",
+            "beaten": "0L",
+            "wt": "59",
+            "odds": "23/4",
+            "winner": "ELFIN KNIGHT"
+          }
+        ],
+        "work": [
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "This Is Gold (V Jaiswal ) 58.5 600/43, 400/28 Moved Smoothly."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Princess S (M Baskar), This Is Gold (V. Jaiswal ), 57 600/41.6, 400/26.5 former of the pair finished 5 lengths better."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "This Is Gold (M Baskar ) 1-5.5 600/49, 400/33 Moved Easy."
+          },
+          {
+            "date": "29 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Princess S (M Baskar), This Is Gold (V Jaiswal ), 58.5 600/43, 400/25.8 former extended nicely finished distance ahead."
+          }
+        ]
+      },
+      {
+        "cloth": 3,
+        "draw": 3,
+        "name": "BLACK DIAMOND",
+        "age": "4y dkb f",
+        "pedigree": "Fiero(JPN) - Adoria",
+        "trainer": "Deepesh Narredu",
+        "jockey": "Yash Narredu",
+        "wt": "57",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "45 / 55",
+        "last5": "1-3-8-4-1-.",
+        "tissue": "91/8",
+        "rank": 3,
+        "verdict": "Last: 08 Sep 26 KOL 1800M 1/6 beaten won at 4 off 45, 52kg. 15 days out. HCP 55. Latest work 19 Sep KOL: Black Diamond (V Jaiswal ) 1-4 600/47, 400/27.8 extended towards end.",
+        "similar": "Nearest trip: 08 Sep 26 KOL 1800M Class 3, 1/6 beaten 0 vs BLACK DIAMOND.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1800m",
+            "cls": "Class 3",
+            "pos": "1",
+            "field": "6",
+            "beaten": "won",
+            "wt": "52",
+            "odds": "4",
+            "winner": "BLACK DIAMOND"
+          },
+          {
+            "date": "20 Aug 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "5",
+            "beaten": "4L",
+            "wt": "62",
+            "odds": "9",
+            "winner": "GOODWILL"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "8",
+            "field": "10",
+            "beaten": "4.5L",
+            "wt": "54",
+            "odds": "5",
+            "winner": "CIGAR GALAXY"
+          },
+          {
+            "date": "06 Mar 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 3",
+            "pos": "3",
+            "field": "7",
+            "beaten": "5L",
+            "wt": "56.5",
+            "odds": "10",
+            "winner": "DUESENBERG"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+4)",
+            "note": "Black Diamond (V Jaiswal ) 1-4 600/47, 400/27.8 extended towards end."
+          },
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+4)",
+            "note": "Black Diamond (rb ) 1-4 600/49, 400/32 eased up."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Black Diamond (V Jaiswal ) 1-5.5 600/51.8,400/33.6 Moved Easy."
+          },
+          {
+            "date": "27 Aug",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Black Diamond (V Jaiswal ) 32 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 4,
+        "draw": 1,
+        "name": "DARDANUS",
+        "age": "3y b c",
+        "pedigree": "Dreamfield(GB) - Smoking Bell",
+        "trainer": "Bharath Singh",
+        "jockey": "Antony Raj S",
+        "wt": "55",
+        "al": "",
+        "shoes": "A",
+        "eq": "XNB",
+        "rtg": "47 / 51",
+        "last5": "1-1-3-.",
+        "tissue": "24/1",
+        "rank": 4,
+        "verdict": "Last: 30 Jul 26 BAN 1600M 3/6 beaten 6.25 at 20 off 47, 57kg. 55 days out. HCP 36. Latest work 19 Sep KOL: Dardanus (R Vaibhav ) 2-16.5 jumped out well was pressed towards end.",
+        "similar": "Nearest trip: 30 Jul 26 BAN 1600M Term Race, 3/6 beaten 6.25 vs STARZELLA.",
+        "form": [
+          {
+            "date": "30 Jul 26",
+            "venue": "BAN",
+            "dist": "1600m",
+            "cls": "Term Race",
+            "pos": "3",
+            "field": "6",
+            "beaten": "6.25L",
+            "wt": "57",
+            "odds": "20",
+            "winner": "STARZELLA"
+          },
+          {
+            "date": "21 Jun 26",
+            "venue": "BAN",
+            "dist": "1800m",
+            "cls": "Class 4",
+            "pos": "1",
+            "field": "9",
+            "beaten": "won",
+            "wt": "59",
+            "odds": "2",
+            "winner": "DARDANUS"
+          },
+          {
+            "date": "10 Mar 26",
+            "venue": "HYD",
+            "dist": "1200m",
+            "cls": "Maiden",
+            "pos": "1",
+            "field": "13",
+            "beaten": "won",
+            "wt": "56",
+            "odds": "7",
+            "winner": "DARDANUS"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "2000m gate practice (-13)",
+            "note": "Dardanus (R Vaibhav ) 2-16.5 jumped out well was pressed towards end."
+          },
+          {
+            "date": "13 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Dardanus (Hindu Singh ) 32 Moved Easy."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Dardanus (Hindu Singh ) 34 moved easy."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "400m gate practice (+1)",
+            "note": "Dardanus (R Vaibhav ) 31 jumped out well and started to move easy."
+          }
+        ]
+      },
+      {
+        "cloth": 5,
+        "draw": 5,
+        "name": "OH MY DARLING",
+        "age": "6y gr m",
+        "pedigree": "Sedgefield(USA) - Spark Of Silver",
+        "trainer": "Vikash Jaiswal",
+        "jockey": "Varun",
+        "wt": "51",
+        "al": "",
+        "shoes": "S",
+        "eq": "TS",
+        "rtg": "43 / 43",
+        "last5": "6-3-2-7-8-.",
+        "tissue": "24/1",
+        "rank": 5,
+        "verdict": "Last: 08 Sep 26 KOL 1100M 8/10 beaten 25 at 15 off 43, 61kg. 15 days out. HCP 16. Latest work 22 Aug KOL: Oh My Darling (Gopal Apprentice ) 51 400/34 Unextended.",
+        "similar": "Nearest trip: 27 Mar 26 KOL 1400M Class 3, 2/10 beaten 0 vs SEA EAGLE.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "8",
+            "field": "10",
+            "beaten": "25L",
+            "wt": "61",
+            "odds": "15",
+            "winner": "DIVINE RUN"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 3",
+            "pos": "7",
+            "field": "12",
+            "beaten": "10.5L",
+            "wt": "51",
+            "odds": "20",
+            "winner": "TIMELESS FORTUNE"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "2",
+            "field": "10",
+            "beaten": "0L",
+            "wt": "52.5",
+            "odds": "9/2",
+            "winner": "SEA EAGLE"
+          },
+          {
+            "date": "06 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 4",
+            "pos": "3",
+            "field": "14",
+            "beaten": "2.25L",
+            "wt": "60",
+            "odds": "9/2",
+            "winner": "BANDUK WALI"
+          }
+        ],
+        "work": [
+          {
+            "date": "22 Aug",
+            "venue": "KOL",
+            "clock": "600m outer sand (+6)",
+            "note": "Oh My Darling (Gopal Apprentice ) 51 400/34 Unextended."
+          },
+          {
+            "date": "17 Aug",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Oh My Darling (Rakesh ) 34 Moved Easy."
+          },
+          {
+            "date": "02 Aug",
+            "venue": "KOL",
+            "clock": "600m outer sand (+4)",
+            "note": "Oh My Darling (Gopal Apprentice ) 49.5 400/32 Moved Easy."
+          },
+          {
+            "date": "26 Jul",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Oh My Darling (Varun), Clifford (rb ), 47 400/31 both eased up while former finished 3 lengths ahead."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": 5,
+    "official": 52,
+    "name": "The Desert Shot Cup",
+    "class": "Class 1 / For Horses Rated 95 And Above",
+    "dist": "1200m",
+    "time": "04:00 PM",
+    "purse": "₹1000000",
+    "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
+    "shape": "6-runner. Class 1 / For Horses Rated 95 And Above",
+    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "tissueNote": "120% book from HCP ranks. Win BLACK EAGLE (1).",
+    "irPick": "unpublished",
+    "ourPick": "BLACK EAGLE (1)",
+    "nap": true,
+    "runners": [
+      {
+        "cloth": 1,
+        "draw": 2,
+        "name": "BLACK EAGLE",
+        "age": "7y b h",
+        "pedigree": "Excellent Art(GB) - Classic Sky",
+        "trainer": "B R Reddy",
+        "jockey": "Gaurav Singh",
+        "wt": "61",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "117 / 117",
+        "last5": "1-3-3-1-2-.",
+        "tissue": "1/4",
+        "rank": 1,
+        "verdict": "Last: 16 Sep 26 KOL 1400M 2/5 beaten 1.5 at 6 off 117, 60kg. 7 days out. HCP 125. Latest work 12 Sep KOL: Black Eagle (Farid Ansari ) 57 600/43, 4000/27 moved on the bit.",
+        "similar": "Nearest trip: 16 Sep 26 KOL 1400M For Horses, 2/5 beaten 1.5 vs TRAKILA.",
+        "form": [
+          {
+            "date": "16 Sep 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "For Horses",
+            "pos": "2",
+            "field": "5",
+            "beaten": "1.5L",
+            "wt": "60",
+            "odds": "6",
+            "winner": "TRAKILA"
+          },
+          {
+            "date": "26 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "For Horses",
+            "pos": "1",
+            "field": "6",
+            "beaten": "won",
+            "wt": "60",
+            "odds": "16/10",
+            "winner": "BLACK EAGLE"
+          },
+          {
+            "date": "11 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "For Horses",
+            "pos": "3",
+            "field": "5",
+            "beaten": "3.25L",
+            "wt": "59",
+            "odds": "13/2",
+            "winner": "TRAKILA"
+          },
+          {
+            "date": "14 Feb 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 1",
+            "pos": "3",
+            "field": "7",
+            "beaten": "3L",
+            "wt": "65.5",
+            "odds": "9/4",
+            "winner": "PANTAZI"
+          }
+        ],
+        "work": [
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Black Eagle (Farid Ansari ) 57 600/43, 4000/27 moved on the bit."
+          },
+          {
+            "date": "09 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Black Eagle (P Tejeshwar ) 58 600/44, 400/28 Moved Nicely."
+          },
+          {
+            "date": "08 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+0)",
+            "note": "Black Eagle (P Tejeshwar ) 1-0.5 600/44.8, 400/28 Moved On The Bit."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Black Eagle (P. Tejeshwar ) 58.5 600/43.4, 400/28 moved hands down."
+          }
+        ]
+      },
+      {
+        "cloth": 2,
+        "draw": 3,
+        "name": "KALAMITSI",
+        "age": "7y b g",
+        "pedigree": "Win Legend(JPN) - Practicallyperfect",
+        "trainer": "Aashay Doctor",
+        "jockey": "P Tejeshwar",
+        "wt": "53",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-CNB",
+        "rtg": "97 / 101",
+        "last5": "4-1-2-5-4-.",
+        "tissue": "149/10",
+        "rank": 4,
+        "verdict": "Last: 25 Jul 26 BAN 1200M 4/6 beaten 4.5 at 12 off 97, 60kg. 60 days out. HCP 98. Latest work 12 Sep KOL: Kalamitsi (A M Tograllu ) 49.5 600/37.2, 4000/26.8 moved freely.",
+        "similar": "Nearest trip: 25 Jul 26 BAN 1200M For Horses, 4/6 beaten 4.5 vs DREAM SELLER.",
+        "form": [
+          {
+            "date": "25 Jul 26",
+            "venue": "BAN",
+            "dist": "1200m",
+            "cls": "For Horses",
+            "pos": "4",
+            "field": "6",
+            "beaten": "4.5L",
+            "wt": "60",
+            "odds": "12",
+            "winner": "DREAM SELLER"
+          },
+          {
+            "date": "28 Jun 26",
+            "venue": "BAN",
+            "dist": "1200m",
+            "cls": "For Horses",
+            "pos": "5",
+            "field": "5",
+            "beaten": "1.5L",
+            "wt": "57",
+            "odds": "15",
+            "winner": "RIEKO"
+          },
+          {
+            "date": "06 Jun 26",
+            "venue": "BAN",
+            "dist": "1400m",
+            "cls": "Class 1",
+            "pos": "2",
+            "field": "6",
+            "beaten": "0.5L",
+            "wt": "58",
+            "odds": "7/2",
+            "winner": "XANTHE"
+          },
+          {
+            "date": "09 May 26",
+            "venue": "BAN",
+            "dist": "1200m",
+            "cls": "Class 1",
+            "pos": "1",
+            "field": "6",
+            "beaten": "won",
+            "wt": "54.5",
+            "odds": "12",
+            "winner": "KALAMITSI"
+          }
+        ],
+        "work": [
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "800m monsoon track (-10)",
+            "note": "Kalamitsi (A M Tograllu ) 49.5 600/37.2, 4000/26.8 moved freely."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Kalamitsi (P. Tejeshwar ) 58.5 600/42.6, 400/26.6 moved nicely."
+          },
+          {
+            "date": "09 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Exceed (Rb), Kalamitsi (Rb ), 34.5 Former Finished 3 Lengths In Front."
+          },
+          {
+            "date": "08 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Kalamitsi (Ranveer Apprentice ) 34 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 3,
+        "draw": 5,
+        "name": "CHARISMATIC",
+        "age": "4y ch g",
+        "pedigree": "Excellent Art(GB) - First And Only One",
+        "trainer": "Rutherford Alford",
+        "jockey": "A Ashhad Asbar",
+        "wt": "52",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "95 / 99",
+        "last5": "1-7-2-2-1-.",
+        "tissue": "67/5",
+        "rank": 3,
+        "verdict": "Last: 20 Mar 26 KOL 1600M 1/6 beaten won at 17/10 off 95, 55.5kg. 187 days out. HCP 99. Latest work 19 Sep KOL: Charismatic (Md Sameer ) 34 unextended.",
+        "similar": "Nearest trip: 05 Mar 26 KOL 1400M Class 1, 2/10 beaten 0 vs KING LOUIS.",
+        "form": [
+          {
+            "date": "20 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "For Horses",
+            "pos": "1",
+            "field": "6",
+            "beaten": "won",
+            "wt": "55.5",
+            "odds": "17/10",
+            "winner": "CHARISMATIC"
+          },
+          {
+            "date": "12 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 1",
+            "pos": "2",
+            "field": "12",
+            "beaten": "0L",
+            "wt": "54",
+            "odds": "3/2",
+            "winner": "RULING STAR"
+          },
+          {
+            "date": "05 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 1",
+            "pos": "2",
+            "field": "10",
+            "beaten": "0L",
+            "wt": "50",
+            "odds": "3",
+            "winner": "KING LOUIS"
+          },
+          {
+            "date": "01 Jan 26",
+            "venue": "KOL",
+            "dist": "2200m",
+            "cls": "Class 1",
+            "pos": "7",
+            "field": "10",
+            "beaten": "10.5L",
+            "wt": "52",
+            "odds": "18/10",
+            "winner": "MAIN STREET"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Charismatic (Md Sameer ) 34 unextended."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "1400m mock race (-16)",
+            "note": "Charismatic (A AshhadAsbar), Fast Approach (Gopal Singh), Three Little Words (M Baskar), Gold Script (Suraj Pal), Jimmy Bee (Md Azharuddin), Macchiato (Md Sameer), She's My Gal (R. Vaibhav ), 1-28.91 2 1/4, 1 1/4, 4 1/4, 5, Distance, Distance. Mechiavillian was withdrawn before starting Gate."
+          },
+          {
+            "date": "15 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Charismatic (Md Sameer ) 33 Moved Easy."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Charismatic (Md Sameer ) 34 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 4,
+        "draw": 1,
+        "name": "RULING STAR",
+        "age": "6y b g",
+        "pedigree": "Roderic O'connor(IRE) - Sweeping Star",
+        "trainer": "Sabeel Shariff",
+        "jockey": "Md Azharuddin",
+        "wt": "52",
+        "al": "",
+        "shoes": "S",
+        "eq": "TS-BLK",
+        "rtg": "105 / 99",
+        "last5": "1-1-1-3-4-.",
+        "tissue": "97/10",
+        "rank": 2,
+        "verdict": "Last: 27 Mar 26 KOL 1200M 4/11 beaten 7.5 at 15 off 105, 61kg. 180 days out. HCP 102. Latest work 19 Sep KOL: Real Happiness (Azharuddin), Ruling star (rb ), 57 600/43, 400/28.8 pair moved up nicely.",
+        "similar": "Nearest trip: 27 Mar 26 KOL 1200M Class 1, 4/11 beaten 7.5 vs SHINE.",
+        "form": [
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 1",
+            "pos": "4",
+            "field": "11",
+            "beaten": "7.5L",
+            "wt": "61",
+            "odds": "15",
+            "winner": "SHINE"
+          },
+          {
+            "date": "20 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "For Horses",
+            "pos": "3",
+            "field": "6",
+            "beaten": "2.5L",
+            "wt": "58.5",
+            "odds": "9",
+            "winner": "CHARISMATIC"
+          },
+          {
+            "date": "12 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 1",
+            "pos": "1",
+            "field": "12",
+            "beaten": "won",
+            "wt": "54.5",
+            "odds": "15/2",
+            "winner": "RULING STAR"
+          },
+          {
+            "date": "23 Jan 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 2",
+            "pos": "1",
+            "field": "4",
+            "beaten": "won",
+            "wt": "60",
+            "odds": "6",
+            "winner": "RULING STAR"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Real Happiness (Azharuddin), Ruling star (rb ), 57 600/43, 400/28.8 pair moved up nicely."
+          },
+          {
+            "date": "15 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (-3)",
+            "note": "Real Happiness (Arman Khan), Ruling Star (Azharuddin ), 41.5 400/26.6 Pair Impressed And Finished Together."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Cache (Arman Khan), Ruling Star (Azharuddin ), 57 600/42, 400/27 Finished Together."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Ruling star (Azzharuddin), Aperol (rb ), 33.5 both moved easy while former was moved 6 lengths in front."
+          }
+        ]
+      },
+      {
+        "cloth": 5,
+        "draw": 4,
+        "name": "BLACKSTONE",
+        "age": "6y b g",
+        "pedigree": "Planetaire(GB) - Polydences",
+        "trainer": "Rutherford Alford",
+        "jockey": "Hindu Singh",
+        "wt": "50",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "90 / 95",
+        "last5": "4-11-7-7-3-.",
+        "tissue": "24/1",
+        "rank": 5,
+        "verdict": "Last: 20 Aug 26 KOL 1100M 3/3 beaten 1.25 at 15 off 90, 54.5kg. 34 days out. HCP 87. Latest work 19 Sep KOL: Blackstone (Sk Israil ) 48 600/35.2, 400/23 finished attractively.",
+        "similar": "Nearest trip: 20 Aug 26 KOL 1100M Class 1, 3/3 beaten 1.25 vs VICTORIA CROSS.",
+        "form": [
+          {
+            "date": "20 Aug 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 1",
+            "pos": "3",
+            "field": "3",
+            "beaten": "1.25L",
+            "wt": "54.5",
+            "odds": "15",
+            "winner": "VICTORIA CROSS"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 1",
+            "pos": "0",
+            "field": "9",
+            "beaten": "0L",
+            "wt": "54.5",
+            "odds": "",
+            "winner": "ROCK BANK"
+          },
+          {
+            "date": "05 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 1",
+            "pos": "0",
+            "field": "10",
+            "beaten": "0L",
+            "wt": "55.5",
+            "odds": "",
+            "winner": "KING LOUIS"
+          },
+          {
+            "date": "14 Feb 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 1",
+            "pos": "7",
+            "field": "7",
+            "beaten": "5.5L",
+            "wt": "52.5",
+            "odds": "20",
+            "winner": "PANTAZI"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m monsoon track (-12)",
+            "note": "Blackstone (Sk Israil ) 48 600/35.2, 400/23 finished attractively."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Blackstone (V Jaiswal ) 58 600/43, 40/28 Moved Nicely."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Blackstone (Prem Wadkar ) 34 moved easy."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m monsoon track (-12)",
+            "note": "Blackstone (SkIsrail ) 48 600/35.6, 400/22 impressed."
+          }
+        ]
+      },
+      {
+        "cloth": 6,
+        "draw": 6,
+        "name": "KING'S RETREAT",
+        "age": "6y b g",
+        "pedigree": "Leitir Mor(IRE) - Balmoral Castle",
+        "trainer": "B R Reddy",
+        "jockey": "V R Jagadeesh",
+        "wt": "50",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-HOOD",
+        "rtg": "89 / 95",
+        "last5": "4-5-8-6-2-.",
+        "tissue": "24/1",
+        "rank": 6,
+        "verdict": "Last: 08 Sep 26 KOL 1600M 2/8 beaten 0 at 15 off 89, 54kg. 15 days out. HCP 86. Latest work 17 Sep KOL: King's Retreat (Ranveer ) 33.5 moved easy.",
+        "similar": "Nearest trip: 06 Aug 26 KOL 1400M Class 1, 6/9 beaten 7.5 vs ROCK BANK.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 1",
+            "pos": "2",
+            "field": "8",
+            "beaten": "0L",
+            "wt": "54",
+            "odds": "15",
+            "winner": "HEART"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 1",
+            "pos": "6",
+            "field": "9",
+            "beaten": "7.5L",
+            "wt": "54",
+            "odds": "15",
+            "winner": "ROCK BANK"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 1",
+            "pos": "8",
+            "field": "11",
+            "beaten": "11.25L",
+            "wt": "58",
+            "odds": "15",
+            "winner": "SHINE"
+          },
+          {
+            "date": "12 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 1",
+            "pos": "5",
+            "field": "12",
+            "beaten": "4.5L",
+            "wt": "60",
+            "odds": "15",
+            "winner": "RULING STAR"
+          }
+        ],
+        "work": [
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "King's Retreat (Ranveer ) 33.5 moved easy."
+          },
+          {
+            "date": "29 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "King's Retreat (V R Jagadeesh ) 56.5 600/43.4, 400/26.4 moved nicely."
+          },
+          {
+            "date": "27 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "King's Retreat (Rb ) 1-5 600/46.8, 400/29.8 Moved Fluently."
+          },
+          {
+            "date": "27 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (+1)",
+            "note": "King's Retreat (Rb ) 1-1.5 600/46.8, 400/29.8 Moved Fluently."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": 6,
+    "official": 53,
+    "name": "The Steinlen Handicap Div-1",
+    "class": "Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
+    "dist": "1400m",
+    "time": "04:30 PM",
+    "purse": "₹400000",
+    "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
+    "shape": "9-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
+    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "tissueNote": "120% book from HCP ranks. Win FELIX (3).",
+    "irPick": "unpublished",
+    "ourPick": "FELIX (3)",
+    "nap": false,
+    "runners": [
+      {
+        "cloth": 1,
+        "draw": 7,
+        "name": "LADY DON",
+        "age": "6y b m",
+        "pedigree": "Sanus Per Aquam(IRE) - Dancer's Fan(CAN)",
+        "trainer": "B Mahesh",
+        "jockey": "Jayden Alford",
+        "wt": "62.5",
+        "al": "5",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "46 / 46",
+        "last5": "11-8-2-4-11-.",
+        "tissue": "67/10",
+        "rank": 5,
+        "verdict": "Last: 09 Sep 26 KOL 1100M 11/12 beaten 11.25 at 15 off 46, 52.5kg. 14 days out. 5kg claim. HCP 31. Latest work 18 Sep KOL: Lady Don (Jitendra Apprentice ) 35 Moved Easy.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1400M Class 4, 4/8 beaten 5.25 vs ARGENTO.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 3",
+            "pos": "11",
+            "field": "12",
+            "beaten": "11.25L",
+            "wt": "52.5",
+            "odds": "15",
+            "winner": "FOUJITA"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "8",
+            "beaten": "5.25L",
+            "wt": "62.5",
+            "odds": "6",
+            "winner": "ARGENTO"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "2",
+            "field": "12",
+            "beaten": "7L",
+            "wt": "61",
+            "odds": "8",
+            "winner": "UPPER STREET"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "8",
+            "field": "10",
+            "beaten": "11.5L",
+            "wt": "55.5",
+            "odds": "12",
+            "winner": "SEA EAGLE"
+          }
+        ],
+        "work": [
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+5)",
+            "note": "Lady Don (Jitendra Apprentice ) 35 Moved Easy."
+          },
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Lady Don (rb ) 1-5.5 600/50.8, 400/33 moved easy."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Lady Don (Rb ) 1-5 600/51, 400/33 Eased Up."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Lady Don (Rb ) 1-5.5 600/49, 4000/31.8 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 2,
+        "draw": 8,
+        "name": "VIVALDI",
+        "age": "5y b g",
+        "pedigree": "Roderic O'connor(IRE) - Ice Glacier",
+        "trainer": "Aashay Doctor",
+        "jockey": "Hindu Singh",
+        "wt": "62",
+        "al": "",
+        "shoes": "A",
+        "eq": "XNB",
+        "rtg": "45 / 45",
+        "last5": "2-5-5-5-5-.",
+        "tissue": "5/2",
+        "rank": 2,
+        "verdict": "Last: 06 Aug 26 KOL 1400M 5/12 beaten 9.75 at 10 off 45, 62kg. 48 days out. HCP 39. Latest work 19 Sep KOL: Vivaldi (A M Tograllu ) 31.5 moved easy.",
+        "similar": "Nearest trip: 06 Aug 26 KOL 1400M Class 4, 5/12 beaten 9.75 vs UPPER STREET.",
+        "form": [
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "12",
+            "beaten": "9.75L",
+            "wt": "62",
+            "odds": "10",
+            "winner": "UPPER STREET"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "5",
+            "field": "10",
+            "beaten": "4.5L",
+            "wt": "56",
+            "odds": "10",
+            "winner": "SEA EAGLE"
+          },
+          {
+            "date": "20 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "5",
+            "field": "10",
+            "beaten": "9.75L",
+            "wt": "55.5",
+            "odds": "12",
+            "winner": "CONJURER"
+          },
+          {
+            "date": "06 Mar 26",
+            "venue": "KOL",
+            "dist": "2000m",
+            "cls": "Class 3",
+            "pos": "5",
+            "field": "7",
+            "beaten": "10L",
+            "wt": "59",
+            "odds": "12",
+            "winner": "DUESENBERG"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+1)",
+            "note": "Vivaldi (A M Tograllu ) 31.5 moved easy."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (-3)",
+            "note": "Vivaldi (A M Tograllu ) 42 400/26.8 moved freely."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "Vivaldi (A M Tograllu ) 1-2 600/46, 400/31.6 moved easy."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+7)",
+            "note": "Vivaldi (Vinit Chavan) 52 400/34 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 3,
+        "draw": 4,
+        "name": "FELIX",
+        "age": "6y ch g",
+        "pedigree": "Sir Percy(GB) - Alacritas(GB)",
+        "trainer": "Rutherford Alford",
+        "jockey": "A Ashhad Asbar",
+        "wt": "60",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "35 / 41",
+        "last5": "7-8-10-6-1-.",
+        "tissue": "9/5",
+        "rank": 1,
+        "verdict": "Last: 08 Sep 26 KOL 1100M 1/9 beaten won at 13/4 off 35, 57kg. 15 days out. HCP 41. Latest work 19 Sep KOL: Felix (Sk. Israil ) 49 600/36.2, 400/24 impressed.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1200M Class 4, 6/11 beaten 12 vs DR DOOM.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "1",
+            "field": "9",
+            "beaten": "won",
+            "wt": "57",
+            "odds": "13/4",
+            "winner": "FELIX"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "6",
+            "field": "11",
+            "beaten": "12L",
+            "wt": "57",
+            "odds": "15",
+            "winner": "DR DOOM"
+          },
+          {
+            "date": "06 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "10",
+            "field": "14",
+            "beaten": "12.75L",
+            "wt": "59",
+            "odds": "15",
+            "winner": "CONTESSINA"
+          },
+          {
+            "date": "20 Feb 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "8",
+            "field": "9",
+            "beaten": "14.5L",
+            "wt": "60",
+            "odds": "20",
+            "winner": "SCHOENBERG"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m monsoon track (-11)",
+            "note": "Felix (Sk. Israil ) 49 600/36.2, 400/24 impressed."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+5)",
+            "note": "Felix (V Jaiswal ) 35 Moved Easy."
+          },
+          {
+            "date": "23 Aug",
+            "venue": "KOL",
+            "clock": "600m outer sand (+4)",
+            "note": "Felix (Suraj Apprentice ) 49 400/33 Unextended."
+          },
+          {
+            "date": "10 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (+4)",
+            "note": "Felix (Md Sameer ) 1-4.5 600/49.6, 400/31.4 Eased Up Towards End."
+          }
+        ]
+      },
+      {
+        "cloth": 4,
+        "draw": 5,
+        "name": "IMMORTAL BEAUTY",
+        "age": "6y b m",
+        "pedigree": "Multidimensional(IRE) - Ice Beauty",
+        "trainer": "Ritesh E K",
+        "jockey": "Arman Khan",
+        "wt": "58.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "41 / 38",
+        "last5": "5-9-5-6-7-.",
+        "tissue": "24/1",
+        "rank": 7,
+        "verdict": "Last: 26 Aug 26 KOL 1200M 7/10 beaten 8 at 15 off 41, 50kg. 28 days out. HCP 15. Latest work 01 Aug KOL: Immortal Beauty (Azharuddin ) 57 600/41.2, 400/25.6 urged heavily.",
+        "similar": "Nearest trip: 26 Aug 26 KOL 1200M Class 3, 7/10 beaten 8 vs GIMMLER.",
+        "form": [
+          {
+            "date": "26 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "7",
+            "field": "10",
+            "beaten": "8L",
+            "wt": "50",
+            "odds": "15",
+            "winner": "GIMMLER"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "6",
+            "field": "8",
+            "beaten": "7.5L",
+            "wt": "60",
+            "odds": "15",
+            "winner": "ARGENTO"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "9",
+            "beaten": "8.75L",
+            "wt": "60",
+            "odds": "20",
+            "winner": "LARA"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "9",
+            "field": "10",
+            "beaten": "6.5L",
+            "wt": "52",
+            "odds": "15",
+            "winner": "CIGAR GALAXY"
+          }
+        ],
+        "work": [
+          {
+            "date": "01 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Immortal Beauty (Azharuddin ) 57 600/41.2, 400/25.6 urged heavily."
+          },
+          {
+            "date": "31 Jul",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "Immortal Beauty (Arman Khan ) 1-2.5 600/48, 400/31.4 moved easy."
+          },
+          {
+            "date": "25 Jul",
+            "venue": "KOL",
+            "clock": "400m outer sand (-2)",
+            "note": "Immortal Beauty (Arman Khanb ) 28 moved freely."
+          },
+          {
+            "date": "21 Jul",
+            "venue": "KOL",
+            "clock": "600m inner sand (+1)",
+            "note": "Immortal Beauty (Rb ) 46 400/30 Moved Freely."
+          }
+        ]
+      },
+      {
+        "cloth": 5,
+        "draw": 1,
+        "name": "TRUE FAITH",
+        "age": "6y b h",
+        "pedigree": "Total Gallery(IRE) - South Lake",
+        "trainer": "Vikash Jaiswal",
+        "jockey": "Varun",
+        "wt": "58.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "38 / 38",
+        "last5": "7-4-2-9-5-.",
+        "tissue": "53/10",
+        "rank": 4,
+        "verdict": "Last: 08 Sep 26 KOL 1100M 0/9 beaten 0 at ? off 38, 58.5kg. 15 days out. HCP 33. Latest work 19 Sep KOL: Supreme Grandeur (rb), True Faith (rb ), 1-6 600/51, 400/32.2 former finished 6 lengths ahead.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1400M Class 4, 5/8 beaten 5.75 vs ARGENTO.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "0",
+            "field": "9",
+            "beaten": "0L",
+            "wt": "58.5",
+            "odds": "",
+            "winner": "FELIX"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "8",
+            "beaten": "5.75L",
+            "wt": "58.5",
+            "odds": "15",
+            "winner": "ARGENTO"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "9",
+            "field": "14",
+            "beaten": "6.75L",
+            "wt": "53.5",
+            "odds": "7",
+            "winner": "GIMMLER"
+          },
+          {
+            "date": "26 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 4",
+            "pos": "2",
+            "field": "5",
+            "beaten": "0L",
+            "wt": "60",
+            "odds": "10",
+            "winner": "LOCHS AND GLENS"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+6)",
+            "note": "Supreme Grandeur (rb), True Faith (rb ), 1-6 600/51, 400/32.2 former finished 6 lengths ahead."
+          },
+          {
+            "date": "13 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+1)",
+            "note": "True Faith (Gopal Apprentice ) 31 Moved Easily."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "True Faith (Varun ) 1-2 600/45.6, 400/31 moved easy"
+          },
+          {
+            "date": "29 Aug",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "True Faith (Varun ) 47 400/30 moved freely."
+          }
+        ]
+      },
+      {
+        "cloth": 6,
+        "draw": 2,
+        "name": "CASHMERE SILK",
+        "age": "5y b m",
+        "pedigree": "Chinese Whisper(IRE) - Ultrasonic",
+        "trainer": "Sabeel Shariff",
+        "jockey": "Md Azharuddin",
+        "wt": "57",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "24 / 35",
+        "last5": "8-10-10-5-1-.",
+        "tissue": "33/8",
+        "rank": 3,
+        "verdict": "Last: 08 Sep 26 KOL 1400M 1/8 beaten won at 5/2 off 24, 61.5kg. 15 days out. HCP 35. Latest work 04 Sep KOL: Cashmere Silk (Arman Khan), Cashalaika (Rb), Don'tstopthemusic (Azharuddin ), 49.5 400/29.6 Trio Finished Close Together.",
+        "similar": "Nearest trip: 08 Sep 26 KOL 1400M Class 5, 1/8 beaten 0 vs CASHMERE SILK.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "1",
+            "field": "8",
+            "beaten": "won",
+            "wt": "61.5",
+            "odds": "5/2",
+            "winner": "CASHMERE SILK"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "5",
+            "field": "12",
+            "beaten": "1.25L",
+            "wt": "61.5",
+            "odds": "5",
+            "winner": "VENENO"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "10",
+            "field": "11",
+            "beaten": "11L",
+            "wt": "55.5",
+            "odds": "12",
+            "winner": "MI ARION"
+          },
+          {
+            "date": "19 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "10",
+            "field": "10",
+            "beaten": "14.75L",
+            "wt": "55.5",
+            "odds": "12",
+            "winner": "GIMMLER"
+          }
+        ],
+        "work": [
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+4)",
+            "note": "Cashmere Silk (Arman Khan), Cashalaika (Rb), Don'tstopthemusic (Azharuddin ), 49.5 400/29.6 Trio Finished Close Together."
+          },
+          {
+            "date": "28 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Cashmere Silk (Arman Khan ) 59 600/44, 400/29 Moved Freely."
+          },
+          {
+            "date": "27 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Cashmere Silk (Arman Khan ) 59 600/44, 400/29 moved On The Bit."
+          },
+          {
+            "date": "27 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Cashmere Silk (Arman Khan ) 59 600/44, 400/29 moved On The Bit."
+          }
+        ]
+      },
+      {
+        "cloth": 7,
+        "draw": 3,
+        "name": "MEMPHIS",
+        "age": "5y ch m",
+        "pedigree": "Dreamfield(GB) - Cinch",
+        "trainer": "Javed Khan",
+        "jockey": "Vinay Jaiswal",
+        "wt": "54",
+        "al": "",
+        "shoes": "S",
+        "eq": "TS-BLK",
+        "rtg": "29 / 29",
+        "last5": "3-2-10-6-4-.",
+        "tissue": "24/1",
+        "rank": 6,
+        "verdict": "Last: 09 Sep 26 KOL 1200M 4/9 beaten 5.5 at 10 off 29, 54kg. 14 days out. HCP 16. Latest work 05 Sep KOL: Memphis (rb ) 32 unextended.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 1200M Class 4, 4/9 beaten 5.5 vs CACHE.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "9",
+            "beaten": "5.5L",
+            "wt": "54",
+            "odds": "10",
+            "winner": "CACHE"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "6",
+            "field": "12",
+            "beaten": "11L",
+            "wt": "54",
+            "odds": "15",
+            "winner": "TRILLIONAIRE"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "10",
+            "field": "12",
+            "beaten": "28L",
+            "wt": "54",
+            "odds": "15",
+            "winner": "UPPER STREET"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "2",
+            "field": "11",
+            "beaten": "2.5L",
+            "wt": "55",
+            "odds": "12",
+            "winner": "MI ARION"
+          }
+        ],
+        "work": [
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Memphis (rb ) 32 unextended."
+          },
+          {
+            "date": "29 Jul",
+            "venue": "KOL",
+            "clock": "400m outer sand (+7)",
+            "note": "Memphis (Apprentice Jayden ) 37 Moved Easy."
+          },
+          {
+            "date": "28 Jul",
+            "venue": "KOL",
+            "clock": "400m outer sand (+8)",
+            "note": "Memphis (rb), Tekton (rb ), 38 both moved easy former was distance ahead."
+          },
+          {
+            "date": "22 Jul",
+            "venue": "KOL",
+            "clock": "1000m inner sand (+5)",
+            "note": "Dr Doom (Rb), Tekton (Rb), Memphis (Apprentice ), 1-20 800/1m 4, 600/47, 400/32 Trio Moved Easy In Distance Separated Accordingly."
+          }
+        ]
+      },
+      {
+        "cloth": 8,
+        "draw": 9,
+        "name": "INDIAN JACK",
+        "age": "5y b g",
+        "pedigree": "Gusto(GB) - Princess Rumela",
+        "trainer": "Rutherford Alford",
+        "jockey": "S A Amit",
+        "wt": "53",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "27 / 27",
+        "last5": "5-9-1-10-6-.",
+        "tissue": "24/1",
+        "rank": 9,
+        "verdict": "Last: 08 Sep 26 KOL 1100M 6/10 beaten 22 at 15 off 27, 53kg. 15 days out. Latest work 20 Aug KOL: Indian Jack (Prem Wadkar ) 1-5.5 600/52, 400/35 Eased Up.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1200M Class 4, 10/12 beaten 20.5 vs TRILLIONAIRE.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "6",
+            "field": "10",
+            "beaten": "22L",
+            "wt": "53",
+            "odds": "15",
+            "winner": "DIVINE RUN"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "10",
+            "field": "12",
+            "beaten": "20.5L",
+            "wt": "53",
+            "odds": "15",
+            "winner": "TRILLIONAIRE"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "1",
+            "field": "13",
+            "beaten": "won",
+            "wt": "60",
+            "odds": "10/10",
+            "winner": "INDIAN JACK"
+          },
+          {
+            "date": "19 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "9",
+            "field": "10",
+            "beaten": "11.5L",
+            "wt": "54.5",
+            "odds": "15",
+            "winner": "SCHOENBERG"
+          }
+        ],
+        "work": [
+          {
+            "date": "20 Aug",
+            "venue": "KOL",
+            "clock": "800m inner sand (+5)",
+            "note": "Indian Jack (Prem Wadkar ) 1-5.5 600/52, 400/35 Eased Up."
+          }
+        ]
+      },
+      {
+        "cloth": 9,
+        "draw": 6,
+        "name": "MIDNIGHT BLUE",
+        "age": "4y dkb g",
+        "pedigree": "Dreamfield(GB) - Antananarivo",
+        "trainer": "Rajesh Narredu",
+        "jockey": "Vishal Bunde",
+        "wt": "53",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "27 / 27",
+        "last5": "3-5-7-4-4-.",
+        "tissue": "24/1",
+        "rank": 8,
+        "verdict": "Last: 09 Sep 26 KOL 1200M 4/9 beaten 5.5 at 3 off 27, 53kg. 14 days out. HCP 12. Latest work 19 Sep KOL: Midnight Blue (Vishal Bunde ) 56 600/40.8, 400/25.8 moved nicely.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 1200M Class 4, 4/9 beaten 5.5 vs SPORTING TRAINER.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "9",
+            "beaten": "5.5L",
+            "wt": "53",
+            "odds": "3",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "11",
+            "beaten": "5.75L",
+            "wt": "53",
+            "odds": "15",
+            "winner": "DR DOOM"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "7",
+            "field": "8",
+            "beaten": "8.5L",
+            "wt": "55",
+            "odds": "8",
+            "winner": "SIR WINSTON"
+          },
+          {
+            "date": "19 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "10",
+            "beaten": "9.25L",
+            "wt": "53.5",
+            "odds": "6",
+            "winner": "GIMMLER"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-4)",
+            "note": "Midnight Blue (Vishal Bunde ) 56 600/40.8, 400/25.8 moved nicely."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "400m inner sand (+1)",
+            "note": "Midnight Blue (Rb ) 31.5 Moved Easy."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (Even)",
+            "note": "Midnight Blue (Rb ) 45 400/29 Moved Freely."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (Even)",
+            "note": "Midnight Blue (M Baskar ) 30 Moved Easy."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "no": 7,
+    "official": 54,
+    "name": "The Steinlen Handicap Div-2",
+    "class": "Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
+    "dist": "1400m",
+    "time": "05:00 PM",
+    "purse": "₹400000",
+    "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
+    "shape": "9-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
+    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "tissueNote": "120% book from HCP ranks. Win SPORTING TRAINER (3).",
+    "irPick": "unpublished",
+    "ourPick": "SPORTING TRAINER (3)",
+    "nap": false,
+    "runners": [
+      {
+        "cloth": 1,
+        "draw": 6,
+        "name": "DUBAI RULER",
+        "age": "5y dkb g",
+        "pedigree": "Gusto(GB) - Michaela",
+        "trainer": "P Quinn",
+        "jockey": "S F Ansari",
+        "wt": "62",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-VISOR",
+        "rtg": "45 / 45",
+        "last5": "3-4-10-6-7-.",
+        "tissue": "27/8",
+        "rank": 2,
+        "verdict": "Last: 09 Sep 26 KOL 1200M 7/9 beaten 11 at 10 off 45, 62kg. 14 days out. HCP 37. Latest work 19 Sep KOL: Dubai Ruler (rb ) 1-2.5 600/48, 400/32.8 eased up.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 1200M Class 4, 7/9 beaten 11 vs SPORTING TRAINER.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "7",
+            "field": "9",
+            "beaten": "11L",
+            "wt": "62",
+            "odds": "10",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "6",
+            "field": "12",
+            "beaten": "8.25L",
+            "wt": "52",
+            "odds": "15",
+            "winner": "EXCEED"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "10",
+            "field": "14",
+            "beaten": "7.5L",
+            "wt": "55",
+            "odds": "12",
+            "winner": "CASH N RUN"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "4",
+            "field": "10",
+            "beaten": "2L",
+            "wt": "56.5",
+            "odds": "8",
+            "winner": "SEA EAGLE"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "Dubai Ruler (rb ) 1-2.5 600/48, 400/32.8 eased up."
+          },
+          {
+            "date": "14 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "Dubai Ruler (Rb ) 1-2 600/47, 400/30 Moved Freely."
+          },
+          {
+            "date": "07 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (-1)",
+            "note": "Dubai Ruler (Rb ) 44 400/29 Moved Freely."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "She's My Gal (Rb), Madras Cheque (Rb), Dubai Ruler (Rb ), 1-5.5 600/49.8, 400/32.4 First Two Finished Together 8 Lengths Ahead Of The Third."
+          }
+        ]
+      },
+      {
+        "cloth": 2,
+        "draw": 7,
+        "name": "JAISALMER",
+        "age": "4y b c",
+        "pedigree": "Dali(USA) - Mistress Of Spice",
+        "trainer": "Neil Darashah",
+        "jockey": "Vishal Bunde",
+        "wt": "60.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-XNB",
+        "rtg": "37 / 42",
+        "last5": "9-3-3-5-2-.",
+        "tissue": "11/2",
+        "rank": 4,
+        "verdict": "Last: 08 Sep 26 KOL 1100M 2/10 beaten 5 at 11/2 off 37, 58kg. 15 days out. HCP 33. Latest work 19 Sep KOL: Jaisalmer (V. Vishwa), Eastern Wind (Vishal Bunde ), 1-6 600/50, 400/32.2 both were moved easy while former was finished distance in front.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1200M Class 4, 5/11 beaten 7.75 vs DR DOOM.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "2",
+            "field": "10",
+            "beaten": "5L",
+            "wt": "58",
+            "odds": "11/2",
+            "winner": "DIVINE RUN"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "11",
+            "beaten": "7.75L",
+            "wt": "58",
+            "odds": "9/4",
+            "winner": "DR DOOM"
+          },
+          {
+            "date": "08 Mar 26",
+            "venue": "MUM",
+            "dist": "1000m",
+            "cls": "Class 4",
+            "pos": "3",
+            "field": "13",
+            "beaten": "2.25L",
+            "wt": "53",
+            "odds": "9",
+            "winner": "ENSKY"
+          },
+          {
+            "date": "26 Feb 26",
+            "venue": "MUM",
+            "dist": "1000m",
+            "cls": "Class 4",
+            "pos": "3",
+            "field": "14",
+            "beaten": "2.25L",
+            "wt": "52",
+            "odds": "10",
+            "winner": "AKITANIA"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+6)",
+            "note": "Jaisalmer (V. Vishwa), Eastern Wind (Vishal Bunde ), 1-6 600/50, 400/32.2 both were moved easy while former was finished distance in front."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Jaisalmer (Rb ) 1-5.5 600/50, 400/32.6 Moved Easy."
+          },
+          {
+            "date": "15 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Jaisalmer (V Vishwa ) 33 Moved Easy."
+          },
+          {
+            "date": "07 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+6)",
+            "note": "Jaisalmer (V Vishwa ) 36 Unextended."
+          }
+        ]
+      },
+      {
+        "cloth": 3,
+        "draw": 4,
+        "name": "SPORTING TRAINER",
+        "age": "7y b g",
+        "pedigree": "Chinese Whisper(IRE) - Mount Rushmore",
+        "trainer": "Vikash Jaiswal",
+        "jockey": "Varun",
+        "wt": "59.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "29 / 40",
+        "last5": "5-7-2-1-1-.",
+        "tissue": "9/4",
+        "rank": 1,
+        "verdict": "Last: 09 Sep 26 KOL 1200M 1/9 beaten won at 8 off 29, 54kg. 14 days out. HCP 40. Latest work 19 Sep KOL: Sporting Trainer (rb ) 47 400/31.6 moved easy.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 1200M Class 4, 1/9 beaten 0 vs SPORTING TRAINER.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "1",
+            "field": "9",
+            "beaten": "won",
+            "wt": "54",
+            "odds": "8",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 5",
+            "pos": "1",
+            "field": "8",
+            "beaten": "won",
+            "wt": "61",
+            "odds": "12",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "2",
+            "field": "13",
+            "beaten": "0.5L",
+            "wt": "59.5",
+            "odds": "15/4",
+            "winner": "INDIAN JACK"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "7",
+            "field": "11",
+            "beaten": "4.5L",
+            "wt": "52.5",
+            "odds": "12",
+            "winner": "MI ARION"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Sporting Trainer (rb ) 47 400/31.6 moved easy."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Sporting Trainer (Yash Saini ) 58 600/43, 40029 Moved On The Bit."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "Sporting Trainer (Ranveer Singh ) 48 400/29 moved freely."
+          },
+          {
+            "date": "26 Aug",
+            "venue": "KOL",
+            "clock": "600m outer sand (+0)",
+            "note": "Sporting Trainer (Varun ) 45.2 400/29.2 moved freely."
+          }
+        ]
+      },
+      {
+        "cloth": 4,
+        "draw": 1,
+        "name": "INTO THE STORM",
+        "age": "6y b g",
+        "pedigree": "Whatsthescript(IRE) - Laurita",
+        "trainer": "B Mahesh",
+        "jockey": "P Tejeshwar",
+        "wt": "58.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "38 / 38",
+        "last5": "5-7-14-8-8-.",
+        "tissue": "114/5",
+        "rank": 6,
+        "verdict": "Last: 13 Aug 26 KOL 1200M 8/12 beaten 12.75 at 15 off 38, 58.5kg. 41 days out. HCP 20. Latest work 28 Aug KOL: Fifty Shades (Vishal Bunde), Into The Storm (Jitendra Singh), 41 Both Jumped Together First Named Finished Distance Ahead.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1200M Class 4, 8/12 beaten 12.75 vs TRILLIONAIRE.",
+        "form": [
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "8",
+            "field": "12",
+            "beaten": "12.75L",
+            "wt": "58.5",
+            "odds": "15",
+            "winner": "TRILLIONAIRE"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "8",
+            "field": "12",
+            "beaten": "18L",
+            "wt": "58.5",
+            "odds": "12",
+            "winner": "UPPER STREET"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "14",
+            "field": "14",
+            "beaten": "14.75L",
+            "wt": "52",
+            "odds": "15",
+            "winner": "CASH N RUN"
+          },
+          {
+            "date": "20 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 3",
+            "pos": "7",
+            "field": "10",
+            "beaten": "13L",
+            "wt": "54.5",
+            "odds": "12",
+            "winner": "CONJURER"
+          }
+        ],
+        "work": [
+          {
+            "date": "28 Aug",
+            "venue": "KOL",
+            "clock": "600m gate practices (-4)",
+            "note": "Fifty Shades (Vishal Bunde), Into The Storm (Jitendra Singh), 41 Both Jumped Together First Named Finished Distance Ahead."
+          },
+          {
+            "date": "29 Jul",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "Into The Storm (Apprentice ) 1-2 600/46, 400/29 Moved On The Bit."
+          },
+          {
+            "date": "25 Jul",
+            "venue": "KOL",
+            "clock": "400m inner sand (-1)",
+            "note": "Into The Storm (Rakesh ) 29 moved freely."
+          },
+          {
+            "date": "18 Jul",
+            "venue": "KOL",
+            "clock": "600m inner sand (-4)",
+            "note": "Into The Storm (Rb ) 41 400/25 Impressed."
+          }
+        ]
+      },
+      {
+        "cloth": 5,
+        "draw": 8,
+        "name": "BLUE GOD",
+        "age": "6y dkb g",
+        "pedigree": "Speaking Of Which(IRE) - Astral Flash",
+        "trainer": "B R Reddy",
+        "jockey": "Gaurav Singh",
+        "wt": "58",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK-XNB",
+        "rtg": "40 / 37",
+        "last5": "13-7-7-9-9-.",
+        "tissue": "114/5",
+        "rank": 7,
+        "verdict": "Last: 09 Sep 26 KOL 1200M 9/9 beaten 14.5 at 10 off 40, 59.5kg. 14 days out. HCP 20. Latest work 17 Sep KOL: Blue God (Ranveer ) 52 400/34 eased up.",
+        "similar": "Nearest trip: 09 Sep 26 KOL 1200M Class 4, 9/9 beaten 14.5 vs SPORTING TRAINER.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "9",
+            "field": "9",
+            "beaten": "14.5L",
+            "wt": "59.5",
+            "odds": "10",
+            "winner": "SPORTING TRAINER"
+          },
+          {
+            "date": "26 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "9",
+            "field": "10",
+            "beaten": "11.5L",
+            "wt": "51",
+            "odds": "12",
+            "winner": "GIMMLER"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "7",
+            "field": "11",
+            "beaten": "12.5L",
+            "wt": "61",
+            "odds": "15",
+            "winner": "DR DOOM"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "7",
+            "field": "12",
+            "beaten": "14L",
+            "wt": "61",
+            "odds": "7",
+            "winner": "UPPER STREET"
+          }
+        ],
+        "work": [
+          {
+            "date": "17 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+7)",
+            "note": "Blue God (Ranveer ) 52 400/34 eased up."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "Blue God (Ranveer Apprentice ) 48 400/32 Moved Easy."
+          },
+          {
+            "date": "08 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+1)",
+            "note": "City Of Joy (V R Jagdeesh), Blue God (Apprentice Ranveer Singh ), 1-1 600/45, 400/29 Former Finished Distance Ahead."
+          },
+          {
+            "date": "22 Aug",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Blue God (Ranveer Singh Apprentice ) 32 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 6,
+        "draw": 9,
+        "name": "SULTANA",
+        "age": "3y b f",
+        "pedigree": "Leitir Mor(IRE) - Angels Touch",
+        "trainer": "S S Habbu",
+        "jockey": "R Vaibhav",
+        "wt": "55",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "31 / 31",
+        "last5": "7-5-1-5-.",
+        "tissue": "24/1",
+        "rank": 8,
+        "verdict": "Last: 26 Aug 26 KOL 1600M 5/7 beaten 5.5 at 13/2 off 31, 55kg. 28 days out. HCP 16. Latest work 13 Sep MYS: Miss Sultana (Rb ) 38 Slightly Extended.",
+        "similar": "Nearest trip: 26 Aug 26 KOL 1600M Class 4, 5/7 beaten 5.5 vs RAMBHA.",
+        "form": [
+          {
+            "date": "26 Aug 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "7",
+            "beaten": "5.5L",
+            "wt": "55",
+            "odds": "13/2",
+            "winner": "RAMBHA"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "1",
+            "field": "6",
+            "beaten": "won",
+            "wt": "53",
+            "odds": "20",
+            "winner": "SULTANA"
+          },
+          {
+            "date": "19 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "For Horses",
+            "pos": "5",
+            "field": "5",
+            "beaten": "13L",
+            "wt": "55",
+            "odds": "20",
+            "winner": "STORMCHASER"
+          },
+          {
+            "date": "05 Mar 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "For Horses",
+            "pos": "7",
+            "field": "8",
+            "beaten": "14.5L",
+            "wt": "55",
+            "odds": "15",
+            "winner": "CIELO"
+          }
+        ],
+        "work": [
+          {
+            "date": "13 Sep",
+            "venue": "MYS",
+            "clock": "600m outer sand (-7)",
+            "note": "Miss Sultana (Rb ) 38 Slightly Extended."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "1200m outer sand (+1)",
+            "note": "Sultana (Aryan J), Zambazi (Ranveer ), 1-31 1000/1m 15, 800/56.8, 600/42.2, 400/27.6 former of the pair finished diustance ahead in front."
+          },
+          {
+            "date": "10 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Sultana (R Vaibhav ) 1-5 600/49, 400/33 moved easy."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Sultana (rb ) 57 600/42, 400/26 moved nicely."
+          }
+        ]
+      },
+      {
+        "cloth": 7,
+        "draw": 2,
+        "name": "NO WORRY",
+        "age": "5y b g",
+        "pedigree": "Dali(USA) - Allee Bleue",
+        "trainer": "Rutherford Alford",
+        "jockey": "Vinay Jaiswal",
+        "wt": "53.5",
+        "al": "",
+        "shoes": "A",
+        "eq": "HOOD-BB",
+        "rtg": "28 / 28",
+        "last5": "2-1-4-7-4-.",
+        "tissue": "24/1",
+        "rank": 9,
+        "verdict": "Last: 08 Sep 26 KOL 1100M 4/9 beaten 5.5 at 10 off 28, 53.5kg. 15 days out. HCP 15. Latest work 02 Aug KOL: No Worry (Prem Apprentice ) 1-5 600/48, 400/31 Moved Freely.",
+        "similar": "Nearest trip: 13 Aug 26 KOL 1200M Class 4, 7/12 beaten 12.75 vs TRILLIONAIRE.",
+        "form": [
+          {
+            "date": "08 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "9",
+            "beaten": "5.5L",
+            "wt": "53.5",
+            "odds": "10",
+            "winner": "FELIX"
+          },
+          {
+            "date": "13 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "7",
+            "field": "12",
+            "beaten": "12.75L",
+            "wt": "53.5",
+            "odds": "15",
+            "winner": "TRILLIONAIRE"
+          },
+          {
+            "date": "06 Aug 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "9",
+            "beaten": "7.5L",
+            "wt": "53.5",
+            "odds": "15",
+            "winner": "LARA"
+          },
+          {
+            "date": "03 Apr 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "1",
+            "field": "9",
+            "beaten": "won",
+            "wt": "60",
+            "odds": "11/4",
+            "winner": "NO WORRY"
+          }
+        ],
+        "work": [
+          {
+            "date": "02 Aug",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "No Worry (Prem Apprentice ) 1-5 600/48, 400/31 Moved Freely."
+          },
+          {
+            "date": "31 Jul",
+            "venue": "KOL",
+            "clock": "800m outer sand (+3)",
+            "note": "Gimmler (S. Amit), No Worry (Apprentice ), 1-3 600/47, 400/32 both moved freely while former was distance ahead."
+          },
+          {
+            "date": "29 Jul",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "No Worry (Apprentice ) 1-2.2 600/47, 400/32 Moved Easy."
+          },
+          {
+            "date": "27 Jul",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "No Worry (rb), Keitaro (Apprentice ), 34.5 both moved easy."
+          }
+        ]
+      },
+      {
+        "cloth": 8,
+        "draw": 3,
+        "name": "ADEYA",
+        "age": "4y b f",
+        "pedigree": "Roderic O'connor(IRE) - Forest Fairy",
+        "trainer": "Javed Khan",
+        "jockey": "A Sandesh",
+        "wt": "53",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS-BLK",
+        "rtg": "26 / 27",
+        "last5": "2-12-1-4-3-.",
+        "tissue": "27/8",
+        "rank": 3,
+        "verdict": "Last: 20 Aug 26 KOL 1200M 3/10 beaten 4 at 2 off 26, 62.5kg. 34 days out. HCP 37. Latest work 18 Sep KOL: Adeya (Rb ) 44.5 400/26 Excelled Last.",
+        "similar": "Nearest trip: 20 Aug 26 KOL 1200M Class 5, 3/10 beaten 4 vs LAAMIKA.",
+        "form": [
+          {
+            "date": "20 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "3",
+            "field": "10",
+            "beaten": "4L",
+            "wt": "62.5",
+            "odds": "2",
+            "winner": "LAAMIKA"
+          },
+          {
+            "date": "27 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "8",
+            "beaten": "10L",
+            "wt": "53",
+            "odds": "10",
+            "winner": "QUEEN ANULA"
+          },
+          {
+            "date": "11 Mar 26",
+            "venue": "KOL",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "1",
+            "field": "6",
+            "beaten": "won",
+            "wt": "51",
+            "odds": "15",
+            "winner": "ADEYA"
+          },
+          {
+            "date": "06 Mar 26",
+            "venue": "KOL",
+            "dist": "1600m",
+            "cls": "Class 4",
+            "pos": "12",
+            "field": "14",
+            "beaten": "17L",
+            "wt": "52.5",
+            "odds": "8",
+            "winner": "BANDUK WALI"
+          }
+        ],
+        "work": [
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "600m outer sand (+0)",
+            "note": "Adeya (Rb ) 44.5 400/26 Excelled Last."
+          },
+          {
+            "date": "12 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (Even)",
+            "note": "Adeya (rb ) 30 moved freely."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Adeya (rb ) 33 unextended."
+          },
+          {
+            "date": "04 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Adeya (Rb ) 33 Moved Easy."
+          }
+        ]
+      },
+      {
+        "cloth": 9,
+        "draw": 5,
+        "name": "GOLDEN GLORY",
+        "age": "5y ch m",
+        "pedigree": "Roderic O'connor(IRE) - Placervilles Glory",
+        "trainer": "Ritesh E K",
+        "jockey": "V R Jagadeesh",
+        "wt": "53",
+        "al": "",
+        "shoes": "A",
+        "eq": "TS",
+        "rtg": "26 / 27",
+        "last5": "1-8-8-6-3-.",
+        "tissue": "31/5",
+        "rank": 5,
+        "verdict": "Last: 09 Sep 26 KOL 1100M 3/9 beaten 6 at 11/2 off 26, 62.5kg. 14 days out. HCP 32. Latest work 19 Sep KOL: Golden Glory (rb), Shrishti (Vishal Bunde ), 1-28.5 1200/1-16, 1000/1-3.6, 800/51.2, 600/38.8, 400/26.2 both holds easy towrads end former was moved to finish a length ahead in front.",
+        "similar": "Nearest trip: 20 Aug 26 KOL 1200M Class 5, 6/10 beaten 16 vs LAAMIKA.",
+        "form": [
+          {
+            "date": "09 Sep 26",
+            "venue": "KOL",
+            "dist": "1100m",
+            "cls": "Class 5",
+            "pos": "3",
+            "field": "9",
+            "beaten": "6L",
+            "wt": "62.5",
+            "odds": "11/2",
+            "winner": "HAPPY MORNING"
+          },
+          {
+            "date": "20 Aug 26",
+            "venue": "KOL",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "6",
+            "field": "10",
+            "beaten": "16L",
+            "wt": "62.5",
+            "odds": "12",
+            "winner": "LAAMIKA"
+          },
+          {
+            "date": "18 Sep 25",
+            "venue": "MYS",
+            "dist": "1400m",
+            "cls": "Class 4",
+            "pos": "8",
+            "field": "11",
+            "beaten": "13.25L",
+            "wt": "57.5",
+            "odds": "10",
+            "winner": "PLEDGE"
+          },
+          {
+            "date": "01 Aug 25",
+            "venue": "BAN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "8",
+            "field": "12",
+            "beaten": "10.5L",
+            "wt": "56",
+            "odds": "12",
+            "winner": "BASILICA"
+          }
+        ],
+        "work": [
+          {
+            "date": "19 Sep",
+            "venue": "KOL",
+            "clock": "1400m monsoon track (-16)",
+            "note": "Golden Glory (rb), Shrishti (Vishal Bunde ), 1-28.5 1200/1-16, 1000/1-3.6, 800/51.2, 600/38.8, 400/26.2 both holds easy towrads end former was moved to finish a length ahead in front."
+          },
+          {
+            "date": "18 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-4)",
+            "note": "Golden Glory (Rb ) 56 600/42, 400/27 Spurted Well."
+          },
+          {
+            "date": "16 Sep",
+            "venue": "KOL",
+            "clock": "400m outer sand (+3)",
+            "note": "Casha (Md Sameer), Golden Glory (Rb ), 33 Former Finished Distance Ahead."
+          },
+          {
+            "date": "05 Sep",
+            "venue": "KOL",
+            "clock": "800m outer sand (-3)",
+            "note": "Casha (Azharuddin), Golden Glory (M B Askar ), 56.5 600/43, 400/29 latter failed to catch former."
+          }
+        ]
+      }
+    ]
+  }
+];
+
+export const SHEET: SheetMeeting = {
+  "banner": "RCTC KOLKATA",
+  "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
+  "when": "23-09-2026 - KOL - WEDNESDAY - 7 CARD",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 21 Sep 26.",
+  "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
+  "races": [
+    {
+      "no": 1,
+      "official": 48,
+      "name": "The Roll N Twist Handicap",
+      "class": "Class 5 / For Horses Rated 1-26",
+      "dist": "2000m",
+      "distM": 2000,
+      "time": "02:00 PM",
+      "timeCode": "2.00",
+      "code": "20mC5",
+      "field": 6,
+      "runners": [
+        {
+          "cloth": 1,
+          "draw": 5,
+          "name": "CARNATION",
+          "filly": true,
+          "trainer": "Neil Darashah",
+          "jockey": "Abhishek Mhatre",
+          "age": "4y dkb f",
+          "wt": 61.5,
+          "al": "2.5",
+          "bnc": 24,
+          "rtgCh": 0,
+          "l2": {
+            "days": 173,
+            "card": "206",
+            "pos": 14,
+            "odds": "12",
+            "btl": 44.75,
+            "lto": "###",
+            "distM": 1600,
+            "rtg": 30,
+            "cls": "Class 4",
+            "wt": 52
+          },
+          "l1": {
+            "days": 41,
+            "card": "8",
+            "pos": 8,
+            "odds": "12",
+            "btl": 22.75,
+            "lto": "###",
+            "distM": 1600,
+            "rtg": 24,
+            "cls": "Class 5",
+            "wt": 61.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 6,
+          "speed": 13.81,
+          "track": 85,
+          "distDelta": -400,
+          "wtDelta": 0,
+          "cls": "Class 5",
+          "hcp": null,
+          "dp": 6,
+          "days": 41,
+          "tone": "plain",
+          "hcpKg": null
+        },
+        {
+          "cloth": 2,
+          "draw": 3,
+          "name": "SANAYA",
+          "filly": true,
+          "trainer": "Bharath Singh",
+          "jockey": "Antony Raj S",
+          "age": "4y b f",
+          "wt": 61.5,
+          "al": "",
+          "bnc": 24,
+          "rtgCh": 0,
+          "l2": {
+            "days": 202,
+            "card": "156",
+            "pos": 4,
+            "odds": "11/2",
+            "btl": 3.75,
+            "lto": 16,
+            "distM": 2000,
+            "rtg": 32,
+            "cls": "Class 4",
+            "wt": 54
+          },
+          "l1": {
+            "days": 34,
+            "card": "15",
+            "pos": 5,
+            "odds": "11/4",
+            "btl": 4.75,
+            "lto": -3,
+            "distM": 2000,
+            "rtg": 24,
+            "cls": "Class 4",
+            "wt": 51.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "35/2",
+          "rank": 5,
+          "speed": 13.08,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": 10,
+          "cls": "Class 4",
+          "hcp": -3,
+          "dp": 5,
+          "days": 34,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 3,
+          "draw": 1,
+          "name": "NORTHBOUND",
+          "filly": false,
+          "trainer": "Vikash Jaiswal",
+          "jockey": "Varun",
+          "age": "7y b g",
+          "wt": 59.5,
+          "al": "",
+          "bnc": 20,
+          "rtgCh": 0,
+          "l2": {
+            "days": 187,
+            "card": "183",
+            "pos": 4,
+            "odds": "10",
+            "btl": 9.5,
+            "lto": 23,
+            "distM": 1600,
+            "rtg": 26,
+            "cls": "Class 5",
+            "wt": 61.5
+          },
+          "l1": {
+            "days": 41,
+            "card": "14",
+            "pos": 7,
+            "odds": "10",
+            "btl": 10.25,
+            "lto": 11,
+            "distM": 1400,
+            "rtg": 20,
+            "cls": "Class 5",
+            "wt": 59.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "18/5",
+          "rank": 3,
+          "speed": 13.3,
+          "track": 85,
+          "distDelta": -600,
+          "wtDelta": 0,
+          "cls": "Class 5",
+          "hcp": 11,
+          "dp": 6,
+          "days": 41,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 4,
+          "draw": 4,
+          "name": "WONDERFUL",
+          "filly": false,
+          "trainer": "B Mahesh",
+          "jockey": "Vishal Bunde",
+          "age": "7y b g",
+          "wt": 59.5,
+          "al": "",
+          "bnc": 20,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "8",
+            "pos": 4,
+            "odds": "10",
+            "btl": 5.5,
+            "lto": 23,
+            "distM": 1600,
+            "rtg": 20,
+            "cls": "Class 5",
+            "wt": 59.5
+          },
+          "l1": {
+            "days": 14,
+            "card": "37",
+            "pos": 4,
+            "odds": "20",
+            "btl": 7.75,
+            "lto": 18,
+            "distM": 1100,
+            "rtg": 20,
+            "cls": "Class 5",
+            "wt": 59.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "5/4",
+          "rank": 1,
+          "speed": 12.78,
+          "track": 85,
+          "distDelta": -900,
+          "wtDelta": 0,
+          "cls": "Class 5",
+          "hcp": 18,
+          "dp": 2,
+          "days": 14,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 5,
+          "draw": 6,
+          "name": "FORTUNE WARRIOR",
+          "filly": false,
+          "trainer": "B R Reddy",
+          "jockey": "Gaurav Singh",
+          "age": "6y b g",
+          "wt": 59,
+          "al": "",
+          "bnc": 19,
+          "rtgCh": 0,
+          "l2": {
+            "days": 28,
+            "card": "21",
+            "pos": 3,
+            "odds": "4",
+            "btl": 6.75,
+            "lto": 17,
+            "distM": 2000,
+            "rtg": 19,
+            "cls": "Class 5",
+            "wt": 59
+          },
+          "l1": {
+            "days": 7,
+            "card": "47",
+            "pos": 0,
+            "odds": null,
+            "btl": 0,
+            "lto": "###",
+            "distM": 1400,
+            "rtg": 19,
+            "cls": "Class 5",
+            "wt": 59
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "3/2",
+          "rank": 2,
+          "speed": null,
+          "track": 85,
+          "distDelta": -600,
+          "wtDelta": 0,
+          "cls": "Class 5",
+          "hcp": 17,
+          "dp": 1,
+          "days": 7,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 6,
+          "draw": 2,
+          "name": "SOUL AQUARIAN",
+          "filly": true,
+          "trainer": "Javed Khan",
+          "jockey": "A Sandesh",
+          "age": "4y b f",
+          "wt": 56,
+          "al": "",
+          "bnc": 13,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "8",
+            "pos": 6,
+            "odds": "12",
+            "btl": 8.25,
+            "lto": -1,
+            "distM": 1600,
+            "rtg": 13,
+            "cls": "Class 5",
+            "wt": 56
+          },
+          "l1": {
+            "days": 14,
+            "card": "37",
+            "pos": 5,
+            "odds": "12",
+            "btl": 9.25,
+            "lto": 2,
+            "distM": 1100,
+            "rtg": 13,
+            "cls": "Class 5",
+            "wt": 56
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "41/4",
+          "rank": 4,
+          "speed": 12.88,
+          "track": 85,
+          "distDelta": -900,
+          "wtDelta": 0,
+          "cls": "Class 5",
+          "hcp": 2,
+          "dp": 2,
+          "days": 14,
+          "tone": "plain",
+          "hcpKg": 0
+        }
+      ],
+      "picks": {
+        "win": 4,
+        "plc": 5,
+        "upset": 3,
+        "lto": [
+          4,
+          3,
+          6,
+          2
+        ],
+        "hcpRtg": [
+          4,
+          5,
+          3,
+          6
+        ],
+        "speed": [
+          4,
+          6,
+          2,
+          3
+        ]
+      }
+    },
+    {
+      "no": 2,
+      "official": 49,
+      "name": "The No Regrets Handicap",
+      "class": "Class 2 / For Horses Rated 61-86,Rated 41-66 Eligible",
+      "dist": "1800m",
+      "distM": 1800,
+      "time": "02:30 PM",
+      "timeCode": "2.30",
+      "code": "18mC2",
+      "field": 4,
+      "runners": [
+        {
+          "cloth": 1,
+          "draw": 4,
+          "name": "MINDFUL",
+          "filly": false,
+          "trainer": "Deepesh Narredu",
+          "jockey": "Yash Narredu",
+          "age": "4y b c",
+          "wt": 62.5,
+          "al": "",
+          "bnc": 86,
+          "rtgCh": 12,
+          "l2": {
+            "days": 41,
+            "card": "13",
+            "pos": 2,
+            "odds": "5/2",
+            "btl": 0,
+            "lto": 71,
+            "distM": 1400,
+            "rtg": 69,
+            "cls": "Class 2",
+            "wt": 56
+          },
+          "l1": {
+            "days": 14,
+            "card": "35",
+            "pos": 1,
+            "odds": "9/20",
+            "btl": 0,
+            "lto": 86,
+            "distM": 2000,
+            "rtg": 74,
+            "cls": "Class 2",
+            "wt": 59
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "1/4",
+          "rank": 1,
+          "speed": 12.66,
+          "track": 85,
+          "distDelta": 200,
+          "wtDelta": 3.5,
+          "cls": "Class 2",
+          "hcp": 86,
+          "dp": 2,
+          "days": 14,
+          "tone": "pick",
+          "hcpKg": 0.5
+        },
+        {
+          "cloth": 2,
+          "draw": 2,
+          "name": "GOLDEN GLOW",
+          "filly": false,
+          "trainer": "Sabeel Shariff",
+          "jockey": "Arman Khan",
+          "age": "6y b g",
+          "wt": 57.5,
+          "al": "",
+          "bnc": 76,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "13",
+            "pos": 8,
+            "odds": "20",
+            "btl": 17.75,
+            "lto": 45,
+            "distM": 1400,
+            "rtg": 76,
+            "cls": "Class 2",
+            "wt": 59.5
+          },
+          "l1": {
+            "days": 14,
+            "card": "35",
+            "pos": 4,
+            "odds": "15",
+            "btl": 20.75,
+            "lto": "###",
+            "distM": 2000,
+            "rtg": 76,
+            "cls": "Class 2",
+            "wt": 60
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 4,
+          "speed": 13.39,
+          "track": 85,
+          "distDelta": 200,
+          "wtDelta": -2.5,
+          "cls": "Class 2",
+          "hcp": 45,
+          "dp": 2,
+          "days": 14,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 3,
+          "draw": 1,
+          "name": "AABUSHAN",
+          "filly": false,
+          "trainer": "P Quinn",
+          "jockey": "Hindu Singh",
+          "age": "5y b g",
+          "wt": 56.5,
+          "al": "",
+          "bnc": 74,
+          "rtgCh": 0,
+          "l2": {
+            "days": 173,
+            "card": "207",
+            "pos": 12,
+            "odds": "12",
+            "btl": 4.75,
+            "lto": 84,
+            "distM": 1200,
+            "rtg": 84,
+            "cls": "Class 2",
+            "wt": 59.5
+          },
+          "l1": {
+            "days": 34,
+            "card": "17",
+            "pos": 3,
+            "odds": "10",
+            "btl": 8.5,
+            "lto": 55,
+            "distM": 1600,
+            "rtg": 74,
+            "cls": "Class 2",
+            "wt": 56.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "41/2",
+          "rank": 3,
+          "speed": 13.09,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 0,
+          "cls": "Class 2",
+          "hcp": 55,
+          "dp": 5,
+          "days": 34,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 4,
+          "draw": 3,
+          "name": "MULTIVERSE",
+          "filly": false,
+          "trainer": "B R Reddy",
+          "jockey": "P Tejeshwar",
+          "age": "6y b g",
+          "wt": 51.5,
+          "al": "",
+          "bnc": 64,
+          "rtgCh": 0,
+          "l2": {
+            "days": 188,
+            "card": "180",
+            "pos": 5,
+            "odds": "12",
+            "btl": 14.5,
+            "lto": 23,
+            "distM": 1600,
+            "rtg": 70,
+            "cls": "Class 2",
+            "wt": 52
+          },
+          "l1": {
+            "days": 15,
+            "card": "30",
+            "pos": 3,
+            "odds": "10",
+            "btl": 6.75,
+            "lto": 63,
+            "distM": 1800,
+            "rtg": 64,
+            "cls": "Class 3",
+            "wt": 61.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "69/8",
+          "rank": 2,
+          "speed": 13.07,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": -10,
+          "cls": "Class 3",
+          "hcp": 63,
+          "dp": 2,
+          "days": 15,
+          "tone": "pick",
+          "hcpKg": 0
+        }
+      ],
+      "picks": {
+        "win": 1,
+        "plc": 4,
+        "upset": 3,
+        "lto": [
+          1,
+          4,
+          3
+        ],
+        "hcpRtg": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "speed": [
+          1,
+          4,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "no": 3,
+      "official": 50,
+      "name": "The Arktouros Plate",
+      "class": "Class 4 / For Horses Rated 21-46, 3 Years Old Only, Rated 1-26,. Eligible",
+      "dist": "1400m",
+      "distM": 1400,
+      "time": "03:00 PM",
+      "timeCode": "3.00",
+      "code": "14mC4",
+      "field": 5,
+      "runners": [
+        {
+          "cloth": 1,
+          "draw": 3,
+          "name": "AURA BENDER",
+          "filly": false,
+          "trainer": "Aashay Doctor",
+          "jockey": "A M Tograllu",
+          "age": "3y b c",
+          "wt": 60,
+          "al": "",
+          "bnc": 26,
+          "rtgCh": null,
+          "l2": {
+            "days": null,
+            "card": "",
+            "pos": "###",
+            "odds": null,
+            "btl": null,
+            "lto": "###"
+          },
+          "l1": {
+            "days": null,
+            "card": "",
+            "pos": "###",
+            "odds": null,
+            "btl": null,
+            "lto": "###"
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 2,
+          "speed": null,
+          "track": 40,
+          "distDelta": null,
+          "wtDelta": null,
+          "cls": "Class 4",
+          "hcp": 26,
+          "dp": null,
+          "days": null,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 2,
+          "draw": 5,
+          "name": "IMPERIAL BLACK",
+          "filly": false,
+          "trainer": "Aashay Doctor",
+          "jockey": "Vishal Bunde",
+          "age": "3y b c",
+          "wt": 60,
+          "al": "",
+          "bnc": 26,
+          "rtgCh": 0,
+          "l2": {
+            "days": null,
+            "card": "",
+            "pos": "###",
+            "odds": null,
+            "btl": null,
+            "lto": "###"
+          },
+          "l1": {
+            "days": 28,
+            "card": "22",
+            "pos": 5,
+            "odds": "9",
+            "btl": 5.75,
+            "lto": 20,
+            "distM": 1200,
+            "rtg": 26,
+            "cls": "Class 4",
+            "wt": 57.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 4,
+          "speed": 12.84,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 2.5,
+          "cls": "Class 4",
+          "hcp": 20,
+          "dp": 4,
+          "days": 28,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 3,
+          "draw": 4,
+          "name": "DREAMFLIGHT",
+          "filly": true,
+          "trainer": "Vijay Singh",
+          "jockey": "Antony Raj S",
+          "age": "3y b f",
+          "wt": 58.5,
+          "al": "",
+          "bnc": 23,
+          "rtgCh": null,
+          "l2": {
+            "days": 265,
+            "card": "82",
+            "pos": 3,
+            "odds": "20",
+            "btl": 3.5,
+            "lto": 19,
+            "distM": 1200,
+            "rtg": null,
+            "cls": "For Horses",
+            "wt": 53
+          },
+          "l1": {
+            "days": 236,
+            "card": "119",
+            "pos": 3,
+            "odds": "9/4",
+            "btl": 7,
+            "lto": 75,
+            "distM": 1400,
+            "rtg": null,
+            "cls": "Term Race",
+            "wt": 55.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "1/4",
+          "rank": 1,
+          "speed": 12.59,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": 3,
+          "cls": "Term Race",
+          "hcp": 75,
+          "dp": 34,
+          "days": 236,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 4,
+          "draw": 1,
+          "name": "THE WIND",
+          "filly": true,
+          "trainer": "Vijay Singh",
+          "jockey": "A Sandesh",
+          "age": "3y gr f",
+          "wt": 58.5,
+          "al": "",
+          "bnc": 23,
+          "rtgCh": null,
+          "l2": {
+            "days": 202,
+            "card": "153",
+            "pos": 5,
+            "odds": "10",
+            "btl": 5.5,
+            "lto": 20,
+            "distM": 1100,
+            "rtg": null,
+            "cls": "For Horses",
+            "wt": 55
+          },
+          "l1": {
+            "days": 188,
+            "card": "177",
+            "pos": 4,
+            "odds": "15",
+            "btl": 11,
+            "lto": 4,
+            "distM": 1400,
+            "rtg": null,
+            "cls": "For Horses",
+            "wt": 55
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 5,
+          "speed": 12.78,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": 3.5,
+          "cls": "For Horses",
+          "hcp": 4,
+          "dp": 27,
+          "days": 188,
+          "tone": "risk",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 5,
+          "draw": 2,
+          "name": "VOULA",
+          "filly": true,
+          "trainer": "Aashay Doctor",
+          "jockey": "P Tejeshwar",
+          "age": "3y ch f",
+          "wt": 58.5,
+          "al": "",
+          "bnc": 23,
+          "rtgCh": null,
+          "l2": {
+            "days": null,
+            "card": "",
+            "pos": "###",
+            "odds": null,
+            "btl": null,
+            "lto": "###"
+          },
+          "l1": {
+            "days": null,
+            "card": "",
+            "pos": "###",
+            "odds": null,
+            "btl": null,
+            "lto": "###"
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 3,
+          "speed": null,
+          "track": 40,
+          "distDelta": null,
+          "wtDelta": null,
+          "cls": "Class 4",
+          "hcp": 23,
+          "dp": null,
+          "days": null,
+          "tone": "pick",
+          "hcpKg": 0
+        }
+      ],
+      "picks": {
+        "win": 3,
+        "plc": 1,
+        "upset": 5,
+        "lto": [
+          3,
+          2,
+          4
+        ],
+        "hcpRtg": [
+          3,
+          1,
+          5,
+          2
+        ],
+        "speed": [
+          3,
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "no": 4,
+      "official": 51,
+      "name": "The Idaho Handicap",
+      "class": "Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
+      "dist": "1600m",
+      "distM": 1600,
+      "time": "03:30 PM",
+      "timeCode": "3.30",
+      "code": "16mC3",
+      "field": 5,
+      "runners": [
+        {
+          "cloth": 1,
+          "draw": 4,
+          "name": "NATURAL GRACE",
+          "filly": true,
+          "trainer": "Neil Darashah",
+          "jockey": "Abhishek Mhatre",
+          "age": "5y b m",
+          "wt": 62,
+          "al": "2.5",
+          "bnc": 65,
+          "rtgCh": 0,
+          "l2": {
+            "days": 181,
+            "card": "194",
+            "pos": 7,
+            "odds": "12",
+            "btl": 8.75,
+            "lto": 51,
+            "distM": 1400,
+            "rtg": 74,
+            "cls": "Class 2",
+            "wt": 54
+          },
+          "l1": {
+            "days": 41,
+            "card": "12",
+            "pos": 4,
+            "odds": "15",
+            "btl": 6,
+            "lto": 67,
+            "distM": 1400,
+            "rtg": 65,
+            "cls": "Class 3",
+            "wt": 62
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "5/4",
+          "rank": 2,
+          "speed": 12.7,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 0,
+          "cls": "Class 3",
+          "hcp": 72,
+          "dp": 6,
+          "days": 41,
+          "tone": "pick",
+          "hcpKg": -2.5
+        },
+        {
+          "cloth": 2,
+          "draw": 2,
+          "name": "THIS IS GOLD",
+          "filly": true,
+          "trainer": "Deepesh Narredu",
+          "jockey": "Aryan Jagtap",
+          "age": "5y ch m",
+          "wt": 62,
+          "al": "5",
+          "bnc": 65,
+          "rtgCh": 0,
+          "l2": {
+            "days": 255,
+            "card": "95",
+            "pos": 3,
+            "odds": "3",
+            "btl": 1.75,
+            "lto": 63,
+            "distM": 1600,
+            "rtg": 70,
+            "cls": "Class 2",
+            "wt": 54
+          },
+          "l1": {
+            "days": 34,
+            "card": "16",
+            "pos": 3,
+            "odds": "15",
+            "btl": 6.5,
+            "lto": 66,
+            "distM": 1600,
+            "rtg": 65,
+            "cls": "Class 3",
+            "wt": 62
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "1/2",
+          "rank": 1,
+          "speed": 13.08,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 3",
+          "hcp": 76,
+          "dp": 5,
+          "days": 34,
+          "tone": "pick",
+          "hcpKg": -5
+        },
+        {
+          "cloth": 3,
+          "draw": 3,
+          "name": "BLACK DIAMOND",
+          "filly": true,
+          "trainer": "Deepesh Narredu",
+          "jockey": "Yash Narredu",
+          "age": "4y dkb f",
+          "wt": 57,
+          "al": "",
+          "bnc": 55,
+          "rtgCh": 10,
+          "l2": {
+            "days": 34,
+            "card": "15",
+            "pos": 4,
+            "odds": "9",
+            "btl": 4,
+            "lto": 55,
+            "distM": 2000,
+            "rtg": 45,
+            "cls": "Class 4",
+            "wt": 62
+          },
+          "l1": {
+            "days": 15,
+            "card": "30",
+            "pos": 1,
+            "odds": "4",
+            "btl": 0,
+            "lto": 55,
+            "distM": 1800,
+            "rtg": 45,
+            "cls": "Class 3",
+            "wt": 52
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "91/8",
+          "rank": 3,
+          "speed": 12.83,
+          "track": 85,
+          "distDelta": 200,
+          "wtDelta": 5,
+          "cls": "Class 3",
+          "hcp": 55,
+          "dp": 2,
+          "days": 15,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 4,
+          "draw": 1,
+          "name": "DARDANUS",
+          "filly": false,
+          "trainer": "Bharath Singh",
+          "jockey": "Antony Raj S",
+          "age": "3y b c",
+          "wt": 55,
+          "al": "",
+          "bnc": 51,
+          "rtgCh": 4,
+          "l2": {
+            "days": 94,
+            "card": "105",
+            "pos": 1,
+            "odds": "2",
+            "btl": 0,
+            "lto": 38,
+            "distM": 1800,
+            "rtg": 38,
+            "cls": "Class 4",
+            "wt": 59
+          },
+          "l1": {
+            "days": 55,
+            "card": "186",
+            "pos": 3,
+            "odds": "20",
+            "btl": 6.25,
+            "lto": 36,
+            "distM": 1600,
+            "rtg": 47,
+            "cls": "Term Race",
+            "wt": 57
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 4,
+          "speed": 12.44,
+          "track": 50,
+          "distDelta": 0,
+          "wtDelta": -2,
+          "cls": "Term Race",
+          "hcp": 36,
+          "dp": 8,
+          "days": 55,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 5,
+          "draw": 5,
+          "name": "OH MY DARLING",
+          "filly": true,
+          "trainer": "Vikash Jaiswal",
+          "jockey": "Varun",
+          "age": "6y gr m",
+          "wt": 51,
+          "al": "",
+          "bnc": 43,
+          "rtgCh": 0,
+          "l2": {
+            "days": 48,
+            "card": "4",
+            "pos": 7,
+            "odds": "20",
+            "btl": 10.5,
+            "lto": 16,
+            "distM": 1100,
+            "rtg": 43,
+            "cls": "Class 3",
+            "wt": 51
+          },
+          "l1": {
+            "days": 15,
+            "card": "33",
+            "pos": 8,
+            "odds": "15",
+            "btl": 25,
+            "lto": "###",
+            "distM": 1100,
+            "rtg": 43,
+            "cls": "Class 4",
+            "wt": 61
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 5,
+          "speed": 13.73,
+          "track": 85,
+          "distDelta": -500,
+          "wtDelta": -10,
+          "cls": "Class 4",
+          "hcp": 16,
+          "dp": 2,
+          "days": 15,
+          "tone": "plain",
+          "hcpKg": 0
+        }
+      ],
+      "picks": {
+        "win": 2,
+        "plc": 1,
+        "upset": 3,
+        "lto": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "hcpRtg": [
+          2,
+          1,
+          3,
+          4
+        ],
+        "speed": [
+          4,
+          1,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "no": 5,
+      "official": 52,
+      "name": "The Desert Shot Cup",
+      "class": "Class 1 / For Horses Rated 95 And Above",
+      "dist": "1200m",
+      "distM": 1200,
+      "time": "04:00 PM",
+      "timeCode": "4.00",
+      "code": "12mC1",
+      "field": 6,
+      "runners": [
+        {
+          "cloth": 1,
+          "draw": 2,
+          "name": "BLACK EAGLE",
+          "filly": false,
+          "trainer": "B R Reddy",
+          "jockey": "Gaurav Singh",
+          "age": "7y b h",
+          "wt": 61,
+          "al": "",
+          "bnc": 117,
+          "rtgCh": 0,
+          "l2": {
+            "days": 28,
+            "card": "25",
+            "pos": 1,
+            "odds": "16/10",
+            "btl": 0,
+            "lto": 115,
+            "distM": 1200,
+            "rtg": 115,
+            "cls": "For Horses",
+            "wt": 60
+          },
+          "l1": {
+            "days": 7,
+            "card": "46",
+            "pos": 2,
+            "odds": "6",
+            "btl": 1.5,
+            "lto": 125,
+            "distM": 1400,
+            "rtg": 117,
+            "cls": "For Horses",
+            "wt": 60
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "1/4",
+          "rank": 1,
+          "speed": 12.31,
+          "track": 85,
+          "distDelta": 200,
+          "wtDelta": 1,
+          "cls": "For Horses",
+          "hcp": 125,
+          "dp": 1,
+          "days": 7,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 2,
+          "draw": 3,
+          "name": "KALAMITSI",
+          "filly": false,
+          "trainer": "Aashay Doctor",
+          "jockey": "P Tejeshwar",
+          "age": "7y b g",
+          "wt": 53,
+          "al": "",
+          "bnc": 101,
+          "rtgCh": 4,
+          "l2": {
+            "days": 87,
+            "card": "120",
+            "pos": 5,
+            "odds": "15",
+            "btl": 1.5,
+            "lto": 98,
+            "distM": 1200,
+            "rtg": 97,
+            "cls": "For Horses",
+            "wt": 57
+          },
+          "l1": {
+            "days": 60,
+            "card": "170",
+            "pos": 4,
+            "odds": "12",
+            "btl": 4.5,
+            "lto": 98,
+            "distM": 1200,
+            "rtg": 97,
+            "cls": "For Horses",
+            "wt": 60
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "149/10",
+          "rank": 4,
+          "speed": 12.27,
+          "track": 50,
+          "distDelta": 0,
+          "wtDelta": -7,
+          "cls": "For Horses",
+          "hcp": 98,
+          "dp": 9,
+          "days": 60,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 3,
+          "draw": 5,
+          "name": "CHARISMATIC",
+          "filly": false,
+          "trainer": "Rutherford Alford",
+          "jockey": "A Ashhad Asbar",
+          "age": "4y ch g",
+          "wt": 52,
+          "al": "",
+          "bnc": 99,
+          "rtgCh": 4,
+          "l2": {
+            "days": 195,
+            "card": "174",
+            "pos": 2,
+            "odds": "3/2",
+            "btl": 0,
+            "lto": 86,
+            "distM": 1600,
+            "rtg": 89,
+            "cls": "Class 1",
+            "wt": 54
+          },
+          "l1": {
+            "days": 187,
+            "card": "187",
+            "pos": 1,
+            "odds": "17/10",
+            "btl": 0,
+            "lto": 99,
+            "distM": 1600,
+            "rtg": 95,
+            "cls": "For Horses",
+            "wt": 55.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "67/5",
+          "rank": 3,
+          "speed": 12.33,
+          "track": 85,
+          "distDelta": 400,
+          "wtDelta": -3.5,
+          "cls": "For Horses",
+          "hcp": 99,
+          "dp": 27,
+          "days": 187,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 4,
+          "draw": 1,
+          "name": "RULING STAR",
+          "filly": false,
+          "trainer": "Sabeel Shariff",
+          "jockey": "Md Azharuddin",
+          "age": "6y b g",
+          "wt": 52,
+          "al": "",
+          "bnc": 99,
+          "rtgCh": -6,
+          "l2": {
+            "days": 187,
+            "card": "187",
+            "pos": 3,
+            "odds": "9",
+            "btl": 2.5,
+            "lto": 103,
+            "distM": 1600,
+            "rtg": 100,
+            "cls": "For Horses",
+            "wt": 58.5
+          },
+          "l1": {
+            "days": 180,
+            "card": "200",
+            "pos": 4,
+            "odds": "15",
+            "btl": 7.5,
+            "lto": 102,
+            "distM": 1200,
+            "rtg": 105,
+            "cls": "Class 1",
+            "wt": 61
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "97/10",
+          "rank": 2,
+          "speed": 12.28,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": -9,
+          "cls": "Class 1",
+          "hcp": 102,
+          "dp": 26,
+          "days": 180,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 5,
+          "draw": 4,
+          "name": "BLACKSTONE",
+          "filly": false,
+          "trainer": "Rutherford Alford",
+          "jockey": "Hindu Singh",
+          "age": "6y b g",
+          "wt": 50,
+          "al": "",
+          "bnc": 95,
+          "rtgCh": 5,
+          "l2": {
+            "days": 48,
+            "card": "6",
+            "pos": 0,
+            "odds": null,
+            "btl": 0,
+            "lto": "###",
+            "distM": 1400,
+            "rtg": 90,
+            "cls": "Class 1",
+            "wt": 54.5
+          },
+          "l1": {
+            "days": 34,
+            "card": "19",
+            "pos": 3,
+            "odds": "15",
+            "btl": 1.25,
+            "lto": 87,
+            "distM": 1100,
+            "rtg": 90,
+            "cls": "Class 1",
+            "wt": 54.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 5,
+          "speed": 12.38,
+          "track": 85,
+          "distDelta": -100,
+          "wtDelta": -4.5,
+          "cls": "Class 1",
+          "hcp": 87,
+          "dp": 5,
+          "days": 34,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 6,
+          "draw": 6,
+          "name": "KING'S RETREAT",
+          "filly": false,
+          "trainer": "B R Reddy",
+          "jockey": "V R Jagadeesh",
+          "age": "6y b g",
+          "wt": 50,
+          "al": "",
+          "bnc": 95,
+          "rtgCh": 6,
+          "l2": {
+            "days": 48,
+            "card": "6",
+            "pos": 6,
+            "odds": "15",
+            "btl": 7.5,
+            "lto": 69,
+            "distM": 1400,
+            "rtg": 89,
+            "cls": "Class 1",
+            "wt": 54
+          },
+          "l1": {
+            "days": 15,
+            "card": "31",
+            "pos": 2,
+            "odds": "15",
+            "btl": 0,
+            "lto": 86,
+            "distM": 1600,
+            "rtg": 89,
+            "cls": "Class 1",
+            "wt": 54
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 6,
+          "speed": 12.72,
+          "track": 85,
+          "distDelta": 400,
+          "wtDelta": -4,
+          "cls": "Class 1",
+          "hcp": 86,
+          "dp": 2,
+          "days": 15,
+          "tone": "plain",
+          "hcpKg": 0
+        }
+      ],
+      "picks": {
+        "win": 1,
+        "plc": 4,
+        "upset": 3,
+        "lto": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "hcpRtg": [
+          1,
+          4,
+          3,
+          2
+        ],
+        "speed": [
+          2,
+          4,
+          1,
+          3
+        ]
+      }
+    },
+    {
+      "no": 6,
+      "official": 53,
+      "name": "The Steinlen Handicap Div-1",
+      "class": "Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
+      "dist": "1400m",
+      "distM": 1400,
+      "time": "04:30 PM",
+      "timeCode": "4.30",
+      "code": "14mC4",
+      "field": 9,
+      "runners": [
+        {
+          "cloth": 1,
+          "draw": 7,
+          "name": "LADY DON",
+          "filly": true,
+          "trainer": "B Mahesh",
+          "jockey": "Jayden Alford",
+          "age": "6y b m",
+          "wt": 62.5,
+          "al": "5",
+          "bnc": 46,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "11",
+            "pos": 4,
+            "odds": "6",
+            "btl": 5.25,
+            "lto": 51,
+            "distM": 1400,
+            "rtg": 46,
+            "cls": "Class 4",
+            "wt": 62.5
+          },
+          "l1": {
+            "days": 14,
+            "card": "38",
+            "pos": 11,
+            "odds": "15",
+            "btl": 11.25,
+            "lto": 21,
+            "distM": 1100,
+            "rtg": 46,
+            "cls": "Class 3",
+            "wt": 52.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "67/10",
+          "rank": 5,
+          "speed": 12.94,
+          "track": 85,
+          "distDelta": -300,
+          "wtDelta": 10,
+          "cls": "Class 3",
+          "hcp": 31,
+          "dp": 2,
+          "days": 14,
+          "tone": "plain",
+          "hcpKg": -4.5
+        },
+        {
+          "cloth": 2,
+          "draw": 8,
+          "name": "VIVALDI",
+          "filly": false,
+          "trainer": "Aashay Doctor",
+          "jockey": "Hindu Singh",
+          "age": "5y b g",
+          "wt": 62,
+          "al": "",
+          "bnc": 45,
+          "rtgCh": 0,
+          "l2": {
+            "days": 180,
+            "card": "199",
+            "pos": 5,
+            "odds": "10",
+            "btl": 4.5,
+            "lto": 45,
+            "distM": 1400,
+            "rtg": 53,
+            "cls": "Class 3",
+            "wt": 56
+          },
+          "l1": {
+            "days": 48,
+            "card": "7",
+            "pos": 5,
+            "odds": "10",
+            "btl": 9.75,
+            "lto": 39,
+            "distM": 1400,
+            "rtg": 45,
+            "cls": "Class 4",
+            "wt": 62
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "5/2",
+          "rank": 2,
+          "speed": 12.98,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 39,
+          "dp": 7,
+          "days": 48,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 3,
+          "draw": 4,
+          "name": "FELIX",
+          "filly": false,
+          "trainer": "Rutherford Alford",
+          "jockey": "A Ashhad Asbar",
+          "age": "6y ch g",
+          "wt": 60,
+          "al": "",
+          "bnc": 41,
+          "rtgCh": 6,
+          "l2": {
+            "days": 41,
+            "card": "10",
+            "pos": 6,
+            "odds": "15",
+            "btl": 12,
+            "lto": 15,
+            "distM": 1200,
+            "rtg": 35,
+            "cls": "Class 4",
+            "wt": 57
+          },
+          "l1": {
+            "days": 15,
+            "card": "34",
+            "pos": 1,
+            "odds": "13/4",
+            "btl": 0,
+            "lto": 41,
+            "distM": 1100,
+            "rtg": 35,
+            "cls": "Class 4",
+            "wt": 57
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "9/5",
+          "rank": 1,
+          "speed": 12.88,
+          "track": 85,
+          "distDelta": -300,
+          "wtDelta": 3,
+          "cls": "Class 4",
+          "hcp": 41,
+          "dp": 2,
+          "days": 15,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 4,
+          "draw": 5,
+          "name": "IMMORTAL BEAUTY",
+          "filly": true,
+          "trainer": "Ritesh E K",
+          "jockey": "Arman Khan",
+          "age": "6y b m",
+          "wt": 58.5,
+          "al": "",
+          "bnc": 38,
+          "rtgCh": -3,
+          "l2": {
+            "days": 41,
+            "card": "11",
+            "pos": 6,
+            "odds": "15",
+            "btl": 7.5,
+            "lto": 35,
+            "distM": 1400,
+            "rtg": 41,
+            "cls": "Class 4",
+            "wt": 60
+          },
+          "l1": {
+            "days": 28,
+            "card": "26",
+            "pos": 7,
+            "odds": "15",
+            "btl": 8,
+            "lto": 15,
+            "distM": 1200,
+            "rtg": 41,
+            "cls": "Class 3",
+            "wt": 50
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 7,
+          "speed": 12.82,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 8.5,
+          "cls": "Class 3",
+          "hcp": 15,
+          "dp": 4,
+          "days": 28,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 5,
+          "draw": 1,
+          "name": "TRUE FAITH",
+          "filly": false,
+          "trainer": "Vikash Jaiswal",
+          "jockey": "Varun",
+          "age": "6y b h",
+          "wt": 58.5,
+          "al": "",
+          "bnc": 38,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "11",
+            "pos": 5,
+            "odds": "15",
+            "btl": 5.75,
+            "lto": 33,
+            "distM": 1400,
+            "rtg": 38,
+            "cls": "Class 4",
+            "wt": 58.5
+          },
+          "l1": {
+            "days": 15,
+            "card": "34",
+            "pos": 0,
+            "odds": null,
+            "btl": 0,
+            "lto": "###",
+            "distM": 1100,
+            "rtg": 38,
+            "cls": "Class 4",
+            "wt": 58.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "53/10",
+          "rank": 4,
+          "speed": null,
+          "track": 85,
+          "distDelta": -300,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 33,
+          "dp": 2,
+          "days": 15,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 6,
+          "draw": 2,
+          "name": "CASHMERE SILK",
+          "filly": true,
+          "trainer": "Sabeel Shariff",
+          "jockey": "Md Azharuddin",
+          "age": "5y b m",
+          "wt": 57,
+          "al": "",
+          "bnc": 35,
+          "rtgCh": 11,
+          "l2": {
+            "days": 41,
+            "card": "14",
+            "pos": 5,
+            "odds": "5",
+            "btl": 1.25,
+            "lto": 41,
+            "distM": 1400,
+            "rtg": 24,
+            "cls": "Class 5",
+            "wt": 61.5
+          },
+          "l1": {
+            "days": 15,
+            "card": "28",
+            "pos": 1,
+            "odds": "5/2",
+            "btl": 0,
+            "lto": 35,
+            "distM": 1400,
+            "rtg": 24,
+            "cls": "Class 5",
+            "wt": 61.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "33/8",
+          "rank": 3,
+          "speed": 12.52,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": -4.5,
+          "cls": "Class 5",
+          "hcp": 35,
+          "dp": 2,
+          "days": 15,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 7,
+          "draw": 3,
+          "name": "MEMPHIS",
+          "filly": true,
+          "trainer": "Javed Khan",
+          "jockey": "Vinay Jaiswal",
+          "age": "5y ch m",
+          "wt": 54,
+          "al": "",
+          "bnc": 29,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "9",
+            "pos": 6,
+            "odds": "15",
+            "btl": 11,
+            "lto": 5,
+            "distM": 1200,
+            "rtg": 29,
+            "cls": "Class 4",
+            "wt": 54
+          },
+          "l1": {
+            "days": 14,
+            "card": "41",
+            "pos": 4,
+            "odds": "10",
+            "btl": 5.5,
+            "lto": 16,
+            "distM": 1200,
+            "rtg": 29,
+            "cls": "Class 4",
+            "wt": 54
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 6,
+          "speed": 12.7,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 16,
+          "dp": 2,
+          "days": 14,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 8,
+          "draw": 9,
+          "name": "INDIAN JACK",
+          "filly": false,
+          "trainer": "Rutherford Alford",
+          "jockey": "S A Amit",
+          "age": "5y b g",
+          "wt": 53,
+          "al": "",
+          "bnc": 27,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "9",
+            "pos": 10,
+            "odds": "15",
+            "btl": 20.5,
+            "lto": "###",
+            "distM": 1200,
+            "rtg": 27,
+            "cls": "Class 4",
+            "wt": 53
+          },
+          "l1": {
+            "days": 15,
+            "card": "33",
+            "pos": 6,
+            "odds": "15",
+            "btl": 22,
+            "lto": "###",
+            "distM": 1100,
+            "rtg": 27,
+            "cls": "Class 4",
+            "wt": 53
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 9,
+          "speed": 13.54,
+          "track": 85,
+          "distDelta": -300,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": null,
+          "dp": 2,
+          "days": 15,
+          "tone": "plain",
+          "hcpKg": null
+        },
+        {
+          "cloth": 9,
+          "draw": 6,
+          "name": "MIDNIGHT BLUE",
+          "filly": false,
+          "trainer": "Rajesh Narredu",
+          "jockey": "Vishal Bunde",
+          "age": "4y dkb g",
+          "wt": 53,
+          "al": "",
+          "bnc": 27,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "10",
+            "pos": 4,
+            "odds": "15",
+            "btl": 5.75,
+            "lto": 12,
+            "distM": 1200,
+            "rtg": 27,
+            "cls": "Class 4",
+            "wt": 53
+          },
+          "l1": {
+            "days": 14,
+            "card": "40",
+            "pos": 4,
+            "odds": "3",
+            "btl": 5.5,
+            "lto": 12,
+            "distM": 1200,
+            "rtg": 27,
+            "cls": "Class 4",
+            "wt": 53
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 8,
+          "speed": 12.72,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 12,
+          "dp": 2,
+          "days": 14,
+          "tone": "plain",
+          "hcpKg": 0
+        }
+      ],
+      "picks": {
+        "win": 3,
+        "plc": 2,
+        "upset": 6,
+        "lto": [
+          3,
+          2,
+          6,
+          1
+        ],
+        "hcpRtg": [
+          3,
+          2,
+          6,
+          5
+        ],
+        "speed": [
+          6,
+          7,
+          9,
+          4
+        ]
+      }
+    },
+    {
+      "no": 7,
+      "official": 54,
+      "name": "The Steinlen Handicap Div-2",
+      "class": "Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
+      "dist": "1400m",
+      "distM": 1400,
+      "time": "05:00 PM",
+      "timeCode": "5.00",
+      "code": "14mC4",
+      "field": 9,
+      "runners": [
+        {
+          "cloth": 1,
+          "draw": 6,
+          "name": "DUBAI RULER",
+          "filly": false,
+          "trainer": "P Quinn",
+          "jockey": "S F Ansari",
+          "age": "5y dkb g",
+          "wt": 62,
+          "al": "",
+          "bnc": 45,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "12",
+            "pos": 6,
+            "odds": "15",
+            "btl": 8.25,
+            "lto": 19,
+            "distM": 1400,
+            "rtg": 45,
+            "cls": "Class 3",
+            "wt": 52
+          },
+          "l1": {
+            "days": 14,
+            "card": "40",
+            "pos": 7,
+            "odds": "10",
+            "btl": 11,
+            "lto": 37,
+            "distM": 1200,
+            "rtg": 45,
+            "cls": "Class 4",
+            "wt": 62
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "27/8",
+          "rank": 2,
+          "speed": 13.03,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 37,
+          "dp": 2,
+          "days": 14,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 2,
+          "draw": 7,
+          "name": "JAISALMER",
+          "filly": false,
+          "trainer": "Neil Darashah",
+          "jockey": "Vishal Bunde",
+          "age": "4y b c",
+          "wt": 60.5,
+          "al": "",
+          "bnc": 42,
+          "rtgCh": 5,
+          "l2": {
+            "days": 41,
+            "card": "10",
+            "pos": 5,
+            "odds": "9/4",
+            "btl": 7.75,
+            "lto": 28,
+            "distM": 1200,
+            "rtg": 37,
+            "cls": "Class 4",
+            "wt": 58
+          },
+          "l1": {
+            "days": 15,
+            "card": "33",
+            "pos": 2,
+            "odds": "11/2",
+            "btl": 5,
+            "lto": 33,
+            "distM": 1100,
+            "rtg": 37,
+            "cls": "Class 4",
+            "wt": 58
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "11/2",
+          "rank": 4,
+          "speed": 12.52,
+          "track": 85,
+          "distDelta": -300,
+          "wtDelta": 2.5,
+          "cls": "Class 4",
+          "hcp": 33,
+          "dp": 2,
+          "days": 15,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 3,
+          "draw": 4,
+          "name": "SPORTING TRAINER",
+          "filly": false,
+          "trainer": "Vikash Jaiswal",
+          "jockey": "Varun",
+          "age": "7y b g",
+          "wt": 59.5,
+          "al": "",
+          "bnc": 40,
+          "rtgCh": 11,
+          "l2": {
+            "days": 41,
+            "card": "8",
+            "pos": 1,
+            "odds": "12",
+            "btl": 0,
+            "lto": 23,
+            "distM": 1600,
+            "rtg": 23,
+            "cls": "Class 5",
+            "wt": 61
+          },
+          "l1": {
+            "days": 14,
+            "card": "40",
+            "pos": 1,
+            "odds": "8",
+            "btl": 0,
+            "lto": 40,
+            "distM": 1200,
+            "rtg": 29,
+            "cls": "Class 4",
+            "wt": 54
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "9/4",
+          "rank": 1,
+          "speed": 12.42,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 5.5,
+          "cls": "Class 4",
+          "hcp": 40,
+          "dp": 2,
+          "days": 14,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 4,
+          "draw": 1,
+          "name": "INTO THE STORM",
+          "filly": false,
+          "trainer": "B Mahesh",
+          "jockey": "P Tejeshwar",
+          "age": "6y b g",
+          "wt": 58.5,
+          "al": "",
+          "bnc": 38,
+          "rtgCh": 0,
+          "l2": {
+            "days": 48,
+            "card": "7",
+            "pos": 8,
+            "odds": "12",
+            "btl": 18,
+            "lto": 4,
+            "distM": 1400,
+            "rtg": 38,
+            "cls": "Class 4",
+            "wt": 58.5
+          },
+          "l1": {
+            "days": 41,
+            "card": "9",
+            "pos": 8,
+            "odds": "15",
+            "btl": 12.75,
+            "lto": 20,
+            "distM": 1200,
+            "rtg": 38,
+            "cls": "Class 4",
+            "wt": 58.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "114/5",
+          "rank": 6,
+          "speed": 13.06,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 20,
+          "dp": 6,
+          "days": 41,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 5,
+          "draw": 8,
+          "name": "BLUE GOD",
+          "filly": false,
+          "trainer": "B R Reddy",
+          "jockey": "Gaurav Singh",
+          "age": "6y dkb g",
+          "wt": 58,
+          "al": "",
+          "bnc": 37,
+          "rtgCh": -3,
+          "l2": {
+            "days": 28,
+            "card": "26",
+            "pos": 9,
+            "odds": "12",
+            "btl": 11.5,
+            "lto": 12,
+            "distM": 1200,
+            "rtg": 43,
+            "cls": "Class 3",
+            "wt": 51
+          },
+          "l1": {
+            "days": 14,
+            "card": "40",
+            "pos": 9,
+            "odds": "10",
+            "btl": 14.5,
+            "lto": 20,
+            "distM": 1200,
+            "rtg": 40,
+            "cls": "Class 4",
+            "wt": 59.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "114/5",
+          "rank": 7,
+          "speed": 13.23,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": -1.5,
+          "cls": "Class 4",
+          "hcp": 20,
+          "dp": 2,
+          "days": 14,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 6,
+          "draw": 9,
+          "name": "SULTANA",
+          "filly": true,
+          "trainer": "S S Habbu",
+          "jockey": "R Vaibhav",
+          "age": "3y b f",
+          "wt": 55,
+          "al": "",
+          "bnc": 31,
+          "rtgCh": 0,
+          "l2": {
+            "days": 48,
+            "card": "5",
+            "pos": 1,
+            "odds": "20",
+            "btl": 0,
+            "lto": 23,
+            "distM": 1400,
+            "rtg": 23,
+            "cls": "Class 4",
+            "wt": 53
+          },
+          "l1": {
+            "days": 28,
+            "card": "23",
+            "pos": 5,
+            "odds": "13/2",
+            "btl": 5.5,
+            "lto": 16,
+            "distM": 1600,
+            "rtg": 31,
+            "cls": "Class 4",
+            "wt": 55
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 8,
+          "speed": 13.08,
+          "track": 85,
+          "distDelta": 200,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 16,
+          "dp": 4,
+          "days": 28,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 7,
+          "draw": 2,
+          "name": "NO WORRY",
+          "filly": false,
+          "trainer": "Rutherford Alford",
+          "jockey": "Vinay Jaiswal",
+          "age": "5y b g",
+          "wt": 53.5,
+          "al": "",
+          "bnc": 28,
+          "rtgCh": 0,
+          "l2": {
+            "days": 41,
+            "card": "9",
+            "pos": 7,
+            "odds": "15",
+            "btl": 12.75,
+            "lto": 0,
+            "distM": 1200,
+            "rtg": 28,
+            "cls": "Class 4",
+            "wt": 53.5
+          },
+          "l1": {
+            "days": 15,
+            "card": "34",
+            "pos": 4,
+            "odds": "10",
+            "btl": 5.5,
+            "lto": 15,
+            "distM": 1100,
+            "rtg": 28,
+            "cls": "Class 4",
+            "wt": 53.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "24/1",
+          "rank": 9,
+          "speed": 13.21,
+          "track": 85,
+          "distDelta": -300,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 15,
+          "dp": 2,
+          "days": 15,
+          "tone": "plain",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 8,
+          "draw": 3,
+          "name": "ADEYA",
+          "filly": true,
+          "trainer": "Javed Khan",
+          "jockey": "A Sandesh",
+          "age": "4y b f",
+          "wt": 53,
+          "al": "",
+          "bnc": 27,
+          "rtgCh": 1,
+          "l2": {
+            "days": 180,
+            "card": "197",
+            "pos": 4,
+            "odds": "10",
+            "btl": 10,
+            "lto": 4,
+            "distM": 1400,
+            "rtg": 32,
+            "cls": "Class 4",
+            "wt": 53
+          },
+          "l1": {
+            "days": 34,
+            "card": "20",
+            "pos": 3,
+            "odds": "2",
+            "btl": 4,
+            "lto": 37,
+            "distM": 1200,
+            "rtg": 26,
+            "cls": "Class 5",
+            "wt": 62.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "27/8",
+          "rank": 3,
+          "speed": 12.63,
+          "track": 85,
+          "distDelta": -200,
+          "wtDelta": -9.5,
+          "cls": "Class 5",
+          "hcp": 37,
+          "dp": 5,
+          "days": 34,
+          "tone": "pick",
+          "hcpKg": 0
+        },
+        {
+          "cloth": 9,
+          "draw": 5,
+          "name": "GOLDEN GLORY",
+          "filly": true,
+          "trainer": "Ritesh E K",
+          "jockey": "V R Jagadeesh",
+          "age": "5y ch m",
+          "wt": 53,
+          "al": "",
+          "bnc": 27,
+          "rtgCh": 1,
+          "l2": {
+            "days": 34,
+            "card": "20",
+            "pos": 6,
+            "odds": "12",
+            "btl": 16,
+            "lto": 13,
+            "distM": 1200,
+            "rtg": 26,
+            "cls": "Class 5",
+            "wt": 62.5
+          },
+          "l1": {
+            "days": 14,
+            "card": "37",
+            "pos": 3,
+            "odds": "11/2",
+            "btl": 6,
+            "lto": 32,
+            "distM": 1100,
+            "rtg": 26,
+            "cls": "Class 5",
+            "wt": 62.5
+          },
+          "nty": null,
+          "open": null,
+          "tissue": "31/5",
+          "rank": 5,
+          "speed": 12.68,
+          "track": 85,
+          "distDelta": -300,
+          "wtDelta": -9.5,
+          "cls": "Class 5",
+          "hcp": 32,
+          "dp": 2,
+          "days": 14,
+          "tone": "plain",
+          "hcpKg": 0
+        }
+      ],
+      "picks": {
+        "win": 3,
+        "plc": 1,
+        "upset": 8,
+        "lto": [
+          3,
+          1,
+          8,
+          2
+        ],
+        "hcpRtg": [
+          3,
+          1,
+          8,
+          2
+        ],
+        "speed": [
+          3,
+          2,
+          8,
+          9
+        ]
+      }
+    }
+  ]
+};
+
+export const NIGHT = null;
