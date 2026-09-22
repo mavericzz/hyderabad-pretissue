@@ -6,6 +6,7 @@ import { dateTab, labelForCenter } from "../pipeline.ts";
 import { MEETING as pun20260920Meta, races as pun20260920Races, SHEET as pun20260920Sheet, NIGHT as pun20260920Night } from "./pun_2026_09_20.ts";
 import { MEETING as hyd20260921Meta, races as hyd20260921Races, SHEET as hyd20260921Sheet, NIGHT as hyd20260921Night } from "./hyd_2026_09_21.ts";
 import { MEETING as kol20260923Meta, races as kol20260923Races, SHEET as kol20260923Sheet, NIGHT as kol20260923Night } from "./kol_2026_09_23.ts";
+import { MEETING as mys20260924Meta, races as mys20260924Races, SHEET as mys20260924Sheet, NIGHT as mys20260924Night } from "./mys_2026_09_24.ts";
 
 export const GENERATED_MEETINGS = [
   {
@@ -58,5 +59,22 @@ export const GENERATED_MEETINGS = [
     resultSource: "",
     swim: [] as SwimEntry[],
     night: kol20260923Night ?? undefined,
+  },
+  {
+    id: "mys-2026-09-24",
+    date: "2026-09-24",
+    dateTab: dateTab("2026-09-24"),
+    center: "mys",
+    centerLabel: labelForCenter("mys"),
+    short: "MYS",
+    hasNight: Boolean(mys20260924Night),
+    extraCopy: false,
+    meta: mys20260924Meta,
+    races: mys20260924Races as unknown as Race[],
+    sheet: mys20260924Sheet as unknown as SheetMeeting,
+    results: [] as RaceResult[],
+    resultSource: "",
+    swim: [] as SwimEntry[],
+    night: mys20260924Night ?? undefined,
   }
 ];
