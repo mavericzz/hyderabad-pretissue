@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 5,
   "nextBest": "MINDFUL",
   "longshot": "CHARISMATIC",
-  "irDayBest": "unpublished",
+  "irDayBest": "DARDANUS 4(4)",
   "feature": "The Roll N Twist Handicap"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹300000",
     "record": "23 Jan 2017 COLOMBIANA 57 Kgs 2:02.07 Secs",
     "shape": "6-runner. Class 5 / For Horses Rated 1-26",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SANAYA (2) 2. WONDERFUL (4) 3. FORTUNE WARRIOR (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win WONDERFUL (4).",
-    "irPick": "unpublished",
+    "irPick": "1. SANAYA (2) 2. WONDERFUL (4) 3. FORTUNE WARRIOR (5)",
     "ourPick": "WONDERFUL (4)",
     "nap": false,
     "runners": [
@@ -614,9 +614,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "-",
     "shape": "4-runner. Class 2 / For Horses Rated 61-86,Rated 41-66 Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MULTIVERSE (4) 2. MINDFUL (1) 3. AABUSHAN (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MINDFUL (1).",
-    "irPick": "unpublished",
+    "irPick": "1. MULTIVERSE (4) 2. MINDFUL (1) 3. AABUSHAN (3)",
     "ourPick": "MINDFUL (1)",
     "nap": false,
     "runners": [
@@ -1012,9 +1012,9 @@ export const races: Race[] = [
     "purse": "₹1100000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "5-runner. Class 4 / For Horses Rated 21-46, 3 Years Old Only, Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DREAMFLIGHT (3) 2. THE WIND (4) 3. AURA BENDER (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win DREAMFLIGHT (3).",
-    "irPick": "unpublished",
+    "irPick": "1. DREAMFLIGHT (3) 2. THE WIND (4) 3. AURA BENDER (1)",
     "ourPick": "DREAMFLIGHT (3)",
     "nap": false,
     "runners": [
@@ -1335,9 +1335,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "04 Mar 2018 WHOMAKESTHERULES 59 Kgs 1:34.80 Secs",
     "shape": "5-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DARDANUS (4) 2. BLACK DIAMOND (3) 3. OH MY DARLING (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win THIS IS GOLD (2).",
-    "irPick": "unpublished",
+    "irPick": "1. DARDANUS (4) 2. BLACK DIAMOND (3) 3. OH MY DARLING (5)",
     "ourPick": "THIS IS GOLD (2)",
     "nap": false,
     "runners": [
@@ -1816,9 +1816,9 @@ export const races: Race[] = [
     "purse": "₹1000000",
     "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
     "shape": "6-runner. Class 1 / For Horses Rated 95 And Above",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. BLACKSTONE (5) 2. BLACK EAGLE (1) 3. KING'S RETREAT (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BLACK EAGLE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. BLACKSTONE (5) 2. BLACK EAGLE (1) 3. KING'S RETREAT (6)",
     "ourPick": "BLACK EAGLE (1)",
     "nap": true,
     "runners": [
@@ -2404,9 +2404,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "9-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CASHMERE SILK (6) 2. FELIX (3) 3. MIDNIGHT BLUE (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win FELIX (3).",
-    "irPick": "unpublished",
+    "irPick": "1. CASHMERE SILK (6) 2. FELIX (3) 3. MIDNIGHT BLUE (9)",
     "ourPick": "FELIX (3)",
     "nap": false,
     "runners": [
@@ -3259,9 +3259,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "9-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SULTANA (6) 2. ADEYA (8) 3. SPORTING TRAINER (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SPORTING TRAINER (3).",
-    "irPick": "unpublished",
+    "irPick": "1. SULTANA (6) 2. ADEYA (8) 3. SPORTING TRAINER (3)",
     "ourPick": "SPORTING TRAINER (3)",
     "nap": false,
     "runners": [
