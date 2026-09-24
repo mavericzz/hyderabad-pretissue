@@ -3761,7 +3761,7 @@ export const races: Race[] = [
         "last5": "1-2-1-7-11-.",
         "tissue": "24/1",
         "rank": 12,
-        "verdict": "Last: 24 Jun 26 MYS 1200M 11/12 beaten 19.25 at 10 off 68, 54kg. 93 days out. 2.5kg claim. HCP 33. Latest work 20 Sep MYS: Ocean (Rb ) 1-10 800/53, 600/37 Moved Attractively.",
+        "verdict": "Last: 24 Jun 26 MYS 1200M 11/12 beaten 19.25 at 10 off 68, 54kg. 93 days out. 2.5kg claim. HCP 33. Latest work 23 Sep MYS: Ocean (Faiz ) 39 Shaped Well.",
         "similar": "Nearest trip: 24 Jun 26 MYS 1200M Class 2, 11/12 beaten 19.25 vs OPUS ONE.",
         "form": [
           {
@@ -3815,6 +3815,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "23 Sep",
+            "venue": "MYS",
+            "clock": "600m outer sand (-6)",
+            "note": "Ocean (Faiz ) 39 Shaped Well."
+          },
+          {
             "date": "20 Sep",
             "venue": "MYS",
             "clock": "1000m outer sand (-5)",
@@ -3831,12 +3837,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "800m outer sand (-3)",
             "note": "Ocean (Rb ) 57 600/43, Moved Freely."
-          },
-          {
-            "date": "13 Sep",
-            "venue": "MYS",
-            "clock": "600m outer sand (-2)",
-            "note": "Ocean (Rb ) 43 Moved Freely."
           }
         ]
       },
