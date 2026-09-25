@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 5,
   "nextBest": "SUPERLATIVE",
   "longshot": "RINKU ROMEO",
-  "irDayBest": "unpublished",
+  "irDayBest": "DIVINE RUN 3 (5)",
   "feature": "The Accuser Handicap"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "23 Jan 2017 COLOMBIANA 57 Kgs 2:02.07 Secs",
     "shape": "5-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. GOODWILL (1) 2. DIVINE GIFT (3) 3. CASCADE (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win LINEUPANDCOLLECT (2).",
-    "irPick": "unpublished",
+    "irPick": "1. GOODWILL (1) 2. DIVINE GIFT (3) 3. CASCADE (4)",
     "ourPick": "LINEUPANDCOLLECT (2)",
     "nap": false,
     "runners": [
@@ -519,9 +519,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "7-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. EXCEED (1) 2. RENAISSANCE (4) 3. GALWAY GIRL (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win EXCEED (1).",
-    "irPick": "unpublished",
+    "irPick": "1. EXCEED (1) 2. RENAISSANCE (4) 3. GALWAY GIRL (6)",
     "ourPick": "EXCEED (1)",
     "nap": false,
     "runners": [
@@ -1202,9 +1202,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
     "shape": "10-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible (Whips Not Allowed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DIVINE RUN (5) 2. KAY STAR (4) 3. DR DOOM (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SUPERLATIVE (3).",
-    "irPick": "unpublished",
+    "irPick": "1. DIVINE RUN (5) 2. KAY STAR (4) 3. DR DOOM (6)",
     "ourPick": "SUPERLATIVE (3)",
     "nap": false,
     "runners": [
@@ -2164,9 +2164,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
     "shape": "9-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible (Whips Not Allowed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. FAST APPROACH (4) 2. LAVISH GIRL (9) 3. CORTADO (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TRENDING CRUISE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. FAST APPROACH (4) 2. LAVISH GIRL (9) 3. CORTADO (5)",
     "ourPick": "TRENDING CRUISE (1)",
     "nap": false,
     "runners": [
@@ -3019,9 +3019,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "02 Apr 2024 LA DOMINATE 50.5 Kgs 1:04.01 Secs",
     "shape": "12-runner. Class 2 / For Horses Rated 61-86,Rated 41-66 Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SKY FORCE (7) 2. MORANO (6) 3. ROMPING HOME (11). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win APEROL (3).",
-    "irPick": "unpublished",
+    "irPick": "1. SKY FORCE (7) 2. MORANO (6) 3. ROMPING HOME (11)",
     "ourPick": "APEROL (3)",
     "nap": true,
     "runners": [
@@ -4171,9 +4171,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "02 Apr 2024 LA DOMINATE 50.5 Kgs 1:04.01 Secs",
     "shape": "10-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. KINDLE (7) 2. PRINCESS S (5) 3. HONEY CAKE (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win HONEY CAKE (4).",
-    "irPick": "unpublished",
+    "irPick": "1. KINDLE (7) 2. PRINCESS S (5) 3. HONEY CAKE (4)",
     "ourPick": "HONEY CAKE (4)",
     "nap": false,
     "runners": [
@@ -5121,9 +5121,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "02 Apr 2024 LA DOMINATE 50.5 Kgs 1:04.01 Secs",
     "shape": "9-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LIVE IT LOVE IT (1) 2. CASHMERE SILK (4) 3. BLACK FLORAL (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win LIVE IT LOVE IT (1).",
-    "irPick": "unpublished",
+    "irPick": "1. LIVE IT LOVE IT (1) 2. CASHMERE SILK (4) 3. BLACK FLORAL (6)",
     "ourPick": "LIVE IT LOVE IT (1)",
     "nap": false,
     "runners": [
