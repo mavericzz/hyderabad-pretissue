@@ -5,7 +5,7 @@ export const MEETING = {
   "venue": "HYDERABAD (HYD)",
   "date": "Monday 28 September 2026",
   "first": "01:15 PM",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 27 Sep 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 28 Sep 26.",
   "going": "Hyderabad turf. Auto-built from the IndiaRace card; going is not independently verified.",
   "dayBest": "LUCKY ZONE",
   "dayBestRace": 8,
@@ -2258,7 +2258,7 @@ export const races: Race[] = [
         "last5": "9-10-8-.",
         "tissue": "8/1",
         "rank": 5,
-        "verdict": "Last: 21 Sep 26 HYD 1400M 8/15 beaten 8.75 at 20 off 27, 54.5kg. 7 days out. HCP 7. Latest work 26 Sep HYD: Sara (Mohit Singh ) 58 600/44, Fit And Well.",
+        "verdict": "Last: 21 Sep 26 HYD 1400M 8/15 beaten 8.75 at 20 off 27, 54.5kg. 7 days out. HCP 7. Latest work 28 Sep BAN: Sassy Sarah (Rb ) 44 Retains Form.",
         "similar": "Nearest trip: 21 Sep 26 HYD 1400M Maiden, 8/15 beaten 8.75 vs ASHWA JAFFNA.",
         "form": [
           {
@@ -2300,6 +2300,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "28 Sep",
+            "venue": "BAN",
+            "clock": "600m outer sand (-1)",
+            "note": "Sassy Sarah (Rb ) 44 Retains Form."
+          },
+          {
             "date": "26 Sep",
             "venue": "HYD",
             "clock": "800m sand (-2)",
@@ -2316,12 +2322,6 @@ export const races: Race[] = [
             "venue": "HYD",
             "clock": "1000m sand (+1)",
             "note": "Sara (Mohit Singh ) 1-16 800/1-0, 600/46, Unextended."
-          },
-          {
-            "date": "07 Sep",
-            "venue": "BAN",
-            "clock": "1200m outer sand (-1)",
-            "note": "Sassy Sarah (P Surya ) 1-28.5 1000/1-13.5 600/45 Not Extended."
           }
         ]
       }
@@ -6911,7 +6911,7 @@ export const SHEET: SheetMeeting = {
   "banner": "HRC HYDERABAD",
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "28-09-2026 - HYD - MONDAY - 8 CARD",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 27 Sep 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 28 Sep 26.",
   "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
   "races": [
     {
