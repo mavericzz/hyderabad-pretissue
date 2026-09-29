@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 3,
   "nextBest": "FALCON FURY",
   "longshot": "SPECTACULAR",
-  "irDayBest": "unpublished",
+  "irDayBest": "OSAKA 1 (8)",
   "feature": "The Zavaray S Poonawalla Mysore 2000 Guineas (Gr.3)"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹1050000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "10-runner. Maiden / For Horses 3 Years Old Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. OSAKA (8) 2. SIGRID (9) 3. AMBER STORM (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win YOUR SRI SHAKTHI (10).",
-    "irPick": "unpublished",
+    "irPick": "1. OSAKA (8) 2. SIGRID (9) 3. AMBER STORM (4)",
     "ourPick": "YOUR SRI SHAKTHI (10)",
     "nap": false,
     "runners": [
@@ -736,9 +736,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "10-runner. Class 4 / Horses Rated 20 To 45, 5 years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MAKOTO (2) 2. ROCK MY HEART (10) 3. MY SOLITAIRE (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win STAR SYMPHONY (8).",
-    "irPick": "unpublished",
+    "irPick": "1. MAKOTO (2) 2. ROCK MY HEART (10) 3. MY SOLITAIRE (5)",
     "ourPick": "STAR SYMPHONY (8)",
     "nap": false,
     "runners": [
@@ -1668,9 +1668,9 @@ export const races: Race[] = [
     "purse": "₹1050000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "11-runner. Maiden / For Horses 3 Years Old Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MOON ORACLE (7) 2. SENSUOUS (8) 3. GARZIAN (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MOON ORACLE (7).",
-    "irPick": "unpublished",
+    "irPick": "1. MOON ORACLE (7) 2. SENSUOUS (8) 3. GARZIAN (6)",
     "ourPick": "MOON ORACLE (7)",
     "nap": true,
     "runners": [
@@ -2538,9 +2538,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 3 / Horses Rated 40 To 65",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SPECTACULAR (1) 2. ZEPHYRINE (11) 3. RAPIDUS (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win FALCON FURY (2).",
-    "irPick": "unpublished",
+    "irPick": "1. SPECTACULAR (1) 2. ZEPHYRINE (11) 3. RAPIDUS (3)",
     "ourPick": "FALCON FURY (2)",
     "nap": false,
     "runners": [
@@ -2845,7 +2845,7 @@ export const races: Race[] = [
         "last5": "4-4-6-11-11-.",
         "tissue": "24/1",
         "rank": 12,
-        "verdict": "Last: 17 Sep 26 MYS 1400M 11/12 beaten 19.25 at 20 off 62, 52kg. 14 days out. 2.5kg claim. HCP 15. Latest work 25 Sep MYS: Mystic Divine (Rb ) 59 600/44, Easy Throughout.",
+        "verdict": "Last: 17 Sep 26 MYS 1400M 11/12 beaten 19.25 at 20 off 62, 52kg. 14 days out. 2.5kg claim. HCP 15. Latest work 29 Sep MYS: Mystic Divine (Faiz ) 56 600/40, Moved Well",
         "similar": "Nearest trip: 17 Sep 26 MYS 1400M Class 2, 11/12 beaten 19.25 vs GACHCHHATU.",
         "form": [
           {
@@ -2899,6 +2899,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "29 Sep",
+            "venue": "MYS",
+            "clock": "800m outer sand (-4)",
+            "note": "Mystic Divine (Faiz ) 56 600/40, Moved Well"
+          },
+          {
             "date": "25 Sep",
             "venue": "MYS",
             "clock": "800m outer sand (-1)",
@@ -2915,12 +2921,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "600m outer sand (-3)",
             "note": "Mystic Divine (Faiz ) 42 Moved Freely"
-          },
-          {
-            "date": "08 Sep",
-            "venue": "MYS",
-            "clock": "800m outer sand (-7)",
-            "note": "Mystic Divine (Rb ) 53 600/37, Moved Fluently."
           }
         ]
       },
@@ -3678,9 +3678,9 @@ export const races: Race[] = [
     "purse": "₹3800000",
     "record": "05 Oct 2023 SHAMROCK 57.5 Kgs 1:33.45 Secs",
     "shape": "5-runner. Term Race / For Horses 3 Year Old Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. STUD POKER (5) 2. BULLETPROOF (3) 3. BLACK IRISH (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BULLETPROOF (3).",
-    "irPick": "unpublished",
+    "irPick": "1. STUD POKER (5) 2. BULLETPROOF (3) 3. BLACK IRISH (2)",
     "ourPick": "BULLETPROOF (3)",
     "nap": false,
     "runners": [
@@ -4111,9 +4111,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "10-runner. Class 4 / Horses Rated 20 To 45, 5 years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AGERA (1) 2. LIKE MY CHILD (5) 3. STAR COMET (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win AGERA (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AGERA (1) 2. LIKE MY CHILD (5) 3. STAR COMET (4)",
     "ourPick": "AGERA (1)",
     "nap": false,
     "runners": [
@@ -4482,7 +4482,7 @@ export const races: Race[] = [
         "last5": "7-10-9-9-4-.",
         "tissue": "42/5",
         "rank": 5,
-        "verdict": "Last: 04 Sep 26 MYS 1100M 4/12 beaten 7 at 10 off 38, 59.5kg. 27 days out. HCP 33. Latest work 29 Jul MYS: Like My Child (Vishal Shivare), Sada (Ritesh Gochi), Glowing Moonlights (Lakshman Singh), Kings Land (Faiz), Major Saab (P.K. Manji), Nizbati Queen (A. Mhatre ), 1-26.65 1400-600: 48.80, 600/37.73 Distance: 10 lengths, 2 3/4 of a length, 12 1/4 length, 5 lengths & 4 lengths separated them. Remarks: All jumped out well, first named to note",
+        "verdict": "Last: 04 Sep 26 MYS 1100M 4/12 beaten 7 at 10 off 38, 59.5kg. 27 days out. HCP 33. Latest work 29 Sep MYS: Like My Child (RB ) 53 600/38, Moved Well",
         "similar": "Nearest trip: 04 Sep 26 MYS 1100M Class 4, 4/12 beaten 7 vs FURIOUS FUN.",
         "form": [
           {
@@ -4536,6 +4536,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "29 Sep",
+            "venue": "MYS",
+            "clock": "800m outer sand (-7)",
+            "note": "Like My Child (RB ) 53 600/38, Moved Well"
+          },
+          {
             "date": "29 Jul",
             "venue": "MYS",
             "clock": "1400m mock race (-18)",
@@ -4552,12 +4558,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "800m outer sand (Even)",
             "note": "Like My Child (H Rahul ) 1-00 600/43, Easy Throughout."
-          },
-          {
-            "date": "04 Jul",
-            "venue": "MYS",
-            "clock": "1000m outer sand (-8)",
-            "note": "Like My Child (H Rahul ) 1-07 800/51, 600/37 Slightly Extended."
           }
         ]
       },
@@ -4998,9 +4998,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "05 Oct 2023 SHAMROCK 57.5 Kgs 1:33.45 Secs",
     "shape": "12-runner. Class 4 / Horses Rated 20 To 45",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. STAR OF LIGHT (1) 2. MIGHTY HERO (7) 3. SAPIENT (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win STAR OF LIGHT (1).",
-    "irPick": "unpublished",
+    "irPick": "1. STAR OF LIGHT (1) 2. MIGHTY HERO (7) 3. SAPIENT (3)",
     "ourPick": "STAR OF LIGHT (1)",
     "nap": false,
     "runners": [
@@ -5863,7 +5863,7 @@ export const races: Race[] = [
         "last5": "5-7-6-10-8-.",
         "tissue": "24/1",
         "rank": 11,
-        "verdict": "Last: 04 Sep 26 MYS 1400M 8/12 beaten 7.5 at 4 off 26, 53kg. 27 days out. HCP 4. Latest work 23 Sep MYS: Speak The Breed (Faiz ) 40 Moved Well.",
+        "verdict": "Last: 04 Sep 26 MYS 1400M 8/12 beaten 7.5 at 4 off 26, 53kg. 27 days out. HCP 4. Latest work 29 Sep MYS: Speak the Breed (Faiz ) 58 600/41, Moved Freely",
         "similar": "Nearest trip: 04 Sep 26 MYS 1400M Class 4, 8/12 beaten 7.5 vs TRUTH IN WINE.",
         "form": [
           {
@@ -5917,6 +5917,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "29 Sep",
+            "venue": "MYS",
+            "clock": "800m outer sand (-2)",
+            "note": "Speak the Breed (Faiz ) 58 600/41, Moved Freely"
+          },
+          {
             "date": "23 Sep",
             "venue": "MYS",
             "clock": "600m outer sand (-5)",
@@ -5933,12 +5939,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "600m outer sand (-4)",
             "note": "Speak The Breed (Rb ) 41 Moved Well."
-          },
-          {
-            "date": "01 Sep",
-            "venue": "MYS",
-            "clock": "1200m outer sand (-4)",
-            "note": "Speak The Breed (Faiz ) 1-26 1000/1-10, 800/55, 600/40, Moved Well."
           }
         ]
       },

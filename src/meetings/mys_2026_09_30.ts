@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 5,
   "nextBest": "WHISTLING GLORY",
   "longshot": "ULTIMATE BLUES",
-  "irDayBest": "unpublished",
+  "irDayBest": "SPLENDID DREAM 4 (3)",
   "feature": "The Son Of The Light Plate"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹375000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "11-runner. Class 5 / Horses Rated 00 To 25",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SAMARTH (3) 2. DAVIDS DELIGHT (8) 3. SEDUCTIVE (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win CITY OF HUSTLE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. SAMARTH (3) 2. DAVIDS DELIGHT (8) 3. SEDUCTIVE (7)",
     "ourPick": "CITY OF HUSTLE (1)",
     "nap": false,
     "runners": [
@@ -1064,9 +1064,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 4 / Horses Rated 20 To 45",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ACT OF KINDNESS (1) 2. PREVIEW (3) 3. EMINENT GOLD (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win WHISTLING GLORY (10).",
-    "irPick": "unpublished",
+    "irPick": "1. ACT OF KINDNESS (1) 2. PREVIEW (3) 3. EMINENT GOLD (5)",
     "ourPick": "WHISTLING GLORY (10)",
     "nap": false,
     "runners": [
@@ -2071,9 +2071,9 @@ export const races: Race[] = [
     "purse": "₹375000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "12-runner. Class 5 / Horses Rated 00 To 25",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. OCEAN OF GRACE (4) 2. PURPLE MARTINI (8) 3. V CAVIAR (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win OCEAN OF GRACE (4).",
-    "irPick": "unpublished",
+    "irPick": "1. OCEAN OF GRACE (4) 2. PURPLE MARTINI (8) 3. V CAVIAR (10)",
     "ourPick": "OCEAN OF GRACE (4)",
     "nap": false,
     "runners": [
@@ -3187,9 +3187,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "12-runner. Class 3 / Horses Rated 40 To 65 (Whips Not Allowed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SPLENDID DREAM (3) 2. GLORIOUSNESS (5) 3. WAITARA (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ZIVA (4).",
-    "irPick": "unpublished",
+    "irPick": "1. SPLENDID DREAM (3) 2. GLORIOUSNESS (5) 3. WAITARA (9)",
     "ourPick": "ZIVA (4)",
     "nap": false,
     "runners": [
@@ -4309,9 +4309,9 @@ export const races: Race[] = [
     "purse": "₹700000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "11-runner. Class 2 / Horses Rated 60 And Above",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AQUASTIC (1) 2. SASSY SARAH (8) 3. MIND GAMES (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win AQUASTIC (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AQUASTIC (1) 2. SASSY SARAH (8) 3. MIND GAMES (6)",
     "ourPick": "AQUASTIC (1)",
     "nap": true,
     "runners": [
@@ -5360,9 +5360,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "05 Oct 2023 SHAMROCK 57.5 Kgs 1:33.45 Secs",
     "shape": "12-runner. Class 3 / Horses Rated 40 To 65, 5 years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. THE LEADER (5) 2. FINAL CALL (7) 3. MAGNUS (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BLUEMED (1).",
-    "irPick": "unpublished",
+    "irPick": "1. THE LEADER (5) 2. FINAL CALL (7) 3. MAGNUS (3)",
     "ourPick": "BLUEMED (1)",
     "nap": false,
     "runners": [
@@ -6518,9 +6518,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "13 Jul 2016 SAIGAR 50.5 Kgs 1:04:26 Secs",
     "shape": "12-runner. Class 4 / Horses Rated 20 To 45, 5 years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. EXCELLENT WARRIOR (4) 2. THE GREY GERANIUM (2) 3. O MANCHALI (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win EXCELLENT WARRIOR (4).",
-    "irPick": "unpublished",
+    "irPick": "1. EXCELLENT WARRIOR (4) 2. THE GREY GERANIUM (2) 3. O MANCHALI (10)",
     "ourPick": "EXCELLENT WARRIOR (4)",
     "nap": false,
     "runners": [
