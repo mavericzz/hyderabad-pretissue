@@ -2811,7 +2811,7 @@ export const races: Race[] = [
         "last5": "8-9-8-3-7-.",
         "tissue": "32/5",
         "rank": 3,
-        "verdict": "Last: 29 Jul 26 MYS 1600M 7/12 beaten 5 at 8 off 19, 59.5kg. 63 days out. 2.5kg claim. HCP 28. Latest work 27 Sep MYS: Always For You (Faiz ) 1-25 1000/1-10, 800/55, 600/40, Looks Fit.",
+        "verdict": "Last: 29 Jul 26 MYS 1600M 7/12 beaten 5 at 8 off 19, 59.5kg. 63 days out. 2.5kg claim. HCP 28. Latest work 29 Sep MYS: Always for You (RB ) 45 Easy",
         "similar": "Nearest trip: 08 Jul 26 MYS 1400M Class 5, 3/12 beaten 14 vs GOLDEN SABRE.",
         "form": [
           {
@@ -2865,6 +2865,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "29 Sep",
+            "venue": "MYS",
+            "clock": "600m outer sand (Even)",
+            "note": "Always for You (RB ) 45 Easy"
+          },
+          {
             "date": "27 Sep",
             "venue": "MYS",
             "clock": "1200m outer sand (-5)",
@@ -2881,12 +2887,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "1200m outer sand (-1)",
             "note": "Always For You (Rb ) 1-29 1000/1-13, 800/58, 600/43, Fit & Fine."
-          },
-          {
-            "date": "29 Aug",
-            "venue": "MYS",
-            "clock": "1200m gate practice (-1)",
-            "note": "Always for You (P. Siddaraju), Speaking The Breed (Faiz ), 1-28.37 1200-600: 48.47, 600/39.89 Distance: 1/2 a length separated them. Remarks: Both jumped out well."
           }
         ]
       },
