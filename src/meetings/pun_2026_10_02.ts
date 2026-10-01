@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 5,
   "nextBest": "UNDERCOVER",
   "longshot": "REGINA MEMORABILIS",
-  "irDayBest": "unpublished",
+  "irDayBest": "QUEEN OF BEAUTIES 4 (8)",
   "feature": "The Threptin Fillies' & Mares' Stakes (Gr.3)"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "12-runner. Class 5 / Horses Rated 1 to 26, 5 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. REMY RED (7) 2. EXHALT (10) 3. MILA (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ETOILE (4).",
-    "irPick": "unpublished",
+    "irPick": "1. REMY RED (7) 2. EXHALT (10) 3. MILA (1)",
     "ourPick": "ETOILE (4)",
     "nap": false,
     "runners": [
@@ -1104,9 +1104,9 @@ export const races: Race[] = [
     "purse": "₹1200000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "7-runner. Maiden / For Horses 3 years old only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MANUEL (3) 2. FIRE AWAY (2) 3. THE OLIVE CROWN (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MANUEL (3).",
-    "irPick": "unpublished",
+    "irPick": "1. MANUEL (3) 2. FIRE AWAY (2) 3. THE OLIVE CROWN (6)",
     "ourPick": "MANUEL (3)",
     "nap": false,
     "runners": [
@@ -1667,9 +1667,9 @@ export const races: Race[] = [
     "purse": "₹1200000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "7-runner. Class 4 / Horses Rated 20 to 46, 3 years old only (0 to 19 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AZAADI (1) 2. SNOW GIRL (7) 3. MYSTICA (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win AZAADI (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AZAADI (1) 2. SNOW GIRL (7) 3. MYSTICA (4)",
     "ourPick": "AZAADI (1)",
     "nap": false,
     "runners": [
@@ -2260,9 +2260,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "11-runner. Class 3 / Horses Rated 40 to 66 (20 to 39 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. QUEEN OF BEAUTIES (8) 2. STARIA (7) 3. UNDERCOVER (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win UNDERCOVER (10).",
-    "irPick": "unpublished",
+    "irPick": "1. QUEEN OF BEAUTIES (8) 2. STARIA (7) 3. UNDERCOVER (10)",
     "ourPick": "UNDERCOVER (10)",
     "nap": false,
     "runners": [
@@ -3262,9 +3262,9 @@ export const races: Race[] = [
     "purse": "₹1500000",
     "record": "15 Aug 2016 COMMODORE 55.5 Kgs 1:50.07 Secs",
     "shape": "7-runner. Term Race / For Fillies and Mares 3 years old and over (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. KAVYA (1) 2. REGINA MEMORABILIS (3) 3. PYRITE (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win KAVYA (1).",
-    "irPick": "unpublished",
+    "irPick": "1. KAVYA (1) 2. REGINA MEMORABILIS (3) 3. PYRITE (2)",
     "ourPick": "KAVYA (1)",
     "nap": true,
     "runners": [
@@ -3945,9 +3945,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "13-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. REAL GOLD (2) 2. VICTORY FLAIR (13) 3. DIEGO GARCIA (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BEYOND STARS (10).",
-    "irPick": "unpublished",
+    "irPick": "1. REAL GOLD (2) 2. VICTORY FLAIR (13) 3. DIEGO GARCIA (1)",
     "ourPick": "BEYOND STARS (10)",
     "nap": false,
     "runners": [
@@ -5000,9 +5000,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "28 Nov 2021 ZUCCARELLI 56 Kgs 2:02.28 Secs",
     "shape": "6-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SHAANDAAR (1) 2. AGE OF REASON (2) 3. MONTEREY (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SHAANDAAR (1).",
-    "irPick": "unpublished",
+    "irPick": "1. SHAANDAAR (1) 2. AGE OF REASON (2) 3. MONTEREY (4)",
     "ourPick": "SHAANDAAR (1)",
     "nap": false,
     "runners": [
@@ -5022,7 +5022,7 @@ export const races: Race[] = [
         "last5": "6-1-3-.",
         "tissue": "3/10",
         "rank": 1,
-        "verdict": "Last: 08 Aug 26 PUN 1600M 3/12 beaten 5 at 7 off 42, 60kg. 55 days out. HCP 42. Latest work 29 Sep PUN: Shaandaar (Kritish), Jaandaar (Vivek G ), 1-25 1000 1-09, 800 54, 600 40, Pair moved together.",
+        "verdict": "Last: 08 Aug 26 PUN 1600M 3/12 beaten 5 at 7 off 42, 60kg. 55 days out. HCP 42. Latest work 30 Sep PUN: Shaandaar (Kirtish ) 1-42 1200 1-27, 1000 1-11, 800 56, 600 42, Handy.",
         "similar": "Nearest trip: 08 Aug 26 PUN 1600M Class 4, 3/12 beaten 5 vs VORTEX.",
         "form": [
           {
@@ -5076,6 +5076,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "30 Sep",
+            "venue": "PUN",
+            "clock": "1400m inner sand (-3)",
+            "note": "Shaandaar (Kirtish ) 1-42 1200 1-27, 1000 1-11, 800 56, 600 42, Handy."
+          },
+          {
             "date": "29 Sep",
             "venue": "PUN",
             "clock": "1000m inner sand (+10)",
@@ -5092,12 +5098,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1400m inner sand (-5)",
             "note": "Shaandaar (A.Prakash), Namiri (Kirtish ), 1-40 1200 1-24, 1000 1-09, 800 53, 600 40, Pair moved together."
-          },
-          {
-            "date": "25 Sep",
-            "venue": "PUN",
-            "clock": "800m inner sand (-3)",
-            "note": "Shaandaar (A.Prakash), Namiri (Kirtish ), 57 600 43, Pair easy."
           }
         ]
       },
