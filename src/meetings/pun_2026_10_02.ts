@@ -27,9 +27,9 @@ export const races: Race[] = [
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "12-runner. Class 5 / Horses Rated 1 to 26, 5 years old and over",
     "similarRace": "IndiaRace: 1. REMY RED (7) 2. EXHALT (10) 3. MILA (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
-    "tissueNote": "120% book from HCP ranks. Win ETOILE (4).",
+    "tissueNote": "120% book from HCP ranks. Win MILA (1).",
     "irPick": "1. REMY RED (7) 2. EXHALT (10) 3. MILA (1)",
-    "ourPick": "ETOILE (4)",
+    "ourPick": "MILA (1)",
     "nap": false,
     "runners": [
       {
@@ -45,12 +45,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "27 / 26",
-        "last5": "3-10-4-4-3-.",
-        "tissue": "27/4",
-        "rank": 4,
-        "verdict": "Last: 06 Sep 26 PUN 1200M 3/9 beaten 5.25 at 12 off 27, 53kg. 26 days out. 5kg claim. HCP 23. Latest work 26 Sep PUN: Mila (Omkar), Nashville (T.S.Jodha ), 1-09 800 54, 600 41, Level jump, former finished well clear.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1200M Class 4, 3/9 beaten 5.25 vs STARIA.",
+        "last5": "10-4-4-3-6-.",
+        "tissue": "3/8",
+        "rank": 1,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 6/12 beaten 4 at 7/2 off 26, 61.5kg. 0 days out. 5kg claim. HCP 47. Latest work 26 Sep PUN: Mila (Omkar), Nashville (T.S.Jodha ), 1-09 800 54, 600 41, Level jump, former finished well clear.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 6/12 beaten 4 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "6",
+            "field": "12",
+            "beaten": "4L",
+            "wt": "61.5",
+            "odds": "7/2",
+            "winner": "JAGGER"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -86,18 +98,6 @@ export const races: Race[] = [
             "wt": "52",
             "odds": "20",
             "winner": "MINARI"
-          },
-          {
-            "date": "08 Feb 26",
-            "venue": "MUM",
-            "dist": "1200m",
-            "cls": "Class 4",
-            "pos": "10",
-            "field": "12",
-            "beaten": "8.25L",
-            "wt": "54",
-            "odds": "15",
-            "winner": "SILVER STRIKE"
           }
         ],
         "work": [
@@ -140,12 +140,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "27 / 25",
-        "last5": "12-8-12-7-.",
+        "last5": "12-8-12-7-11-.",
         "tissue": "24/1",
-        "rank": 5,
-        "verdict": "Last: 12 Sep 26 PUN 1100M 7/10 beaten 9 at 20 off 27, 52.5kg. 20 days out. 2.5kg claim. HCP 11. Latest work 28 Sep PUN: Ageisjustanumber (Ramswarup), Tyrannus (Pranil ), 1-04 800 50, 600 38, Level jump, former finished dist ahead.",
-        "similar": "Nearest trip: 22 Aug 26 PUN 1200M Class 4, 12/14 beaten 12.5 vs SPOTLIGHT.",
+        "rank": 7,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 11/12 beaten 16.25 at 20 off 25, 61kg. 0 days out. 2.5kg claim. HCP 11. Latest work 28 Sep PUN: Ageisjustanumber (Ramswarup), Tyrannus (Pranil ), 1-04 800 50, 600 38, Level jump, former finished dist ahead.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 11/12 beaten 16.25 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "11",
+            "field": "12",
+            "beaten": "16.25L",
+            "wt": "61",
+            "odds": "20",
+            "winner": "JAGGER"
+          },
           {
             "date": "12 Sep 26",
             "venue": "PUN",
@@ -181,18 +193,6 @@ export const races: Race[] = [
             "wt": "53.5",
             "odds": "20",
             "winner": "SANTANA ROW"
-          },
-          {
-            "date": "08 Feb 26",
-            "venue": "MUM",
-            "dist": "1200m",
-            "cls": "Class 4",
-            "pos": "12",
-            "field": "12",
-            "beaten": "21L",
-            "wt": "54",
-            "odds": "20",
-            "winner": "SILVER STRIKE"
           }
         ],
         "work": [
@@ -235,12 +235,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "24 / 24",
-        "last5": "6-2-4-7-8-.",
-        "tissue": "24/1",
-        "rank": 7,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 8/9 beaten 19.25 at 20 off 24, 60.5kg. 19 days out. HCP 1.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 5, 8/9 beaten 19.25 vs CRIMSON PIRATE.",
+        "last5": "2-4-7-8-5-.",
+        "tissue": "7/2",
+        "rank": 2,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 5/12 beaten 3 at 15 off 24, 60.5kg. 0 days out. HCP 35.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 5/12 beaten 3 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "5",
+            "field": "12",
+            "beaten": "3L",
+            "wt": "60.5",
+            "odds": "15",
+            "winner": "JAGGER"
+          },
           {
             "date": "13 Sep 26",
             "venue": "PUN",
@@ -276,18 +288,6 @@ export const races: Race[] = [
             "wt": "52.5",
             "odds": "11",
             "winner": "ALGONQUIN"
-          },
-          {
-            "date": "31 Jan 26",
-            "venue": "MUM",
-            "dist": "1000m",
-            "cls": "Class 5",
-            "pos": "2",
-            "field": "11",
-            "beaten": "0.75L",
-            "wt": "58.5",
-            "odds": "7",
-            "winner": "EKLA CHOLO"
           }
         ],
         "work": []
@@ -305,12 +305,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-CNB",
         "rtg": "23 / 23",
-        "last5": "9-11-7-7-3-.",
-        "tissue": "9/10",
-        "rank": 1,
-        "verdict": "Last: 20 Sep 26 PUN 1000M 3/8 beaten 1.75 at 9/2 off 23, 60kg. 12 days out. 2.5kg claim. HCP 37. Latest work 13 Sep PUN: Flashman (T.S.Jodha), Etoile (Omkar ), 1-10 800 54, 600 40, Pair moved together.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1200M Class 4, 7/10 beaten 10.25 vs ENSKY.",
+        "last5": "11-7-7-3-10-.",
+        "tissue": "107/5",
+        "rank": 4,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 10/12 beaten 10.75 at 12 off 23, 60kg. 0 days out. 2.5kg claim. HCP 19. Latest work 13 Sep PUN: Flashman (T.S.Jodha), Etoile (Omkar ), 1-10 800 54, 600 40, Pair moved together.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 10/12 beaten 10.75 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "10",
+            "field": "12",
+            "beaten": "10.75L",
+            "wt": "60",
+            "odds": "12",
+            "winner": "JAGGER"
+          },
           {
             "date": "20 Sep 26",
             "venue": "PUN",
@@ -346,18 +358,6 @@ export const races: Race[] = [
             "wt": "56.5",
             "odds": "20",
             "winner": "ESTEBAN"
-          },
-          {
-            "date": "24 Jul 26",
-            "venue": "PUN",
-            "dist": "1200m",
-            "cls": "Class 4",
-            "pos": "11",
-            "field": "12",
-            "beaten": "16.5L",
-            "wt": "53",
-            "odds": "20",
-            "winner": "MINARI"
           }
         ],
         "work": [
@@ -400,12 +400,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-CNB",
         "rtg": "23 / 23",
-        "last5": "9-2-4-5-7-.",
-        "tissue": "14/5",
-        "rank": 2,
-        "verdict": "Last: 12 Sep 26 PUN 1600M 7/9 beaten 4.5 at 20 off 23, 60kg. 20 days out. HCP 30. Latest work 30 Aug PUN: Jagger (T.S Jodha ) 1-07 800 53, 600 40, Pushed.",
-        "similar": "Nearest trip: 12 Sep 26 PUN 1600M Class 5, 7/9 beaten 4.5 vs BALENO.",
+        "last5": "2-4-5-7-1-.",
+        "tissue": "14/1",
+        "rank": 3,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 1/12 beaten won at 15 off 23, 60kg. 0 days out. HCP 23. Latest work 30 Aug PUN: Jagger (T.S Jodha ) 1-07 800 53, 600 40, Pushed.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 1/12 beaten 0 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "1",
+            "field": "12",
+            "beaten": "won",
+            "wt": "60",
+            "odds": "15",
+            "winner": "JAGGER"
+          },
           {
             "date": "12 Sep 26",
             "venue": "PUN",
@@ -441,18 +453,6 @@ export const races: Race[] = [
             "wt": "61.5",
             "odds": "12",
             "winner": "BOHEMIAN RHAPSODY"
-          },
-          {
-            "date": "21 Mar 26",
-            "venue": "MUM",
-            "dist": "1200m",
-            "cls": "Class 5",
-            "pos": "2",
-            "field": "8",
-            "beaten": "4L",
-            "wt": "61",
-            "odds": "13/4",
-            "winner": "KEY WEST"
           }
         ],
         "work": [
@@ -495,12 +495,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "BLK",
         "rtg": "22 / 20",
-        "last5": "9-2-8-6-7-.",
+        "last5": "2-8-6-7-8-.",
         "tissue": "24/1",
-        "rank": 11,
-        "verdict": "Last: 08 Aug 26 PUN 1600M 7/12 beaten 7 at 20 off 22, 50kg. 55 days out. HCP -10. Latest work 17 Sep PUN: Luminosity (Pranil ) 53 600 40, Moved freely.",
-        "similar": "Nearest trip: 08 Aug 26 PUN 1600M Class 4, 7/12 beaten 7 vs VORTEX.",
+        "rank": 6,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 8/12 beaten 7.25 at 5/2 off 20, 58.5kg. 0 days out. HCP 16. Latest work 17 Sep PUN: Luminosity (Pranil ) 53 600 40, Moved freely.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 8/12 beaten 7.25 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "8",
+            "field": "12",
+            "beaten": "7.25L",
+            "wt": "58.5",
+            "odds": "5/2",
+            "winner": "JAGGER"
+          },
           {
             "date": "08 Aug 26",
             "venue": "PUN",
@@ -536,18 +548,6 @@ export const races: Race[] = [
             "wt": "51.5",
             "odds": "12",
             "winner": "ENSKY"
-          },
-          {
-            "date": "12 Feb 26",
-            "venue": "MUM",
-            "dist": "1400m",
-            "cls": "Class 5",
-            "pos": "2",
-            "field": "11",
-            "beaten": "0L",
-            "wt": "59.5",
-            "odds": "5/2",
-            "winner": "ALEXANDRIA"
           }
         ],
         "work": [
@@ -578,12 +578,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "16 / 17",
-        "last5": "11-7-10-3-3-.",
-        "tissue": "53/10",
-        "rank": 3,
-        "verdict": "Last: 12 Sep 26 PUN 1600M 3/9 beaten 0 at 13/4 off 16, 56.5kg. 20 days out. HCP 25. Latest work 27 Sep PUN: Remy Red (Aditya ) 1-11 800 55, 600 42, Urged.",
-        "similar": "Nearest trip: 12 Sep 26 PUN 1600M Class 5, 3/9 beaten 0 vs BALENO.",
+        "last5": "7-10-3-3-9-.",
+        "tissue": "24/1",
+        "rank": 9,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 9/12 beaten 9.75 at 6 off 17, 57kg. 0 days out. HCP 4. Latest work 27 Sep PUN: Remy Red (Aditya ) 1-11 800 55, 600 42, Urged.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 9/12 beaten 9.75 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "9",
+            "field": "12",
+            "beaten": "9.75L",
+            "wt": "57",
+            "odds": "6",
+            "winner": "JAGGER"
+          },
           {
             "date": "12 Sep 26",
             "venue": "PUN",
@@ -619,18 +631,6 @@ export const races: Race[] = [
             "wt": "58.5",
             "odds": "10",
             "winner": "MARATHA ADMIRAL"
-          },
-          {
-            "date": "08 Mar 26",
-            "venue": "MUM",
-            "dist": "1200m",
-            "cls": "Class 4",
-            "pos": "7",
-            "field": "13",
-            "beaten": "7L",
-            "wt": "50.5",
-            "odds": "20",
-            "winner": "INTERCEPTOR"
           }
         ],
         "work": [
@@ -673,12 +673,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-HOOD",
         "rtg": "18 / 16",
-        "last5": "10-7-8-7-5-.",
+        "last5": "7-8-7-5-7-.",
         "tissue": "24/1",
-        "rank": 6,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 5/9 beaten 9.25 at 13/4 off 18, 57.5kg. 19 days out. HCP 9. Latest work 30 Jul PUN: Ashwa Almaty (Peter ) 55 600 41, Urged.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 5, 5/9 beaten 9.25 vs CRIMSON PIRATE.",
+        "rank": 8,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 7/12 beaten 5.75 at 20 off 16, 56.5kg. 0 days out. HCP 11. Latest work 30 Jul PUN: Ashwa Almaty (Peter ) 55 600 41, Urged.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 7/12 beaten 5.75 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "7",
+            "field": "12",
+            "beaten": "5.75L",
+            "wt": "56.5",
+            "odds": "20",
+            "winner": "JAGGER"
+          },
           {
             "date": "13 Sep 26",
             "venue": "PUN",
@@ -714,18 +726,6 @@ export const races: Race[] = [
             "wt": "60",
             "odds": "10",
             "winner": "ADONIS"
-          },
-          {
-            "date": "29 Mar 26",
-            "venue": "MUM",
-            "dist": "1000m",
-            "cls": "Class 5",
-            "pos": "7",
-            "field": "8",
-            "beaten": "8.75L",
-            "wt": "60.5",
-            "odds": "12",
-            "winner": "ARBITRAGE"
           }
         ],
         "work": [
@@ -756,12 +756,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "18 / 16",
-        "last5": "6-5-7-9-8-.",
+        "last5": "5-7-9-8-4-.",
         "tissue": "24/1",
-        "rank": 12,
-        "verdict": "Last: 20 Sep 26 PUN 1400M 8/8 beaten 21.5 at 15 off 18, 57.5kg. 12 days out.",
-        "similar": "Nearest trip: 20 Sep 26 PUN 1400M Class 5, 8/8 beaten 21.5 vs GOLDEN HEART.",
+        "rank": 5,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 4/12 beaten 3 at 20 off 16, 56.5kg. 0 days out. HCP 17.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 4/12 beaten 3 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "4",
+            "field": "12",
+            "beaten": "3L",
+            "wt": "56.5",
+            "odds": "20",
+            "winner": "JAGGER"
+          },
           {
             "date": "20 Sep 26",
             "venue": "PUN",
@@ -797,18 +809,6 @@ export const races: Race[] = [
             "wt": "56",
             "odds": "15",
             "winner": "LA DOLCE VITA"
-          },
-          {
-            "date": "21 Dec 25",
-            "venue": "MUM",
-            "dist": "1400m",
-            "cls": "Class 5",
-            "pos": "7",
-            "field": "8",
-            "beaten": "11L",
-            "wt": "59",
-            "odds": "12",
-            "winner": "MADISON"
           }
         ],
         "work": []
@@ -826,12 +826,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "10 / 5",
-        "last5": "7-7-8-4-7-.",
+        "last5": "7-8-4-7-3-.",
         "tissue": "24/1",
-        "rank": 9,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 7/9 beaten 3.75 at 13/4 off 8, 52.5kg. 19 days out. HCP 0. Latest work 07 Sep PUN: Exhalt (Amyn ) 50 600 38, Extended.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 5, 7/9 beaten 3.75 vs PHANTASMIQUE.",
+        "rank": 12,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 3/12 beaten 3 at 10 off 5, 51kg. 0 days out. HCP -7. Latest work 07 Sep PUN: Exhalt (Amyn ) 50 600 38, Extended.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 3/12 beaten 3 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "3",
+            "field": "12",
+            "beaten": "3L",
+            "wt": "51",
+            "odds": "10",
+            "winner": "JAGGER"
+          },
           {
             "date": "13 Sep 26",
             "venue": "PUN",
@@ -867,18 +879,6 @@ export const races: Race[] = [
             "wt": "53.5",
             "odds": "9",
             "winner": "KEY WEST"
-          },
-          {
-            "date": "08 Mar 26",
-            "venue": "MUM",
-            "dist": "1400m",
-            "cls": "Class 5",
-            "pos": "8",
-            "field": "13",
-            "beaten": "9.25L",
-            "wt": "53.5",
-            "odds": "15",
-            "winner": "GOLDEN HEART"
           }
         ],
         "work": [
@@ -915,12 +915,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "7 / 5",
-        "last5": "5-4-6-5-6-.",
+        "last5": "4-6-5-6-12-.",
         "tissue": "24/1",
-        "rank": 8,
-        "verdict": "Last: 20 Sep 26 PUN 1000M 6/8 beaten 2.5 at 10 off 7, 52kg. 12 days out. HCP 1. Latest work 28 Sep PUN: We Still Believe (Bhawani ) 53 600 39, Moved freely.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 5, 5/9 beaten 2.5 vs PHANTASMIQUE.",
+        "rank": 10,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 12/12 beaten 22 at 15 off 5, 51kg. 0 days out. HCP 1. Latest work 28 Sep PUN: We Still Believe (Bhawani ) 53 600 39, Moved freely.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 12/12 beaten 22 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "12",
+            "field": "12",
+            "beaten": "22L",
+            "wt": "51",
+            "odds": "15",
+            "winner": "JAGGER"
+          },
           {
             "date": "20 Sep 26",
             "venue": "PUN",
@@ -956,18 +968,6 @@ export const races: Race[] = [
             "wt": "53.5",
             "odds": "7",
             "winner": "FAY"
-          },
-          {
-            "date": "24 Jul 26",
-            "venue": "PUN",
-            "dist": "1000m",
-            "cls": "Class 5",
-            "pos": "4",
-            "field": "8",
-            "beaten": "2L",
-            "wt": "52.5",
-            "odds": "6",
-            "winner": "EKLA CHOLO"
           }
         ],
         "work": [
@@ -1010,12 +1010,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-HOOD",
         "rtg": "1 / 3",
-        "last5": "9-6-8-8-3-.",
+        "last5": "6-8-8-3-2-.",
         "tissue": "24/1",
-        "rank": 10,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 3/9 beaten 1.75 at 20 off 1, 49kg. 19 days out. 3.5kg claim. HCP -3. Latest work 28 Sep PUN: Highground (Siddharth ) 1-04 800 50, 600 38, Jumped out well & moved easy.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 5, 3/9 beaten 1.75 vs PHANTASMIQUE.",
+        "rank": 11,
+        "verdict": "Last: 02 Oct 26 PUN 1400M 2/12 beaten 3 at 12 off 3, 50kg. 0 days out. 3.5kg claim. HCP -4. Latest work 28 Sep PUN: Highground (Siddharth ) 1-04 800 50, 600 38, Jumped out well & moved easy.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1400M Class 5, 2/12 beaten 3 vs JAGGER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1400m",
+            "cls": "Class 5",
+            "pos": "2",
+            "field": "12",
+            "beaten": "3L",
+            "wt": "50",
+            "odds": "12",
+            "winner": "JAGGER"
+          },
           {
             "date": "13 Sep 26",
             "venue": "PUN",
@@ -1051,18 +1063,6 @@ export const races: Race[] = [
             "wt": "49",
             "odds": "20",
             "winner": "BOHEMIAN RHAPSODY"
-          },
-          {
-            "date": "17 Jul 26",
-            "venue": "PUN",
-            "dist": "1200m",
-            "cls": "Class 5",
-            "pos": "6",
-            "field": "9",
-            "beaten": "8.75L",
-            "wt": "49",
-            "odds": "20",
-            "winner": "AEON FLUX"
           }
         ],
         "work": [
@@ -1123,12 +1123,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-EB",
         "rtg": "29 / 28",
-        "last5": "10-8-12-.",
+        "last5": "10-8-12-6-.",
         "tissue": "24/1",
         "rank": 7,
-        "verdict": "Last: 06 Sep 26 PUN 1600M 12/12 beaten 24.75 at 20 off 29, 53.5kg. 26 days out. Latest work 23 Sep PUN: Queen's Covenant (App), Aegean Sea (Pranil ), 1-11 800 55, 600 42, Level jump, former finished 2Ls ahead.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1600M Class 4, 12/12 beaten 24.75 vs ABHYANKAR.",
+        "verdict": "Last: 02 Oct 26 PUN 1600M 6/7 beaten 28.25 at 20 off 28, 56kg. 0 days out. Latest work 23 Sep PUN: Queen's Covenant (App), Aegean Sea (Pranil ), 1-11 800 55, 600 42, Level jump, former finished 2Ls ahead.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 6/7 beaten 28.25 vs THE OLIVE CROWN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1600m",
+            "cls": "Maiden",
+            "pos": "6",
+            "field": "7",
+            "beaten": "28.25L",
+            "wt": "56",
+            "odds": "20",
+            "winner": "THE OLIVE CROWN"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -1206,12 +1218,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "30 / 32",
-        "last5": "4-2-.",
-        "tissue": "19/10",
-        "rank": 2,
-        "verdict": "Last: 22 Aug 26 PUN 1600M 2/10 beaten 0.5 at 9/2 off 30, 53.5kg. 41 days out. HCP 25. Latest work 26 Sep PUN: Fire Away (Kaviraj), Sukoon (App ), 54 600 40, Former started 2Ls behind & finished level.",
-        "similar": "Nearest trip: 22 Aug 26 PUN 1600M Class 4, 2/10 beaten 0.5 vs FLOYD.",
+        "last5": "4-2-4-.",
+        "tissue": "99/10",
+        "rank": 4,
+        "verdict": "Last: 02 Oct 26 PUN 1600M 4/7 beaten 7 at 5 off 32, 56kg. 0 days out. HCP 13. Latest work 26 Sep PUN: Fire Away (Kaviraj), Sukoon (App ), 54 600 40, Former started 2Ls behind & finished level.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 4/7 beaten 7 vs THE OLIVE CROWN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1600m",
+            "cls": "Maiden",
+            "pos": "4",
+            "field": "7",
+            "beaten": "7L",
+            "wt": "56",
+            "odds": "5",
+            "winner": "THE OLIVE CROWN"
+          },
           {
             "date": "22 Aug 26",
             "venue": "PUN",
@@ -1277,12 +1301,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "32 / 32",
-        "last5": "3-2-.",
-        "tissue": "4/5",
+        "last5": "3-2-2-.",
+        "tissue": "6/5",
         "rank": 1,
-        "verdict": "Last: 06 Sep 26 PUN 1400M 2/8 beaten 0.75 at 15/10 off 32, 56kg. 26 days out. HCP 30. Latest work 27 Sep PUN: Manuel (Vivek G ) 1-22 1000 1-06, 800 51, 600 38, Impressed.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1400M Maiden, 2/8 beaten 0.75 vs NORAIAH.",
+        "verdict": "Last: 02 Oct 26 PUN 1600M 2/7 beaten 1.25 at 6/10 off 32, 56kg. 0 days out. HCP 29. Latest work 27 Sep PUN: Manuel (Vivek G ) 1-22 1000 1-06, 800 51, 600 38, Impressed.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 2/7 beaten 1.25 vs THE OLIVE CROWN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1600m",
+            "cls": "Maiden",
+            "pos": "2",
+            "field": "7",
+            "beaten": "1.25L",
+            "wt": "56",
+            "odds": "6/10",
+            "winner": "THE OLIVE CROWN"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -1348,12 +1384,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "30 / 29",
-        "last5": "7-7-5-.",
-        "tissue": "24/1",
-        "rank": 6,
-        "verdict": "Last: 12 Sep 26 PUN 2000M 5/8 beaten 16.5 at 20 off 30, 56kg. 20 days out. HCP -25. Latest work 28 Sep PUN: Muqaddar (App), Shadow Phoenix (Ajinkya ), 1-08 800 52, 600 38, Level jump, former finished 2Ls ahead.",
-        "similar": "Nearest trip: 21 Mar 26 MUM 1400M Maiden, 7/8 beaten 16.25 vs BEAST MODE.",
+        "last5": "7-7-5-5-.",
+        "tissue": "17/1",
+        "rank": 5,
+        "verdict": "Last: 02 Oct 26 PUN 1600M 5/7 beaten 7.75 at 20 off 29, 56kg. 0 days out. HCP 8. Latest work 28 Sep PUN: Muqaddar (App), Shadow Phoenix (Ajinkya ), 1-08 800 52, 600 38, Level jump, former finished 2Ls ahead.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 5/7 beaten 7.75 vs THE OLIVE CROWN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1600m",
+            "cls": "Maiden",
+            "pos": "5",
+            "field": "7",
+            "beaten": "7.75L",
+            "wt": "56",
+            "odds": "20",
+            "winner": "THE OLIVE CROWN"
+          },
           {
             "date": "12 Sep 26",
             "venue": "PUN",
@@ -1431,12 +1479,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "27 / 25",
-        "last5": "6-5-7-7-.",
-        "tissue": "97/8",
-        "rank": 4,
-        "verdict": "Last: 12 Sep 26 PUN 1000M 7/9 beaten 11 at 20 off 27, 56kg. 20 days out. HCP 10. Latest work 27 Sep PUN: Scorcher (T.S.Jodha), Riff (Vinod ), 52 600 38, Former finished 5Ls ahead.",
-        "similar": "Nearest trip: 15 Mar 26 MUM 1400M Term Race, 7/11 beaten 6.75 vs RAMBO.",
+        "last5": "6-5-7-7-3-.",
+        "tissue": "63/10",
+        "rank": 3,
+        "verdict": "Last: 02 Oct 26 PUN 1600M 3/7 beaten 3 at 20 off 25, 56kg. 0 days out. HCP 17. Latest work 27 Sep PUN: Scorcher (T.S.Jodha), Riff (Vinod ), 52 600 38, Former finished 5Ls ahead.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 3/7 beaten 3 vs THE OLIVE CROWN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1600m",
+            "cls": "Maiden",
+            "pos": "3",
+            "field": "7",
+            "beaten": "3L",
+            "wt": "56",
+            "odds": "20",
+            "winner": "THE OLIVE CROWN"
+          },
           {
             "date": "12 Sep 26",
             "venue": "PUN",
@@ -1472,18 +1532,6 @@ export const races: Race[] = [
             "wt": "56",
             "odds": "20",
             "winner": "MINARI"
-          },
-          {
-            "date": "31 Jan 26",
-            "venue": "MUM",
-            "dist": "1000m",
-            "cls": "Maiden",
-            "pos": "6",
-            "field": "8",
-            "beaten": "6.5L",
-            "wt": "56",
-            "odds": "9",
-            "winner": "GUNFIRE"
           }
         ],
         "work": [
@@ -1526,12 +1574,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "29 / 29",
-        "last5": "12-7-3-.",
-        "tissue": "31/8",
-        "rank": 3,
-        "verdict": "Last: 06 Sep 26 PUN 1600M 3/5 beaten 2.25 at 20 off 29, 54kg. 26 days out. HCP 20. Latest work 22 Sep PUN: Savage Peacock (Santosh G), The Olive Crown (Ajinkya ), 1-22 1000 1-07, 800 53, 600 39, Pair moved together.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1600M Class 4, 3/5 beaten 2.25 vs MAHOGANY.",
+        "last5": "12-7-3-1-.",
+        "tissue": "6/5",
+        "rank": 2,
+        "verdict": "Last: 02 Oct 26 PUN 1600M 1/7 beaten won at 8 off 29, 56kg. 0 days out. HCP 29. Latest work 22 Sep PUN: Savage Peacock (Santosh G), The Olive Crown (Ajinkya ), 1-22 1000 1-07, 800 53, 600 39, Pair moved together.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 1/7 beaten 0 vs THE OLIVE CROWN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1600m",
+            "cls": "Maiden",
+            "pos": "1",
+            "field": "7",
+            "beaten": "won",
+            "wt": "56",
+            "odds": "8",
+            "winner": "THE OLIVE CROWN"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -1609,12 +1669,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "BLK",
         "rtg": "0 / 27",
-        "last5": "8-.",
+        "last5": "8-7-.",
         "tissue": "24/1",
-        "rank": 5,
-        "verdict": "Last: 22 Aug 26 PUN 1200M 8/10 beaten 19.25 at 12 off ?, 54.5kg. 41 days out. HCP -8. Latest work 29 Sep PUN: Carino (N.Bhosle), Deavline (Mosin ), 1-05 800 51, 600 39, Former finished a length ahead.",
-        "similar": "Nearest trip: 22 Aug 26 PUN 1200M Maiden, 8/10 beaten 19.25 vs SUKOON.",
+        "rank": 6,
+        "verdict": "Last: 02 Oct 26 PUN 1600M 7/7 beaten 31.5 at 20 off 27, 54.5kg. 0 days out. HCP -8. Latest work 29 Sep PUN: Carino (N.Bhosle), Deavline (Mosin ), 1-05 800 51, 600 39, Former finished a length ahead.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 7/7 beaten 31.5 vs THE OLIVE CROWN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1600m",
+            "cls": "Maiden",
+            "pos": "7",
+            "field": "7",
+            "beaten": "31.5L",
+            "wt": "54.5",
+            "odds": "20",
+            "winner": "THE OLIVE CROWN"
+          },
           {
             "date": "22 Aug 26",
             "venue": "PUN",
@@ -1686,12 +1758,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-CNB",
         "rtg": "42 / 41",
-        "last5": "10-7-1-4-.",
-        "tissue": "1/4",
+        "last5": "10-7-1-4-4-.",
+        "tissue": "2/5",
         "rank": 1,
-        "verdict": "Last: 06 Sep 26 PUN 1200M 4/10 beaten 4.5 at 90/100 off 42, 60kg. 26 days out. 3.5kg claim. HCP 50. Latest work 28 Sep PUN: Azaadi (Kaviraj ) 50 600 37, Impressed.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1200M Class 4, 4/10 beaten 4.5 vs ENSKY.",
+        "verdict": "Last: 02 Oct 26 PUN 1200M 4/7 beaten 7.5 at 17/10 off 41, 59.5kg. 0 days out. 3.5kg claim. HCP 42. Latest work 28 Sep PUN: Azaadi (Kaviraj ) 50 600 37, Impressed.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 4, 4/7 beaten 7.5 vs CAVIAR QUEEN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "4",
+            "field": "7",
+            "beaten": "7.5L",
+            "wt": "59.5",
+            "odds": "17/10",
+            "winner": "CAVIAR QUEEN"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -1727,18 +1811,6 @@ export const races: Race[] = [
             "wt": "54.5",
             "odds": "25",
             "winner": "PINNACLE"
-          },
-          {
-            "date": "08 Mar 26",
-            "venue": "MUM",
-            "dist": "1000m",
-            "cls": "Maiden",
-            "pos": "10",
-            "field": "12",
-            "beaten": "19.75L",
-            "wt": "54.5",
-            "odds": "30",
-            "winner": "STARIA"
           }
         ],
         "work": [
@@ -1781,12 +1853,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "34 / 34",
-        "last5": "4-1-13-8-9-.",
-        "tissue": "24/1",
+        "last5": "1-13-8-9-5-.",
+        "tissue": "219/10",
         "rank": 4,
-        "verdict": "Last: 06 Sep 26 PUN 1200M 9/10 beaten 14.25 at 15 off 34, 56kg. 26 days out. HCP 8. Latest work 28 Sep PUN: Latios (Prasad ) 54 600 39, Handy.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1200M Class 4, 9/10 beaten 14.25 vs ENSKY.",
+        "verdict": "Last: 02 Oct 26 PUN 1200M 5/7 beaten 11 at 20 off 34, 56kg. 0 days out. HCP 14. Latest work 28 Sep PUN: Latios (Prasad ) 54 600 39, Handy.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 4, 5/7 beaten 11 vs CAVIAR QUEEN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "5",
+            "field": "7",
+            "beaten": "11L",
+            "wt": "56",
+            "odds": "20",
+            "winner": "CAVIAR QUEEN"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -1822,18 +1906,6 @@ export const races: Race[] = [
             "wt": "55.5",
             "odds": "15",
             "winner": "JAANDAAR"
-          },
-          {
-            "date": "12 Feb 26",
-            "venue": "MUM",
-            "dist": "1000m",
-            "cls": "Maiden",
-            "pos": "1",
-            "field": "6",
-            "beaten": "won",
-            "wt": "54.5",
-            "odds": "68/100",
-            "winner": "LATIOS"
           }
         ],
         "work": [
@@ -1876,12 +1948,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-HOOD",
         "rtg": "0 / 30",
-        "last5": "2-6-.",
-        "tissue": "24/1",
-        "rank": 3,
-        "verdict": "Last: 26 Feb 26 MUM 1400M 6/10 beaten 8 at 17/10 off ?, 54.5kg. 218 days out. 2.5kg claim. HCP 16. Latest work 29 Sep PUN: Caviar Queen (Ramswarup ) 55 600 41, Easy.",
-        "similar": "Nearest trip: 26 Feb 26 MUM 1400M Maiden, 6/10 beaten 8 vs MENORCA.",
+        "last5": "2-6-1-.",
+        "tissue": "9/5",
+        "rank": 2,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 1/7 beaten won at 7 off 30, 54kg. 0 days out. 2.5kg claim. HCP 35. Latest work 29 Sep PUN: Caviar Queen (Ramswarup ) 55 600 41, Easy.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 4, 1/7 beaten 0 vs CAVIAR QUEEN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "1",
+            "field": "7",
+            "beaten": "won",
+            "wt": "54",
+            "odds": "7",
+            "winner": "CAVIAR QUEEN"
+          },
           {
             "date": "26 Feb 26",
             "venue": "MUM",
@@ -1935,12 +2019,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "29 / 29",
-        "last5": "2-2-9-5-.",
-        "tissue": "24/1",
-        "rank": 5,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 5/11 beaten 7 at 20 off 29, 51.5kg. 19 days out. HCP 8. Latest work 24 Sep PUN: Mystica (Mosin ) 1-05 800 51, 600 39, Moved nicely.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M For Horses, 5/11 beaten 7 vs ZAYYAN.",
+        "last5": "2-2-9-5-3-.",
+        "tissue": "16/1",
+        "rank": 3,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 3/7 beaten 4.75 at 11/4 off 29, 53.5kg. 0 days out. HCP 17. Latest work 24 Sep PUN: Mystica (Mosin ) 1-05 800 51, 600 39, Moved nicely.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 4, 3/7 beaten 4.75 vs CAVIAR QUEEN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "3",
+            "field": "7",
+            "beaten": "4.75L",
+            "wt": "53.5",
+            "odds": "11/4",
+            "winner": "CAVIAR QUEEN"
+          },
           {
             "date": "13 Sep 26",
             "venue": "PUN",
@@ -1976,18 +2072,6 @@ export const races: Race[] = [
             "wt": "54.5",
             "odds": "5/2",
             "winner": "MARGARETTA"
-          },
-          {
-            "date": "07 Dec 25",
-            "venue": "MUM",
-            "dist": "1200m",
-            "cls": "Maiden",
-            "pos": "2",
-            "field": "12",
-            "beaten": "1.25L",
-            "wt": "54.5",
-            "odds": "18",
-            "winner": "LADY SCARLET"
           }
         ],
         "work": [
@@ -2024,7 +2108,7 @@ export const races: Race[] = [
         "age": "3y ch f",
         "pedigree": "Roderic O'connor(IRE) - Eskdale(GB)",
         "trainer": "Deepesh Narredu",
-        "jockey": "A S Peter",
+        "jockey": "Withdrawn",
         "wt": "52",
         "al": "",
         "shoes": "A",
@@ -2033,9 +2117,21 @@ export const races: Race[] = [
         "last5": "7-7-.",
         "tissue": "24/1",
         "rank": 6,
-        "verdict": "Last: 08 Aug 26 PUN 1600M 7/8 beaten 36.75 at 20 off 27, 54.5kg. 55 days out. Latest work 28 Sep PUN: Saffron Glow (Vishal ) 1-10 800 56, 600 44, Good jump.",
-        "similar": "Nearest trip: 24 Jul 26 PUN 1000M For Horses, 7/7 beaten 22.75 vs BLUE JET.",
+        "verdict": "Last: 02 Oct 26 PUN 1200M 0/7 beaten 0 at ? off 26, 52kg. 0 days out. Latest work 28 Sep PUN: Saffron Glow (Vishal ) 1-10 800 56, 600 44, Good jump.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 4, 0/7 beaten 0 vs CAVIAR QUEEN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "0",
+            "field": "7",
+            "beaten": "0L",
+            "wt": "52",
+            "odds": "",
+            "winner": "CAVIAR QUEEN"
+          },
           {
             "date": "08 Aug 26",
             "venue": "PUN",
@@ -2101,12 +2197,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "26 / 25",
-        "last5": "8-9-8-.",
+        "last5": "8-9-8-6-.",
         "tissue": "24/1",
         "rank": 7,
-        "verdict": "Last: 20 Sep 26 PUN 1200M 8/10 beaten 31.75 at 20 off 26, 55kg. 12 days out. Latest work 31 Aug PUN: Hiranyamayee (Amyn ) 1-12 800 58, 600 44, Good jump.",
-        "similar": "Nearest trip: 20 Sep 26 PUN 1200M Class 4, 8/10 beaten 31.75 vs GOLD BAR.",
+        "verdict": "Last: 02 Oct 26 PUN 1200M 6/7 beaten 45 at ? off 25, 51.5kg. 0 days out. Latest work 31 Aug PUN: Hiranyamayee (Amyn ) 1-12 800 58, 600 44, Good jump.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 4, 6/7 beaten 45 vs CAVIAR QUEEN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "6",
+            "field": "7",
+            "beaten": "45L",
+            "wt": "51.5",
+            "odds": "",
+            "winner": "CAVIAR QUEEN"
+          },
           {
             "date": "20 Sep 26",
             "venue": "PUN",
@@ -2166,12 +2274,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "EP",
         "rtg": "25 / 24",
-        "last5": "6-7-5-5-.",
-        "tissue": "39/2",
-        "rank": 2,
-        "verdict": "Last: 06 Sep 26 PUN 1400M 5/8 beaten 2.75 at 20 off 25, 54.5kg. 26 days out. HCP 19. Latest work 24 Sep PUN: Snow Girl (Hamir), Age Of Reason (Neeraj ), 1-23 1000 1-09, 800 55, 600 41, Pair level.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1400M Maiden, 5/8 beaten 2.75 vs NORAIAH.",
+        "last5": "6-7-5-5-2-.",
+        "tissue": "24/1",
+        "rank": 5,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 2/7 beaten 4.25 at 13/2 off 24, 51kg. 0 days out. HCP 8. Latest work 24 Sep PUN: Snow Girl (Hamir), Age Of Reason (Neeraj ), 1-23 1000 1-09, 800 55, 600 41, Pair level.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 4, 2/7 beaten 4.25 vs CAVIAR QUEEN.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 4",
+            "pos": "2",
+            "field": "7",
+            "beaten": "4.25L",
+            "wt": "51",
+            "odds": "13/2",
+            "winner": "CAVIAR QUEEN"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -2207,18 +2327,6 @@ export const races: Race[] = [
             "wt": "54.5",
             "odds": "12",
             "winner": "MENORCA"
-          },
-          {
-            "date": "01 Feb 26",
-            "venue": "MUM",
-            "dist": "1200m",
-            "cls": "Term Race",
-            "pos": "6",
-            "field": "9",
-            "beaten": "10L",
-            "wt": "54.5",
-            "odds": "15",
-            "winner": "LADY SCARLET"
           }
         ],
         "work": [
@@ -2280,8 +2388,8 @@ export const races: Race[] = [
         "eq": "TS",
         "rtg": "62 / 59",
         "last5": "6-7-3-6-7-.",
-        "tissue": "9/1",
-        "rank": 5,
+        "tissue": "17/2",
+        "rank": 4,
         "verdict": "Last: 21 Mar 26 MUM 1400M 7/9 beaten 11.75 at 25 off 62, 60kg. 195 days out. HCP 46. Latest work 26 Sep PUN: Alpine Star (Avinash ) 1-07 800 52, 600 40, Pleased.",
         "similar": "Nearest trip: 21 Mar 26 MUM 1400M Class 3, 7/9 beaten 11.75 vs VEGATHA.",
         "form": [
@@ -2369,8 +2477,8 @@ export const races: Race[] = [
         "eq": "TS",
         "rtg": "58 / 59",
         "last5": "3-1-12-10-2-.",
-        "tissue": "10/1",
-        "rank": 7,
+        "tissue": "19/2",
+        "rank": 5,
         "verdict": "Last: 29 Aug 26 PUN 1200M 2/5 beaten 5.5 at 13/2 off 58, 54kg. 34 days out. HCP 45.",
         "similar": "Nearest trip: 29 Aug 26 PUN 1200M Class 2, 2/5 beaten 5.5 vs CHALLENGE ACCEPTED.",
         "form": [
@@ -2440,7 +2548,7 @@ export const races: Race[] = [
         "rtg": "55 / 53",
         "last5": "1-6-5-4-6-.",
         "tissue": "24/1",
-        "rank": 8,
+        "rank": 9,
         "verdict": "Last: 16 Aug 26 PUN 1400M 6/7 beaten 9.75 at 20 off 55, 54.5kg. 47 days out. HCP 31. Latest work 08 Aug PUN: Rambo (Zeeshan), Nelson River (Aditya ), 52 600 38, Former moved nicely & finished 3Ls ahead.",
         "similar": "Nearest trip: 16 Aug 26 PUN 1400M Term Race, 6/7 beaten 9.75 vs JAANDAAR.",
         "form": [
@@ -2533,12 +2641,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-HOOD",
         "rtg": "54 / 53",
-        "last5": "6-10-2-2-5-.",
-        "tissue": "57/10",
-        "rank": 3,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 5/13 beaten 2.5 at 9/2 off 54, 55.5kg. 19 days out. HCP 50. Latest work 25 Sep PUN: Wind Dancer (N.Bhosale ) 1-07 800 53, 600 40, Moved freely.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 3, 5/13 beaten 2.5 vs SKANDHA.",
+        "last5": "10-2-2-5-1-.",
+        "tissue": "15/4",
+        "rank": 2,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 1/5 beaten won at 7 off 53, 56kg. 0 days out. HCP 53. Latest work 25 Sep PUN: Wind Dancer (N.Bhosale ) 1-07 800 53, 600 40, Moved freely.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 3, 1/5 beaten 0 vs WIND DANCER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "1",
+            "field": "5",
+            "beaten": "won",
+            "wt": "56",
+            "odds": "7",
+            "winner": "WIND DANCER"
+          },
           {
             "date": "13 Sep 26",
             "venue": "PUN",
@@ -2574,18 +2694,6 @@ export const races: Race[] = [
             "wt": "54.5",
             "odds": "15",
             "winner": "GUNFIRE"
-          },
-          {
-            "date": "29 Mar 26",
-            "venue": "MUM",
-            "dist": "1600m",
-            "cls": "Class 3",
-            "pos": "10",
-            "field": "11",
-            "beaten": "17L",
-            "wt": "55",
-            "odds": "20",
-            "winner": "ROSARIO"
           }
         ],
         "work": [
@@ -2624,7 +2732,7 @@ export const races: Race[] = [
         "rtg": "53 / 51",
         "last5": "5-9-3-9-6-.",
         "tissue": "24/1",
-        "rank": 10,
+        "rank": 11,
         "verdict": "Last: 20 Sep 26 PUN 1400M 6/7 beaten 13.5 at 15 off 53, 54.5kg. 12 days out. HCP 20. Latest work 29 Jul PUN: Storm Cloud (J.Chinoy ) 54 600 40, Easy.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1400M Class 3, 6/7 beaten 13.5 vs BISHOP.",
         "form": [
@@ -2705,12 +2813,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-CNB",
         "rtg": "52 / 50",
-        "last5": "6-5-3-5-6-.",
-        "tissue": "9/1",
-        "rank": 6,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 6/13 beaten 2.5 at 8 off 52, 54.5kg. 19 days out. HCP 46. Latest work 09 Sep PUN: El Moran (J Chinnoy ) 1-06 800 51, 600 38, Moved freely.",
-        "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 3, 6/13 beaten 2.5 vs SKANDHA.",
+        "last5": "5-3-5-6-5-.",
+        "tissue": "95/8",
+        "rank": 7,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 5/5 beaten 3.25 at 20 off 50, 54.5kg. 0 days out. HCP 43. Latest work 09 Sep PUN: El Moran (J Chinnoy ) 1-06 800 51, 600 38, Moved freely.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 3, 5/5 beaten 3.25 vs WIND DANCER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "5",
+            "field": "5",
+            "beaten": "3.25L",
+            "wt": "54.5",
+            "odds": "20",
+            "winner": "WIND DANCER"
+          },
           {
             "date": "13 Sep 26",
             "venue": "PUN",
@@ -2746,18 +2866,6 @@ export const races: Race[] = [
             "wt": "55.5",
             "odds": "",
             "winner": "CHALLENGE ACCEPTED"
-          },
-          {
-            "date": "02 Aug 26",
-            "venue": "PUN",
-            "dist": "1000m",
-            "cls": "Class 3",
-            "pos": "3",
-            "field": "10",
-            "beaten": "2.5L",
-            "wt": "55.5",
-            "odds": "9",
-            "winner": "GUNFIRE"
           }
         ],
         "work": [
@@ -2800,12 +2908,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "39 / 50",
-        "last5": "3-1-2-3-1-.",
-        "tissue": "57/10",
-        "rank": 4,
-        "verdict": "Last: 06 Sep 26 PUN 1200M 1/9 beaten won at 5/2 off 39, 59kg. 26 days out. HCP 50. Latest work 29 Sep PUN: Staria (Kaviraj ) 54 600 40, Easy.",
-        "similar": "Nearest trip: 06 Sep 26 PUN 1200M Class 4, 1/9 beaten 0 vs STARIA.",
+        "last5": "1-2-3-1-4-.",
+        "tissue": "85/8",
+        "rank": 6,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 4/5 beaten 2.75 at 4 off 50, 54.5kg. 0 days out. HCP 44. Latest work 29 Sep PUN: Staria (Kaviraj ) 54 600 40, Easy.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 3, 4/5 beaten 2.75 vs WIND DANCER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "4",
+            "field": "5",
+            "beaten": "2.75L",
+            "wt": "54.5",
+            "odds": "4",
+            "winner": "WIND DANCER"
+          },
           {
             "date": "06 Sep 26",
             "venue": "PUN",
@@ -2841,18 +2961,6 @@ export const races: Race[] = [
             "wt": "59",
             "odds": "90/100",
             "winner": "SILVER STRIKE"
-          },
-          {
-            "date": "08 Mar 26",
-            "venue": "MUM",
-            "dist": "1000m",
-            "cls": "Maiden",
-            "pos": "1",
-            "field": "12",
-            "beaten": "won",
-            "wt": "54.5",
-            "odds": "11/10",
-            "winner": "STARIA"
           }
         ],
         "work": [
@@ -2895,12 +3003,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "49 / 49",
-        "last5": "1-8-2-3-7-.",
-        "tissue": "24/1",
-        "rank": 11,
-        "verdict": "Last: 16 Aug 26 PUN 1400M 7/7 beaten 9.75 at 15 off 49, 52kg. 47 days out. HCP 19. Latest work 29 Sep PUN: Queen Of Beauties (Akshay G ) 52 600 37, A good display.",
-        "similar": "Nearest trip: 16 Aug 26 PUN 1400M Term Race, 7/7 beaten 9.75 vs JAANDAAR.",
+        "last5": "8-2-3-7-3-.",
+        "tissue": "66/5",
+        "rank": 8,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 3/5 beaten 2.75 at 2 off 49, 54kg. 0 days out. HCP 42. Latest work 29 Sep PUN: Queen Of Beauties (Akshay G ) 52 600 37, A good display.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 3, 3/5 beaten 2.75 vs WIND DANCER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "3",
+            "field": "5",
+            "beaten": "2.75L",
+            "wt": "54",
+            "odds": "2",
+            "winner": "WIND DANCER"
+          },
           {
             "date": "16 Aug 26",
             "venue": "PUN",
@@ -2936,18 +3056,6 @@ export const races: Race[] = [
             "wt": "56.5",
             "odds": "14",
             "winner": "RAMBO"
-          },
-          {
-            "date": "22 Feb 26",
-            "venue": "MUM",
-            "dist": "1400m",
-            "cls": "Term Race",
-            "pos": "8",
-            "field": "9",
-            "beaten": "9.75L",
-            "wt": "54.5",
-            "odds": "20",
-            "winner": "MARGARETTA"
           }
         ],
         "work": [
@@ -2992,7 +3100,7 @@ export const races: Race[] = [
         "rtg": "50 / 48",
         "last5": "8-1-1-7-5-.",
         "tissue": "24/1",
-        "rank": 9,
+        "rank": 10,
         "verdict": "Last: 20 Sep 26 PUN 1400M 5/7 beaten 8 at 9 off 50, 53kg. 12 days out. 1.5kg claim. HCP 30. Latest work 10 Jul PUN: Red Lightning (J.Chinoy), Esteban (Avinash ), 1-08 800 54, 600 41, Pair easy.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1400M Class 3, 5/7 beaten 8 vs BISHOP.",
         "form": [
@@ -3074,7 +3182,7 @@ export const races: Race[] = [
         "eq": "EP-TS",
         "rtg": "46 / 48",
         "last5": "4-3-2-1-2-.",
-        "tissue": "17/10",
+        "tissue": "8/5",
         "rank": 1,
         "verdict": "Last: 08 Aug 26 PUN 1200M 2/11 beaten 0 at 6/10 off 46, 61.5kg. 55 days out. HCP 59. Latest work 27 Sep PUN: Undercover (Umesh ) 51 600 37, Pleased.",
         "similar": "Nearest trip: 08 Aug 26 PUN 1200M Class 4, 2/11 beaten 0 vs SANTANA ROW.",
@@ -3168,12 +3276,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "34 / 47",
-        "last5": "2-4-7-1-1-.",
-        "tissue": "9/2",
-        "rank": 2,
-        "verdict": "Last: 20 Sep 26 PUN 1200M 1/10 beaten won at 13/10 off 34, 59kg. 12 days out. 2.5kg claim. HCP 52. Latest work 08 Aug PUN: Gold Bar (Ramswarup ) 52 600 39, Moved freely.",
-        "similar": "Nearest trip: 20 Sep 26 PUN 1200M Class 4, 1/10 beaten 0 vs GOLD BAR.",
+        "last5": "4-7-1-1-2-.",
+        "tissue": "61/8",
+        "rank": 3,
+        "verdict": "Last: 02 Oct 26 PUN 1200M 2/5 beaten 0.75 at 7/2 off 47, 53kg. 0 days out. 2.5kg claim. HCP 47. Latest work 08 Aug PUN: Gold Bar (Ramswarup ) 52 600 39, Moved freely.",
+        "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 3, 2/5 beaten 0.75 vs WIND DANCER.",
         "form": [
+          {
+            "date": "02 Oct 26",
+            "venue": "PUN",
+            "dist": "1200m",
+            "cls": "Class 3",
+            "pos": "2",
+            "field": "5",
+            "beaten": "0.75L",
+            "wt": "53",
+            "odds": "7/2",
+            "winner": "WIND DANCER"
+          },
           {
             "date": "20 Sep 26",
             "venue": "PUN",
@@ -3209,18 +3329,6 @@ export const races: Race[] = [
             "wt": "61",
             "odds": "",
             "winner": "BOHEMIAN RHAPSODY"
-          },
-          {
-            "date": "22 Mar 26",
-            "venue": "MUM",
-            "dist": "1600m",
-            "cls": "Class 4",
-            "pos": "7",
-            "field": "9",
-            "beaten": "11.25L",
-            "wt": "52.5",
-            "odds": "6",
-            "winner": "TAJIRI"
           }
         ],
         "work": [
@@ -5588,18 +5696,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 26,
           "rtgCh": -1,
           "l2": {
-            "days": 41,
-            "card": "57",
-            "pos": 4,
-            "odds": "7/2",
-            "btl": 4.25,
-            "lto": 12,
-            "distM": 1200,
-            "rtg": 28,
-            "cls": "Class 4",
-            "wt": 51
-          },
-          "l1": {
             "days": 26,
             "card": "70",
             "pos": 3,
@@ -5611,19 +5707,31 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 53
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 6,
+            "odds": "7/2",
+            "btl": 4,
+            "lto": 37,
+            "distM": 1400,
+            "rtg": 26,
+            "cls": "Class 5",
+            "wt": 61.5
+          },
           "nty": null,
-          "open": null,
-          "tissue": "27/4",
-          "rank": 4,
-          "speed": 11.86,
+          "open": 2.75,
+          "tissue": "3/8",
+          "rank": 1,
+          "speed": 12.51,
           "track": 85,
-          "distDelta": -200,
-          "wtDelta": 8.5,
-          "cls": "Class 4",
-          "hcp": 23,
-          "dp": 4,
-          "days": 26,
-          "tone": "plain",
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 5",
+          "hcp": 47,
+          "dp": 0,
+          "days": 0,
+          "tone": "pick",
           "hcpKg": -5
         },
         {
@@ -5639,18 +5747,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 25,
           "rtgCh": -2,
           "l2": {
-            "days": 41,
-            "card": "57",
-            "pos": 12,
-            "odds": "20",
-            "btl": 12.5,
-            "lto": -3,
-            "distM": 1200,
-            "rtg": 29,
-            "cls": "Class 4",
-            "wt": 51.5
-          },
-          "l1": {
             "days": 20,
             "card": "77",
             "pos": 7,
@@ -5662,18 +5758,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 52.5
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 11,
+            "odds": "20",
+            "btl": 16.25,
+            "lto": 6,
+            "distM": 1400,
+            "rtg": 25,
+            "cls": "Class 5",
+            "wt": 61
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 5,
-          "speed": 12.23,
+          "rank": 7,
+          "speed": 13.07,
           "track": 85,
-          "distDelta": -300,
-          "wtDelta": 8.5,
-          "cls": "Class 4",
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 5",
           "hcp": 11,
-          "dp": 3,
-          "days": 20,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": -2.5
         },
@@ -5690,18 +5798,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 24,
           "rtgCh": 0,
           "l2": {
-            "days": 34,
-            "card": "64",
-            "pos": 7,
-            "odds": "12",
-            "btl": 11.25,
-            "lto": -8,
-            "distM": 1400,
-            "rtg": 26,
-            "cls": "Class 4",
-            "wt": 51.5
-          },
-          "l1": {
             "days": 19,
             "card": "88",
             "pos": 8,
@@ -5713,19 +5809,31 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 60.5
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 5,
+            "odds": "15",
+            "btl": 3,
+            "lto": 35,
+            "distM": 1400,
+            "rtg": 24,
+            "cls": "Class 5",
+            "wt": 60.5
+          },
           "nty": null,
           "open": null,
-          "tissue": "24/1",
-          "rank": 7,
-          "speed": 12.59,
+          "tissue": "7/2",
+          "rank": 2,
+          "speed": 12.45,
           "track": 85,
-          "distDelta": -200,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 1,
-          "dp": 3,
-          "days": 19,
-          "tone": "plain",
+          "hcp": 35,
+          "dp": 0,
+          "days": 0,
+          "tone": "pick",
           "hcpKg": 0
         },
         {
@@ -5741,18 +5849,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 23,
           "rtgCh": 0,
           "l2": {
-            "days": 26,
-            "card": "68",
-            "pos": 7,
-            "odds": "20",
-            "btl": 10.25,
-            "lto": -2,
-            "distM": 1200,
-            "rtg": 25,
-            "cls": "Class 4",
-            "wt": 51.5
-          },
-          "l1": {
             "days": 12,
             "card": "90",
             "pos": 3,
@@ -5764,19 +5860,31 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 60
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 10,
+            "odds": "12",
+            "btl": 10.75,
+            "lto": 14,
+            "distM": 1400,
+            "rtg": 23,
+            "cls": "Class 5",
+            "wt": 60
+          },
           "nty": null,
-          "open": null,
-          "tissue": "9/10",
-          "rank": 1,
-          "speed": 11.96,
+          "open": 7,
+          "tissue": "107/5",
+          "rank": 4,
+          "speed": 12.81,
           "track": 85,
-          "distDelta": -400,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 37,
-          "dp": 2,
-          "days": 12,
-          "tone": "pick",
+          "hcp": 19,
+          "dp": 0,
+          "days": 0,
+          "tone": "plain",
           "hcpKg": -2.5
         },
         {
@@ -5792,18 +5900,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 23,
           "rtgCh": 0,
           "l2": {
-            "days": 47,
-            "card": "43",
-            "pos": 5,
-            "odds": "7",
-            "btl": 3.25,
-            "lto": 38,
-            "distM": 1600,
-            "rtg": 25,
-            "cls": "Class 5",
-            "wt": 61
-          },
-          "l1": {
             "days": 20,
             "card": "81",
             "pos": 7,
@@ -5815,18 +5911,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 60
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 1,
+            "odds": "15",
+            "btl": 0,
+            "lto": 23,
+            "distM": 1400,
+            "rtg": 23,
+            "cls": "Class 5",
+            "wt": 60
+          },
           "nty": null,
           "open": null,
-          "tissue": "14/5",
-          "rank": 2,
-          "speed": 13.09,
+          "tissue": "14/1",
+          "rank": 3,
+          "speed": 12.29,
           "track": 85,
-          "distDelta": 200,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 30,
-          "dp": 3,
-          "days": 20,
+          "hcp": 23,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": 0
         },
@@ -5843,18 +5951,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 20,
           "rtgCh": -2,
           "l2": {
-            "days": 70,
-            "card": "15",
-            "pos": 6,
-            "odds": "20",
-            "btl": 11.75,
-            "lto": -21,
-            "distM": 1600,
-            "rtg": 24,
-            "cls": "Class 4",
-            "wt": 50
-          },
-          "l1": {
             "days": 55,
             "card": "29",
             "pos": 7,
@@ -5866,18 +5962,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 50
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 8,
+            "odds": "5/2",
+            "btl": 7.25,
+            "lto": 16,
+            "distM": 1400,
+            "rtg": 20,
+            "cls": "Class 5",
+            "wt": 58.5
+          },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "24/1",
-          "rank": 11,
-          "speed": 12.75,
+          "rank": 6,
+          "speed": 12.64,
           "track": 85,
-          "distDelta": 200,
-          "wtDelta": 8.5,
-          "cls": "Class 4",
-          "hcp": -10,
-          "dp": 8,
-          "days": 55,
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 5",
+          "hcp": 16,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -5894,18 +6002,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 17,
           "rtgCh": 1,
           "l2": {
-            "days": 41,
-            "card": "50",
-            "pos": 3,
-            "odds": "8",
-            "btl": 3.25,
-            "lto": 16,
-            "distM": 1400,
-            "rtg": 17,
-            "cls": "Class 5",
-            "wt": 56
-          },
-          "l1": {
             "days": 20,
             "card": "81",
             "pos": 3,
@@ -5917,19 +6013,31 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 56.5
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 9,
+            "odds": "6",
+            "btl": 9.75,
+            "lto": 4,
+            "distM": 1400,
+            "rtg": 17,
+            "cls": "Class 5",
+            "wt": 57
+          },
           "nty": null,
-          "open": null,
-          "tissue": "53/10",
-          "rank": 3,
-          "speed": 12.91,
+          "open": 2.5,
+          "tissue": "24/1",
+          "rank": 9,
+          "speed": 12.76,
           "track": 85,
-          "distDelta": 200,
-          "wtDelta": 0.5,
+          "distDelta": 0,
+          "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 25,
-          "dp": 3,
-          "days": 20,
-          "tone": "pick",
+          "hcp": 4,
+          "dp": 0,
+          "days": 0,
+          "tone": "plain",
           "hcpKg": 0
         },
         {
@@ -5945,18 +6053,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 16,
           "rtgCh": -2,
           "l2": {
-            "days": 48,
-            "card": "42",
-            "pos": 7,
-            "odds": "20",
-            "btl": 9.75,
-            "lto": 9,
-            "distM": 1200,
-            "rtg": 20,
-            "cls": "Class 5",
-            "wt": 57
-          },
-          "l1": {
             "days": 19,
             "card": "88",
             "pos": 5,
@@ -5968,18 +6064,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 57.5
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 7,
+            "odds": "20",
+            "btl": 5.75,
+            "lto": 11,
+            "distM": 1400,
+            "rtg": 16,
+            "cls": "Class 5",
+            "wt": 56.5
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 6,
-          "speed": 12.05,
+          "rank": 8,
+          "speed": 12.57,
           "track": 85,
-          "distDelta": -200,
-          "wtDelta": -1,
+          "distDelta": 0,
+          "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 9,
-          "dp": 3,
-          "days": 19,
+          "hcp": 11,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -5996,18 +6104,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 16,
           "rtgCh": -2,
           "l2": {
-            "days": 244,
-            "card": "83",
-            "pos": 0,
-            "odds": null,
-            "btl": 0,
-            "lto": "###",
-            "distM": 1000,
-            "rtg": 18,
-            "cls": "Class 5",
-            "wt": 55
-          },
-          "l1": {
             "days": 12,
             "card": "98",
             "pos": 8,
@@ -6019,20 +6115,32 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 57.5
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 4,
+            "odds": "20",
+            "btl": 3,
+            "lto": 17,
+            "distM": 1400,
+            "rtg": 16,
+            "cls": "Class 5",
+            "wt": 56.5
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 12,
-          "speed": 13.54,
+          "rank": 5,
+          "speed": 12.44,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": -1,
+          "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": null,
-          "dp": 2,
-          "days": 12,
+          "hcp": 17,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
-          "hcpKg": null
+          "hcpKg": 0
         },
         {
           "cloth": 10,
@@ -6047,18 +6155,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 5,
           "rtgCh": -5,
           "l2": {
-            "days": 55,
-            "card": "33",
-            "pos": 0,
-            "odds": null,
-            "btl": 0,
-            "lto": "###",
-            "distM": 1000,
-            "rtg": 8,
-            "cls": "Class 5",
-            "wt": 52.5
-          },
-          "l1": {
             "days": 19,
             "card": "82",
             "pos": 7,
@@ -6070,18 +6166,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 52.5
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 3,
+            "odds": "10",
+            "btl": 3,
+            "lto": -7,
+            "distM": 1400,
+            "rtg": 5,
+            "cls": "Class 5",
+            "wt": 51
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 9,
-          "speed": 12.04,
+          "rank": 12,
+          "speed": 12.44,
           "track": 85,
-          "distDelta": -200,
-          "wtDelta": -1.5,
+          "distDelta": 0,
+          "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 0,
-          "dp": 3,
-          "days": 19,
+          "hcp": -7,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -6098,18 +6206,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 5,
           "rtgCh": -2,
           "l2": {
-            "days": 19,
-            "card": "82",
-            "pos": 5,
-            "odds": "8",
-            "btl": 2.5,
-            "lto": 6,
-            "distM": 1200,
-            "rtg": 10,
-            "cls": "Class 5",
-            "wt": 53.5
-          },
-          "l1": {
             "days": 12,
             "card": "90",
             "pos": 6,
@@ -6121,18 +6217,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 52
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 12,
+            "odds": "15",
+            "btl": 22,
+            "lto": "###",
+            "distM": 1400,
+            "rtg": 5,
+            "cls": "Class 5",
+            "wt": 51
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 8,
-          "speed": 12.03,
+          "rank": 10,
+          "speed": 13.34,
           "track": 85,
-          "distDelta": -400,
-          "wtDelta": -1,
+          "distDelta": 0,
+          "wtDelta": 0,
           "cls": "Class 5",
           "hcp": 1,
-          "dp": 2,
-          "days": 12,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -6149,18 +6257,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 3,
           "rtgCh": 2,
           "l2": {
-            "days": 47,
-            "card": "43",
-            "pos": 8,
-            "odds": "20",
-            "btl": 9,
-            "lto": -34,
-            "distM": 1600,
-            "rtg": 1,
-            "cls": "Class 5",
-            "wt": 49
-          },
-          "l1": {
             "days": 19,
             "card": "82",
             "pos": 3,
@@ -6172,43 +6268,55 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 49
           },
+          "l1": {
+            "days": 0,
+            "card": "107",
+            "pos": 2,
+            "odds": "12",
+            "btl": 3,
+            "lto": -11,
+            "distM": 1400,
+            "rtg": 3,
+            "cls": "Class 5",
+            "wt": 50
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 10,
-          "speed": 11.93,
+          "rank": 11,
+          "speed": 12.43,
           "track": 85,
-          "distDelta": -200,
-          "wtDelta": 1,
+          "distDelta": 0,
+          "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": -3,
-          "dp": 3,
-          "days": 19,
+          "hcp": -4,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": -3.5
         }
       ],
       "picks": {
-        "win": 4,
-        "plc": 5,
-        "upset": 7,
+        "win": 1,
+        "plc": 3,
+        "upset": 5,
         "lto": [
-          4,
+          1,
+          3,
           5,
-          7,
-          1
+          9
         ],
         "hcpRtg": [
-          4,
+          1,
+          3,
           5,
-          7,
-          1
+          4
         ],
         "speed": [
-          1,
+          5,
           12,
-          4,
-          11
+          9,
+          10
         ]
       }
     },
@@ -6237,18 +6345,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 28,
           "rtgCh": -1,
           "l2": {
-            "days": 195,
-            "card": "162",
-            "pos": 8,
-            "odds": "40",
-            "btl": 22.75,
-            "lto": "###",
-            "distM": 1200,
-            "rtg": null,
-            "cls": "Maiden",
-            "wt": 56
-          },
-          "l1": {
             "days": 26,
             "card": "72",
             "pos": 12,
@@ -6260,18 +6356,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 53.5
           },
+          "l1": {
+            "days": 0,
+            "card": "108",
+            "pos": 6,
+            "odds": "20",
+            "btl": 28.25,
+            "lto": "###",
+            "distM": 1600,
+            "rtg": 28,
+            "cls": "Maiden",
+            "wt": 56
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
           "rank": 7,
-          "speed": 13.55,
+          "speed": 13.48,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": 2.5,
-          "cls": "Class 4",
+          "wtDelta": 0,
+          "cls": "Maiden",
           "hcp": null,
-          "dp": 4,
-          "days": 26,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": null
         },
@@ -6288,18 +6396,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 32,
           "rtgCh": 2,
           "l2": {
-            "days": 61,
-            "card": "18",
-            "pos": 4,
-            "odds": "12",
-            "btl": 6.75,
-            "lto": 17,
-            "distM": 1200,
-            "rtg": null,
-            "cls": "Maiden",
-            "wt": 56
-          },
-          "l1": {
             "days": 41,
             "card": "56",
             "pos": 2,
@@ -6311,19 +6407,31 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 53.5
           },
+          "l1": {
+            "days": 0,
+            "card": "108",
+            "pos": 4,
+            "odds": "5",
+            "btl": 7,
+            "lto": 13,
+            "distM": 1600,
+            "rtg": 32,
+            "cls": "Maiden",
+            "wt": 56
+          },
           "nty": null,
-          "open": null,
-          "tissue": "19/10",
-          "rank": 2,
-          "speed": 12.55,
+          "open": 2.5,
+          "tissue": "99/10",
+          "rank": 4,
+          "speed": 12.61,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": 2.5,
-          "cls": "Class 4",
-          "hcp": 25,
-          "dp": 6,
-          "days": 41,
-          "tone": "pick",
+          "wtDelta": 0,
+          "cls": "Maiden",
+          "hcp": 13,
+          "dp": 0,
+          "days": 0,
+          "tone": "plain",
           "hcpKg": 0
         },
         {
@@ -6339,18 +6447,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 32,
           "rtgCh": 0,
           "l2": {
-            "days": 61,
-            "card": "24",
-            "pos": 3,
-            "odds": "20",
-            "btl": 3,
-            "lto": 24,
-            "distM": 1200,
-            "rtg": null,
-            "cls": "Maiden",
-            "wt": 56
-          },
-          "l1": {
             "days": 26,
             "card": "71",
             "pos": 2,
@@ -6362,18 +6458,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 56
           },
+          "l1": {
+            "days": 0,
+            "card": "108",
+            "pos": 2,
+            "odds": "6/10",
+            "btl": 1.25,
+            "lto": 29,
+            "distM": 1600,
+            "rtg": 32,
+            "cls": "Maiden",
+            "wt": 56
+          },
           "nty": null,
-          "open": null,
-          "tissue": "4/5",
+          "open": 0.7,
+          "tissue": "6/5",
           "rank": 1,
           "speed": 12.37,
           "track": 85,
-          "distDelta": -200,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": 30,
-          "dp": 4,
-          "days": 26,
+          "hcp": 29,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": 0
         },
@@ -6390,18 +6498,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 29,
           "rtgCh": -1,
           "l2": {
-            "days": 47,
-            "card": "46",
-            "pos": 7,
-            "odds": "20",
-            "btl": 9.5,
-            "lto": 18,
-            "distM": 1000,
-            "rtg": 32,
-            "cls": "Term Race",
-            "wt": 56
-          },
-          "l1": {
             "days": 20,
             "card": "80",
             "pos": 5,
@@ -6413,18 +6509,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 56
           },
+          "l1": {
+            "days": 0,
+            "card": "108",
+            "pos": 5,
+            "odds": "20",
+            "btl": 7.75,
+            "lto": 8,
+            "distM": 1600,
+            "rtg": 29,
+            "cls": "Maiden",
+            "wt": 56
+          },
           "nty": null,
           "open": null,
-          "tissue": "24/1",
-          "rank": 6,
-          "speed": 13.09,
+          "tissue": "17/1",
+          "rank": 5,
+          "speed": 12.64,
           "track": 85,
-          "distDelta": 400,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Maiden",
-          "hcp": -25,
-          "dp": 3,
-          "days": 20,
+          "hcp": 8,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -6441,18 +6549,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 25,
           "rtgCh": -2,
           "l2": {
-            "days": 201,
-            "card": "157",
-            "pos": 7,
-            "odds": "25",
-            "btl": 6.75,
-            "lto": 79,
-            "distM": 1400,
-            "rtg": null,
-            "cls": "Term Race",
-            "wt": 57
-          },
-          "l1": {
             "days": 20,
             "card": "78",
             "pos": 7,
@@ -6464,19 +6560,31 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 56
           },
+          "l1": {
+            "days": 0,
+            "card": "108",
+            "pos": 3,
+            "odds": "20",
+            "btl": 3,
+            "lto": 17,
+            "distM": 1600,
+            "rtg": 25,
+            "cls": "Maiden",
+            "wt": 56
+          },
           "nty": null,
           "open": null,
-          "tissue": "97/8",
-          "rank": 4,
-          "speed": 12.26,
+          "tissue": "63/10",
+          "rank": 3,
+          "speed": 12.44,
           "track": 85,
-          "distDelta": -600,
+          "distDelta": 0,
           "wtDelta": 0,
-          "cls": "Term Race",
-          "hcp": 10,
-          "dp": 3,
-          "days": 20,
-          "tone": "plain",
+          "cls": "Maiden",
+          "hcp": 17,
+          "dp": 0,
+          "days": 0,
+          "tone": "pick",
           "hcpKg": 0
         },
         {
@@ -6492,18 +6600,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 29,
           "rtgCh": 0,
           "l2": {
-            "days": 48,
-            "card": "41",
-            "pos": 7,
-            "odds": "11/4",
-            "btl": 13,
-            "lto": 0,
-            "distM": 1400,
-            "rtg": 30,
-            "cls": "Maiden",
-            "wt": 56
-          },
-          "l1": {
             "days": 26,
             "card": "69",
             "pos": 3,
@@ -6515,18 +6611,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 54
           },
+          "l1": {
+            "days": 0,
+            "card": "108",
+            "pos": 1,
+            "odds": "8",
+            "btl": 0,
+            "lto": 29,
+            "distM": 1600,
+            "rtg": 29,
+            "cls": "Maiden",
+            "wt": 56
+          },
           "nty": null,
-          "open": null,
-          "tissue": "31/8",
-          "rank": 3,
-          "speed": 12.8,
+          "open": 5,
+          "tissue": "6/5",
+          "rank": 2,
+          "speed": 12.32,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": 2,
-          "cls": "Class 4",
-          "hcp": 20,
-          "dp": 4,
-          "days": 26,
+          "wtDelta": 0,
+          "cls": "Maiden",
+          "hcp": 29,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": 0
         },
@@ -6543,14 +6651,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 27,
           "rtgCh": null,
           "l2": {
-            "days": null,
-            "card": "",
-            "pos": "###",
-            "odds": null,
-            "btl": null,
-            "lto": "###"
-          },
-          "l1": {
             "days": 41,
             "card": "52",
             "pos": 8,
@@ -6562,43 +6662,55 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
+          "l1": {
+            "days": 0,
+            "card": "108",
+            "pos": 7,
+            "odds": "20",
+            "btl": 31.5,
+            "lto": "###",
+            "distM": 1600,
+            "rtg": 27,
+            "cls": "Maiden",
+            "wt": 54.5
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 5,
-          "speed": 12.82,
+          "rank": 6,
+          "speed": 13.62,
           "track": 85,
-          "distDelta": -400,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Maiden",
           "hcp": -8,
-          "dp": 6,
-          "days": 41,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         }
       ],
       "picks": {
         "win": 3,
-        "plc": 2,
-        "upset": 6,
+        "plc": 6,
+        "upset": 5,
         "lto": [
           3,
-          2,
           6,
-          5
+          5,
+          2
         ],
         "hcpRtg": [
           3,
-          2,
           6,
-          5
+          5,
+          2
         ],
         "speed": [
-          5,
+          6,
           3,
-          2,
-          6
+          5,
+          2
         ]
       }
     },
@@ -6627,18 +6739,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 41,
           "rtgCh": -1,
           "l2": {
-            "days": 89,
-            "card": "131",
-            "pos": 1,
-            "odds": "95/100",
-            "btl": 0,
-            "lto": 26,
-            "distM": 1200,
-            "rtg": 26,
-            "cls": "Maiden",
-            "wt": 54.5
-          },
-          "l1": {
             "days": 26,
             "card": "68",
             "pos": 4,
@@ -6650,18 +6750,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 60
           },
+          "l1": {
+            "days": 0,
+            "card": "109",
+            "pos": 4,
+            "odds": "17/10",
+            "btl": 7.5,
+            "lto": 35,
+            "distM": 1200,
+            "rtg": 41,
+            "cls": "Class 4",
+            "wt": 59.5
+          },
           "nty": null,
-          "open": null,
-          "tissue": "1/4",
+          "open": 3,
+          "tissue": "2/5",
           "rank": 1,
-          "speed": 11.77,
+          "speed": 11.81,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": -0.5,
+          "wtDelta": 0,
           "cls": "Class 4",
-          "hcp": 50,
-          "dp": 4,
-          "days": 26,
+          "hcp": 42,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": -3.5
         },
@@ -6678,18 +6790,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 34,
           "rtgCh": 0,
           "l2": {
-            "days": 70,
-            "card": "10",
-            "pos": 8,
-            "odds": "8",
-            "btl": 12.5,
-            "lto": 13,
-            "distM": 1200,
-            "rtg": 36,
-            "cls": "Class 4",
-            "wt": 56
-          },
-          "l1": {
             "days": 26,
             "card": "68",
             "pos": 9,
@@ -6701,18 +6801,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 56
           },
+          "l1": {
+            "days": 0,
+            "card": "109",
+            "pos": 5,
+            "odds": "20",
+            "btl": 11,
+            "lto": 14,
+            "distM": 1200,
+            "rtg": 34,
+            "cls": "Class 4",
+            "wt": 56
+          },
           "nty": null,
           "open": null,
-          "tissue": "24/1",
+          "tissue": "219/10",
           "rank": 4,
-          "speed": 12.31,
+          "speed": 12,
           "track": 85,
           "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 4",
-          "hcp": 8,
-          "dp": 4,
-          "days": 26,
+          "hcp": 14,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -6729,18 +6841,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 30,
           "rtgCh": null,
           "l2": {
-            "days": 254,
-            "card": "77",
-            "pos": 2,
-            "odds": "14/10",
-            "btl": 0,
-            "lto": 30,
-            "distM": 1200,
-            "rtg": null,
-            "cls": "Maiden",
-            "wt": 54.5
-          },
-          "l1": {
             "days": 218,
             "card": "133",
             "pos": 6,
@@ -6752,18 +6852,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
+          "l1": {
+            "days": 0,
+            "card": "109",
+            "pos": 1,
+            "odds": "7",
+            "btl": 0,
+            "lto": 30,
+            "distM": 1200,
+            "rtg": 30,
+            "cls": "Class 4",
+            "wt": 54
+          },
           "nty": null,
-          "open": null,
-          "tissue": "24/1",
-          "rank": 3,
-          "speed": 12.26,
-          "track": 50,
-          "distDelta": 200,
-          "wtDelta": -0.5,
-          "cls": "Maiden",
-          "hcp": 16,
-          "dp": 31,
-          "days": 218,
+          "open": 4,
+          "tissue": "9/5",
+          "rank": 2,
+          "speed": 11.4,
+          "track": 85,
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 35,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": -2.5
         },
@@ -6780,18 +6892,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 29,
           "rtgCh": 0,
           "l2": {
-            "days": 201,
-            "card": "157",
-            "pos": 9,
-            "odds": "11/2",
-            "btl": 8.25,
-            "lto": 72,
-            "distM": 1400,
-            "rtg": null,
-            "cls": "Term Race",
-            "wt": 55.5
-          },
-          "l1": {
             "days": 19,
             "card": "86",
             "pos": 5,
@@ -6803,19 +6903,31 @@ export const SHEET: SheetMeeting = {
             "cls": "For Horses",
             "wt": 51.5
           },
+          "l1": {
+            "days": 0,
+            "card": "109",
+            "pos": 3,
+            "odds": "11/4",
+            "btl": 4.75,
+            "lto": 17,
+            "distM": 1200,
+            "rtg": 29,
+            "cls": "Class 4",
+            "wt": 53.5
+          },
           "nty": null,
-          "open": null,
-          "tissue": "24/1",
-          "rank": 5,
-          "speed": 11.79,
+          "open": 1.6,
+          "tissue": "16/1",
+          "rank": 3,
+          "speed": 11.66,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": 2,
-          "cls": "For Horses",
-          "hcp": 8,
-          "dp": 3,
-          "days": 19,
-          "tone": "plain",
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 17,
+          "dp": 0,
+          "days": 0,
+          "tone": "pick",
           "hcpKg": 0
         },
         {
@@ -6824,25 +6936,13 @@ export const SHEET: SheetMeeting = {
           "name": "SAFFRON GLOW",
           "filly": true,
           "trainer": "Deepesh Narredu",
-          "jockey": "A S Peter",
+          "jockey": "Withdrawn",
           "age": "3y ch f",
           "wt": 52,
           "al": "",
           "bnc": 26,
           "rtgCh": -1,
           "l2": {
-            "days": 70,
-            "card": "12",
-            "pos": 7,
-            "odds": "20",
-            "btl": 22.75,
-            "lto": "###",
-            "distM": 1000,
-            "rtg": null,
-            "cls": "For Horses",
-            "wt": 52.5
-          },
-          "l1": {
             "days": 55,
             "card": "32",
             "pos": 7,
@@ -6854,18 +6954,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
+          "l1": {
+            "days": 0,
+            "card": "109",
+            "pos": 0,
+            "odds": null,
+            "btl": 0,
+            "lto": "###",
+            "distM": 1200,
+            "rtg": 26,
+            "cls": "Class 4",
+            "wt": 52
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
           "rank": 6,
-          "speed": 13.88,
+          "speed": null,
           "track": 85,
-          "distDelta": 400,
-          "wtDelta": -2.5,
-          "cls": "Maiden",
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 4",
           "hcp": null,
-          "dp": 8,
-          "days": 55,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": null
         },
@@ -6882,18 +6994,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 25,
           "rtgCh": -1,
           "l2": {
-            "days": 26,
-            "card": "70",
-            "pos": 9,
-            "odds": "20",
-            "btl": 39,
-            "lto": "###",
-            "distM": 1200,
-            "rtg": 27,
-            "cls": "Class 4",
-            "wt": 53
-          },
-          "l1": {
             "days": 12,
             "card": "92",
             "pos": 8,
@@ -6905,18 +7005,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 55
           },
+          "l1": {
+            "days": 0,
+            "card": "109",
+            "pos": 6,
+            "odds": null,
+            "btl": 45,
+            "lto": "###",
+            "distM": 1200,
+            "rtg": 25,
+            "cls": "Class 4",
+            "wt": 51.5
+          },
           "nty": null,
           "open": null,
           "tissue": "24/1",
           "rank": 7,
-          "speed": 13.22,
+          "speed": 13.87,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": -3.5,
+          "wtDelta": 0,
           "cls": "Class 4",
           "hcp": null,
-          "dp": 2,
-          "days": 12,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": null
         },
@@ -6933,18 +7045,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 24,
           "rtgCh": -1,
           "l2": {
-            "days": 61,
-            "card": "19",
-            "pos": 5,
-            "odds": "20",
-            "btl": 4.25,
-            "lto": 18,
-            "distM": 1400,
-            "rtg": 26,
-            "cls": "Class 4",
-            "wt": 56
-          },
-          "l1": {
             "days": 26,
             "card": "71",
             "pos": 5,
@@ -6956,43 +7056,55 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
+          "l1": {
+            "days": 0,
+            "card": "109",
+            "pos": 2,
+            "odds": "13/2",
+            "btl": 4.25,
+            "lto": 8,
+            "distM": 1200,
+            "rtg": 24,
+            "cls": "Class 4",
+            "wt": 51
+          },
           "nty": null,
-          "open": null,
-          "tissue": "39/2",
-          "rank": 2,
-          "speed": 12.47,
+          "open": 3.5,
+          "tissue": "24/1",
+          "rank": 5,
+          "speed": 11.63,
           "track": 85,
-          "distDelta": 200,
-          "wtDelta": -3.5,
-          "cls": "Maiden",
-          "hcp": 19,
-          "dp": 4,
-          "days": 26,
-          "tone": "pick",
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 4",
+          "hcp": 8,
+          "dp": 0,
+          "days": 0,
+          "tone": "plain",
           "hcpKg": 0
         }
       ],
       "picks": {
         "win": 1,
-        "plc": 7,
-        "upset": 3,
+        "plc": 3,
+        "upset": 4,
         "lto": [
           1,
-          7,
           3,
+          4,
           2
         ],
         "hcpRtg": [
           1,
-          7,
           3,
+          4,
           2
         ],
         "speed": [
-          1,
-          4,
           3,
-          2
+          7,
+          4,
+          1
         ]
       }
     },
@@ -7046,8 +7158,8 @@ export const SHEET: SheetMeeting = {
           },
           "nty": null,
           "open": null,
-          "tissue": "9/1",
-          "rank": 5,
+          "tissue": "17/2",
+          "rank": 4,
           "speed": 12.47,
           "track": 70,
           "distDelta": 200,
@@ -7097,8 +7209,8 @@ export const SHEET: SheetMeeting = {
           },
           "nty": null,
           "open": null,
-          "tissue": "10/1",
-          "rank": 7,
+          "tissue": "19/2",
+          "rank": 5,
           "speed": 11.84,
           "track": 85,
           "distDelta": 0,
@@ -7147,9 +7259,9 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
-          "rank": 8,
+          "rank": 9,
           "speed": 12.41,
           "track": 85,
           "distDelta": 200,
@@ -7174,18 +7286,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 53,
           "rtgCh": -1,
           "l2": {
-            "days": 48,
-            "card": "38",
-            "pos": 2,
-            "odds": "12",
-            "btl": 0,
-            "lto": 52,
-            "distM": 1200,
-            "rtg": 52,
-            "cls": "Class 3",
-            "wt": 55
-          },
-          "l1": {
             "days": 19,
             "card": "83",
             "pos": 5,
@@ -7197,18 +7297,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 55.5
           },
+          "l1": {
+            "days": 0,
+            "card": "110",
+            "pos": 1,
+            "odds": "7",
+            "btl": 0,
+            "lto": 53,
+            "distM": 1200,
+            "rtg": 53,
+            "cls": "Class 3",
+            "wt": 56
+          },
           "nty": null,
           "open": null,
-          "tissue": "57/10",
-          "rank": 3,
-          "speed": 11.51,
+          "tissue": "15/4",
+          "rank": 2,
+          "speed": 11.3,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": 0.5,
+          "wtDelta": 0,
           "cls": "Class 3",
-          "hcp": 50,
-          "dp": 3,
-          "days": 19,
+          "hcp": 53,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": 0
         },
@@ -7251,7 +7363,7 @@ export const SHEET: SheetMeeting = {
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 10,
+          "rank": 11,
           "speed": 12.82,
           "track": 85,
           "distDelta": 200,
@@ -7276,18 +7388,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 50,
           "rtgCh": -2,
           "l2": {
-            "days": 34,
-            "card": "61",
-            "pos": 5,
-            "odds": "15",
-            "btl": 5.5,
-            "lto": 47,
-            "distM": 1000,
-            "rtg": 53,
-            "cls": "Class 3",
-            "wt": 57
-          },
-          "l1": {
             "days": 19,
             "card": "83",
             "pos": 6,
@@ -7299,18 +7399,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 54.5
           },
+          "l1": {
+            "days": 0,
+            "card": "110",
+            "pos": 5,
+            "odds": "20",
+            "btl": 3.25,
+            "lto": 43,
+            "distM": 1200,
+            "rtg": 50,
+            "cls": "Class 3",
+            "wt": 54.5
+          },
           "nty": null,
           "open": null,
-          "tissue": "9/1",
-          "rank": 6,
-          "speed": 11.52,
+          "tissue": "95/8",
+          "rank": 7,
+          "speed": null,
           "track": 85,
           "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 3",
-          "hcp": 46,
-          "dp": 3,
-          "days": 19,
+          "hcp": 43,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -7327,41 +7439,41 @@ export const SHEET: SheetMeeting = {
           "bnc": 50,
           "rtgCh": 11,
           "l2": {
-            "days": 61,
-            "card": "20",
-            "pos": 3,
-            "odds": "90/100",
-            "btl": 4,
-            "lto": 36,
-            "distM": 1400,
-            "rtg": 39,
-            "cls": "Class 4",
-            "wt": 57.5
-          },
-          "l1": {
             "days": 26,
             "card": "70",
             "pos": 1,
             "odds": "5/2",
             "btl": 0,
-            "lto": 50,
+            "lto": 39,
             "distM": 1200,
             "rtg": 39,
             "cls": "Class 4",
             "wt": 59
           },
+          "l1": {
+            "days": 0,
+            "card": "110",
+            "pos": 4,
+            "odds": "4",
+            "btl": 2.75,
+            "lto": 44,
+            "distM": 1200,
+            "rtg": 50,
+            "cls": "Class 3",
+            "wt": 54.5
+          },
           "nty": null,
-          "open": null,
-          "tissue": "57/10",
-          "rank": 4,
-          "speed": 11.57,
+          "open": 3.5,
+          "tissue": "85/8",
+          "rank": 6,
+          "speed": null,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": -4.5,
-          "cls": "Class 4",
-          "hcp": 50,
-          "dp": 4,
-          "days": 26,
+          "wtDelta": 0,
+          "cls": "Class 3",
+          "hcp": 44,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -7378,18 +7490,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 49,
           "rtgCh": 0,
           "l2": {
-            "days": 70,
-            "card": "11",
-            "pos": 3,
-            "odds": "90/100",
-            "btl": 2,
-            "lto": 47,
-            "distM": 1400,
-            "rtg": 49,
-            "cls": "Class 3",
-            "wt": 56
-          },
-          "l1": {
             "days": 47,
             "card": "47",
             "pos": 7,
@@ -7401,18 +7501,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 52
           },
+          "l1": {
+            "days": 0,
+            "card": "110",
+            "pos": 3,
+            "odds": "2",
+            "btl": 2.75,
+            "lto": 42,
+            "distM": 1200,
+            "rtg": 49,
+            "cls": "Class 3",
+            "wt": 54
+          },
           "nty": null,
-          "open": null,
-          "tissue": "24/1",
-          "rank": 11,
-          "speed": 12.42,
+          "open": 2.5,
+          "tissue": "66/5",
+          "rank": 8,
+          "speed": null,
           "track": 85,
-          "distDelta": 200,
-          "wtDelta": 2,
-          "cls": "Term Race",
-          "hcp": 19,
-          "dp": 7,
-          "days": 47,
+          "distDelta": 0,
+          "wtDelta": 0,
+          "cls": "Class 3",
+          "hcp": 42,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -7455,7 +7567,7 @@ export const SHEET: SheetMeeting = {
           "nty": null,
           "open": null,
           "tissue": "24/1",
-          "rank": 9,
+          "rank": 10,
           "speed": 12.57,
           "track": 85,
           "distDelta": 200,
@@ -7504,8 +7616,8 @@ export const SHEET: SheetMeeting = {
             "wt": 61.5
           },
           "nty": null,
-          "open": null,
-          "tissue": "17/10",
+          "open": 4,
+          "tissue": "8/5",
           "rank": 1,
           "speed": 11.64,
           "track": 85,
@@ -7531,66 +7643,66 @@ export const SHEET: SheetMeeting = {
           "bnc": 47,
           "rtgCh": 13,
           "l2": {
-            "days": 48,
-            "card": "42",
-            "pos": 1,
-            "odds": "19/10",
-            "btl": 0,
-            "lto": 25,
-            "distM": 1200,
-            "rtg": 25,
-            "cls": "Class 5",
-            "wt": 59.5
-          },
-          "l1": {
             "days": 12,
             "card": "92",
             "pos": 1,
             "odds": "13/10",
             "btl": 0,
-            "lto": 47,
+            "lto": 34,
             "distM": 1200,
             "rtg": 34,
             "cls": "Class 4",
             "wt": 59
           },
+          "l1": {
+            "days": 0,
+            "card": "110",
+            "pos": 2,
+            "odds": "7/2",
+            "btl": 0.75,
+            "lto": 42,
+            "distM": 1200,
+            "rtg": 47,
+            "cls": "Class 3",
+            "wt": 53
+          },
           "nty": null,
-          "open": null,
-          "tissue": "9/2",
-          "rank": 2,
-          "speed": 11.48,
+          "open": 5,
+          "tissue": "61/8",
+          "rank": 3,
+          "speed": null,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": -6,
-          "cls": "Class 4",
-          "hcp": 52,
-          "dp": 2,
-          "days": 12,
+          "wtDelta": 0,
+          "cls": "Class 3",
+          "hcp": 47,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": -2.5
         }
       ],
       "picks": {
         "win": 10,
-        "plc": 11,
-        "upset": 4,
+        "plc": 4,
+        "upset": 11,
         "lto": [
           10,
           4,
-          7,
-          11
+          1,
+          2
         ],
         "hcpRtg": [
           10,
-          11,
           4,
-          7
+          11,
+          1
         ],
         "speed": [
-          11,
           4,
-          6,
-          7
+          10,
+          2,
+          3
         ]
       }
     },
@@ -7643,7 +7755,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.6,
           "tissue": "1/4",
           "rank": 1,
           "speed": 12.14,
@@ -7694,7 +7806,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 2,
           "speed": 12.94,
@@ -7745,7 +7857,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 3,
           "speed": 12.75,
@@ -7796,7 +7908,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57
           },
           "nty": null,
-          "open": null,
+          "open": 2,
           "tissue": "24/1",
           "rank": 4,
           "speed": 12.39,
@@ -7847,7 +7959,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55.5
           },
           "nty": null,
-          "open": null,
+          "open": 10,
           "tissue": "24/1",
           "rank": 7,
           "speed": 12.68,
@@ -7898,7 +8010,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 5,
           "speed": 12.4,
@@ -7949,7 +8061,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 8,
           "tissue": "24/1",
           "rank": 6,
           "speed": 12.64,
@@ -8037,7 +8149,7 @@ export const SHEET: SheetMeeting = {
             "wt": 52.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "173/10",
           "rank": 5,
           "speed": 12.7,
@@ -8084,7 +8196,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 2,
           "tissue": "4/1",
           "rank": 3,
           "speed": 12.39,
@@ -8586,7 +8698,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 8,
           "tissue": "24/1",
           "rank": 10,
           "speed": 12.47,
@@ -8637,7 +8749,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.6,
           "tissue": "237/10",
           "rank": 6,
           "speed": 12.71,
@@ -8725,7 +8837,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "3/10",
           "rank": 1,
           "speed": 12.65,
@@ -8776,7 +8888,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "13/4",
           "rank": 2,
           "speed": 12.75,
@@ -8878,7 +8990,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 3,
           "tissue": "21/2",
           "rank": 3,
           "speed": 12.66,
@@ -8980,7 +9092,7 @@ export const SHEET: SheetMeeting = {
             "wt": 50
           },
           "nty": null,
-          "open": null,
+          "open": 3,
           "tissue": "24/1",
           "rank": 5,
           "speed": 12.7,
@@ -9022,4 +9134,258 @@ export const SHEET: SheetMeeting = {
   ]
 };
 
-export const NIGHT = null;
+export const NIGHT = {
+  "banner": "RWITC PUNE",
+  "title": "NIGHT / MORNING / OPENING ODDS",
+  "version": "AUTO",
+  "when": "02-10-2026 - PUN - FRIDAY - 7 CARD",
+  "source": "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
+  "odds": {
+    "1": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.75,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.5,
+        "call": "neg"
+      }
+    ],
+    "2": [
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 3.25,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 0.5,
+        "opening": 0.7,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 5,
+        "opening": 5,
+        "call": "neg"
+      }
+    ],
+    "3": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 2.5,
+        "opening": 3,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 4,
+        "opening": 4,
+        "call": "neg"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": 2,
+        "opening": 1.6,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": 3.25,
+        "opening": 3.5,
+        "call": "neg"
+      }
+    ],
+    "4": [
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": 4,
+        "opening": 3.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": 1.8,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 10,
+        "night": null,
+        "morning": 4.5,
+        "opening": 4,
+        "call": "watch"
+      },
+      {
+        "cloth": 11,
+        "night": null,
+        "morning": 4.5,
+        "opening": 5,
+        "call": "neg"
+      }
+    ],
+    "5": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 1.2,
+        "opening": 1.6,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 6,
+        "opening": 7,
+        "call": "watch"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 6,
+        "opening": 7,
+        "call": "watch"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": 3.5,
+        "opening": 2,
+        "call": "pos"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": 10,
+        "opening": 10,
+        "call": "neg"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 5,
+        "opening": 6,
+        "call": "watch"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": 8,
+        "opening": 8,
+        "call": "neg"
+      }
+    ],
+    "6": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 6,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 1.7,
+        "opening": 2,
+        "call": "pos"
+      },
+      {
+        "cloth": 12,
+        "night": null,
+        "morning": 7,
+        "opening": 8,
+        "call": "neg"
+      },
+      {
+        "cloth": 13,
+        "night": null,
+        "morning": 1.8,
+        "opening": 1.6,
+        "call": "pos"
+      }
+    ],
+    "7": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": 3.5,
+        "opening": 3,
+        "call": "neg"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 3.5,
+        "opening": 3,
+        "call": "neg"
+      }
+    ]
+  },
+  "gridCloths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13
+  ]
+};
