@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 5,
   "nextBest": "TOP IN CLASS",
   "longshot": "KNIGHT CRUSADER",
-  "irDayBest": "unpublished",
+  "irDayBest": "POWER OF THE SEA 3(5)",
   "feature": "The Charminar Trophy"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "30 Sep 2019 VERSALLIES 61 Kgs 1:05.61 Secs",
     "shape": "10-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 4 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CALABASAS (1) 2. THE PIOUS (4) 3. WINNING ATTITUDE (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TOP IN CLASS (2).",
-    "irPick": "unpublished",
+    "irPick": "1. CALABASAS (1) 2. THE PIOUS (4) 3. WINNING ATTITUDE (7)",
     "ourPick": "TOP IN CLASS (2)",
     "nap": false,
     "runners": [
@@ -835,9 +835,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "9-runner. Class 4 / A Handicap For Maiden Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CHAMPION REEF (1) 2. RAJENDRA (2) 3. KHAMAGANI (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win VEERA'S PRINCESS (9).",
-    "irPick": "unpublished",
+    "irPick": "1. CHAMPION REEF (1) 2. RAJENDRA (2) 3. KHAMAGANI (5)",
     "ourPick": "VEERA'S PRINCESS (9)",
     "nap": false,
     "runners": [
@@ -1612,9 +1612,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "12-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. POWER OF THE SEA (5) 2. MY WAY MY RULES (3) 3. SHA'CARRI (11). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win POWER OF THE SEA (5).",
-    "irPick": "unpublished",
+    "irPick": "1. POWER OF THE SEA (5) 2. MY WAY MY RULES (3) 3. SHA'CARRI (11)",
     "ourPick": "POWER OF THE SEA (5)",
     "nap": false,
     "runners": [
@@ -2551,9 +2551,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "6-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ASHWA JAFFNA (1) 2. LOVE IN PARIS (2) 3. KINSHIP (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ASHWA JAFFNA (1).",
-    "irPick": "unpublished",
+    "irPick": "1. ASHWA JAFFNA (1) 2. LOVE IN PARIS (2) 3. KINSHIP (5)",
     "ourPick": "ASHWA JAFFNA (1)",
     "nap": false,
     "runners": [
@@ -3103,9 +3103,9 @@ export const races: Race[] = [
     "purse": "₹840000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "10-runner. Class 2 / A Handicap For Horses Rated 60 To 85, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. RAGNAROK (1) 2. KNIGHT CRUSADER (2) 3. EXCLUSIVE BLACK (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win RAGNAROK (1).",
-    "irPick": "unpublished",
+    "irPick": "1. RAGNAROK (1) 2. KNIGHT CRUSADER (2) 3. EXCLUSIVE BLACK (5)",
     "ourPick": "RAGNAROK (1)",
     "nap": true,
     "runners": [
@@ -4041,9 +4041,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "13-runner. Class 5 / A Handicap For Horses Rated Upto 25, 4 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DECEMBER RAIN (1) 2. AMBOSELI (7) 3. MOST BEAUTIFUL (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win VEDANTA (4).",
-    "irPick": "unpublished",
+    "irPick": "1. DECEMBER RAIN (1) 2. AMBOSELI (7) 3. MOST BEAUTIFUL (3)",
     "ourPick": "VEDANTA (4)",
     "nap": false,
     "runners": [
