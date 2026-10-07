@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 5,
   "nextBest": "STILL I RISE",
   "longshot": "GOLD KITE",
-  "irDayBest": "unpublished",
+  "irDayBest": "TOUCH OF GREY 4 (6)",
   "feature": "The Bottolanda Mittoo Chengappa Memorial Trophy"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹375000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 5 / Horses Rated 00 To 25",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. BREAK AWAY (10) 2. TERESA (4) 3. ART OF ROMANCE (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win N R I JETPOWER (2).",
-    "irPick": "unpublished",
+    "irPick": "1. BREAK AWAY (10) 2. TERESA (4) 3. ART OF ROMANCE (6)",
     "ourPick": "N R I JETPOWER (2)",
     "nap": false,
     "runners": [
@@ -1130,9 +1130,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 4 / Horses Rated 20 To 45",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CHIEF ADMIRAL (1) 2. COSETTE (4) 3. SATIN LASS (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SAPIENT (6).",
-    "irPick": "unpublished",
+    "irPick": "1. CHIEF ADMIRAL (1) 2. COSETTE (4) 3. SATIN LASS (7)",
     "ourPick": "SAPIENT (6)",
     "nap": false,
     "runners": [
@@ -2282,9 +2282,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "12-runner. Class 3 / Horses Rated 40 To 65, 5 years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MYSTIKOS (1) 2. DYNAMIC FORCE (10) 3. RAFFINATO (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MYSTIKOS (1).",
-    "irPick": "unpublished",
+    "irPick": "1. MYSTIKOS (1) 2. DYNAMIC FORCE (10) 3. RAFFINATO (3)",
     "ourPick": "MYSTIKOS (1)",
     "nap": false,
     "runners": [
@@ -3391,9 +3391,9 @@ export const races: Race[] = [
     "purse": "₹1050000",
     "record": "05 Oct 2023 SHAMROCK 57.5 Kgs 1:33.45 Secs",
     "shape": "6-runner. Class 1 / Horses Rated 80 And Above",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. TOUCH OF GREY (6) 2. RISE AGAIN (2) 3. STILL I RISE (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win STILL I RISE (5).",
-    "irPick": "unpublished",
+    "irPick": "1. TOUCH OF GREY (6) 2. RISE AGAIN (2) 3. STILL I RISE (5)",
     "ourPick": "STILL I RISE (5)",
     "nap": false,
     "runners": [
@@ -3979,9 +3979,9 @@ export const races: Race[] = [
     "purse": "₹3000000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "8-runner. Term Race / For Horses 3 Years Old And Over (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MONEY BAGS (1) 2. MASATO (5) 3. RIEKO (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win RIEKO (6).",
-    "irPick": "unpublished",
+    "irPick": "1. MONEY BAGS (1) 2. MASATO (5) 3. RIEKO (6)",
     "ourPick": "RIEKO (6)",
     "nap": true,
     "runners": [
@@ -4745,9 +4745,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 3 / Horses Rated 40 To 65",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. NIGHT RAIDER (6) 2. WINTER AGENDA (3) 3. GRIZZLY (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win WINTER AGENDA (3).",
-    "irPick": "unpublished",
+    "irPick": "1. NIGHT RAIDER (6) 2. WINTER AGENDA (3) 3. GRIZZLY (4)",
     "ourPick": "WINTER AGENDA (3)",
     "nap": false,
     "runners": [
@@ -5842,9 +5842,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "12-runner. Class 3 / Horses Rated 40 To 65, 5 years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. WINDBORNE (5) 2. SUNWAY LAGOON (9) 3. DUFY (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SPIRIT OF THE ROSE (2).",
-    "irPick": "unpublished",
+    "irPick": "1. WINDBORNE (5) 2. SUNWAY LAGOON (9) 3. DUFY (6)",
     "ourPick": "SPIRIT OF THE ROSE (2)",
     "nap": false,
     "runners": [
