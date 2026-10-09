@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 6,
   "nextBest": "ENDURANCE",
   "longshot": "CELLINI",
-  "irDayBest": "unpublished",
+  "irDayBest": "YINSIRUK 5 (3)",
   "feature": "The Suresh Mahindra Trophy"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "10-runner. Class 5 / Horses Rated 1 to 26, 4 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. NEUTRON (1) 2. TOUCH OF MYSTIC (3) 3. ROYAL CHAMP (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TOUCH OF MYSTIC (3).",
-    "irPick": "unpublished",
+    "irPick": "1. NEUTRON (1) 2. TOUCH OF MYSTIC (3) 3. ROYAL CHAMP (4)",
     "ourPick": "TOUCH OF MYSTIC (3)",
     "nap": false,
     "runners": [
@@ -945,9 +945,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "10 Sep 2017 HARVEY 55 Kgs 00.56.77 Secs",
     "shape": "9-runner. Class 4 / Horses Rated 20 to 46, 5 years old and over (0 to 19 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MOONLIGHT KISS (3) 2. SILVER STRIKE (1) 3. BELIEVE (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SILVER STRIKE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. MOONLIGHT KISS (3) 2. SILVER STRIKE (1) 3. BELIEVE (4)",
     "ourPick": "SILVER STRIKE (1)",
     "nap": false,
     "runners": [
@@ -1744,9 +1744,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "7-runner. Class 3 / Horses Rated 40 to 66 (20 to 39 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. NEBULA (5) 2. PURE SOUL (6) 3. COFFEE AT ELEVEN (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win COFFEE AT ELEVEN (3).",
-    "irPick": "unpublished",
+    "irPick": "1. NEBULA (5) 2. PURE SOUL (6) 3. COFFEE AT ELEVEN (3)",
     "ourPick": "COFFEE AT ELEVEN (3)",
     "nap": false,
     "runners": [
@@ -2360,9 +2360,9 @@ export const races: Race[] = [
     "purse": "₹1200000",
     "record": "10 Sep 2017 HARVEY 55 Kgs 00.56.77 Secs",
     "shape": "11-runner. Maiden / For Horses 3 years old only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LUCKY DIAMOND (2) 2. CAFE NOIRE (6) 3. POWEROFATTITUDE (8). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ABSOLUTE EMPEROR (1).",
-    "irPick": "unpublished",
+    "irPick": "1. LUCKY DIAMOND (2) 2. CAFE NOIRE (6) 3. POWEROFATTITUDE (8)",
     "ourPick": "ABSOLUTE EMPEROR (1)",
     "nap": false,
     "runners": [
@@ -3133,9 +3133,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "21 Sep 2025 ABHICANDRA 59 Kgs 1:04.39 Secs",
     "shape": "12-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. YINSIRUK (3) 2. DREAMS COME TRUE (4) 3. SANTANA ROW (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win HEAVEN'S RHYTHM (1).",
-    "irPick": "unpublished",
+    "irPick": "1. YINSIRUK (3) 2. DREAMS COME TRUE (4) 3. SANTANA ROW (5)",
     "ourPick": "HEAVEN'S RHYTHM (1)",
     "nap": false,
     "runners": [
@@ -4236,9 +4236,9 @@ export const races: Race[] = [
     "purse": "₹750000",
     "record": "10 Sep 2017 HARVEY 55 Kgs 00.56.77 Secs",
     "shape": "7-runner. Class 2 / Horses Rated 60 to 86 (40 to 59 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AZURE (2) 2. FOXY (1) 3. GUNFIRE (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win FOXY (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AZURE (2) 2. FOXY (1) 3. GUNFIRE (7)",
     "ourPick": "FOXY (1)",
     "nap": true,
     "runners": [
@@ -4895,9 +4895,9 @@ export const races: Race[] = [
     "purse": "₹1200000",
     "record": "12 Oct 2024 CASHIUS GOLD 52 Kgs 3:23:72 Secs",
     "shape": "3-runner. Class 1 / Horses Rated 80 and upward (60 to 79 eligible) (Top weight not to exceed 62 kgs.)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. WINFIELD (1) 2. GOLDEN DANCER (2) 3. ENDURANCE (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ENDURANCE (3).",
-    "irPick": "unpublished",
+    "irPick": "1. WINFIELD (1) 2. GOLDEN DANCER (2) 3. ENDURANCE (3)",
     "ourPick": "ENDURANCE (3)",
     "nap": false,
     "runners": [
