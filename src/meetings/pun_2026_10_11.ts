@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 1,
   "nextBest": "MIAMI VICE",
   "longshot": "IT'S MY TIME",
-  "irDayBest": "unpublished",
+  "irDayBest": "LITTLE JOHN 5 (2)",
   "feature": "The Villoo C. Poonawalla Pune Derby (Gr.1)"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹1000000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "7-runner. Class 1 / Horses Rated 80 and upward) (60 to 79 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. FOURTH WING (6) 2. CREDENCE (3) 3. MARKET KING (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MARKET KING (2).",
-    "irPick": "unpublished",
+    "irPick": "1. FOURTH WING (6) 2. CREDENCE (3) 3. MARKET KING (2)",
     "ourPick": "MARKET KING (2)",
     "nap": true,
     "runners": [
@@ -697,9 +697,9 @@ export const races: Race[] = [
     "purse": "₹1200000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "8-runner. Maiden / For Horses 3 years old only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MIAMI VICE (5) 2. CHILTON LODGE (3) 3. DAVID (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MIAMI VICE (5).",
-    "irPick": "unpublished",
+    "irPick": "1. MIAMI VICE (5) 2. CHILTON LODGE (3) 3. DAVID (1)",
     "ourPick": "MIAMI VICE (5)",
     "nap": false,
     "runners": [
@@ -719,7 +719,7 @@ export const races: Race[] = [
         "last5": "5-8-3-4-.",
         "tissue": "24/1",
         "rank": 3,
-        "verdict": "Last: 06 Sep 26 PUN 1400M 4/8 beaten 1.5 at 10 off 29, 56kg. 35 days out. HCP 26. Latest work 03 Oct PUN: Sir Churchill (Ajinkya), David (Dashrath ), 1-08 800 53, 600 40, Former finished a length ahead.",
+        "verdict": "Last: 06 Sep 26 PUN 1400M 4/8 beaten 1.5 at 10 off 29, 56kg. 35 days out. HCP 26. Latest work 10 Oct MYS: David's Delight (Noorulla ) 38 Slightly Extended.",
         "similar": "Nearest trip: 06 Sep 26 PUN 1400M Maiden, 4/8 beaten 1.5 vs NORAIAH.",
         "form": [
           {
@@ -773,6 +773,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "10 Oct",
+            "venue": "MYS",
+            "clock": "600m outer sand (-7)",
+            "note": "David's Delight (Noorulla ) 38 Slightly Extended."
+          },
+          {
             "date": "03 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-7)",
@@ -789,12 +795,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "600m outer sand (-7)",
             "note": "David's Delight (Noorulla ) 38 Moved Well."
-          },
-          {
-            "date": "19 Sep",
-            "venue": "HYD",
-            "clock": "1000m sand (+3)",
-            "note": "David Livingston/Silsila (Rb), December Endy (Rb ), 1-18 800/1-2, 600/47, Moved Together."
           }
         ]
       },
@@ -1367,9 +1367,9 @@ export const races: Race[] = [
     "purse": "₹1200000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "8-runner. Maiden / For Horses 3 years old only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SIR CHURCHILL (4) 2. TAAQATH (5) 3. ACROBATIC (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TAAQATH (5).",
-    "irPick": "unpublished",
+    "irPick": "1. SIR CHURCHILL (4) 2. TAAQATH (5) 3. ACROBATIC (6)",
     "ourPick": "TAAQATH (5)",
     "nap": false,
     "runners": [
@@ -1902,9 +1902,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "10-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AVANTE (4) 2. SUKOON (2) 3. PALOMA (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win PALOMA (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AVANTE (4) 2. SUKOON (2) 3. PALOMA (1)",
     "ourPick": "PALOMA (1)",
     "nap": false,
     "runners": [
@@ -2798,9 +2798,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "05 Sep 2023 DYF 56.5 Kgs 2:27:84 Secs",
     "shape": "5-runner. Class 3 / Horses Rated 40 to 66 (20 to 39 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LITTLE JOHN (2) 2. CACCINI (1) 3. LAND OF PLENTY (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win LITTLE JOHN (2).",
-    "irPick": "unpublished",
+    "irPick": "1. LITTLE JOHN (2) 2. CACCINI (1) 3. LAND OF PLENTY (3)",
     "ourPick": "LITTLE JOHN (2)",
     "nap": false,
     "runners": [
@@ -3267,9 +3267,9 @@ export const races: Race[] = [
     "purse": "₹10000000",
     "record": "28 Nov 2021 ZUCCARELLI 56 Kgs 2:02.28 Secs",
     "shape": "6-runner. Term Race / For Horses 3 years old only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. JAANDAAR (5) 2. BEAST MODE (2) 3. IRON MIRAGE (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win JAANDAAR (5).",
-    "irPick": "unpublished",
+    "irPick": "1. JAANDAAR (5) 2. BEAST MODE (2) 3. IRON MIRAGE (4)",
     "ourPick": "JAANDAAR (5)",
     "nap": false,
     "runners": [
@@ -3831,9 +3831,9 @@ export const races: Race[] = [
     "purse": "₹750000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "10-runner. Class 2 / Horses Rated 60 to 86 (40 to 59 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. GIACOMO (6) 2. THUNDERING PHOENIX (1) 3. EARTH (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win THUNDERING PHOENIX (1).",
-    "irPick": "unpublished",
+    "irPick": "1. GIACOMO (6) 2. THUNDERING PHOENIX (1) 3. EARTH (3)",
     "ourPick": "THUNDERING PHOENIX (1)",
     "nap": false,
     "runners": [
@@ -4775,9 +4775,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "8-runner. Class 5 / Horses Rated 1 to 26, 4 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. BRAVO ZULU (1) 2. ASHWA ANKARA (3) 3. RED MERLOT (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BRAVO ZULU (1).",
-    "irPick": "unpublished",
+    "irPick": "1. BRAVO ZULU (1) 2. ASHWA ANKARA (3) 3. RED MERLOT (4)",
     "ourPick": "BRAVO ZULU (1)",
     "nap": false,
     "runners": [
