@@ -5,7 +5,7 @@ export const MEETING = {
   "venue": "MYSORE (MYS)",
   "date": "Friday 16 October 2026",
   "first": "02:00 PM",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 14 Oct 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 15 Oct 26.",
   "going": "Mysore turf. Auto-built from the IndiaRace card; going is not independently verified.",
   "dayBest": "PERFECT BLEND",
   "dayBestRace": 5,
@@ -4509,7 +4509,7 @@ export const races: Race[] = [
         "last5": "2-1-7-11-11-.",
         "tissue": "24/1",
         "rank": 9,
-        "verdict": "Last: 25 Sep 26 MYS 1200M 11/12 beaten 23.75 at ? off 68, 54kg. 21 days out. HCP 28. Latest work 27 Sep PUN: Ocean Of Love (S.J.Sunil ) 39 Moved freely.",
+        "verdict": "Last: 25 Sep 26 MYS 1200M 11/12 beaten 23.75 at ? off 68, 54kg. 21 days out. HCP 28. Latest work 14 Oct PUN: Ocean Of Love (S.J.Sunil), Cornucopia (Saurav Rawat ), 41 Pair easy.",
         "similar": "Nearest trip: 25 Sep 26 MYS 1200M Class 2, 11/12 beaten 23.75 vs SICYON.",
         "form": [
           {
@@ -4563,6 +4563,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "14 Oct",
+            "venue": "PUN",
+            "clock": "600m inner sand (-4)",
+            "note": "Ocean Of Love (S.J.Sunil), Cornucopia (Saurav Rawat ), 41 Pair easy."
+          },
+          {
             "date": "27 Sep",
             "venue": "PUN",
             "clock": "600m inner sand (-6)",
@@ -4579,12 +4585,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "1000m outer sand (-5)",
             "note": "Ocean (Rb ) 1-10 800/53, 600/37 Moved Attractively."
-          },
-          {
-            "date": "18 Sep",
-            "venue": "MYS",
-            "clock": "800m outer sand (-4)",
-            "note": "Ocean (Faiz ) 56 600/39 Worked Well."
           }
         ]
       },
@@ -6785,7 +6785,7 @@ export const SHEET: SheetMeeting = {
   "banner": "MTC MYSORE",
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "16-10-2026 - MYS - FRIDAY - 7 CARD",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 14 Oct 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 15 Oct 26.",
   "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
   "races": [
     {
