@@ -27,9 +27,9 @@ export const races: Race[] = [
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "12-runner. Class 5 / Horses Rated 00 To 25",
     "similarRace": "IndiaRace: 1. SEDUCTIVE (6) 2. ROMANTIC VIEW (3) 3. VISION SUPREME (11). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
-    "tissueNote": "120% book from HCP ranks. Win COUNTRY'S FIRE (8).",
+    "tissueNote": "120% book from HCP ranks. Win DAKSHIN VIJAY (4).",
     "irPick": "1. SEDUCTIVE (6) 2. ROMANTIC VIEW (3) 3. VISION SUPREME (11)",
-    "ourPick": "COUNTRY'S FIRE (8)",
+    "ourPick": "DAKSHIN VIJAY (4)",
     "nap": false,
     "runners": [
       {
@@ -141,8 +141,8 @@ export const races: Race[] = [
         "eq": "TS-BB",
         "rtg": "24 / 22",
         "last5": "9-4-7-4-9-.",
-        "tissue": "109/10",
-        "rank": 6,
+        "tissue": "96/5",
+        "rank": 8,
         "verdict": "Last: 17 Sep 26 MYS 1200M 9/12 beaten 12.25 at 10 off 22, 61kg. 28 days out. HCP 14. Latest work 12 Oct MYS: King D (Rb ) 1-12 800/55, 600/40 Fit & Fine.",
         "similar": "Nearest trip: 17 Sep 26 MYS 1200M Class 5, 9/12 beaten 12.25 vs N R I JETPOWER.",
         "form": [
@@ -236,8 +236,8 @@ export const races: Race[] = [
         "eq": "TS-CNB",
         "rtg": "21 / 19",
         "last5": "11-10-10-.",
-        "tissue": "49/5",
-        "rank": 5,
+        "tissue": "173/10",
+        "rank": 7,
         "verdict": "Last: 30 Sep 26 MYS 1200M 10/12 beaten 13 at 10 off 21, 60.5kg. 15 days out. 2.5kg claim. HCP 15. Latest work 29 Aug MYS: Romantic View (RB ) 55 600/40, Moved Freely",
         "similar": "Nearest trip: 30 Sep 26 MYS 1200M Class 5, 10/12 beaten 13 vs OCEAN OF GRACE.",
         "form": [
@@ -318,12 +318,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK-RB",
         "rtg": "20 / 18",
-        "last5": "5-2-10-7-5-.",
-        "tissue": "13/5",
-        "rank": 2,
-        "verdict": "Last: 17 Sep 26 MYS 1200M 5/11 beaten 7.5 at 12 off 20, 60kg. 28 days out. 3.5kg claim. HCP 26. Latest work 12 Oct MYS: Dakshin Vijay (Rb ) 1-12 800/56, 600/40 Un-Extended.",
-        "similar": "Nearest trip: 17 Sep 26 MYS 1200M Class 5, 5/11 beaten 7.5 vs DASADYU.",
+        "last5": "2-10-7-5-5-.",
+        "tissue": "1/1",
+        "rank": 1,
+        "verdict": "Last: 15 Oct 26 MYS 1200M 5/5 beaten 0 at ? off 18, 59kg. 0 days out. 3.5kg claim. HCP 37. Latest work 12 Oct MYS: Dakshin Vijay (Rb ) 1-12 800/56, 600/40 Un-Extended.",
+        "similar": "Nearest trip: 15 Oct 26 MYS 1200M Class 5, 5/5 beaten 0 vs SEDUCTIVE.",
         "form": [
+          {
+            "date": "15 Oct 26",
+            "venue": "MYS",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "5",
+            "field": "5",
+            "beaten": "0L",
+            "wt": "59",
+            "odds": "",
+            "winner": "SEDUCTIVE"
+          },
           {
             "date": "17 Sep 26",
             "venue": "MYS",
@@ -359,18 +371,6 @@ export const races: Race[] = [
             "wt": "60",
             "odds": "7",
             "winner": "SECRET SHADOW"
-          },
-          {
-            "date": "04 Oct 25",
-            "venue": "CHE",
-            "dist": "1200m",
-            "cls": "Class 5",
-            "pos": "2",
-            "field": "6",
-            "beaten": "1L",
-            "wt": "57.5",
-            "odds": "18",
-            "winner": "BLACK LABEL"
           }
         ],
         "work": [
@@ -414,8 +414,8 @@ export const races: Race[] = [
         "eq": "TS-BLK",
         "rtg": "17 / 15",
         "last5": "12-6-9-4-6-.",
-        "tissue": "7/1",
-        "rank": 4,
+        "tissue": "63/5",
+        "rank": 6,
         "verdict": "Last: 17 Sep 26 MYS 1200M 6/11 beaten 10.25 at 13/2 off 17, 58.5kg. 28 days out. 5kg claim. HCP 18. Latest work 27 Aug MYS: Lev Ron (RB), Dazzling Hawk (RB ), 1-12 800/55, 600/39, Pair Moved Well",
         "similar": "Nearest trip: 17 Sep 26 MYS 1200M Class 5, 6/11 beaten 10.25 vs DASADYU.",
         "form": [
@@ -508,12 +508,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "12 / 14",
-        "last5": "7-4-8-2-3-.",
-        "tissue": "61/5",
-        "rank": 7,
-        "verdict": "Last: 30 Sep 26 MYS 1200M 3/11 beaten 2.5 at 3 off 12, 56kg. 15 days out. HCP 13. Latest work 10 Oct MYS: Seductive (S Inayat), Shamsheer (S F Ansari ), 1-26.915/600-39.042/1200-600: 47.873 Distance: Distance Separated Them.",
-        "similar": "Nearest trip: 30 Sep 26 MYS 1200M Class 5, 3/11 beaten 2.5 vs DAVIDS DELIGHT.",
+        "last5": "4-8-2-3-1-.",
+        "tissue": "96/5",
+        "rank": 9,
+        "verdict": "Last: 15 Oct 26 MYS 1200M 1/5 beaten won at ? off 14, 57kg. 0 days out. HCP 14. Latest work 10 Oct MYS: Seductive (S Inayat), Shamsheer (S F Ansari ), 1-26.915/600-39.042/1200-600: 47.873 Distance: Distance Separated Them.",
+        "similar": "Nearest trip: 15 Oct 26 MYS 1200M Class 5, 1/5 beaten 0 vs SEDUCTIVE.",
         "form": [
+          {
+            "date": "15 Oct 26",
+            "venue": "MYS",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "1",
+            "field": "5",
+            "beaten": "won",
+            "wt": "57",
+            "odds": "",
+            "winner": "SEDUCTIVE"
+          },
           {
             "date": "30 Sep 26",
             "venue": "MYS",
@@ -549,18 +561,6 @@ export const races: Race[] = [
             "wt": "56",
             "odds": "9",
             "winner": "PETTE'S CHOICE"
-          },
-          {
-            "date": "17 Oct 25",
-            "venue": "MYS",
-            "dist": "1200m",
-            "cls": "Class 5",
-            "pos": "4",
-            "field": "12",
-            "beaten": "4.25L",
-            "wt": "59",
-            "odds": "8",
-            "winner": "CITY OF HUSTLE"
           }
         ],
         "work": [
@@ -603,12 +603,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "13 / 13",
-        "last5": "7-8-8-10-5-.",
-        "tissue": "24/1",
-        "rank": 9,
-        "verdict": "Last: 11 Sep 26 MYS 1400M 5/12 beaten 8 at 20 off 13, 56.5kg. 34 days out. HCP 3. Latest work 10 Oct MYS: Saffron Breeze (Ayaz Khan ) 1-46.121/600-53.104/1200-600: 53.017 Remarks: Slow To Jump Out.",
-        "similar": "Nearest trip: 11 Sep 26 MYS 1400M Class 5, 5/12 beaten 8 vs THE WHISPERING.",
+        "last5": "8-8-10-5-4-.",
+        "tissue": "101/10",
+        "rank": 3,
+        "verdict": "Last: 15 Oct 26 MYS 1200M 4/5 beaten 0 at ? off 13, 56.5kg. 0 days out. HCP 20. Latest work 10 Oct MYS: Saffron Breeze (Ayaz Khan ) 1-46.121/600-53.104/1200-600: 53.017 Remarks: Slow To Jump Out.",
+        "similar": "Nearest trip: 15 Oct 26 MYS 1200M Class 5, 4/5 beaten 0 vs SEDUCTIVE.",
         "form": [
+          {
+            "date": "15 Oct 26",
+            "venue": "MYS",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "4",
+            "field": "5",
+            "beaten": "0L",
+            "wt": "56.5",
+            "odds": "",
+            "winner": "SEDUCTIVE"
+          },
           {
             "date": "11 Sep 26",
             "venue": "MYS",
@@ -644,18 +656,6 @@ export const races: Race[] = [
             "wt": "58.5",
             "odds": "10",
             "winner": "KNOTTY METHODS"
-          },
-          {
-            "date": "19 Nov 25",
-            "venue": "MYS",
-            "dist": "1400m",
-            "cls": "Class 4",
-            "pos": "8",
-            "field": "12",
-            "beaten": "6.25L",
-            "wt": "51.5",
-            "odds": "10",
-            "winner": "GOLDEN BIRD"
           }
         ],
         "work": [
@@ -699,8 +699,8 @@ export const races: Race[] = [
         "eq": "TS-HBB",
         "rtg": "0 / 12",
         "last5": "5-10-10-6-1-.",
-        "tissue": "9/4",
-        "rank": 1,
+        "tissue": "9/2",
+        "rank": 2,
         "verdict": "Last: 08 Oct 26 MYS 1100M 1/12 beaten won at 7/2 off ?, 50kg. 7 days out. 3.5kg claim. HCP 27. Latest work 14 Sep MYS: Country's Fire (Rb ) 55 600/38 Moved Well.",
         "similar": "Nearest trip: 08 Oct 26 MYS 1100M Class 5, 1/12 beaten 0 vs COUNTRY'S FIRE.",
         "form": [
@@ -793,12 +793,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "ANB-HD",
         "rtg": "10 / 9",
-        "last5": "6-5-11-7-6-.",
-        "tissue": "84/5",
-        "rank": 8,
-        "verdict": "Last: 17 Sep 26 MYS 1200M 0/12 beaten 0 at ? off 9, 54.5kg. 28 days out. 3.5kg claim. HCP 10. Latest work 11 Oct MYS: Nakshatra (Rb ) 1-28 1000/1-11, 800/54, 600/39, Moved Well.",
-        "similar": "Nearest trip: 17 Sep 26 MYS 1200M Class 5, 0/12 beaten 0 vs N R I JETPOWER.",
+        "last5": "5-11-7-6-2-.",
+        "tissue": "45/4",
+        "rank": 4,
+        "verdict": "Last: 15 Oct 26 MYS 1200M 2/5 beaten 0 at ? off 9, 54.5kg. 0 days out. 3.5kg claim. HCP 19. Latest work 11 Oct MYS: Nakshatra (Rb ) 1-28 1000/1-11, 800/54, 600/39, Moved Well.",
+        "similar": "Nearest trip: 15 Oct 26 MYS 1200M Class 5, 2/5 beaten 0 vs SEDUCTIVE.",
         "form": [
+          {
+            "date": "15 Oct 26",
+            "venue": "MYS",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "2",
+            "field": "5",
+            "beaten": "0L",
+            "wt": "54.5",
+            "odds": "",
+            "winner": "SEDUCTIVE"
+          },
           {
             "date": "17 Sep 26",
             "venue": "MYS",
@@ -834,18 +846,6 @@ export const races: Race[] = [
             "wt": "55",
             "odds": "10",
             "winner": "PETTE'S CHOICE"
-          },
-          {
-            "date": "03 Jun 26",
-            "venue": "MYS",
-            "dist": "1400m",
-            "cls": "Class 5",
-            "pos": "11",
-            "field": "12",
-            "beaten": "19.75L",
-            "wt": "56",
-            "odds": "10",
-            "winner": "KNOTTY METHODS"
           }
         ],
         "work": [
@@ -876,12 +876,24 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "9 / 9",
-        "last5": "5-4-3-7-5-.",
-        "tissue": "24/1",
+        "last5": "4-3-7-5-3-.",
+        "tissue": "237/10",
         "rank": 10,
-        "verdict": "Last: 25 Sep 26 MYS 1400M 5/12 beaten 8.75 at ? off 9, 54.5kg. 20 days out. HCP -8. Latest work 11 Oct MYS: Super Sexy (Rb ) 1-23 1000/1-09, 800/55, 600/42, Extended.",
-        "similar": "Nearest trip: 25 Sep 26 MYS 1400M Class 5, 5/12 beaten 8.75 vs ALLURING BEAUTY.",
+        "verdict": "Last: 15 Oct 26 MYS 1200M 3/5 beaten 0 at ? off 9, 54.5kg. 0 days out. HCP 12. Latest work 11 Oct MYS: Super Sexy (Rb ) 1-23 1000/1-09, 800/55, 600/42, Extended.",
+        "similar": "Nearest trip: 15 Oct 26 MYS 1200M Class 5, 3/5 beaten 0 vs SEDUCTIVE.",
         "form": [
+          {
+            "date": "15 Oct 26",
+            "venue": "MYS",
+            "dist": "1200m",
+            "cls": "Class 5",
+            "pos": "3",
+            "field": "5",
+            "beaten": "0L",
+            "wt": "54.5",
+            "odds": "",
+            "winner": "SEDUCTIVE"
+          },
           {
             "date": "25 Sep 26",
             "venue": "MYS",
@@ -917,18 +929,6 @@ export const races: Race[] = [
             "wt": "55",
             "odds": "6",
             "winner": "SECRET SHADOW"
-          },
-          {
-            "date": "01 Jul 26",
-            "venue": "MYS",
-            "dist": "1200m",
-            "cls": "Class 5",
-            "pos": "4",
-            "field": "12",
-            "beaten": "7.5L",
-            "wt": "56",
-            "odds": "8",
-            "winner": "PETTE'S CHOICE"
           }
         ],
         "work": [
@@ -972,8 +972,8 @@ export const races: Race[] = [
         "eq": "TS-BLK-CNB",
         "rtg": "14 / 8",
         "last5": "9-6-2-7-4-.",
-        "tissue": "25/4",
-        "rank": 3,
+        "tissue": "45/4",
+        "rank": 5,
         "verdict": "Last: 26 Oct 25 MYS 1200M 4/12 beaten 4.25 at 13/2 off 14, 57kg. 354 days out. 2.5kg claim. HCP 19.",
         "similar": "Nearest trip: 26 Oct 25 MYS 1200M Class 5, 4/12 beaten 4.25 vs COOL WINTER.",
         "form": [
@@ -7703,8 +7703,8 @@ export const SHEET: SheetMeeting = {
           },
           "nty": null,
           "open": null,
-          "tissue": "109/10",
-          "rank": 6,
+          "tissue": "96/5",
+          "rank": 8,
           "speed": 12.8,
           "track": 85,
           "distDelta": 0,
@@ -7754,8 +7754,8 @@ export const SHEET: SheetMeeting = {
           },
           "nty": null,
           "open": null,
-          "tissue": "49/5",
-          "rank": 5,
+          "tissue": "173/10",
+          "rank": 7,
           "speed": 12.76,
           "track": 85,
           "distDelta": 0,
@@ -7780,18 +7780,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 18,
           "rtgCh": -2,
           "l2": {
-            "days": 41,
-            "card": "8",
-            "pos": 7,
-            "odds": "10",
-            "btl": 6.75,
-            "lto": 20,
-            "distM": 1100,
-            "rtg": 20,
-            "cls": "Class 5",
-            "wt": 60
-          },
-          "l1": {
             "days": 28,
             "card": "31",
             "pos": 5,
@@ -7803,18 +7791,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 60
           },
+          "l1": {
+            "days": 0,
+            "card": "85",
+            "pos": 5,
+            "odds": null,
+            "btl": 0,
+            "lto": 30,
+            "distM": 1200,
+            "rtg": 18,
+            "cls": "Class 5",
+            "wt": 59
+          },
           "nty": null,
-          "open": null,
-          "tissue": "13/5",
-          "rank": 2,
-          "speed": 12.46,
+          "open": 3.5,
+          "tissue": "1/1",
+          "rank": 1,
+          "speed": null,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": -1,
+          "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 26,
-          "dp": 4,
-          "days": 28,
+          "hcp": 37,
+          "dp": 0,
+          "days": 0,
           "tone": "pick",
           "hcpKg": -3.5
         },
@@ -7856,8 +7856,8 @@ export const SHEET: SheetMeeting = {
           },
           "nty": null,
           "open": null,
-          "tissue": "7/1",
-          "rank": 4,
+          "tissue": "63/5",
+          "rank": 6,
           "speed": 12.61,
           "track": 85,
           "distDelta": 0,
@@ -7882,18 +7882,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 14,
           "rtgCh": 2,
           "l2": {
-            "days": 35,
-            "card": "15",
-            "pos": 2,
-            "odds": "15",
-            "btl": 3,
-            "lto": 8,
-            "distM": 1200,
-            "rtg": 10,
-            "cls": "Class 5",
-            "wt": 55
-          },
-          "l1": {
             "days": 15,
             "card": "57",
             "pos": 3,
@@ -7905,18 +7893,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 56
           },
+          "l1": {
+            "days": 0,
+            "card": "85",
+            "pos": 1,
+            "odds": null,
+            "btl": 0,
+            "lto": 14,
+            "distM": 1200,
+            "rtg": 14,
+            "cls": "Class 5",
+            "wt": 57
+          },
           "nty": null,
-          "open": null,
-          "tissue": "61/5",
-          "rank": 7,
-          "speed": 12.16,
+          "open": 1.6,
+          "tissue": "96/5",
+          "rank": 9,
+          "speed": null,
           "track": 85,
           "distDelta": 0,
-          "wtDelta": 1,
+          "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 13,
-          "dp": 2,
-          "days": 15,
+          "hcp": 14,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -7933,18 +7933,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 13,
           "rtgCh": 0,
           "l2": {
-            "days": 106,
-            "card": "41",
-            "pos": 10,
-            "odds": "10",
-            "btl": 15,
-            "lto": -10,
-            "distM": 1200,
-            "rtg": 13,
-            "cls": "Class 5",
-            "wt": 56.5
-          },
-          "l1": {
             "days": 34,
             "card": "22",
             "pos": 5,
@@ -7956,19 +7944,31 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 56.5
           },
+          "l1": {
+            "days": 0,
+            "card": "85",
+            "pos": 4,
+            "odds": null,
+            "btl": 0,
+            "lto": 20,
+            "distM": 1200,
+            "rtg": 13,
+            "cls": "Class 5",
+            "wt": 56.5
+          },
           "nty": null,
-          "open": null,
-          "tissue": "24/1",
-          "rank": 9,
-          "speed": 12.75,
+          "open": 7,
+          "tissue": "101/10",
+          "rank": 3,
+          "speed": null,
           "track": 85,
-          "distDelta": 200,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 3,
-          "dp": 5,
-          "days": 34,
-          "tone": "plain",
+          "hcp": 20,
+          "dp": 0,
+          "days": 0,
+          "tone": "pick",
           "hcpKg": 0
         },
         {
@@ -8009,8 +8009,8 @@ export const SHEET: SheetMeeting = {
           },
           "nty": null,
           "open": null,
-          "tissue": "9/4",
-          "rank": 1,
+          "tissue": "9/2",
+          "rank": 2,
           "speed": 12.1,
           "track": 85,
           "distDelta": -100,
@@ -8035,18 +8035,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 9,
           "rtgCh": -1,
           "l2": {
-            "days": 92,
-            "card": "56",
-            "pos": 6,
-            "odds": "10",
-            "btl": 5.5,
-            "lto": 3,
-            "distM": 1200,
-            "rtg": 10,
-            "cls": "Class 5",
-            "wt": 55
-          },
-          "l1": {
             "days": 28,
             "card": "29",
             "pos": 0,
@@ -8058,18 +8046,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 54.5
           },
+          "l1": {
+            "days": 0,
+            "card": "85",
+            "pos": 2,
+            "odds": null,
+            "btl": 0,
+            "lto": 12,
+            "distM": 1200,
+            "rtg": 9,
+            "cls": "Class 5",
+            "wt": 54.5
+          },
           "nty": null,
-          "open": null,
-          "tissue": "84/5",
-          "rank": 8,
+          "open": 5,
+          "tissue": "45/4",
+          "rank": 4,
           "speed": null,
           "track": 85,
           "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": 10,
-          "dp": 4,
-          "days": 28,
+          "hcp": 19,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": -3.5
         },
@@ -8086,18 +8086,6 @@ export const SHEET: SheetMeeting = {
           "bnc": 9,
           "rtgCh": 0,
           "l2": {
-            "days": 35,
-            "card": "15",
-            "pos": 7,
-            "odds": "15",
-            "btl": 6,
-            "lto": 4,
-            "distM": 1200,
-            "rtg": 11,
-            "cls": "Class 5",
-            "wt": 55.5
-          },
-          "l1": {
             "days": 20,
             "card": "50",
             "pos": 5,
@@ -8109,18 +8097,30 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 5",
             "wt": 54.5
           },
+          "l1": {
+            "days": 0,
+            "card": "85",
+            "pos": 3,
+            "odds": null,
+            "btl": 0,
+            "lto": 12,
+            "distM": 1200,
+            "rtg": 9,
+            "cls": "Class 5",
+            "wt": 54.5
+          },
           "nty": null,
           "open": null,
-          "tissue": "24/1",
+          "tissue": "237/10",
           "rank": 10,
-          "speed": 12.56,
+          "speed": null,
           "track": 85,
-          "distDelta": 200,
+          "distDelta": 0,
           "wtDelta": 0,
           "cls": "Class 5",
-          "hcp": -8,
-          "dp": 3,
-          "days": 20,
+          "hcp": 12,
+          "dp": 0,
+          "days": 0,
           "tone": "plain",
           "hcpKg": 0
         },
@@ -8162,8 +8162,8 @@ export const SHEET: SheetMeeting = {
           },
           "nty": null,
           "open": null,
-          "tissue": "25/4",
-          "rank": 3,
+          "tissue": "45/4",
+          "rank": 5,
           "speed": 12.44,
           "track": 85,
           "distDelta": 0,
@@ -8172,7 +8172,7 @@ export const SHEET: SheetMeeting = {
           "hcp": 19,
           "dp": 51,
           "days": 354,
-          "tone": "pick",
+          "tone": "risk",
           "hcpKg": -2.5
         },
         {
@@ -8212,7 +8212,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 11,
           "speed": 12.6,
@@ -8228,26 +8228,26 @@ export const SHEET: SheetMeeting = {
         }
       ],
       "picks": {
-        "win": 8,
-        "plc": 4,
-        "upset": 11,
+        "win": 4,
+        "plc": 8,
+        "upset": 7,
         "lto": [
-          8,
           4,
-          2,
-          11
+          7,
+          8,
+          2
         ],
         "hcpRtg": [
-          8,
           4,
-          11,
-          5
+          8,
+          7,
+          9
         ],
         "speed": [
           8,
-          6,
           11,
-          4
+          12,
+          5
         ]
       }
     },
@@ -8347,7 +8347,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "2/5",
           "rank": 1,
           "speed": 12.09,
@@ -8398,7 +8398,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": null,
-          "open": null,
+          "open": 1.7,
           "tissue": "24/1",
           "rank": 10,
           "speed": 13.09,
@@ -8500,7 +8500,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "6/1",
           "rank": 3,
           "speed": 12.4,
@@ -8653,7 +8653,7 @@ export const SHEET: SheetMeeting = {
             "wt": 50.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "24/1",
           "rank": 8,
           "speed": 12.2,
@@ -8755,7 +8755,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "43/8",
           "rank": 2,
           "speed": 12.49,
@@ -8945,7 +8945,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "7/8",
           "rank": 1,
           "speed": 12.04,
@@ -8996,7 +8996,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "21/4",
           "rank": 3,
           "speed": 11.91,
@@ -9098,7 +9098,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": null,
-          "open": null,
+          "open": 0.8,
           "tissue": "197/10",
           "rank": 6,
           "speed": 11.84,
@@ -9149,7 +9149,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 8,
           "speed": 12.38,
@@ -9302,7 +9302,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "71/4",
           "rank": 4,
           "speed": null,
@@ -9455,7 +9455,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 7,
           "speed": 11.97,
@@ -9594,7 +9594,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 7,
           "speed": 12.89,
@@ -9798,7 +9798,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62.5
           },
           "nty": null,
-          "open": null,
+          "open": 3.5,
           "tissue": "29/10",
           "rank": 2,
           "speed": 12.54,
@@ -9900,7 +9900,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 3.5,
           "tissue": "24/1",
           "rank": 8,
           "speed": 13.5,
@@ -9951,7 +9951,7 @@ export const SHEET: SheetMeeting = {
             "wt": 52.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.1,
           "tissue": "24/1",
           "rank": 10,
           "speed": 12.48,
@@ -10239,7 +10239,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "4/5",
           "rank": 1,
           "speed": 11.93,
@@ -10341,7 +10341,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57
           },
           "nty": null,
-          "open": null,
+          "open": 0.9,
           "tissue": "29/4",
           "rank": 3,
           "speed": 11.91,
@@ -10596,7 +10596,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 10,
           "speed": 12.08,
@@ -10786,7 +10786,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": null,
-          "open": null,
+          "open": 2,
           "tissue": "95/8",
           "rank": 5,
           "speed": 12.58,
@@ -11143,7 +11143,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "8/5",
           "rank": 1,
           "speed": 11.99,
@@ -11194,7 +11194,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 12,
           "speed": 12.79,
@@ -11296,7 +11296,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61.5
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "34/5",
           "rank": 3,
           "speed": 12.51,
@@ -11435,7 +11435,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 9,
           "speed": 12.72,
@@ -11486,7 +11486,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.1,
           "tissue": "1/1",
           "rank": 1,
           "speed": 12.23,
@@ -11690,7 +11690,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "41/2",
           "rank": 6,
           "speed": 12.69,
@@ -11843,7 +11843,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 3,
           "tissue": "24/1",
           "rank": 7,
           "speed": 12.58,
@@ -11894,7 +11894,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "54/5",
           "rank": 3,
           "speed": 12.51,
@@ -12038,4 +12038,265 @@ export const SHEET: SheetMeeting = {
   ]
 };
 
-export const NIGHT = null;
+export const NIGHT = {
+  "banner": "MTC MYSORE",
+  "title": "NIGHT / MORNING / OPENING ODDS",
+  "version": "AUTO",
+  "when": "15-10-2026 - MYS - THURSDAY - 7 CARD",
+  "source": "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
+  "odds": {
+    "1": [
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 3.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": null,
+        "opening": 1.6,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "watch"
+      },
+      {
+        "cloth": 12,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      }
+    ],
+    "2": [
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "watch"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": null,
+        "opening": 1.7,
+        "call": "pos"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 10,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      }
+    ],
+    "3": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "watch"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 0.8,
+        "call": "pos"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 11,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "watch"
+      }
+    ],
+    "4": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": null,
+        "opening": 3.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": null,
+        "opening": 3.5,
+        "call": "neg"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 1.1,
+        "call": "pos"
+      }
+    ],
+    "5": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": null,
+        "opening": 0.9,
+        "call": "pos"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      }
+    ],
+    "6": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 2,
+        "call": "pos"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 1.4,
+        "call": "pos"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 11,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "neg"
+      }
+    ],
+    "7": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "watch"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": null,
+        "opening": 1.1,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": null,
+        "opening": 3,
+        "call": "pos"
+      },
+      {
+        "cloth": 10,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      }
+    ]
+  },
+  "gridCloths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ]
+};
