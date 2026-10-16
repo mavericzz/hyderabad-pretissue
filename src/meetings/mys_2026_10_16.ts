@@ -6837,7 +6837,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "21/10",
           "rank": 1,
           "speed": null,
@@ -6888,7 +6888,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.7,
           "tissue": "14/5",
           "rank": 2,
           "speed": 12.83,
@@ -6990,7 +6990,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59.5
           },
           "nty": null,
-          "open": null,
+          "open": 3.5,
           "tissue": "72/5",
           "rank": 7,
           "speed": 13.37,
@@ -7194,7 +7194,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56.5
           },
           "nty": null,
-          "open": null,
+          "open": 4.5,
           "tissue": "15/2",
           "rank": 4,
           "speed": 12.7,
@@ -7486,7 +7486,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "13/4",
           "rank": 2,
           "speed": 14.38,
@@ -7588,7 +7588,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 3.5,
           "tissue": "6/1",
           "rank": 3,
           "speed": 12.38,
@@ -7639,7 +7639,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "131/10",
           "rank": 7,
           "speed": 12.84,
@@ -7686,7 +7686,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51.5
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "24/1",
           "rank": 10,
           "speed": 12.4,
@@ -7992,7 +7992,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "15/2",
           "rank": 4,
           "speed": 12.49,
@@ -8043,7 +8043,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 3.5,
           "tissue": "21/2",
           "rank": 5,
           "speed": 12.26,
@@ -8131,7 +8131,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62.5
           },
           "nty": null,
-          "open": null,
+          "open": 4.5,
           "tissue": "24/1",
           "rank": 10,
           "speed": null,
@@ -8182,7 +8182,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "17/8",
           "rank": 2,
           "speed": 12.42,
@@ -8382,7 +8382,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "145/8",
           "rank": 5,
           "speed": null,
@@ -8433,7 +8433,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "8/5",
           "rank": 1,
           "speed": 12.37,
@@ -8484,7 +8484,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "23/8",
           "rank": 3,
           "speed": null,
@@ -8535,7 +8535,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55.5
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "24/1",
           "rank": 8,
           "speed": 15.31,
@@ -8725,7 +8725,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 4.5,
           "tissue": "1/2",
           "rank": 1,
           "speed": 12.45,
@@ -8878,7 +8878,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.6,
           "tissue": "21/10",
           "rank": 2,
           "speed": 12.47,
@@ -8929,7 +8929,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "29/5",
           "rank": 3,
           "speed": 12.16,
@@ -9031,7 +9031,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "24/1",
           "rank": 4,
           "speed": 12.5,
@@ -9272,7 +9272,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.3,
           "tissue": "32/5",
           "rank": 3,
           "speed": 11.68,
@@ -9323,7 +9323,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59.5
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "81/10",
           "rank": 4,
           "speed": 11.95,
@@ -9425,7 +9425,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "23/10",
           "rank": 2,
           "speed": 11.9,
@@ -9527,7 +9527,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 8,
           "speed": 12.3,
@@ -9666,7 +9666,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61
           },
           "nty": null,
-          "open": null,
+          "open": 3.5,
           "tissue": "31/10",
           "rank": 2,
           "speed": 13.13,
@@ -9717,7 +9717,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 10,
           "speed": 12.87,
@@ -9768,7 +9768,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "31/2",
           "rank": 6,
           "speed": 12.63,
@@ -9819,7 +9819,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 1.8,
           "tissue": "14/1",
           "rank": 5,
           "speed": 12.76,
@@ -10023,7 +10023,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "101/10",
           "rank": 4,
           "speed": 12.41,
@@ -10213,7 +10213,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "27/5",
           "rank": 3,
           "speed": 12.51,
@@ -10264,7 +10264,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": null,
-          "open": null,
+          "open": 2.75,
           "tissue": "13/8",
           "rank": 1,
           "speed": 12.1,
@@ -10315,7 +10315,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "19/10",
           "rank": 2,
           "speed": 12.46,
@@ -10621,7 +10621,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "133/10",
           "rank": 5,
           "speed": 12.34,
@@ -10672,7 +10672,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 7,
           "speed": 12.25,
@@ -10723,7 +10723,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 10,
           "speed": 13.31,
@@ -10816,4 +10816,286 @@ export const SHEET: SheetMeeting = {
   ]
 };
 
-export const NIGHT = null;
+export const NIGHT = {
+  "banner": "MTC MYSORE",
+  "title": "NIGHT / MORNING / OPENING ODDS",
+  "version": "AUTO",
+  "when": "16-10-2026 - MYS - FRIDAY - 7 CARD",
+  "source": "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
+  "odds": {
+    "1": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": null,
+        "opening": 1.7,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 3.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 4.5,
+        "call": "neg"
+      }
+    ],
+    "2": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": null,
+        "opening": 3.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 4,
+        "call": "watch"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "watch"
+      },
+      {
+        "cloth": 11,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 12,
+        "night": null,
+        "morning": null,
+        "opening": 3.5,
+        "call": "pos"
+      }
+    ],
+    "3": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 4.5,
+        "call": "watch"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": null,
+        "opening": 1.4,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "watch"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": null,
+        "opening": 4,
+        "call": "pos"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "neg"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "neg"
+      }
+    ],
+    "4": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 4.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 1.6,
+        "call": "pos"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": null,
+        "opening": 5,
+        "call": "neg"
+      }
+    ],
+    "5": [
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 1.3,
+        "call": "pos"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": null,
+        "opening": 4,
+        "call": "neg"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": null,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      }
+    ],
+    "6": [
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": null,
+        "opening": 3.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 4,
+        "call": "watch"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": null,
+        "opening": 1.8,
+        "call": "pos"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": null,
+        "opening": 4,
+        "call": "neg"
+      }
+    ],
+    "7": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": null,
+        "opening": 4,
+        "call": "watch"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": null,
+        "opening": 2.75,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "watch"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": null,
+        "opening": 1.4,
+        "call": "pos"
+      },
+      {
+        "cloth": 10,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 11,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
+      }
+    ]
+  },
+  "gridCloths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ]
+};
