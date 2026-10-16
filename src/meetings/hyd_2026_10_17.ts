@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 6,
   "nextBest": "GREIF",
   "longshot": "DIABLO",
-  "irDayBest": "unpublished",
+  "irDayBest": "LOVE IN PARIS 5 (7)",
   "feature": "The Hard Held Plate"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "9-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 4 Year Olds And Upward (Cat-3)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. EQUINE POWER (1) 2. VARADA (3) 3. MY HONEY (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win EQUINE POWER (1).",
-    "irPick": "unpublished",
+    "irPick": "1. EQUINE POWER (1) 2. VARADA (3) 3. MY HONEY (4)",
     "ourPick": "EQUINE POWER (1)",
     "nap": false,
     "runners": [
@@ -856,9 +856,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 4 Year Olds And Upward (Cat-3)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SURREALIST (2) 2. RED HOT PUNCH (1) 3. ZORINELLA (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ZORINELLA (5).",
-    "irPick": "unpublished",
+    "irPick": "1. SURREALIST (2) 2. RED HOT PUNCH (1) 3. ZORINELLA (5)",
     "ourPick": "ZORINELLA (5)",
     "nap": false,
     "runners": [
@@ -1543,9 +1543,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 3 Year Olds And Upward (Cat-3)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. KINSHIP (5) 2. ZORBA (1) 3. VICTORIA DHORA (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ZORBA (1).",
-    "irPick": "unpublished",
+    "irPick": "1. KINSHIP (5) 2. ZORBA (1) 3. VICTORIA DHORA (2)",
     "ourPick": "ZORBA (1)",
     "nap": false,
     "runners": [
@@ -2266,9 +2266,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "6-runner. Class 3 / A Handicap For Horses Rated 40 To 65, 4 Year Olds And Upward (Cat-2)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. PRISTINE GLORY (1) 2. SPECIAL STAR (3) 3. MOUNTAIN TOUCH (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win PRISTINE GLORY (1).",
-    "irPick": "unpublished",
+    "irPick": "1. PRISTINE GLORY (1) 2. SPECIAL STAR (3) 3. MOUNTAIN TOUCH (2)",
     "ourPick": "PRISTINE GLORY (1)",
     "nap": false,
     "runners": [
@@ -2805,9 +2805,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "8-runner. Class 3 / A Handicap For Horses Rated 40 To 65, 3 Year Olds And Upward (Cat-2)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LOVE IN PARIS (7) 2. GREIF (2) 3. SAPPORO (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GREIF (2).",
-    "irPick": "unpublished",
+    "irPick": "1. LOVE IN PARIS (7) 2. GREIF (2) 3. SAPPORO (4)",
     "ourPick": "GREIF (2)",
     "nap": false,
     "runners": [
@@ -3497,9 +3497,9 @@ export const races: Race[] = [
     "purse": "₹1225000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "6-runner. Class 1 / A Handicap For Horses Rated 80 And Above,3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ONE N ONLY (1) 2. ESPIONAGE (2) 3. DIABLO (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ONE N ONLY (1).",
-    "irPick": "unpublished",
+    "irPick": "1. ONE N ONLY (1) 2. ESPIONAGE (2) 3. DIABLO (3)",
     "ourPick": "ONE N ONLY (1)",
     "nap": true,
     "runners": [
@@ -4061,9 +4061,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "11-runner. Class 5 / A Handicap For Horses Rated Upto 25, 4 Year Olds And Upward (Cat-3) (Whips Not Permitted)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. THE DIVINELY (2) 2. BOLD INDIAN (6) 3. ICONIC STAR (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win THE DIVINELY (2).",
-    "irPick": "unpublished",
+    "irPick": "1. THE DIVINELY (2) 2. BOLD INDIAN (6) 3. ICONIC STAR (10)",
     "ourPick": "THE DIVINELY (2)",
     "nap": false,
     "runners": [
