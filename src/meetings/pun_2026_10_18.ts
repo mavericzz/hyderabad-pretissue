@@ -48,7 +48,7 @@ export const races: Race[] = [
         "last5": "3-2-4-2-7-.",
         "tissue": "52/5",
         "rank": 3,
-        "verdict": "Last: 02 Oct 26 PUN 1600M 7/13 beaten 3.75 at 15 off 27, 50.5kg. 16 days out. HCP 5. Latest work 09 Oct PUN: Beyond Stars (Nazil ) 51 600 38, Moved well.",
+        "verdict": "Last: 02 Oct 26 PUN 1600M 7/13 beaten 3.75 at 15 off 27, 50.5kg. 16 days out. HCP 5. Latest work 15 Oct PUN: Beyond Stars (Mosin ) 1-19 1000 1-04, 800 51, 600 39, Stretched out well.",
         "similar": "Nearest trip: 02 Oct 26 PUN 1600M Class 4, 7/13 beaten 3.75 vs GIANT GOLD.",
         "form": [
           {
@@ -102,6 +102,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "1200m inner sand (-11)",
+            "note": "Beyond Stars (Mosin ) 1-19 1000 1-04, 800 51, 600 39, Stretched out well."
+          },
+          {
             "date": "09 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-9)",
@@ -118,12 +124,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (+5)",
             "note": "Beyond Stars (Mosin ) 1-05 800 50, 600 38, Pleased."
-          },
-          {
-            "date": "19 Jul",
-            "venue": "PUN",
-            "clock": "800m inner sand (-2)",
-            "note": "Beyond Stars (Ajinkya), Esconido (app ), 58 600 43, Pair level."
           }
         ]
       },
@@ -777,7 +777,7 @@ export const races: Race[] = [
         "last5": "1-1-1-4-4-.",
         "tissue": "53/10",
         "rank": 3,
-        "verdict": "Last: 27 Sep 26 PUN 1200M 4/7 beaten 5.5 at 15 off 74, 56.5kg. 21 days out. HCP 66. Latest work 24 Sep PUN: Bhairava (Siddharth ) 53 600 40, Urged.",
+        "verdict": "Last: 27 Sep 26 PUN 1200M 4/7 beaten 5.5 at 15 off 74, 56.5kg. 21 days out. HCP 66. Latest work 15 Oct PUN: Bhairava (Siddharth), Angelo (Sharukh ), 1-05 800 51, 600 39, Former finished 2Ls ahead.",
         "similar": "Nearest trip: 27 Sep 26 PUN 1200M Class 2, 4/7 beaten 5.5 vs SCARAMOUCHE.",
         "form": [
           {
@@ -831,6 +831,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-10)",
+            "note": "Bhairava (Siddharth), Angelo (Sharukh ), 1-05 800 51, 600 39, Former finished 2Ls ahead."
+          },
+          {
             "date": "24 Sep",
             "venue": "PUN",
             "clock": "800m inner sand (-7)",
@@ -847,12 +853,6 @@ export const races: Race[] = [
             "venue": "HYD",
             "clock": "1000m sand (+2)",
             "note": "Bhairava (App ) 1-17 800/1-1, 600/45, Unextended."
-          },
-          {
-            "date": "06 Aug",
-            "venue": "HYD",
-            "clock": "800m sand (+1)",
-            "note": "Bhairava (P Ajeeth K ) 1-1 600/45, maintains form."
           }
         ]
       },
@@ -1535,7 +1535,7 @@ export const races: Race[] = [
         "last5": "5-5-3-6-3-.",
         "tissue": "47/10",
         "rank": 2,
-        "verdict": "Last: 27 Sep 26 PUN 1200M 3/10 beaten 6.5 at 9 off 26, 54.5kg. 21 days out. HCP 13. Latest work 10 Oct PUN: Tempo (S. Kamble ) 1-09 800 55, 600 42, Easy.",
+        "verdict": "Last: 27 Sep 26 PUN 1200M 3/10 beaten 6.5 at 9 off 26, 54.5kg. 21 days out. HCP 13. Latest work 15 Oct PUN: Yourmyeyesbaby (N.B.Kuldeep), Tempo (Kaviraj ), 1-11 800 55, 600 41, Pair easy.",
         "similar": "Nearest trip: 27 Sep 26 PUN 1200M Maiden, 3/10 beaten 6.5 vs SAINT SIZZLE.",
         "form": [
           {
@@ -1589,6 +1589,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-4)",
+            "note": "Yourmyeyesbaby (N.B.Kuldeep), Tempo (Kaviraj ), 1-11 800 55, 600 41, Pair easy."
+          },
+          {
             "date": "10 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-6)",
@@ -1605,12 +1611,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-7)",
             "note": "Tempo (Shrikant ) 53 600 39, Moved well."
-          },
-          {
-            "date": "02 Aug",
-            "venue": "PUN",
-            "clock": "1200m inner sand (-4)",
-            "note": "Tempo (Shrikant ) 1-26 1000 1-10, 800 55, 600 41, Easy."
           }
         ]
       }
@@ -2503,7 +2503,7 @@ export const races: Race[] = [
         "last5": "6-9-12-9-9-.",
         "tissue": "24/1",
         "rank": 6,
-        "verdict": "Last: 10 Oct 26 PUN 1000M 0/9 beaten 0 at ? off 31, 54.5kg. 8 days out. HCP 7. Latest work 05 Oct MYS: Aries Celestial (Rb ) 41 Slightly Extended.",
+        "verdict": "Last: 10 Oct 26 PUN 1000M 0/9 beaten 0 at ? off 31, 54.5kg. 8 days out. HCP 7. Latest work 15 Oct PUN: Aries (Peter ) 1-09 800 55, 600 41, Moved freely.",
         "similar": "Nearest trip: 10 Oct 26 PUN 1000M Class 4, 0/9 beaten 0 vs SILVER STRIKE.",
         "form": [
           {
@@ -2557,6 +2557,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-6)",
+            "note": "Aries (Peter ) 1-09 800 55, 600 41, Moved freely."
+          },
+          {
             "date": "05 Oct",
             "venue": "MYS",
             "clock": "600m outer sand (-4)",
@@ -2573,12 +2579,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "1200m gate practice (Even)",
             "note": "Aries Celestial (S S Kadhri ) 1-30 753/600-44.163/1200-600: 46.590 Remarks: Jumped Out Well"
-          },
-          {
-            "date": "24 Sep",
-            "venue": "PUN",
-            "clock": "1000m inner sand (-8)",
-            "note": "Aries (Peter ) 1-07 800 53, 600 40, Easy."
           }
         ]
       },
@@ -3149,7 +3149,7 @@ export const races: Race[] = [
         "last5": "6-4-1-2-.",
         "tissue": "43/2",
         "rank": 3,
-        "verdict": "Last: 20 Sep 26 PUN 1200M 2/11 beaten 0 at 9/2 off 36, 56.5kg. 28 days out. HCP 39. Latest work 10 Oct PUN: Red Lightning (J.Chinoy ) 50 600 38, Moved fluently.",
+        "verdict": "Last: 20 Sep 26 PUN 1200M 2/11 beaten 0 at 9/2 off 36, 56.5kg. 28 days out. HCP 39. Latest work 15 Oct PUN: Red Lightning (J.Chinoy ) 53 600 38, Moved well.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1200M Class 4, 2/11 beaten 0 vs RIZZ.",
         "form": [
           {
@@ -3203,6 +3203,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-7)",
+            "note": "Red Lightning (J.Chinoy ) 53 600 38, Moved well."
+          },
+          {
             "date": "10 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-10)",
@@ -3219,12 +3225,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-7)",
             "note": "Red Lightning (Neeraj ) 1-08 800 53, 600 39, Moved well."
-          },
-          {
-            "date": "13 Jul",
-            "venue": "PUN",
-            "clock": "800m inner sand (-8)",
-            "note": "Red Lightning (J.Chinoy), Hola Amigo (Avinash ), 52 600 39, Former trounced latter."
           }
         ]
       },
@@ -3397,7 +3397,7 @@ export const races: Race[] = [
         "last5": "3-5-1-2-4-.",
         "tissue": "9/10",
         "rank": 1,
-        "verdict": "Last: 29 Aug 26 PUN 1600M 4/6 beaten 3.5 at 15 off 59, 57.5kg. 50 days out. 3.5kg claim. HCP 63. Latest work 10 Oct PUN: Ashwa Tazbeez (Gore), Ashwa Gypsy (V. Walkar ), 50 600 37, Former pleased & finished 3Ls ahead.",
+        "verdict": "Last: 29 Aug 26 PUN 1600M 4/6 beaten 3.5 at 15 off 59, 57.5kg. 50 days out. 3.5kg claim. HCP 63. Latest work 15 Oct PUN: Ashwa Gypsy (Gore ) 52 600 38, Pleased.",
         "similar": "Nearest trip: 29 Aug 26 PUN 1600M Class 3, 4/6 beaten 3.5 vs SENECA.",
         "form": [
           {
@@ -3451,6 +3451,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-8)",
+            "note": "Ashwa Gypsy (Gore ) 52 600 38, Pleased."
+          },
+          {
             "date": "10 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-10)",
@@ -3467,12 +3473,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-8)",
             "note": "Baillee (Antony Raj), Ashwa Gypsy (Gore ), 1-07 800 52, 600 39, Pair level."
-          },
-          {
-            "date": "26 Aug",
-            "venue": "PUN",
-            "clock": "600m inner sand (-8)",
-            "note": "Ashwa Gypsy (Gore ) 37 Moved freely."
           }
         ]
       },
@@ -3676,7 +3676,7 @@ export const races: Race[] = [
         "last5": "8-2-3-7-3-.",
         "tissue": "74/5",
         "rank": 5,
-        "verdict": "Last: 02 Oct 26 PUN 1200M 3/11 beaten 2.75 at 2 off 49, 54kg. 16 days out. HCP 42. Latest work 29 Sep PUN: Queen Of Beauties (Akshay G ) 52 600 37, A good display.",
+        "verdict": "Last: 02 Oct 26 PUN 1200M 3/11 beaten 2.75 at 2 off 49, 54kg. 16 days out. HCP 42. Latest work 15 Oct PUN: Queen Of Beauties (Akshay G ) 39 Handy.",
         "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 3, 3/11 beaten 2.75 vs WIND DANCER.",
         "form": [
           {
@@ -3730,6 +3730,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "600m inner sand (-6)",
+            "note": "Queen Of Beauties (Akshay G ) 39 Handy."
+          },
+          {
             "date": "29 Sep",
             "venue": "PUN",
             "clock": "800m inner sand (-8)",
@@ -3746,12 +3752,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "600m inner sand (-7)",
             "note": "Queen Of Beauties (Akshay G ) 38 Handy."
-          },
-          {
-            "date": "13 Aug",
-            "venue": "PUN",
-            "clock": "800m inner sand (-10)",
-            "note": "Muqaddar (App), Queen Of Beauties (Akshay G ), 50 600 37, Pair impressed."
           }
         ]
       },
@@ -4215,7 +4215,7 @@ export const races: Race[] = [
         "last5": "6-2-3-9-2-.",
         "tissue": "46/5",
         "rank": 4,
-        "verdict": "Last: 27 Sep 26 PUN 1400M 2/11 beaten 2.75 at 8 off 31, 55.5kg. 21 days out. HCP 26. Latest work 12 Oct PUN: Savage Peacock (Sandesh ) 1-10 800 54, 600 40, Moved freely.",
+        "verdict": "Last: 27 Sep 26 PUN 1400M 2/11 beaten 2.75 at 8 off 31, 55.5kg. 21 days out. HCP 26. Latest work 15 Oct PUN: Monterey (Dashrath), Savage Peacock (Md Akram ), 1-09 800 54, 600 41, Pair moved together.",
         "similar": "Nearest trip: 27 Sep 26 PUN 1400M Class 4, 2/11 beaten 2.75 vs CRIMSON PIRATE.",
         "form": [
           {
@@ -4269,6 +4269,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "15 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-6)",
+            "note": "Monterey (Dashrath), Savage Peacock (Md Akram ), 1-09 800 54, 600 41, Pair moved together."
+          },
+          {
             "date": "12 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-5)",
@@ -4285,12 +4291,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-7)",
             "note": "Savage Peacock (Ramswarup ) 53 600 39, Moved nicely."
-          },
-          {
-            "date": "28 Aug",
-            "venue": "PUN",
-            "clock": "1000m inner sand (-7)",
-            "note": "Savage Peacock (Ramswarup), David (Santosh G ), 1-08 800 53, 600 40, Pair stretched out well."
           }
         ]
       },
