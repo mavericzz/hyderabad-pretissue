@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 1,
   "nextBest": "SILVER STRIKE",
   "longshot": "DREAMER",
-  "irDayBest": "unpublished",
+  "irDayBest": "ADMIRABLE 4 (7)",
   "feature": "The A. J. Wadia Plate"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹900000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "4-runner. Class 2 / Horses Rated 60 to 86",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DREAMER (2) 2. BREAK POINT (1) 3. OPUS DEI (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BREAK POINT (1).",
-    "irPick": "unpublished",
+    "irPick": "1. DREAMER (2) 2. BREAK POINT (1) 3. OPUS DEI (3)",
     "ourPick": "BREAK POINT (1)",
     "nap": true,
     "runners": [
@@ -424,9 +424,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "10 Sep 2017 HARVEY 55 Kgs 00.56.77 Secs",
     "shape": "8-runner. Class 5 / Horses Rated 1 to 26, 4 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SKY FULL OF STARS (2) 2. HOUSE OF LORDS (3) 3. MOMENT OF MADNESS (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win HOUSE OF LORDS (3).",
-    "irPick": "unpublished",
+    "irPick": "1. SKY FULL OF STARS (2) 2. HOUSE OF LORDS (3) 3. MOMENT OF MADNESS (7)",
     "ourPick": "HOUSE OF LORDS (3)",
     "nap": false,
     "runners": [
@@ -1097,9 +1097,9 @@ export const races: Race[] = [
     "purse": "₹1200000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "6-runner. Maiden / For Horses 3 years old only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. NEW STAR (2) 2. MONTEREY (1) 3. SATYAVAN (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win NEW STAR (2).",
-    "irPick": "unpublished",
+    "irPick": "1. NEW STAR (2) 2. MONTEREY (1) 3. SATYAVAN (3)",
     "ourPick": "NEW STAR (2)",
     "nap": false,
     "runners": [
@@ -1601,9 +1601,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "8-runner. Class 3 / Horses Rated 40 to 66",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ADMIRABLE (7) 2. NEUTRALIST (1) 3. GOLD BAR (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SILVER STRIKE (5).",
-    "irPick": "unpublished",
+    "irPick": "1. ADMIRABLE (7) 2. NEUTRALIST (1) 3. GOLD BAR (6)",
     "ourPick": "SILVER STRIKE (5)",
     "nap": false,
     "runners": [
@@ -2379,9 +2379,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "6-runner. Class 4 / Horses Rated 20 to 46, 3 years old only",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CAVIAR QUEEN (1) 2. LUCKY DIAMOND (3) 3. SAINT SIZZLE (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win CAVIAR QUEEN (1).",
-    "irPick": "unpublished",
+    "irPick": "1. CAVIAR QUEEN (1) 2. LUCKY DIAMOND (3) 3. SAINT SIZZLE (2)",
     "ourPick": "CAVIAR QUEEN (1)",
     "nap": false,
     "runners": [
@@ -2937,9 +2937,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "10-runner. Class 5 / Horses Rated 1 to 26, 5 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. FLASHMAN (5) 2. PRINCE IGOR (10) 3. RISE ALL STARS (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BETWEEN FRIENDS (4).",
-    "irPick": "unpublished",
+    "irPick": "1. FLASHMAN (5) 2. PRINCE IGOR (10) 3. RISE ALL STARS (7)",
     "ourPick": "BETWEEN FRIENDS (4)",
     "nap": false,
     "runners": [
