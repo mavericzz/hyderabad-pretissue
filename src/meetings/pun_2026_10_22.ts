@@ -48,7 +48,7 @@ export const races: Race[] = [
         "last5": "3-2-1-1-3-.",
         "tissue": "1/4",
         "rank": 1,
-        "verdict": "Last: 20 Sep 26 PUN 1600M 3/5 beaten 4.5 at 13/4 off 83, 60.5kg. 32 days out. HCP 86. Latest work 10 Sep PUN: Break Point (Dashrath ) 1-11 800 56, 600 42, Unextended.",
+        "verdict": "Last: 20 Sep 26 PUN 1600M 3/5 beaten 4.5 at 13/4 off 83, 60.5kg. 32 days out. HCP 86. Latest work 20 Oct PUN: Break Point (S. Kamble ) 57 600 42 Unextended.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1600M Class 2, 3/5 beaten 4.5 vs ROSARIO.",
         "form": [
           {
@@ -102,6 +102,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "20 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-3)",
+            "note": "Break Point (S. Kamble ) 57 600 42 Unextended."
+          },
+          {
             "date": "10 Sep",
             "venue": "PUN",
             "clock": "1000m inner sand (-4)",
@@ -118,12 +124,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-3)",
             "note": "Magical Star (Kaviraj), Break Point (Shrikant ), 1-12 800 57, 600 43, Pair level."
-          },
-          {
-            "date": "02 Aug",
-            "venue": "PUN",
-            "clock": "1200m inner sand (-11)",
-            "note": "Break Point (Shrikant ) 1-19 1000 1-05, 800 52, 600 38, Stretched out well."
           }
         ]
       },
@@ -143,7 +143,7 @@ export const races: Race[] = [
         "last5": "3-11-2-1-2-.",
         "tissue": "38/5",
         "rank": 3,
-        "verdict": "Last: 20 Sep 26 PUN 1600M 2/5 beaten 3 at 7 off 73, 55.5kg. 32 days out. HCP 66. Latest work 16 Sep PUN: Dreamer (Parmar ) 38 Handy.",
+        "verdict": "Last: 20 Sep 26 PUN 1600M 2/5 beaten 3 at 7 off 73, 55.5kg. 32 days out. HCP 66. Latest work 19 Oct PUN: Dreamer (Parmar ) 1-23 1000 1-08, 800 53, 600 39, Moved freely.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1600M Class 2, 2/5 beaten 3 vs ROSARIO.",
         "form": [
           {
@@ -197,6 +197,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Oct",
+            "venue": "PUN",
+            "clock": "1200m inner sand (-7)",
+            "note": "Dreamer (Parmar ) 1-23 1000 1-08, 800 53, 600 39, Moved freely."
+          },
+          {
             "date": "16 Sep",
             "venue": "PUN",
             "clock": "600m inner sand (-7)",
@@ -213,12 +219,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-5)",
             "note": "Dreamer (Parmar ) 55 600 41, Handy."
-          },
-          {
-            "date": "29 Jul",
-            "venue": "PUN",
-            "clock": "800m inner sand (-11)",
-            "note": "Dreamer (Parmar), Miss American Pie (Ranjane ), 49 600 36, Former moved well & finished together."
           }
         ]
       },
@@ -238,7 +238,7 @@ export const races: Race[] = [
         "last5": "3-6-2-4-4-.",
         "tissue": "19/2",
         "rank": 4,
-        "verdict": "Last: 20 Sep 26 PUN 1600M 4/5 beaten 7.25 at 4 off 74, 56kg. 32 days out. 3.5kg claim. HCP 64. Latest work 03 Oct PUN: Tyrannus (C.S.Jodha), Opus Dei (A.Prakash ), 1-05 800 50, 600 38, Pair jumped out well & moved together.",
+        "verdict": "Last: 20 Sep 26 PUN 1600M 4/5 beaten 7.25 at 4 off 74, 56kg. 32 days out. 3.5kg claim. HCP 64. Latest work 17 Oct PUN: Opus Dei (Vishal Bunde), Aegean Sea (Shelar ), 1-08 800 53, 600 40, Level jump, former finished 2Ls ahead.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1600M Class 2, 4/5 beaten 7.25 vs ROSARIO.",
         "form": [
           {
@@ -292,6 +292,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Oct",
+            "venue": "PUN",
+            "clock": "1000m gate practice (-7)",
+            "note": "Opus Dei (Vishal Bunde), Aegean Sea (Shelar ), 1-08 800 53, 600 40, Level jump, former finished 2Ls ahead."
+          },
+          {
             "date": "03 Oct",
             "venue": "PUN",
             "clock": "1000m gate practice (-10)",
@@ -308,12 +314,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m gate practice (-11)",
             "note": "Opus Dei (C.S.Jodha), Tyrannus (Shelar ), 1-04 800 50, 600 38, Pair jumped out smartly & moved well to finished level."
-          },
-          {
-            "date": "14 Aug",
-            "venue": "PUN",
-            "clock": "1000m gate practice (-5)",
-            "note": "Opus Dei (Shelar ) 1-10 800 54, 600 40, Jumped out well & moved freely."
           }
         ]
       },
@@ -446,7 +446,7 @@ export const races: Race[] = [
         "last5": "11-11-10-7-10-.",
         "tissue": "24/1",
         "rank": 6,
-        "verdict": "Last: 12 Sep 26 PUN 1100M 10/10 beaten 18.5 at 20 off 26, 52kg. 40 days out. HCP -13. Latest work 09 Oct PUN: Kajo (S.J.Sunil), Adonis (RB ), 52 600 40, Former finished 2Ls ahead.",
+        "verdict": "Last: 12 Sep 26 PUN 1100M 10/10 beaten 18.5 at 20 off 26, 52kg. 40 days out. HCP -13. Latest work 19 Oct PUN: Kajo (S.J.Sunil ) 52 600 39, Easy.",
         "similar": "Nearest trip: 12 Sep 26 PUN 1100M Class 4, 10/10 beaten 18.5 vs SPOTLIGHT.",
         "form": [
           {
@@ -499,6 +499,12 @@ export const races: Race[] = [
           }
         ],
         "work": [
+          {
+            "date": "19 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-8)",
+            "note": "Kajo (S.J.Sunil ) 52 600 39, Easy."
+          },
           {
             "date": "09 Oct",
             "venue": "PUN",
@@ -1214,7 +1220,7 @@ export const races: Race[] = [
         "last5": "2-.",
         "tissue": "19/10",
         "rank": 1,
-        "verdict": "Last: 20 Sep 26 PUN 1400M 2/12 beaten 4.25 at 10 off ?, 56kg. 32 days out. HCP 20. Latest work 03 Oct PUN: New Star (Peter), Sky Bound (S.J.Sunil ), 1-05 800 49, 600 36, Former moved attractively finished 2Ls ahead.",
+        "verdict": "Last: 20 Sep 26 PUN 1400M 2/12 beaten 4.25 at 10 off ?, 56kg. 32 days out. HCP 20. Latest work 17 Oct PUN: Cornucopia (Peter), New Star (Yash ), 1-08 800 53, 600 40, Pair moved well.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1400M Maiden, 2/12 beaten 4.25 vs PURE SOUL.",
         "form": [
           {
@@ -1232,6 +1238,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-7)",
+            "note": "Cornucopia (Peter), New Star (Yash ), 1-08 800 53, 600 40, Pair moved well."
+          },
+          {
             "date": "03 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-10)",
@@ -1242,12 +1254,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-4)",
             "note": "New Star (Peter), Gunsmoke (S.J.Sunil ), 56 600 40, Former started 3Ls behind & finished 2Ls ahead."
-          },
-          {
-            "date": "15 Sep",
-            "venue": "PUN",
-            "clock": "1000m inner sand (-8)",
-            "note": "Daredevil (S.J.Sunil), New Star (Yash ), 1-07 800 51, 600 39, Pair moved together."
           },
           {
             "date": "15 Sep",
@@ -1356,7 +1362,7 @@ export const races: Race[] = [
         "last5": "6-5-7-7-3-.",
         "tissue": "3/1",
         "rank": 3,
-        "verdict": "Last: 02 Oct 26 PUN 1600M 3/7 beaten 3 at 20 off 25, 56kg. 20 days out. HCP 17. Latest work 16 Oct PUN: Scorcher (T.S.Jodha), Ricochet (Vinod ), 52 600 39, Former finished dist ahead.",
+        "verdict": "Last: 02 Oct 26 PUN 1600M 3/7 beaten 3 at 20 off 25, 56kg. 20 days out. HCP 17. Latest work 19 Oct PUN: Scorcher (Vinod), Ricochet (RB ), 53 600 39, Former finished dist ahead.",
         "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 3/7 beaten 3 vs THE OLIVE CROWN.",
         "form": [
           {
@@ -1410,6 +1416,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-7)",
+            "note": "Scorcher (Vinod), Ricochet (RB ), 53 600 39, Former finished dist ahead."
+          },
+          {
             "date": "16 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-8)",
@@ -1426,12 +1438,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-6)",
             "note": "Scorcher (T.S.Jodha), Starbuster (Vinod ), 1-09 800 54, 600 40, Pair level."
-          },
-          {
-            "date": "15 Aug",
-            "venue": "PUN",
-            "clock": "800m inner sand (-4)",
-            "note": "Starbuster (Vinod), Scorcher (T.S.Jodha ), 56 600 41, Pair level."
           }
         ]
       },
@@ -1534,7 +1540,7 @@ export const races: Race[] = [
         "last5": "11-5-.",
         "tissue": "25/4",
         "rank": 5,
-        "verdict": "Last: 20 Sep 26 PUN 1400M 5/12 beaten 7 at 20 off 27, 54.5kg. 32 days out. HCP 11. Latest work 13 Oct PUN: Frenzy (App), Bezallel (N.B.Kuldeep ), 51 600 38, Pair moved nicely.",
+        "verdict": "Last: 20 Sep 26 PUN 1400M 5/12 beaten 7 at 20 off 27, 54.5kg. 32 days out. HCP 11. Latest work 19 Oct PUN: Frenzy (Kaviraj ) 54 600 39, Easy.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1400M Maiden, 5/12 beaten 7 vs PURE SOUL.",
         "form": [
           {
@@ -1564,6 +1570,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-6)",
+            "note": "Frenzy (Kaviraj ) 54 600 39, Easy."
+          },
+          {
             "date": "13 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-9)",
@@ -1580,12 +1592,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1200m inner sand (-5)",
             "note": "Frenzy (Zervan), Taaqath (Shrikant ), 1-25 1000 1-10, 800 55, 600 41, Former finished a length ahead."
-          },
-          {
-            "date": "26 Aug",
-            "venue": "PUN",
-            "clock": "1200m inner sand (-8)",
-            "note": "Rainbow Connection (C.S.Jodha), Frenzy (Dasrath ), 1-22 1000 1-07, 800 53, 600 41, Former finished 4Ls ahead."
           }
         ]
       }
@@ -1623,7 +1629,7 @@ export const races: Race[] = [
         "last5": "4-1-1-3-9-.",
         "tissue": "24/1",
         "rank": 8,
-        "verdict": "Last: 16 Aug 26 PUN 1400M 9/9 beaten 19.75 at 11/10 off 66, 52kg. 67 days out. HCP 13. Latest work 15 Oct PUN: Neutralist (Akshay G ) 51 600 37, Moved nicely.",
+        "verdict": "Last: 16 Aug 26 PUN 1400M 9/9 beaten 19.75 at 11/10 off 66, 52kg. 67 days out. HCP 13. Latest work 19 Oct PUN: Neutralist (Prasad ) 1-06 800 50, 600 37, Moved nicely.",
         "similar": "Nearest trip: 16 Aug 26 PUN 1400M Class 2, 9/9 beaten 19.75 vs ZAFFERANO.",
         "form": [
           {
@@ -1677,6 +1683,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-9)",
+            "note": "Neutralist (Prasad ) 1-06 800 50, 600 37, Moved nicely."
+          },
+          {
             "date": "15 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-9)",
@@ -1693,12 +1705,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-3)",
             "note": "Neutralist (Prasad ) 57 600 42, Unextended."
-          },
-          {
-            "date": "13 Aug",
-            "venue": "PUN",
-            "clock": "800m inner sand (-10)",
-            "note": "Neutralist (Akshay G ) 50 600 37, Pleased."
           }
         ]
       },
@@ -1718,7 +1724,7 @@ export const races: Race[] = [
         "last5": "5-4-4-8-6-.",
         "tissue": "24/1",
         "rank": 7,
-        "verdict": "Last: 10 Oct 26 PUN 1000M 6/7 beaten 12.25 at 20 off 62, 50kg. 12 days out. HCP 33. Latest work 07 Sep PUN: Liban (RB ) 56 600 41, Unextended.",
+        "verdict": "Last: 10 Oct 26 PUN 1000M 6/7 beaten 12.25 at 20 off 62, 50kg. 12 days out. HCP 33. Latest work 18 Oct PUN: Liban (Nazil ) 41 Easy.",
         "similar": "Nearest trip: 10 Oct 26 PUN 1000M Class 2, 6/7 beaten 12.25 vs GUNFIRE.",
         "form": [
           {
@@ -1772,6 +1778,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "18 Oct",
+            "venue": "PUN",
+            "clock": "600m inner sand (-4)",
+            "note": "Liban (Nazil ) 41 Easy."
+          },
+          {
             "date": "07 Sep",
             "venue": "PUN",
             "clock": "800m inner sand (-4)",
@@ -1788,12 +1800,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1400m inner sand (-3)",
             "note": "Liban (Sharukh ) 1-42 600 44, Easy."
-          },
-          {
-            "date": "20 Aug",
-            "venue": "PUN",
-            "clock": "800m inner sand (-7)",
-            "note": "Liban (Nazil ) 53 600 40 Easy."
           }
         ]
       },
@@ -1813,7 +1819,7 @@ export const races: Race[] = [
         "last5": "7-6-7-11-5-.",
         "tissue": "63/10",
         "rank": 2,
-        "verdict": "Last: 29 Aug 26 PUN 1600M 5/6 beaten 20 at 20 off 62, 59kg. 54 days out. HCP 46. Latest work 11 Aug PUN: Destroyer (rb ) 42 Unextended.",
+        "verdict": "Last: 29 Aug 26 PUN 1600M 5/6 beaten 20 at 20 off 62, 59kg. 54 days out. HCP 46. Latest work 20 Oct PUN: Destroyer (Mosin ) 39 Urged.",
         "similar": "Nearest trip: 15 Aug 26 PUN 1200M Class 3, 11/12 beaten 16.25 vs CHALLENGE ACCEPTED.",
         "form": [
           {
@@ -1867,6 +1873,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "20 Oct",
+            "venue": "PUN",
+            "clock": "600m inner sand (-6)",
+            "note": "Destroyer (Mosin ) 39 Urged."
+          },
+          {
             "date": "11 Aug",
             "venue": "PUN",
             "clock": "600m inner sand (-3)",
@@ -1883,12 +1895,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-7)",
             "note": "Destroyer (RB ) 1-08 800 53, 600 40, Extended."
-          },
-          {
-            "date": "07 Aug",
-            "venue": "PUN",
-            "clock": "600m inner sand (-6)",
-            "note": "Destroyer (Prasad ) 39 Pushed."
           }
         ]
       },
@@ -2193,7 +2199,7 @@ export const races: Race[] = [
         "last5": "4-1-9-2-4-.",
         "tissue": "111/10",
         "rank": 6,
-        "verdict": "Last: 13 Sep 26 PUN 1200M 4/13 beaten 1.25 at 7/2 off 48, 52.5kg. 39 days out. HCP 41. Latest work 16 Oct PUN: Admirable (N.B.Kuldeep), Ashwa Kanchenjunga (App ), 50 600 38, Former moved well & finished 3Ls ahead.",
+        "verdict": "Last: 13 Sep 26 PUN 1200M 4/13 beaten 1.25 at 7/2 off 48, 52.5kg. 39 days out. HCP 41. Latest work 20 Oct PUN: Admirable (N.B.Kuldeep ) 42 Easy.",
         "similar": "Nearest trip: 13 Sep 26 PUN 1200M Class 3, 4/13 beaten 1.25 vs SKANDHA.",
         "form": [
           {
@@ -2247,6 +2253,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "20 Oct",
+            "venue": "PUN",
+            "clock": "600m inner sand (-3)",
+            "note": "Admirable (N.B.Kuldeep ) 42 Easy."
+          },
+          {
             "date": "16 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-10)",
@@ -2263,12 +2275,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-11)",
             "note": "Admirable (Shrikant ) 1-04 800 49, 600 37, A good display."
-          },
-          {
-            "date": "27 Aug",
-            "venue": "PUN",
-            "clock": "800m inner sand (-4)",
-            "note": "Admirable (Shrikant ) 56 600 41, Unextended."
           }
         ]
       },
@@ -2288,7 +2294,7 @@ export const races: Race[] = [
         "last5": "5-3-5-6-5-.",
         "tissue": "63/10",
         "rank": 3,
-        "verdict": "Last: 02 Oct 26 PUN 1200M 5/11 beaten 3.25 at 20 off 50, 54.5kg. 20 days out. 1.5kg claim. HCP 46. Latest work 09 Sep PUN: El Moran (J Chinnoy ) 1-06 800 51, 600 38, Moved freely.",
+        "verdict": "Last: 02 Oct 26 PUN 1200M 5/11 beaten 3.25 at 20 off 50, 54.5kg. 20 days out. 1.5kg claim. HCP 46. Latest work 17 Oct PUN: El Moran (RB ) 56 600 42, Handy.",
         "similar": "Nearest trip: 02 Oct 26 PUN 1200M Class 3, 5/11 beaten 3.25 vs WIND DANCER.",
         "form": [
           {
@@ -2342,6 +2348,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-4)",
+            "note": "El Moran (RB ) 56 600 42, Handy."
+          },
+          {
             "date": "09 Sep",
             "venue": "PUN",
             "clock": "1000m inner sand (-9)",
@@ -2358,12 +2370,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-4)",
             "note": "El Moran (C.S.Jodha ) 1-11 800 55, 600 41, Moved freely."
-          },
-          {
-            "date": "29 Jun",
-            "venue": "PUN",
-            "clock": "800m inner sand (-5)",
-            "note": "El Moran (J.Chinoy ) 55 600 41 Easy."
           }
         ]
       }
@@ -2656,7 +2662,7 @@ export const races: Race[] = [
         "last5": "10-8-12-6-.",
         "tissue": "24/1",
         "rank": 5,
-        "verdict": "Last: 02 Oct 26 PUN 1600M 6/7 beaten 28.25 at 20 off 28, 56kg. 20 days out. Latest work 23 Sep PUN: Queen's Covenant (App), Aegean Sea (Pranil ), 1-11 800 55, 600 42, Level jump, former finished 2Ls ahead.",
+        "verdict": "Last: 02 Oct 26 PUN 1600M 6/7 beaten 28.25 at 20 off 28, 56kg. 20 days out. Latest work 17 Oct PUN: Opus Dei (Vishal Bunde), Aegean Sea (Shelar ), 1-08 800 53, 600 40, Level jump, former finished 2Ls ahead.",
         "similar": "Nearest trip: 02 Oct 26 PUN 1600M Maiden, 6/7 beaten 28.25 vs THE OLIVE CROWN.",
         "form": [
           {
@@ -2710,6 +2716,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Oct",
+            "venue": "PUN",
+            "clock": "1000m gate practice (-7)",
+            "note": "Opus Dei (Vishal Bunde), Aegean Sea (Shelar ), 1-08 800 53, 600 40, Level jump, former finished 2Ls ahead."
+          },
+          {
             "date": "23 Sep",
             "venue": "PUN",
             "clock": "1000m gate practice (-4)",
@@ -2726,12 +2738,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m gate practice (-7)",
             "note": "Snow Girl (app), Aegean Sea (Shelar ), 1-08 800 53, 600 41, Pair jumped out well, former finished dist ahead."
-          },
-          {
-            "date": "27 Aug",
-            "venue": "PUN",
-            "clock": "800m inner sand (-6)",
-            "note": "Acrobatic (Hamir S), Aegean Sea (Shelar ), 54 600 40, Latter extended & finished level."
           }
         ]
       },
@@ -2751,7 +2757,7 @@ export const races: Race[] = [
         "last5": "8-7-11-6-.",
         "tissue": "24/1",
         "rank": 6,
-        "verdict": "Last: 12 Sep 26 PUN 2000M 6/8 beaten 27.25 at 20 off 27, 56kg. 40 days out. Latest work 13 Oct PUN: Rainbow Connection (N.B.Kuldeep), Absolute Majesty (App ), 1-06 800 51, 600 38, Pair moved freely.",
+        "verdict": "Last: 12 Sep 26 PUN 2000M 6/8 beaten 27.25 at 20 off 27, 56kg. 40 days out. Latest work 18 Oct PUN: Absolute Majesty (Shrikant ) 53 600 39, Easy.",
         "similar": "Nearest trip: 24 Jul 26 PUN 1600M Class 4, 11/13 beaten 30.5 vs CARADOC.",
         "form": [
           {
@@ -2805,6 +2811,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "18 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-7)",
+            "note": "Absolute Majesty (Shrikant ) 53 600 39, Easy."
+          },
+          {
             "date": "13 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-9)",
@@ -2821,12 +2833,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1200m inner sand (-3)",
             "note": "Rainbow Connection (Kaviraj), Absolute Majesty (App ), 1-27 1000 1-12, 800 57, 600 43, Former finished 2Ls ahead."
-          },
-          {
-            "date": "06 Sep",
-            "venue": "PUN",
-            "clock": "1200m inner sand (-9)",
-            "note": "Absolute Serenity (C.S.Jodha), Absolute Majesty (Zervan ), 1-21 1000 1-06, 800 51, 600 39, Former finished 2Ls ahead."
           }
         ]
       },
@@ -2846,7 +2852,7 @@ export const races: Race[] = [
         "last5": "5-4-5-6-4-.",
         "tissue": "24/1",
         "rank": 4,
-        "verdict": "Last: 20 Sep 26 PUN 1400M 4/12 beaten 7 at 20 off 24, 54.5kg. 32 days out. 1.5kg claim. HCP 11. Latest work 10 Oct PUN: Rogue (Zeeshan), Dash (Aditya ), 1-07 800 53, 600 40, Pair moved together.",
+        "verdict": "Last: 20 Sep 26 PUN 1400M 4/12 beaten 7 at 20 off 24, 54.5kg. 32 days out. 1.5kg claim. HCP 11. Latest work 17 Oct PUN: Rogue (Zeeshan), Dash (Aditya ), 1-06 800 51, 600 38, Former pleased.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1400M Maiden, 4/12 beaten 7 vs PURE SOUL.",
         "form": [
           {
@@ -2900,6 +2906,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-9)",
+            "note": "Rogue (Zeeshan), Dash (Aditya ), 1-06 800 51, 600 38, Former pleased."
+          },
+          {
             "date": "10 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-8)",
@@ -2916,12 +2928,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-8)",
             "note": "Tempest (Aditya), Rogue (Zeeshan ), 1-07 800 52, 600 38, Pair moved well."
-          },
-          {
-            "date": "16 Aug",
-            "venue": "PUN",
-            "clock": "800m inner sand (-8)",
-            "note": "Rogue (Zeeshan), Remy Red (Aditya ), 52 600 39, Pair level."
           }
         ]
       }
@@ -3315,7 +3321,7 @@ export const races: Race[] = [
         "last5": "10-10-4-7-3-.",
         "tissue": "2/1",
         "rank": 2,
-        "verdict": "Last: 20 Sep 26 PUN 1400M 3/8 beaten 2 at 5 off 18, 57.5kg. 32 days out. HCP 24. Latest work 09 Oct PUN: Flashman (Omkar ) 52 600 36, A good display.",
+        "verdict": "Last: 20 Sep 26 PUN 1400M 3/8 beaten 2 at 5 off 18, 57.5kg. 32 days out. HCP 24. Latest work 19 Oct PUN: Flashman (Omkar ) 53 600 38, Moved well.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1400M Class 5, 3/8 beaten 2 vs GOLDEN HEART.",
         "form": [
           {
@@ -3369,6 +3375,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-7)",
+            "note": "Flashman (Omkar ) 53 600 38, Moved well."
+          },
+          {
             "date": "09 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-8)",
@@ -3385,12 +3397,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-7)",
             "note": "Flashman (T.S.Jodha), Viennoise (Omkar ), 53 600 39, Pair easy."
-          },
-          {
-            "date": "10 Jul",
-            "venue": "PUN",
-            "clock": "800m inner sand (-5)",
-            "note": "Magenta (T.S.Jodha), Flashman (Omkar ), 55 600 41, Pair level."
           }
         ]
       },
