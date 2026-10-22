@@ -2653,7 +2653,7 @@ export const races: Race[] = [
         "age": "3y dkb g",
         "pedigree": "Fiero(JPN) - Zafayra(IRE)",
         "trainer": "Imtiaz A Sait",
-        "jockey": "K Pranil",
+        "jockey": "K Nazil",
         "wt": "51",
         "al": "",
         "shoes": "A",
@@ -3917,7 +3917,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60.5
           },
           "nty": null,
-          "open": null,
+          "open": 3.25,
           "tissue": "1/4",
           "rank": 1,
           "speed": 12.33,
@@ -3968,7 +3968,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55.5
           },
           "nty": null,
-          "open": null,
+          "open": 0.9,
           "tissue": "38/5",
           "rank": 3,
           "speed": 12.28,
@@ -4019,7 +4019,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "19/2",
           "rank": 4,
           "speed": 12.45,
@@ -4209,7 +4209,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.2,
           "tissue": "3/2",
           "rank": 2,
           "speed": 12,
@@ -4362,7 +4362,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "83/8",
           "rank": 3,
           "speed": 12.44,
@@ -4464,7 +4464,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "24/1",
           "rank": 5,
           "speed": 11.9,
@@ -4603,7 +4603,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "13/5",
           "rank": 2,
           "speed": 12.73,
@@ -4650,7 +4650,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 0.85,
           "tissue": "19/10",
           "rank": 1,
           "speed": 12.54,
@@ -4752,7 +4752,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 3.25,
           "tissue": "3/1",
           "rank": 3,
           "speed": 12.44,
@@ -4942,7 +4942,7 @@ export const SHEET: SheetMeeting = {
             "wt": 52
           },
           "nty": null,
-          "open": null,
+          "open": 1.3,
           "tissue": "24/1",
           "rank": 8,
           "speed": 12.89,
@@ -5197,7 +5197,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": null,
-          "open": null,
+          "open": 3,
           "tissue": "71/10",
           "rank": 5,
           "speed": 11.33,
@@ -5248,7 +5248,7 @@ export const SHEET: SheetMeeting = {
             "wt": 52.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.75,
           "tissue": "111/10",
           "rank": 6,
           "speed": 11.44,
@@ -5387,7 +5387,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "3/10",
           "rank": 1,
           "speed": 11.4,
@@ -5438,7 +5438,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "13/8",
           "rank": 2,
           "speed": 11.55,
@@ -5509,7 +5509,7 @@ export const SHEET: SheetMeeting = {
           "name": "AEGEAN SEA",
           "filly": false,
           "trainer": "Imtiaz A Sait",
-          "jockey": "K Pranil",
+          "jockey": "K Nazil",
           "age": "3y dkb g",
           "wt": 51,
           "al": "",
@@ -5642,7 +5642,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 4.5,
           "tissue": "24/1",
           "rank": 4,
           "speed": 12.67,
@@ -5883,7 +5883,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "3/2",
           "rank": 1,
           "speed": 11.96,
@@ -5934,7 +5934,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "2/1",
           "rank": 2,
           "speed": 12.63,
@@ -5985,7 +5985,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "41/8",
           "rank": 3,
           "speed": 11.97,
@@ -6036,7 +6036,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "91/8",
           "rank": 4,
           "speed": 12.7,
@@ -6087,7 +6087,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "91/8",
           "rank": 5,
           "speed": 12.17,
@@ -6231,4 +6231,175 @@ export const SHEET: SheetMeeting = {
   ]
 };
 
-export const NIGHT = null;
+export const NIGHT = {
+  "banner": "RWITC PUNE",
+  "title": "NIGHT / MORNING / OPENING ODDS",
+  "version": "AUTO",
+  "when": "22-10-2026 - PUN - THURSDAY - 6 CARD",
+  "source": "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
+  "odds": {
+    "1": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 3.5,
+        "opening": 3.25,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 0.8,
+        "opening": 0.9,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 3.5,
+        "opening": 4,
+        "call": "neg"
+      }
+    ],
+    "2": [
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 1.1,
+        "opening": 1.2,
+        "call": "pos"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": 3.5,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      }
+    ],
+    "3": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 5.5,
+        "opening": 2.5,
+        "call": "neg"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 0.8,
+        "opening": 0.85,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": 3.5,
+        "opening": 3.25,
+        "call": "pos"
+      }
+    ],
+    "4": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 1.1,
+        "opening": 1.3,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 2.5,
+        "opening": 3,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.75,
+        "call": "neg"
+      }
+    ],
+    "5": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 1.2,
+        "opening": 1.4,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 1.2,
+        "opening": 1.4,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 4,
+        "opening": 4.5,
+        "call": "neg"
+      }
+    ],
+    "6": [
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": 1.2,
+        "opening": 1.4,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": null,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "pos"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "watch"
+      }
+    ]
+  },
+  "gridCloths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ]
+};
