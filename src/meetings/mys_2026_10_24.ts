@@ -7213,7 +7213,7 @@ export const races: Race[] = [
         "last5": "5-5-2-4-2-.",
         "tissue": "59/5",
         "rank": 4,
-        "verdict": "Last: 12 Sep 26 PUN 1600M 2/6 beaten 2.5 at 6 off 103, 54.5kg. 42 days out. HCP 95. Latest work 14 Oct PUN: Dream Alliance (C.S.Jodha ) 1-53 1400 1-37, 1200 1-22, 1000 1-08, 800 55, 600 42, Easy.",
+        "verdict": "Last: 12 Sep 26 PUN 1600M 2/6 beaten 2.5 at 6 off 103, 54.5kg. 42 days out. HCP 95. Latest work 23 Oct MYS: Dream Alliance (Faiz ) 45 Looks Fit.",
         "similar": "Nearest trip: 12 Sep 26 PUN 1600M For Horses, 2/6 beaten 2.5 vs KAVYA.",
         "form": [
           {
@@ -7267,6 +7267,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "23 Oct",
+            "venue": "MYS",
+            "clock": "600m outer sand (Even)",
+            "note": "Dream Alliance (Faiz ) 45 Looks Fit."
+          },
+          {
             "date": "14 Oct",
             "venue": "PUN",
             "clock": "1600m inner sand (-7)",
@@ -7283,12 +7289,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1400m inner sand (-6)",
             "note": "Dream Alliance (Antony Raj ) 1-39 1200 1-24, 1000 1-10, 800 55, 600 42, Easy."
-          },
-          {
-            "date": "16 Aug",
-            "venue": "PUN",
-            "clock": "1200m inner sand (-7)",
-            "note": "Dream Alliance (Yash ) 1-23 1000 1-08, 800 54, 600 41, Easy."
           }
         ]
       },
@@ -7593,7 +7593,7 @@ export const races: Race[] = [
         "last5": "3-3-3-5-1-.",
         "tissue": "17/8",
         "rank": 3,
-        "verdict": "Last: 20 Sep 26 PUN 2800M 1/7 beaten won at 15 off 102, 57kg. 34 days out. HCP 109. Latest work 21 Oct BAN: Zuccaro (G Vivek), Red Bishop (Shreyas Singh ), 1-53.5 1400 In 1-38.5 1200 In 1-24.5 1000 In 1-11 600 In 43 They Moved Neck And Neck.",
+        "verdict": "Last: 20 Sep 26 PUN 2800M 1/7 beaten won at 15 off 102, 57kg. 34 days out. HCP 109. Latest work 23 Oct MYS: Red Bishop (Rb ) 1-15 800/1-00, 600/44, Worked Well.",
         "similar": "Nearest trip: 20 Sep 26 PUN 2800M Term Race, 1/7 beaten 0 vs RED BISHOP.",
         "form": [
           {
@@ -7647,6 +7647,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "23 Oct",
+            "venue": "MYS",
+            "clock": "1000m outer sand (Even)",
+            "note": "Red Bishop (Rb ) 1-15 800/1-00, 600/44, Worked Well."
+          },
+          {
             "date": "21 Oct",
             "venue": "BAN",
             "clock": "1600m outer sand (-6)",
@@ -7663,12 +7669,6 @@ export const races: Race[] = [
             "venue": "BAN",
             "clock": "1600m outer sand (-4)",
             "note": "Red Bishop (Shreyas Singh ) 1-55.5 1400 In 1-40 1200 In 1-25.5 1000 In 1-11.5 600 In 42.5 Impressed."
-          },
-          {
-            "date": "17 Oct",
-            "venue": "BAN",
-            "clock": "1400m outer sand (Even)",
-            "note": "Red Bishop (Shreyas Singh ) 1-45 1200 In 1-30 1000 In 1-15 600 In 44.5 Moved Well."
           }
         ]
       },
