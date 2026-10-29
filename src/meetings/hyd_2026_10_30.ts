@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 6,
   "nextBest": "RACING RULER",
   "longshot": "UCHCHAIHSHRAVAS",
-  "irDayBest": "unpublished",
+  "irDayBest": "LOVE ALL 4 (3)",
   "feature": "The Smt. Teegala Sulochana Reddy Memorial Trophy"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "9-runner. Class 5 / A Handicap For Horses Rated Upto 25, 5 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. PRANAVA (1) 2. AASHRITHA PET (3) 3. AMBOSELI (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MOST BEAUTIFUL (2).",
-    "irPick": "unpublished",
+    "irPick": "1. PRANAVA (1) 2. AASHRITHA PET (3) 3. AMBOSELI (4)",
     "ourPick": "MOST BEAUTIFUL (2)",
     "nap": false,
     "runners": [
@@ -770,9 +770,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "9-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. BELGIUM WAFFLE (5) 2. AGASTHYESHWARA (4) 3. WINNING ATTITUDE (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win WINNING ATTITUDE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. BELGIUM WAFFLE (5) 2. AGASTHYESHWARA (4) 3. WINNING ATTITUDE (1)",
     "ourPick": "WINNING ATTITUDE (1)",
     "nap": false,
     "runners": [
@@ -1559,9 +1559,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "6-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AAKARSHAKA (4) 2. ASHWA JAFFNA (1) 3. DECEMBER RAIN (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ASHWA JAFFNA (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AAKARSHAKA (4) 2. ASHWA JAFFNA (1) 3. DECEMBER RAIN (3)",
     "ourPick": "ASHWA JAFFNA (1)",
     "nap": false,
     "runners": [
@@ -2117,9 +2117,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "6-runner. Class 3 / A Handicap For Horses Rated 40 To 65, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LOVE ALL (3) 2. SPECIAL STAR (2) 3. LA QUINTA (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SPECIAL STAR (2).",
-    "irPick": "unpublished",
+    "irPick": "1. LOVE ALL (3) 2. SPECIAL STAR (2) 3. LA QUINTA (4)",
     "ourPick": "SPECIAL STAR (2)",
     "nap": false,
     "runners": [
@@ -2644,9 +2644,9 @@ export const races: Race[] = [
     "purse": "₹840000",
     "record": "02 Oct 2021 MIRACLE 54.5 Kgs 2:03.68 Secs",
     "shape": "7-runner. Class 2 / A Handicap For Horses Rated 60 To 85, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CELESTIAL (1) 2. SILVER ACT (2) 3. CORTE MADERA (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win RACING RULER (3).",
-    "irPick": "unpublished",
+    "irPick": "1. CELESTIAL (1) 2. SILVER ACT (2) 3. CORTE MADERA (5)",
     "ourPick": "RACING RULER (3)",
     "nap": false,
     "runners": [
@@ -3291,9 +3291,9 @@ export const races: Race[] = [
     "purse": "₹1225000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "7-runner. Class 1 / A Handicap For Horses Rated 80 And Above, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CHERIE CHEVALIER (7) 2. UCHCHAIHSHRAVAS (6) 3. STAR OF NIGHT (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win STAR OF NIGHT (1).",
-    "irPick": "unpublished",
+    "irPick": "1. CHERIE CHEVALIER (7) 2. UCHCHAIHSHRAVAS (6) 3. STAR OF NIGHT (1)",
     "ourPick": "STAR OF NIGHT (1)",
     "nap": true,
     "runners": [
@@ -3950,9 +3950,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "10-runner. Class 4 / A Handicap For Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. APRAMEYA (2) 2. NYANZA (3) 3. SECRET OPTION (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win AMERICAN AFFAIR (1).",
-    "irPick": "unpublished",
+    "irPick": "1. APRAMEYA (2) 2. NYANZA (3) 3. SECRET OPTION (4)",
     "ourPick": "AMERICAN AFFAIR (1)",
     "nap": false,
     "runners": [
