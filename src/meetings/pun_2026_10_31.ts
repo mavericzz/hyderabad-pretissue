@@ -23,7 +23,7 @@ export const races: Race[] = [
     "class": "Class 2 / Horses Rated 60 to 86 (40 to 59 eligible)",
     "dist": "1200m",
     "time": "01:30 PM",
-    "purse": "₹0",
+    "purse": "₹750000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "6-runner. Class 2 / Horses Rated 60 to 86 (40 to 59 eligible)",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
@@ -602,12 +602,12 @@ export const races: Race[] = [
     "no": 2,
     "official": 144,
     "name": "The Dinkoo N. Chenoy Salver",
-    "class": "Class 1 / Horses rated 80 and upward) (60 to 79 eligible)",
+    "class": "Class 1 / Horses Rated 80 and upward) (60 to 79 eligible)",
     "dist": "1600m",
     "time": "02:00 PM",
-    "purse": "₹0",
+    "purse": "₹1200000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
-    "shape": "4-runner. Class 1 / Horses rated 80 and upward) (60 to 79 eligible)",
+    "shape": "4-runner. Class 1 / Horses Rated 80 and upward) (60 to 79 eligible)",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SHAMBALA (1).",
     "irPick": "unpublished",
@@ -810,7 +810,7 @@ export const races: Race[] = [
         "name": "THE PANTHER",
         "age": "5y b g",
         "pedigree": "Churchill(IRE) - Darinza(FR)",
-        "trainer": "S Nawab",
+        "trainer": "P S Chouhan",
         "jockey": "N B Kuldeep",
         "wt": "58",
         "al": "",
@@ -994,12 +994,12 @@ export const races: Race[] = [
     "no": 3,
     "official": 145,
     "name": "The Westin Pune Trophy Div-2",
-    "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
+    "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible) (Whips Not Allowed)",
     "dist": "1200m",
     "time": "02:30 PM",
-    "purse": "₹0",
+    "purse": "₹550000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
-    "shape": "10-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
+    "shape": "10-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible) (Whips Not Allowed)",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BRASILIER (2).",
     "irPick": "unpublished",
@@ -1913,12 +1913,12 @@ export const races: Race[] = [
     "no": 4,
     "official": 146,
     "name": "The Supreme Star Plate",
-    "class": "Maiden / For Horses 3 years old only",
+    "class": "Maiden / For Horses 3 years old only (No allowance can be claimed)",
     "dist": "1400m",
     "time": "03:00 PM",
-    "purse": "₹0",
+    "purse": "₹1200000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
-    "shape": "14-runner. Maiden / For Horses 3 years old only",
+    "shape": "14-runner. Maiden / For Horses 3 years old only (No allowance can be claimed)",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MYSTICA (12).",
     "irPick": "unpublished",
@@ -2141,7 +2141,7 @@ export const races: Race[] = [
         "last5": "-",
         "tissue": "103/5",
         "rank": 9,
-        "verdict": "Last: 11 Oct 26 PUN 1400M 0/8 beaten 0 at ? off ?, 56kg. 20 days out. HCP 0. Latest work 15 Oct PUN: Minimus (Dashrath), Caviar Queen (Kaviraj ), 1-05 800 51, 600 38, Pair moved fluently.",
+        "verdict": "Last: 11 Oct 26 PUN 1400M 0/8 beaten 0 at ? off ?, 56kg. 20 days out. HCP 0. Latest work 29 Oct PUN: Tanaka (Ramswarup), Minimus (Dashrath ), 57 600 In 43 Pair level.",
         "similar": "Nearest trip: 11 Oct 26 PUN 1400M Maiden, 0/8 beaten 0 vs SIR CHURCHILL.",
         "form": [
           {
@@ -2159,6 +2159,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "29 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-3)",
+            "note": "Tanaka (Ramswarup), Minimus (Dashrath ), 57 600 In 43 Pair level."
+          },
+          {
             "date": "15 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-10)",
@@ -2175,12 +2181,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1200m inner sand (-6)",
             "note": "Minimus (Dashrath), Shimmer (Ramswarup ), 1-24 1000 1-09, 800 54, 600 40, Pair moved together."
-          },
-          {
-            "date": "26 Sep",
-            "venue": "PUN",
-            "clock": "1000m inner sand (-4)",
-            "note": "Vermeer (Shekhawat), Minimus (App ), 1-11 800 55, 600 42, Pair level."
           }
         ]
       },
@@ -2840,7 +2840,7 @@ export const races: Race[] = [
     "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
     "dist": "2400m",
     "time": "03:30 PM",
-    "purse": "₹0",
+    "purse": "₹550000",
     "record": "05 Sep 2023 DYF 56.5 Kgs 2:27:84 Secs",
     "shape": "7-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
@@ -3478,12 +3478,12 @@ export const races: Race[] = [
     "no": 6,
     "official": 148,
     "name": "The Westin Pune Trophy Div-1",
-    "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
+    "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible) (Whips Not Allowed)",
     "dist": "1200m",
     "time": "04:00 PM",
-    "purse": "₹0",
+    "purse": "₹550000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
-    "shape": "10-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
+    "shape": "10-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible) (Whips Not Allowed)",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ESTEBAN (1).",
     "irPick": "unpublished",
@@ -3785,7 +3785,7 @@ export const races: Race[] = [
         "last5": "6-8-2-10-2-.",
         "tissue": "13/2",
         "rank": 4,
-        "verdict": "Last: 18 Oct 26 PUN 1000M 2/8 beaten 0.75 at ? off 33, 55kg. 13 days out. 1.5kg claim. HCP 35. Latest work 12 Oct PUN: Rafael (RB ) 50 600 39, Moved well.",
+        "verdict": "Last: 18 Oct 26 PUN 1000M 2/8 beaten 0.75 at ? off 33, 55kg. 13 days out. 1.5kg claim. HCP 35. Latest work 29 Oct PUN: Rafael (Rb ) 1-7 800 In 53 600 In 39 Easy.",
         "similar": "Nearest trip: 18 Oct 26 PUN 1000M Class 4, 2/8 beaten 0.75 vs TRANQUILA.",
         "form": [
           {
@@ -3839,6 +3839,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "29 Oct",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-8)",
+            "note": "Rafael (Rb ) 1-7 800 In 53 600 In 39 Easy."
+          },
+          {
             "date": "12 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-10)",
@@ -3855,12 +3861,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m gate practice (-6)",
             "note": "Rafael (RB ) 1-09 800 54, 600 41, Jumped out well & moved easy."
-          },
-          {
-            "date": "28 Sep",
-            "venue": "KOL",
-            "clock": "1600m outer sand (+5)",
-            "note": "Rafaello (Ajoy), Argento (A M Tograllu ), 2-5 1400/1m 48, 1200/1m 33, 1000/1m 17, 800/1m 2, 600/47.8, 400/31.2 latter was started 100m behind an finished levelled."
           }
         ]
       },
@@ -4437,7 +4437,7 @@ export const races: Race[] = [
     "class": "Class 3 / Horses Rated 40 to 66 (20 to 39 eligible)",
     "dist": "1600m",
     "time": "04:30 PM",
-    "purse": "₹0",
+    "purse": "₹650000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "7-runner. Class 3 / Horses Rated 40 to 66 (20 to 39 eligible)",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
@@ -4735,7 +4735,7 @@ export const races: Race[] = [
         "last5": "2-2-2-1-.",
         "tissue": "29/10",
         "rank": 2,
-        "verdict": "Last: 20 Sep 26 PUN 1800M 1/9 beaten won at 11/10 off 34, 55kg. 41 days out. 1.5kg claim. HCP 49. Latest work 25 Oct PUN: Priority Road (Kaviraj), Funny Bunny (Kamble ), 1-05 800 50, 600 37, Pair moved fluently & finished level",
+        "verdict": "Last: 20 Sep 26 PUN 1800M 1/9 beaten won at 11/10 off 34, 55kg. 41 days out. 1.5kg claim. HCP 49. Latest work 29 Oct PUN: Funny Bunny (Kavraj ) 58 600 In 43 Easy.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1800M Class 4, 1/9 beaten 0 vs FUNNY BUNNY.",
         "form": [
           {
@@ -4789,6 +4789,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "29 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-2)",
+            "note": "Funny Bunny (Kavraj ) 58 600 In 43 Easy."
+          },
+          {
             "date": "25 Oct",
             "venue": "PUN",
             "clock": "1000m inner sand (-10)",
@@ -4805,12 +4811,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1200m inner sand (-7)",
             "note": "Fire Away (Zervan), Funny Bunny (Dasrath ), 1-23 1000 1-08, 800 53, 600 40, Latter started 2Ls behind & finished level."
-          },
-          {
-            "date": "27 Aug",
-            "venue": "PUN",
-            "clock": "1000m inner sand (-7)",
-            "note": "Funny Bunny (Vivek G ) 1-08 800 53, 600 39, Moved freely."
           }
         ]
       },
@@ -5081,12 +5081,12 @@ export const races: Race[] = [
     "no": 8,
     "official": 150,
     "name": "The Legal Steps Plate",
-    "class": "Class 5 / Horses Rated 1 to 26",
+    "class": "Class 5 / Horses Rated 1 to 26, For Horses 4 years old and over",
     "dist": "1400m",
     "time": "05:00 PM",
-    "purse": "₹0",
+    "purse": "₹500000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
-    "shape": "8-runner. Class 5 / Horses Rated 1 to 26",
+    "shape": "8-runner. Class 5 / Horses Rated 1 to 26, For Horses 4 years old and over",
     "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MILA (1).",
     "irPick": "unpublished",
@@ -5648,7 +5648,7 @@ export const races: Race[] = [
         "last5": "10-8-6-8-4-.",
         "tissue": "24/1",
         "rank": 8,
-        "verdict": "Last: 18 Oct 26 PUN 1600M 4/7 beaten 7.25 at 20 off 7, 51kg. 13 days out. 1.5kg claim. HCP -15. Latest work 27 Jul PUN: Marlboro Man (Ramswarup ) 56 600 42, Easy.",
+        "verdict": "Last: 18 Oct 26 PUN 1600M 4/7 beaten 7.25 at 20 off 7, 51kg. 13 days out. 1.5kg claim. HCP -15. Latest work 29 Oct PUN: Taabiir (App), Marlboro Man (Ramswarup ), 53 600 In 39 Pair moved together.",
         "similar": "Nearest trip: 18 Oct 26 PUN 1600M Class 5, 4/7 beaten 7.25 vs BEYOND STARS.",
         "form": [
           {
@@ -5701,6 +5701,12 @@ export const races: Race[] = [
           }
         ],
         "work": [
+          {
+            "date": "29 Oct",
+            "venue": "PUN",
+            "clock": "800m inner sand (-7)",
+            "note": "Taabiir (App), Marlboro Man (Ramswarup ), 53 600 In 39 Pair moved together."
+          },
           {
             "date": "27 Jul",
             "venue": "PUN",
@@ -6174,7 +6180,7 @@ export const SHEET: SheetMeeting = {
       "no": 2,
       "official": 144,
       "name": "The Dinkoo N. Chenoy Salver",
-      "class": "Class 1 / Horses rated 80 and upward) (60 to 79 eligible)",
+      "class": "Class 1 / Horses Rated 80 and upward) (60 to 79 eligible)",
       "dist": "1600m",
       "distM": 1600,
       "time": "02:00 PM",
@@ -6289,7 +6295,7 @@ export const SHEET: SheetMeeting = {
           "draw": 1,
           "name": "THE PANTHER",
           "filly": false,
-          "trainer": "S Nawab",
+          "trainer": "P S Chouhan",
           "jockey": "N B Kuldeep",
           "age": "5y b g",
           "wt": 58,
@@ -6413,7 +6419,7 @@ export const SHEET: SheetMeeting = {
       "no": 3,
       "official": 145,
       "name": "The Westin Pune Trophy Div-2",
-      "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
+      "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible) (Whips Not Allowed)",
       "dist": "1200m",
       "distM": 1200,
       "time": "02:30 PM",
@@ -6960,7 +6966,7 @@ export const SHEET: SheetMeeting = {
       "no": 4,
       "official": 146,
       "name": "The Supreme Star Plate",
-      "class": "Maiden / For Horses 3 years old only",
+      "class": "Maiden / For Horses 3 years old only (No allowance can be claimed)",
       "dist": "1400m",
       "distM": 1400,
       "time": "03:00 PM",
@@ -8061,7 +8067,7 @@ export const SHEET: SheetMeeting = {
       "no": 6,
       "official": 148,
       "name": "The Westin Pune Trophy Div-1",
-      "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
+      "class": "Class 4 / Horses Rated 20 to 46 (0 to 19 eligible) (Whips Not Allowed)",
       "dist": "1200m",
       "distM": 1200,
       "time": "04:00 PM",
@@ -9002,7 +9008,7 @@ export const SHEET: SheetMeeting = {
       "no": 8,
       "official": 150,
       "name": "The Legal Steps Plate",
-      "class": "Class 5 / Horses Rated 1 to 26",
+      "class": "Class 5 / Horses Rated 1 to 26, For Horses 4 years old and over",
       "dist": "1400m",
       "distM": 1400,
       "time": "05:00 PM",
