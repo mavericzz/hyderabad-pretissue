@@ -45,7 +45,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "80 / 82",
-        "last5": "4-3-3-7-2-.",
+        "last5": "3-3-7-2-3-.",
         "tissue": "27/4",
         "rank": 2,
         "verdict": "Last: 11 Oct 26 PUN 1200M 2/7 beaten 1.25 at 7 off 80, 49kg. 20 days out. HCP 66. Latest work 24 Oct PUN: Your Unforgettable (N.B. Kuldeep), Absolute Emperor (app ), 1-05 800 51, 600 39, Pair moved together",
@@ -140,7 +140,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "79 / 81",
-        "last5": "6-7-1-1-2-.",
+        "last5": "7-1-1-2-2-.",
         "tissue": "1/4",
         "rank": 1,
         "verdict": "Last: 27 Sep 26 PUN 1200M 2/7 beaten 2.75 at 9/4 off 79, 59kg. 34 days out. 1.5kg claim. HCP 85. Latest work 21 Sep PUN: Challenge Accepted (Santosh G ) 52 600 39, Moved well.",
@@ -235,7 +235,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "83 / 78",
-        "last5": "3-1-10-4-11-.",
+        "last5": "1-10-4-11-5-.",
         "tissue": "17/2",
         "rank": 3,
         "verdict": "Last: 16 Sep 26 KOL 1400M 11/12 beaten 30.75 at 9 off 83, 61kg. 45 days out. HCP 64. Latest work 28 Oct PUN: Merlet (Mosin ) 51 600 38, Pleased",
@@ -330,7 +330,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "66 / 63",
-        "last5": "3-5-5-5-5-.",
+        "last5": "5-5-5-5-6-.",
         "tissue": "24/1",
         "rank": 5,
         "verdict": "Last: 10 Oct 26 PUN 1000M 5/7 beaten 7 at 20 off 66, 52kg. 21 days out. HCP 49. Latest work 23 Oct PUN: Cellini (Omkar ) 1-05 800/49, 600/37 urged.",
@@ -425,7 +425,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "60 / 62",
-        "last5": "6-4-1-3-2-.",
+        "last5": "4-1-3-2-1-.",
         "tissue": "81/5",
         "rank": 4,
         "verdict": "Last: 10 Oct 26 PUN 1000M 2/7 beaten 1 at 16/10 off 60, 49kg. 21 days out. 5kg claim. HCP 58. Latest work 27 Oct PUN: Darcy (Zameer ) 1-07 800 54, 600 41, Easy",
@@ -520,7 +520,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-HOOD",
         "rtg": "61 / 61",
-        "last5": "2-2-5-1-3-.",
+        "last5": "2-5-1-3-4-.",
         "tissue": "24/1",
         "rank": 6,
         "verdict": "Last: 10 Oct 26 PUN 1000M 3/7 beaten 3 at 8 off 61, 49.5kg. 21 days out. HCP 47. Latest work 25 Sep PUN: Wind Dancer (N.Bhosale ) 1-07 800 53, 600 40, Moved freely.",
@@ -627,7 +627,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-CNB",
         "rtg": "112 / 110",
-        "last5": "6-5-1-2-4-.",
+        "last5": "5-1-2-4-4-.",
         "tissue": "7/10",
         "rank": 1,
         "verdict": "Last: 12 Sep 26 PUN 1600M 4/6 beaten 4 at 7 off 112, 53kg. 49 days out. 5kg claim. HCP 106. Latest work 26 Oct PUN: Shambala (T.S.Jodha ) 39 Moved on the bit",
@@ -722,7 +722,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "89 / 101",
-        "last5": "4-1-2-5-1-.",
+        "last5": "1-2-5-1-2-.",
         "tissue": "11/10",
         "rank": 2,
         "verdict": "Last: 27 Sep 26 PUN 1400M 1/6 beaten won at 70/100 off 89, 51.5kg. 34 days out. 1.5kg claim. HCP 104. Latest work 28 Oct PUN: Chagall (Kirtish ) 52 600 38, Moved freely",
@@ -817,7 +817,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-CNB",
         "rtg": "107 / 99",
-        "last5": "3-2-1-5-4-.",
+        "last5": "2-1-5-4-3-.",
         "tissue": "161/10",
         "rank": 4,
         "verdict": "Last: 28 Mar 26 DEL 1400M 4/7 beaten 15.75 at ? off 107, 60.5kg. 217 days out. HCP 83. Latest work 25 Oct PUN: The Panther (App), Ashwa Changez (Kaviraj ), 1-21 1000 1-06, 800 52, 600 39, Former finished 2Ls ahead",
@@ -906,7 +906,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-VISOR",
         "rtg": "83 / 83",
-        "last5": "3-2-1-1-3-.",
+        "last5": "2-1-1-3-1-.",
         "tissue": "93/8",
         "rank": 3,
         "verdict": "Last: 22 Oct 26 PUN 1600M 0/4 beaten 0 at ? off 83, 60.5kg. 9 days out. HCP 86. Latest work 25 Oct PUN: Break Point (Kaviraj ) 50 600 38, Good.",
@@ -1019,7 +1019,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "49 / 45",
-        "last5": "3-4-10-8-11-.",
+        "last5": "4-10-8-11-3-.",
         "tissue": "49/8",
         "rank": 4,
         "verdict": "Last: 13 Aug 26 KOL 1400M 11/12 beaten 15.5 at 20 off 49, 54kg. 79 days out. 5kg claim. HCP 20. Latest work 28 Oct PUN: Exotic Star (Mosin), Victorious Omen (App ), 1-08 800 53, 600 39, Pair moved together",
@@ -1209,7 +1209,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-SSCP",
         "rtg": "34 / 32",
-        "last5": "1-7-2-10-9-.",
+        "last5": "7-2-10-9-2-.",
         "tissue": "24/1",
         "rank": 9,
         "verdict": "Last: 11 Oct 26 PUN 1400M 9/10 beaten 16 at 20 off 34, 56kg. 20 days out. HCP -1. Latest work 23 Oct PUN: La Dolce Vita (Omkar ) 1-04 800/50, 600/37 moved well.",
@@ -1304,7 +1304,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "32 / 30",
-        "last5": "5-1-11-7-4-.",
+        "last5": "1-11-7-4-5-.",
         "tissue": "43/10",
         "rank": 3,
         "verdict": "Last: 06 Sep 26 PUN 1200M 4/9 beaten 5.25 at 20 off 32, 55.5kg. 55 days out. HCP 23.",
@@ -1374,7 +1374,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "30 / 28",
-        "last5": "5-6-6-4-12-.",
+        "last5": "6-6-4-12-6-.",
         "tissue": "91/4",
         "rank": 7,
         "verdict": "Last: 10 Oct 26 PUN 1100M 12/12 beaten 11 at 20 off 30, 54kg. 21 days out. HCP 8. Latest work 24 Oct PUN: New Yorker (Avinash ) 51 600 38, Easy",
@@ -1540,7 +1540,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "28 / 27",
-        "last5": "3-4-2-10-3-.",
+        "last5": "4-2-10-3-4-.",
         "tissue": "11/5",
         "rank": 2,
         "verdict": "Last: 18 Oct 26 PUN 1000M 3/8 beaten 2.5 at 20 off 27, 52kg. 13 days out. 5kg claim. HCP 28. Latest work 01 Oct PUN: Loyal Lover (J.Chinoy), Majestic Warrior (Avinash ), 49 600 37, Pair extended & moved together.",
@@ -1635,7 +1635,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "EP",
         "rtg": "24 / 26",
-        "last5": "6-7-5-5-2-.",
+        "last5": "7-5-5-2-1-.",
         "tissue": "83/5",
         "rank": 6,
         "verdict": "Last: 02 Oct 26 PUN 1200M 2/7 beaten 4.25 at 13/2 off 24, 51kg. 29 days out. 1.5kg claim. HCP 11. Latest work 28 Oct PUN: Snow Girl (Neeraj), Royal Champ (Shelar ), 1-23 1000 1-08, 800 54, 600 41, Former finished 5Ls ahead",
@@ -1730,7 +1730,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-HOOD",
         "rtg": "26 / 24",
-        "last5": "4-7-4-8-.",
+        "last5": "4-7-4-8-7-.",
         "tissue": "24/1",
         "rank": 8,
         "verdict": "Last: 27 Sep 26 PUN 1200M 8/10 beaten 12 at 5 off 26, 54.5kg. 34 days out. HCP 2. Latest work 24 Sep PUN: Chakar View (Akshay G ) 40 Easy.",
@@ -1825,7 +1825,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "24 / 22",
-        "last5": "10-8-11-7-.",
+        "last5": "10-8-11-7-8-.",
         "tissue": "12/1",
         "rank": 5,
         "verdict": "Last: 27 Sep 26 PUN 1200M 7/10 beaten 10.25 at 20 off 24, 54.5kg. 34 days out. 5kg claim. HCP 14. Latest work 20 Oct BAN: Echoes Of Time (Ashhad Asbar ) 41.5 Impressed.",
@@ -1938,7 +1938,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "29 / 27",
-        "last5": "5-8-3-4-8-.",
+        "last5": "8-3-4-8-4-.",
         "tissue": "87/8",
         "rank": 5,
         "verdict": "Last: 11 Oct 26 PUN 1400M 8/8 beaten 9.75 at 10 off 29, 56kg. 20 days out. HCP 6. Latest work 21 Oct MYS: David’s Delight (Noorulla ) 1-15 800/57, 600/40, Extended.",
@@ -2033,7 +2033,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "0 / 0",
-        "last5": "-",
+        "last5": "10-.",
         "tissue": "103/5",
         "rank": 7,
         "verdict": "Last: 11 Oct 26 PUN 1400M 0/8 beaten 0 at ? off ?, 56kg. 20 days out. HCP 0. Latest work 23 Oct PUN: Field Of Gold (A Gaikwad ) 41 former finished 2Ls ahead.",
@@ -2092,7 +2092,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "0 / 0",
-        "last5": "-",
+        "last5": "7-.",
         "tissue": "103/5",
         "rank": 8,
         "verdict": "No published form. First starter or unraced on the IndiaRace card. HCP 0.",
@@ -2138,7 +2138,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "0 / 0",
-        "last5": "-",
+        "last5": "5-.",
         "tissue": "103/5",
         "rank": 9,
         "verdict": "Last: 11 Oct 26 PUN 1400M 0/8 beaten 0 at ? off ?, 56kg. 20 days out. HCP 0. Latest work 29 Oct PUN: Tanaka (Ramswarup), Minimus (Dashrath ), 57 600 In 43 Pair level.",
@@ -2197,7 +2197,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "BLK-CNB",
         "rtg": "30 / 29",
-        "last5": "9-9-.",
+        "last5": "9-9-13-.",
         "tissue": "11/2",
         "rank": 3,
         "verdict": "Last: 10 Oct 26 PUN 1000M 9/11 beaten 11 at 20 off 30, 56kg. 21 days out. HCP 12. Latest work 25 Oct PUN: Katame (Nazil), Philatelist (C.S.Jodha ), 1-20 1000 1-05, 800 51, 600 39, Former moved nicely & finished dist ahead",
@@ -2268,7 +2268,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "0 / 30",
-        "last5": "6-11-.",
+        "last5": "6-11-6-.",
         "tissue": "24/1",
         "rank": 13,
         "verdict": "Last: 29 Mar 26 MUM 1400M 11/15 beaten 13.75 at 15 off ?, 54kg. 216 days out. HCP -4. Latest work 22 Oct PUN: Romanos (Gore), Algonquin (N.Bhosale ), 1-22 1000/1-07, 800/53, 600/42, former finished 3Ls ahead.",
@@ -2339,7 +2339,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "0 / 29",
-        "last5": "9-8-.",
+        "last5": "9-8-9-.",
         "tissue": "167/10",
         "rank": 6,
         "verdict": "Last: 26 Feb 26 MUM 1400M 8/10 beaten 12 at 25 off ?, 56kg. 247 days out. HCP 2. Latest work 27 Oct PUN: Silver Dynamite (Zeeshan), Sacred Fire (Aditya ), 1-05 800 50, 600 38, Pair jumped out well & finished together",
@@ -2410,7 +2410,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "0 / 30",
-        "last5": "6-.",
+        "last5": "6-11-.",
         "tissue": "11/2",
         "rank": 4,
         "verdict": "Last: 27 Sep 26 PUN 1200M 6/10 beaten 9 at 10 off ?, 56kg. 34 days out. HCP 12. Latest work 22 Oct PUN: Leros (Ramswarup), Vermeer (Dashrath ), 56 600/40, pair moved together.",
@@ -2469,7 +2469,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "27 / 27",
-        "last5": "3-3-.",
+        "last5": "3-3-3-.",
         "tissue": "43/10",
         "rank": 2,
         "verdict": "Last: 11 Oct 26 PUN 1400M 3/8 beaten 5.75 at 5 off 27, 54.5kg. 20 days out. HCP 14. Latest work 28 Oct PUN: Bright Button (Hamir), Acrobatic (C.S.Jodha ), 1-06 800 52, 600 40, Pair level",
@@ -2540,7 +2540,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "0 / 0",
-        "last5": "-",
+        "last5": "12-.",
         "tissue": "103/5",
         "rank": 10,
         "verdict": "No published form. First starter or unraced on the IndiaRace card. HCP 0.",
@@ -2586,7 +2586,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-CNB",
         "rtg": "27 / 26",
-        "last5": "7-12-.",
+        "last5": "7-12-1-.",
         "tissue": "24/1",
         "rank": 14,
         "verdict": "Last: 02 Oct 26 PUN 1600M 12/13 beaten 17 at 10 off 27, 50.5kg. 29 days out. HCP -30. Latest work 28 Oct PUN: Myrina (Ajinkya), Delilah (Vivek G ), 1-12 800 56, 600 42, Pair handy",
@@ -2657,7 +2657,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "29 / 31",
-        "last5": "2-2-9-5-3-.",
+        "last5": "2-9-5-3-2-.",
         "tissue": "29/10",
         "rank": 1,
         "verdict": "Last: 02 Oct 26 PUN 1200M 3/7 beaten 4.75 at 11/4 off 29, 53.5kg. 29 days out. HCP 17. Latest work 24 Oct PUN: Mystica (Mosin ) 1-05 800 52, 600 40, Urged",
@@ -2752,7 +2752,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "0 / 0",
-        "last5": "-",
+        "last5": "8-.",
         "tissue": "103/5",
         "rank": 11,
         "verdict": "No published form. First starter or unraced on the IndiaRace card. HCP 0.",
@@ -2798,7 +2798,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "0 / 0",
-        "last5": "-",
+        "last5": "14-.",
         "tissue": "103/5",
         "rank": 12,
         "verdict": "No published form. First starter or unraced on the IndiaRace card. HCP 0.",
@@ -2862,7 +2862,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "45 / 46",
-        "last5": "5-8-4-2-4-.",
+        "last5": "8-4-2-4-2-.",
         "tissue": "101/8",
         "rank": 2,
         "verdict": "Last: 11 Oct 26 PUN 2400M 4/5 beaten 5 at 9 off 45, 51.5kg. 20 days out. 1.5kg claim. HCP 14. Latest work 11 Aug PUN: Land Of Plenty (App), Looking Like A Wow (Ramswarup ), 1-22 1000 1-07, 800 52, 600 40, Former urged & finished ahead.",
@@ -2957,7 +2957,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-EP",
         "rtg": "25 / 40",
-        "last5": "6-5-1-3-1-.",
+        "last5": "5-1-3-1-7-.",
         "tissue": "1/4",
         "rank": 1,
         "verdict": "Last: 27 Sep 26 PUN 2000M 1/7 beaten won at 4.25 off 25, 61kg. 34 days out. HCP 40. Latest work 20 Oct PUN: Flash Mob (Zameer ) 56 600 42 Easy.",
@@ -3052,7 +3052,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-HOOD",
         "rtg": "38 / 40",
-        "last5": "3-2-9-6-3-.",
+        "last5": "2-9-6-3-4-.",
         "tissue": "24/1",
         "rank": 6,
         "verdict": "Last: 11 Oct 26 PUN 2400M 3/5 beaten 4.5 at 20 off 38, 49kg. 20 days out. HCP -4. Latest work 10 Aug PUN: Merchant Of Venice (Ajinkya ) 1-25 1000 1-10, 800 56, 600 42, Easy.",
@@ -3129,7 +3129,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK",
         "rtg": "32 / 30",
-        "last5": "6-1-7-8-6-.",
+        "last5": "1-7-8-6-1-.",
         "tissue": "125/8",
         "rank": 3,
         "verdict": "Last: 11 Oct 26 PUN 1400M 6/10 beaten 8.75 at 20 off 32, 55kg. 20 days out. HCP 12. Latest work 28 Oct PUN: Exotic Star (Mosin), Victorious Omen (App ), 1-08 800 53, 600 39, Pair moved together",
@@ -3224,7 +3224,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS-BLK-CNB",
         "rtg": "32 / 29",
-        "last5": "5-9-12-12-8-.",
+        "last5": "9-12-12-8-3-.",
         "tissue": "193/10",
         "rank": 4,
         "verdict": "Last: 27 Sep 26 PUN 1400M 8/11 beaten 10.25 at 20 off 32, 56kg. 34 days out. HCP 10. Latest work 22 Oct PUN: Ange Raphael (Ramswarup), Gonzalo (Shekhawat ), 1-10 800/56, 600/42, former started & finished 3Ls ahead.",
@@ -3319,7 +3319,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "",
         "rtg": "30 / 29",
-        "last5": "12-9-.",
+        "last5": "12-9-5-.",
         "tissue": "24/1",
         "rank": 5,
         "verdict": "Last: 02 Oct 26 PUN 1600M 9/13 beaten 9.25 at 20 off 30, 52kg. 29 days out. HCP -3. Latest work 25 Oct PUN: Starbuster (T.S.Jodha ) 1-07 800 52, 600 38, Pushed",
@@ -3390,7 +3390,7 @@ export const races: Race[] = [
         "shoes": "A",
         "eq": "TS",
         "rtg": "22 / 20",
-        "last5": "7-7-8-9-7-.",
+        "last5": "7-8-9-7-6-.",
         "tissue": "24/1",
         "rank": 7,
         "verdict": "Last: 11 Oct 26 PUN 1400M 7/10 beaten 12 at 20 off 22, 50kg. 20 days out. HCP -18. Latest work 26 Oct PUN: Absolute Serenity (Kavraj ) 1-06 800 52, 600 40, Good jump",
@@ -5882,7 +5882,7 @@ export const SHEET: SheetMeeting = {
             "wt": 49
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "27/4",
           "rank": 2,
           "speed": 11.3,
@@ -5933,7 +5933,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "1/4",
           "rank": 1,
           "speed": 11.62,
@@ -6086,7 +6086,7 @@ export const SHEET: SheetMeeting = {
             "wt": 49
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "81/5",
           "rank": 4,
           "speed": 11.49,
@@ -6137,7 +6137,7 @@ export const SHEET: SheetMeeting = {
             "wt": 49.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 6,
           "speed": 11.62,
@@ -6225,7 +6225,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "7/10",
           "rank": 1,
           "speed": 12.3,
@@ -6276,7 +6276,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.5,
           "tissue": "11/10",
           "rank": 2,
           "speed": 11.96,
@@ -6378,7 +6378,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.7,
           "tissue": "93/8",
           "rank": 3,
           "speed": null,
@@ -6515,7 +6515,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 8,
           "tissue": "19/10",
           "rank": 1,
           "speed": 12.67,
@@ -6770,7 +6770,7 @@ export const SHEET: SheetMeeting = {
             "wt": 52
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "11/5",
           "rank": 2,
           "speed": 11.9,
@@ -6821,7 +6821,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51
           },
           "nty": null,
-          "open": null,
+          "open": 0.8,
           "tissue": "83/5",
           "rank": 6,
           "speed": 11.63,
@@ -6872,7 +6872,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 3,
           "tissue": "24/1",
           "rank": 8,
           "speed": 12.21,
@@ -7399,7 +7399,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": null,
-          "open": null,
+          "open": 3.5,
           "tissue": "43/10",
           "rank": 2,
           "speed": 12.37,
@@ -7544,7 +7544,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "29/10",
           "rank": 1,
           "speed": 11.66,
@@ -7587,7 +7587,7 @@ export const SHEET: SheetMeeting = {
             "lto": "###"
           },
           "nty": null,
-          "open": null,
+          "open": 1.4,
           "tissue": "103/5",
           "rank": 11,
           "speed": null,
@@ -7718,7 +7718,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51.5
           },
           "nty": null,
-          "open": null,
+          "open": 2,
           "tissue": "101/8",
           "rank": 2,
           "speed": 12.87,
@@ -7769,7 +7769,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61
           },
           "nty": null,
-          "open": null,
+          "open": 2,
           "tissue": "1/4",
           "rank": 1,
           "speed": 12.66,
@@ -7820,7 +7820,7 @@ export const SHEET: SheetMeeting = {
             "wt": 49
           },
           "nty": null,
-          "open": null,
+          "open": 2,
           "tissue": "24/1",
           "rank": 6,
           "speed": 12.85,
@@ -8112,7 +8112,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53.5
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "7/4",
           "rank": 1,
           "speed": 11.59,
@@ -8163,7 +8163,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.75,
           "tissue": "13/2",
           "rank": 3,
           "speed": 11.81,
@@ -8214,7 +8214,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "73/10",
           "rank": 6,
           "speed": 12.29,
@@ -8316,7 +8316,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 1.8,
           "tissue": "4/1",
           "rank": 2,
           "speed": 11.58,
@@ -8418,7 +8418,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "63/4",
           "rank": 7,
           "speed": 11.82,
@@ -8520,7 +8520,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "13/2",
           "rank": 5,
           "speed": 11.65,
@@ -8710,7 +8710,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": null,
-          "open": null,
+          "open": 4,
           "tissue": "77/10",
           "rank": 3,
           "speed": 12.33,
@@ -8761,7 +8761,7 @@ export const SHEET: SheetMeeting = {
             "wt": 52.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "227/10",
           "rank": 4,
           "speed": 12.38,
@@ -8812,7 +8812,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": null,
-          "open": null,
+          "open": 1.8,
           "tissue": "29/10",
           "rank": 2,
           "speed": 12.56,
@@ -8863,7 +8863,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61
           },
           "nty": null,
-          "open": null,
+          "open": 2.75,
           "tissue": "3/10",
           "rank": 1,
           "speed": 12.43,
@@ -9053,7 +9053,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61.5
           },
           "nty": null,
-          "open": null,
+          "open": 2.75,
           "tissue": "4/5",
           "rank": 1,
           "speed": 12.51,
@@ -9104,7 +9104,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60.5
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "5/4",
           "rank": 2,
           "speed": 12.45,
@@ -9155,7 +9155,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58
           },
           "nty": null,
-          "open": null,
+          "open": 8,
           "tissue": "69/4",
           "rank": 4,
           "speed": 11.88,
@@ -9206,7 +9206,7 @@ export const SHEET: SheetMeeting = {
             "wt": 50
           },
           "nty": null,
-          "open": null,
+          "open": 2,
           "tissue": "24/1",
           "rank": 6,
           "speed": 12.29,
@@ -9308,7 +9308,7 @@ export const SHEET: SheetMeeting = {
             "wt": 50
           },
           "nty": null,
-          "open": null,
+          "open": 5,
           "tissue": "24/1",
           "rank": 7,
           "speed": 12.84,
@@ -9452,4 +9452,273 @@ export const SHEET: SheetMeeting = {
   ]
 };
 
-export const NIGHT = null;
+export const NIGHT = {
+  "banner": "RWITC PUNE",
+  "title": "NIGHT / MORNING / OPENING ODDS",
+  "version": "AUTO",
+  "when": "31-10-2026 - PUN - SATURDAY - 8 CARD",
+  "source": "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
+  "odds": {
+    "1": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 1.2,
+        "opening": 1.4,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 4,
+        "opening": 5,
+        "call": "neg"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": 2,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 4,
+        "opening": 6,
+        "call": "neg"
+      }
+    ],
+    "2": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 1.8,
+        "opening": 2.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 2,
+        "opening": 2.5,
+        "call": "neg"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 10,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": 1.7,
+        "opening": 1.7,
+        "call": "pos"
+      }
+    ],
+    "3": [
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 6,
+        "opening": 8,
+        "call": "neg"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": 4,
+        "opening": 5,
+        "call": "neg"
+      },
+      {
+        "cloth": 8,
+        "night": null,
+        "morning": 0.7,
+        "opening": 0.8,
+        "call": "pos"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": 2.5,
+        "opening": 3,
+        "call": "pos"
+      }
+    ],
+    "4": [
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": 3,
+        "opening": 3.5,
+        "call": "pos"
+      },
+      {
+        "cloth": 12,
+        "night": null,
+        "morning": 5,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 13,
+        "night": null,
+        "morning": 1.3,
+        "opening": 1.4,
+        "call": "pos"
+      }
+    ],
+    "5": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 2,
+        "opening": 2,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2,
+        "call": "neg"
+      }
+    ],
+    "6": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 4,
+        "opening": 5,
+        "call": "watch"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.75,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 5,
+        "opening": 6,
+        "call": "watch"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": 1.7,
+        "opening": 1.8,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": null,
+        "morning": 5,
+        "opening": 7,
+        "call": "neg"
+      },
+      {
+        "cloth": 9,
+        "night": null,
+        "morning": 5,
+        "opening": 7,
+        "call": "neg"
+      }
+    ],
+    "7": [
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 3.5,
+        "opening": 4,
+        "call": "neg"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 5,
+        "opening": 6,
+        "call": "neg"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": 1.6,
+        "opening": 1.8,
+        "call": "pos"
+      },
+      {
+        "cloth": 5,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.75,
+        "call": "pos"
+      }
+    ],
+    "8": [
+      {
+        "cloth": 1,
+        "night": null,
+        "morning": 2.5,
+        "opening": 2.75,
+        "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 4.5,
+        "opening": 6,
+        "call": "watch"
+      },
+      {
+        "cloth": 3,
+        "night": null,
+        "morning": 6,
+        "opening": 8,
+        "call": "neg"
+      },
+      {
+        "cloth": 4,
+        "night": null,
+        "morning": 1.7,
+        "opening": 2,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": 4.5,
+        "opening": 5,
+        "call": "neg"
+      }
+    ]
+  },
+  "gridCloths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12,
+    13
+  ]
+};
