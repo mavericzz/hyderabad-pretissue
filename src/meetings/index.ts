@@ -32,6 +32,7 @@ import { MEETING as mys20261024Meta, races as mys20261024Races, SHEET as mys2026
 import { MEETING as mys20261025Meta, races as mys20261025Races, SHEET as mys20261025Sheet, NIGHT as mys20261025Night } from "./mys_2026_10_25.ts";
 import { MEETING as hyd20261030Meta, races as hyd20261030Races, SHEET as hyd20261030Sheet, NIGHT as hyd20261030Night } from "./hyd_2026_10_30.ts";
 import { MEETING as pun20261031Meta, races as pun20261031Races, SHEET as pun20261031Sheet, NIGHT as pun20261031Night } from "./pun_2026_10_31.ts";
+import { MEETING as pun20261105Meta, races as pun20261105Races, SHEET as pun20261105Sheet, NIGHT as pun20261105Night } from "./pun_2026_11_05.ts";
 
 export const GENERATED_MEETINGS = [
   {
@@ -526,5 +527,22 @@ export const GENERATED_MEETINGS = [
     resultSource: "",
     swim: [] as SwimEntry[],
     night: pun20261031Night ?? undefined,
+  },
+  {
+    id: "pun-2026-11-05",
+    date: "2026-11-05",
+    dateTab: dateTab("2026-11-05"),
+    center: "pun",
+    centerLabel: labelForCenter("pun"),
+    short: "PUN",
+    hasNight: Boolean(pun20261105Night),
+    extraCopy: false,
+    meta: pun20261105Meta,
+    races: pun20261105Races as unknown as Race[],
+    sheet: pun20261105Sheet as unknown as SheetMeeting,
+    results: [] as RaceResult[],
+    resultSource: "",
+    swim: [] as SwimEntry[],
+    night: pun20261105Night ?? undefined,
   }
 ];
