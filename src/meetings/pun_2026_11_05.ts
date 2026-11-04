@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 3,
   "nextBest": "EARTH",
   "longshot": "ASHWA VEERAM",
-  "irDayBest": "unpublished",
+  "irDayBest": "MIAMI VICE 5 (3)",
   "feature": "The Northern Command Plate"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "7-runner. Class 5 / Horses Rated 1 to 26, For Horses 4 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ROYAL CHAMP (1) 2. REMY RED (4) 3. MADISON (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ROYAL CHAMP (1).",
-    "irPick": "unpublished",
+    "irPick": "1. ROYAL CHAMP (1) 2. REMY RED (4) 3. MADISON (2)",
     "ourPick": "ROYAL CHAMP (1)",
     "nap": false,
     "runners": [
@@ -691,9 +691,9 @@ export const races: Race[] = [
     "purse": "₹750000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "6-runner. Class 2 / Horses Rated 60 to 86 (40 to 59 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. GIACOMO (3) 2. BISHOP (1) 3. EARTH (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win EARTH (2).",
-    "irPick": "unpublished",
+    "irPick": "1. GIACOMO (3) 2. BISHOP (1) 3. EARTH (2)",
     "ourPick": "EARTH (2)",
     "nap": false,
     "runners": [
@@ -1279,9 +1279,9 @@ export const races: Race[] = [
     "purse": "₹1000000",
     "record": "16 Oct 2022 ENIGMA 58.5 Kgs 1:06.50 Secs",
     "shape": "8-runner. Class 1 / Horses Rated 80 and upward (60 to 79 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CREDENCE (2) 2. FOURTH WING (5) 3. MARKET KING (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MARKET KING (1).",
-    "irPick": "unpublished",
+    "irPick": "1. CREDENCE (2) 2. FOURTH WING (5) 3. MARKET KING (1)",
     "ourPick": "MARKET KING (1)",
     "nap": true,
     "runners": [
@@ -2051,9 +2051,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "10 Sep 2017 HARVEY 55 Kgs 00.56.77 Secs",
     "shape": "8-runner. Class 3 / Horses Rated 40 to 66 (20 to 39 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DREAMS COME TRUE (8) 2. STARIA (6) 3. NEPTUNE (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MANOR HOUSE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. DREAMS COME TRUE (8) 2. STARIA (6) 3. NEPTUNE (4)",
     "ourPick": "MANOR HOUSE (1)",
     "nap": false,
     "runners": [
@@ -2798,9 +2798,9 @@ export const races: Race[] = [
     "purse": "₹1500000",
     "record": "05 Sep 2023 CHOPIN 49 Kgs 1:36.02 Secs",
     "shape": "7-runner. Term Race / For Horses 3 years old only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MIAMI VICE (3) 2. RAMPAGE (1) 3. NORAIAH (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MIAMI VICE (3).",
-    "irPick": "unpublished",
+    "irPick": "1. MIAMI VICE (3) 2. RAMPAGE (1) 3. NORAIAH (2)",
     "ourPick": "MIAMI VICE (3)",
     "nap": false,
     "runners": [
@@ -3397,9 +3397,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "21 Sep 2025 ABHICANDRA 59 Kgs 1:04.39 Secs",
     "shape": "8-runner. Class 5 / Horses Rated 1 to 26, For Horses 4 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. COMMANCHERO (2) 2. SKY FULL OF STARS (3) 3. FLASHMAN (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SKY FULL OF STARS (3).",
-    "irPick": "unpublished",
+    "irPick": "1. COMMANCHERO (2) 2. SKY FULL OF STARS (3) 3. FLASHMAN (1)",
     "ourPick": "SKY FULL OF STARS (3)",
     "nap": false,
     "runners": [
@@ -4113,9 +4113,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "24 Nov 2019 KILDARE 59 Kgs 1:23.09 Secs",
     "shape": "14-runner. Class 4 / Horses Rated 20 to 46 (0 to 19 eligible)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. TOUCH OF MYSTIC (6) 2. VINCERO (1) 3. MAJESTICUS (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win LIAM (2).",
-    "irPick": "unpublished",
+    "irPick": "1. TOUCH OF MYSTIC (6) 2. VINCERO (1) 3. MAJESTICUS (9)",
     "ourPick": "LIAM (2)",
     "nap": false,
     "runners": [
