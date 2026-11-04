@@ -1188,7 +1188,7 @@ export const races: Race[] = [
         "last5": "5-5-5-5-3-.",
         "tissue": "24/1",
         "rank": 5,
-        "verdict": "Last: 12 Sep 26 PUN 1800M 3/4 beaten 9.5 at 40 off 64, 59kg. 54 days out. HCP 48. Latest work 24 Oct PUN: Shamara (Dhebe), Fortunate Son (rb ), 1-22 1000 1-07, 800 52, 600 39, Former started 3Ls behind & finished 2Ls ahead",
+        "verdict": "Last: 12 Sep 26 PUN 1800M 3/4 beaten 9.5 at 40 off 64, 59kg. 54 days out. HCP 48. Latest work 03 Nov PUN: Fortunate Son (P.Dhebhe ) 57 600 In 42 Easy.",
         "similar": "Nearest trip: 15 Mar 26 MUM 1600M Class 2, 5/7 beaten 4.5 vs BREAK POINT.",
         "form": [
           {
@@ -1242,6 +1242,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "03 Nov",
+            "venue": "PUN",
+            "clock": "800m inner sand (-3)",
+            "note": "Fortunate Son (P.Dhebhe ) 57 600 In 42 Easy."
+          },
+          {
             "date": "24 Oct",
             "venue": "PUN",
             "clock": "1200m inner sand (-8)",
@@ -1258,12 +1264,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1200m inner sand (-12)",
             "note": "Beast Mode (Parmar), Fortunate Son (D.A.Naik ), 1-18 1000 1-03, 800 50, 600 38, Former finished moved well & finished 2Ls ahead."
-          },
-          {
-            "date": "25 Sep",
-            "venue": "PUN",
-            "clock": "1200m inner sand (-9)",
-            "note": "Beast Mode (Parmar), Fortunate Son (P.Dhebe ), 1-21 1000 1-05, 800 50, 600 39, Former moved well & finished dist ahead."
           }
         ]
       }
@@ -1770,7 +1770,7 @@ export const races: Race[] = [
         "last5": "6-4-5-5-4-.",
         "tissue": "24/1",
         "rank": 7,
-        "verdict": "Last: 27 Sep 26 PUN 1400M 4/6 beaten 7.5 at 20 off 93, 53.5kg. 39 days out. HCP 72. Latest work 28 Oct PUN: Mojito (Parmar ) 52 600 38, Easy",
+        "verdict": "Last: 27 Sep 26 PUN 1400M 4/6 beaten 7.5 at 20 off 93, 53.5kg. 39 days out. HCP 72. Latest work 03 Nov PUN: Mojito (Rb ) 39 Easy.",
         "similar": "Nearest trip: 27 Sep 26 PUN 1400M Class 1, 4/6 beaten 7.5 vs CHAGALL.",
         "form": [
           {
@@ -1824,6 +1824,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "03 Nov",
+            "venue": "PUN",
+            "clock": "600m inner sand (-6)",
+            "note": "Mojito (Rb ) 39 Easy."
+          },
+          {
             "date": "28 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-8)",
@@ -1840,12 +1846,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-8)",
             "note": "Mojito (D.A.Naik ) 52 600 38, Moved freely."
-          },
-          {
-            "date": "09 Sep",
-            "venue": "PUN",
-            "clock": "1000m inner sand (-12)",
-            "note": "Beast Mode (N S Parmar), Mojito (P P Dhebe ), 1-03 800 48, 600 36, Former impressed & finished dist ahead."
           }
         ]
       },
@@ -2986,7 +2986,7 @@ export const races: Race[] = [
         "last5": "3-1-.",
         "tissue": "11/10",
         "rank": 1,
-        "verdict": "Last: 11 Oct 26 PUN 1400M 1/8 beaten won at 11/10 off 28, 54.5kg. 25 days out. HCP 40. Latest work 29 Oct PUN: Miami Vice (Parmar ) 1-22 1000 In 1-7 800 In 52 600 In 38 Pleased.",
+        "verdict": "Last: 11 Oct 26 PUN 1400M 1/8 beaten won at 11/10 off 28, 54.5kg. 25 days out. HCP 40. Latest work 03 Nov PUN: Miami Vice (Parmar ) 53 600 In 39 Unextended.",
         "similar": "Nearest trip: 11 Oct 26 PUN 1400M Maiden, 1/8 beaten 0 vs MIAMI VICE.",
         "form": [
           {
@@ -3016,6 +3016,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "03 Nov",
+            "venue": "PUN",
+            "clock": "800m inner sand (-7)",
+            "note": "Miami Vice (Parmar ) 53 600 In 39 Unextended."
+          },
+          {
             "date": "29 Oct",
             "venue": "PUN",
             "clock": "1200m inner sand (-8)",
@@ -3032,12 +3038,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-9)",
             "note": "Miami Vice (Parmar), Mojito (D.A. Naik ), 51 600 37, Former moved well & finished 2Ls ahead."
-          },
-          {
-            "date": "04 Oct",
-            "venue": "PUN",
-            "clock": "800m inner sand (-6)",
-            "note": "Miami Vice (P.Dhebe ) 54 600 40, Moved freely."
           }
         ]
       },
