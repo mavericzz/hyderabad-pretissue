@@ -5,7 +5,7 @@ export const MEETING = {
   "venue": "PUNE (PUN)",
   "date": "Thursday 5 November 2026",
   "first": "02:00 PM",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 04 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 05 Nov 26.",
   "going": "Pune turf. Auto-built from the IndiaRace card; going is not independently verified.",
   "dayBest": "MARKET KING",
   "dayBestRace": 3,
@@ -4205,7 +4205,7 @@ export const races: Race[] = [
         "last5": "5-8-7-8-5-.",
         "tissue": "13/8",
         "rank": 1,
-        "verdict": "Last: 12 Sep 26 PUN 1100M 5/10 beaten 5.75 at 20 off 45, 61.5kg. 54 days out. 5kg claim. HCP 56. Latest work 30 Oct PUN: Liam (T.S.Jodha ) 55 600 In 41 Easy.",
+        "verdict": "Last: 12 Sep 26 PUN 1100M 5/10 beaten 5.75 at 20 off 45, 61.5kg. 54 days out. 5kg claim. HCP 56. Latest work 03 Nov KOL: Daliamore (Rb), Martinian (Rb), Western Aristocrat/ Paramount Love (Rb), Ortigia (P Tejeshwar ), 1-5 600/47, 400/31 All Four Finished Up By 2lengths, 2 Lengths And 4 Lengths Accordingly.",
         "similar": "Nearest trip: 15 Aug 26 PUN 1200M Class 3, 8/12 beaten 7.25 vs CHALLENGE ACCEPTED.",
         "form": [
           {
@@ -4259,6 +4259,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "03 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Daliamore (Rb), Martinian (Rb), Western Aristocrat/ Paramount Love (Rb), Ortigia (P Tejeshwar ), 1-5 600/47, 400/31 All Four Finished Up By 2lengths, 2 Lengths And 4 Lengths Accordingly."
+          },
+          {
             "date": "30 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-5)",
@@ -4275,12 +4281,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (-22)",
             "note": "Skandha (T.S.Jodha), Liam (Omkar ), 53 600 39, Former finished a length ahead."
-          },
-          {
-            "date": "25 Sep",
-            "venue": "PUN",
-            "clock": "600m inner sand (-4)",
-            "note": "Liam (T.S.Jodha ) 41 Easy."
           }
         ]
       },
@@ -5329,7 +5329,7 @@ export const SHEET: SheetMeeting = {
   "banner": "RWITC PUNE",
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "05-11-2026 - PUN - THURSDAY - 7 CARD",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 04 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 05 Nov 26.",
   "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
   "races": [
     {
