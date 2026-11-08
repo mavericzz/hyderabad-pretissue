@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 2,
   "nextBest": "TORCHBEARER",
   "longshot": "HIGH SPEED DIVE",
-  "irDayBest": "unpublished",
+  "irDayBest": "STAR OF OPERA 2 (2)",
   "feature": "The Osman Sagar Trophy Div-2"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Maiden Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. APRAMEYA (1) 2. NORTHERN SKY (4) 3. MANTLE PLUME (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SEE MY ATTITUDE (8).",
-    "irPick": "unpublished",
+    "irPick": "1. APRAMEYA (1) 2. NORTHERN SKY (4) 3. MANTLE PLUME (2)",
     "ourPick": "SEE MY ATTITUDE (8)",
     "nap": false,
     "runners": [
@@ -732,9 +732,9 @@ export const races: Race[] = [
     "purse": "₹840000",
     "record": "09 Aug 2026 N R I CRYPTO POWER 54.5 Kgs 1:05.26 Secs",
     "shape": "8-runner. Class 2 / A Handicap For Horses Rated 60 To 85, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. STAR OF OPERA (2) 2. HIGH SPEED DIVE (1) 3. WALKING THUNDER (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win STAR OF OPERA (2).",
-    "irPick": "unpublished",
+    "irPick": "1. STAR OF OPERA (2) 2. HIGH SPEED DIVE (1) 3. WALKING THUNDER (4)",
     "ourPick": "STAR OF OPERA (2)",
     "nap": true,
     "runners": [
@@ -1485,9 +1485,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "12-runner. Class 3 / A Handicap For Horses Rated 40 to 65, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. OJAS MAXIMUS (2) 2. HOME RUN (5) 3. COSMIC GIFT (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win OJAS MAXIMUS (2).",
-    "irPick": "unpublished",
+    "irPick": "1. OJAS MAXIMUS (2) 2. HOME RUN (5) 3. COSMIC GIFT (4)",
     "ourPick": "OJAS MAXIMUS (2)",
     "nap": false,
     "runners": [
@@ -2527,9 +2527,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Maiden Horses Rated 20 To 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. GRIT 'N' GRACE (2) 2. DIGITAL EMPRESS (1) 3. GACCHANMANASVIN (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GOLDEN AURA (7).",
-    "irPick": "unpublished",
+    "irPick": "1. GRIT 'N' GRACE (2) 2. DIGITAL EMPRESS (1) 3. GACCHANMANASVIN (4)",
     "ourPick": "GOLDEN AURA (7)",
     "nap": false,
     "runners": [
@@ -3201,9 +3201,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "09 Aug 2026 N R I CRYPTO POWER 54.5 Kgs 1:05.26 Secs",
     "shape": "13-runner. Class 4 / A Handicap For Horses Rated 20 to 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. PHOEBUS (5) 2. MY DAY (11) 3. FIRST KISS (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win INDERDHANUSH (3).",
-    "irPick": "unpublished",
+    "irPick": "1. PHOEBUS (5) 2. MY DAY (11) 3. FIRST KISS (9)",
     "ourPick": "INDERDHANUSH (3)",
     "nap": false,
     "runners": [
@@ -4284,9 +4284,9 @@ export const races: Race[] = [
     "purse": "₹840000",
     "record": "09 Aug 2026 N R I CRYPTO POWER 54.5 Kgs 1:05.26 Secs",
     "shape": "8-runner. Class 2 / A Handicap For Horses Rated 60 To 85, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AYUSHMAN (5) 2. TIMELESS VISION (1) 3. EMERALD TOUCH (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TORCHBEARER (7).",
-    "irPick": "unpublished",
+    "irPick": "1. AYUSHMAN (5) 2. TIMELESS VISION (1) 3. EMERALD TOUCH (2)",
     "ourPick": "TORCHBEARER (7)",
     "nap": false,
     "runners": [
@@ -5014,9 +5014,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "14-runner. Class 5 / A Handicap For Horses Rated Up To 25, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ASHWA VIVEGAM (2) 2. SPORTING TOUCH (6) 3. DHANADEEPA (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ALOY (1).",
-    "irPick": "unpublished",
+    "irPick": "1. ASHWA VIVEGAM (2) 2. SPORTING TOUCH (6) 3. DHANADEEPA (4)",
     "ourPick": "ALOY (1)",
     "nap": false,
     "runners": [
