@@ -143,7 +143,7 @@ export const races: Race[] = [
         "last5": "5-4-2-3-7-.",
         "tissue": "67/10",
         "rank": 3,
-        "verdict": "Last: 05 Nov 26 PUN 1000M 7/8 beaten 5 at 15 off 54, 57kg. 10 days out. 3.5kg claim. HCP 56. Latest work 31 Oct PUN: Don Julio (Gore ) 55 600 In 41 Easy.",
+        "verdict": "Last: 05 Nov 26 PUN 1000M 7/8 beaten 5 at 15 off 54, 57kg. 10 days out. 3.5kg claim. HCP 56. Latest work 13 Nov PUN: Don Julio (Siddharth ) 1-11 800 In 56 600 In 42 Easy.",
         "similar": "Nearest trip: 20 Sep 26 PUN 1400M Class 3, 3/7 beaten 0.5 vs BISHOP.",
         "form": [
           {
@@ -197,6 +197,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "13 Nov",
+            "venue": "PUN",
+            "clock": "1000m inner sand (-4)",
+            "note": "Don Julio (Siddharth ) 1-11 800 In 56 600 In 42 Easy."
+          },
+          {
             "date": "31 Oct",
             "venue": "PUN",
             "clock": "800m inner sand (-5)",
@@ -213,12 +219,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "800m inner sand (-2)",
             "note": "Don Julio (Gore ) 58 600 43, Easy."
-          },
-          {
-            "date": "18 Sep",
-            "venue": "PUN",
-            "clock": "800m inner sand (-7)",
-            "note": "Don Julio (Gore ) 53 600 39, Moved well."
           }
         ]
       },
@@ -3043,7 +3043,7 @@ export const races: Race[] = [
         "last5": "4-1-3-8-6-.",
         "tissue": "5/1",
         "rank": 2,
-        "verdict": "Last: 31 Oct 26 PUN 1600M 6/7 beaten 9.75 at 12 off 64, 61kg. 15 days out. HCP 54. Latest work 25 Oct PUN: The Panther (App), Ashwa Changez (Kaviraj ), 1-21 1000 1-06, 800 52, 600 39, Former finished 2Ls ahead",
+        "verdict": "Last: 31 Oct 26 PUN 1600M 6/7 beaten 9.75 at 12 off 64, 61kg. 15 days out. HCP 54. Latest work 13 Nov PUN: Ashwa Changez (Kaviraj ) 54 600 In 40 Urged.",
         "similar": "Nearest trip: 31 Oct 26 PUN 1600M Class 3, 6/7 beaten 9.75 vs DIEGO GARCIA.",
         "form": [
           {
@@ -3096,6 +3096,12 @@ export const races: Race[] = [
           }
         ],
         "work": [
+          {
+            "date": "13 Nov",
+            "venue": "PUN",
+            "clock": "800m inner sand (-6)",
+            "note": "Ashwa Changez (Kaviraj ) 54 600 In 40 Urged."
+          },
           {
             "date": "25 Oct",
             "venue": "PUN",

@@ -796,7 +796,7 @@ export const races: Race[] = [
         "last5": "3-1-2-2-1-.",
         "tissue": "9/10",
         "rank": 1,
-        "verdict": "Last: 04 Oct 26 HYD 1100M 1/11 beaten won at 2/1 off 51, 53.5kg. 42 days out. 5kg claim. HCP 69. Latest work 11 Nov HYD: Ek (Ikram Alam), My Way Rules (Dhanu Singh ), 59 600 In 43 Former moved well.",
+        "verdict": "Last: 04 Oct 26 HYD 1100M 1/11 beaten won at 2/1 off 51, 53.5kg. 42 days out. 5kg claim. HCP 69. Latest work 13 Nov KOL: Rocket Rod (K Sunny Kumar), Windy Creek (V Jaiswal ), 47.5 400 In 29 Former finished 3 lengths ahead.",
         "similar": "Nearest trip: 04 Oct 26 HYD 1100M Class 3, 1/11 beaten 0 vs EK.",
         "form": [
           {
@@ -850,6 +850,18 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "13 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Rocket Rod (K Sunny Kumar), Windy Creek (V Jaiswal ), 47.5 400 In 29 Former finished 3 lengths ahead."
+          },
+          {
+            "date": "12 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+6)",
+            "note": "Saseka (Azharuddin ) 36 Moved half pace."
+          },
+          {
             "date": "11 Nov",
             "venue": "HYD",
             "clock": "800m sand (-1)",
@@ -860,18 +872,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (-1)",
             "note": "Saseka (Azharuddin ) 59 600 In 45 400 In 29 Moved on the bit."
-          },
-          {
-            "date": "10 Nov",
-            "venue": "KOL",
-            "clock": "600m gate practice (-3)",
-            "note": "Windy Creek (Akash Rajput), Trailblazes (V Jaiswal ), 42 Both jumped out well and moved nicely first named finished 3 lengths ahead."
-          },
-          {
-            "date": "07 Nov",
-            "venue": "HYD",
-            "clock": "800m sand (-2)",
-            "note": "Ek (AA Vikrant), My Way My Rules (Dhanu Singh ), 58 600/43, pair fit and well."
           }
         ]
       },
@@ -1514,7 +1514,7 @@ export const races: Race[] = [
         "last5": "4-12-10-7-8-.",
         "tissue": "24/1",
         "rank": 10,
-        "verdict": "Last: 17 Oct 26 HYD 1400M 8/8 beaten 24.75 at 20 off 50, 52.5kg. 29 days out. Latest work 27 Jul HYD: Rival (Ajay Kumar ) 1-18 (From 1000/400) 46, Moved Freely.",
+        "verdict": "Last: 17 Oct 26 HYD 1400M 8/8 beaten 24.75 at 20 off 50, 52.5kg. 29 days out. Latest work 13 Nov BAN: Mayne Magic (P P Dhebe), Majestic Legacy (Aleemuddin), Pearl Star (J H Arul), Srivalli (B L Paswan), Jailer (Shreyas Singh), Ladyness (A R Pradeep ), 1-27.70 Won by: 1 1/4, 7 3/4, 1 1/2 & lnk, 1st named caught the eye ladyness planted and after jump.",
         "similar": "Nearest trip: 17 Oct 26 HYD 1400M Class 3, 8/8 beaten 24.75 vs LOVE IN PARIS.",
         "form": [
           {
@@ -1567,6 +1567,12 @@ export const races: Race[] = [
           }
         ],
         "work": [
+          {
+            "date": "13 Nov",
+            "venue": "BAN",
+            "clock": "1400m mock race (-17)",
+            "note": "Mayne Magic (P P Dhebe), Majestic Legacy (Aleemuddin), Pearl Star (J H Arul), Srivalli (B L Paswan), Jailer (Shreyas Singh), Ladyness (A R Pradeep ), 1-27.70 Won by: 1 1/4, 7 3/4, 1 1/2 & lnk, 1st named caught the eye ladyness planted and after jump."
+          },
           {
             "date": "27 Jul",
             "venue": "HYD",
