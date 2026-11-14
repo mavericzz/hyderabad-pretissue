@@ -4188,6 +4188,12 @@ export const races: Race[] = [
         "form": [],
         "work": [
           {
+            "date": "14 Nov",
+            "venue": "MYS",
+            "clock": "600m outer sand (-2)",
+            "note": "Coorg General (RB), My Life My Rules (RB ), 43 Pair easy"
+          },
+          {
             "date": "11 Nov",
             "venue": "HYD",
             "clock": "800m sand (-1)",
@@ -4204,12 +4210,6 @@ export const races: Race[] = [
             "venue": "HYD",
             "clock": "800m sand (-2)",
             "note": "Ek (AA Vikrant), My Way My Rules (Dhanu Singh ), 58 600/43, pair fit and well."
-          },
-          {
-            "date": "07 Nov",
-            "venue": "MYS",
-            "clock": "1000m outer sand (-2)",
-            "note": "My Life My Rules (Rb ) 1-13 800 In 57 600 In 42 Easy throughout."
           }
         ]
       },
