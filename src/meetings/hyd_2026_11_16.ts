@@ -5,7 +5,7 @@ export const MEETING = {
   "venue": "HYDERABAD (HYD)",
   "date": "Monday 16 November 2026",
   "first": "12:55 PM",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 14 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 15 Nov 26.",
   "going": "Hyderabad turf. Auto-built from the IndiaRace card; going is not independently verified.",
   "dayBest": "RAGNAROK",
   "dayBestRace": 2,
@@ -6802,7 +6802,7 @@ export const races: Race[] = [
         "last5": "10-4-7-6-3-.",
         "tissue": "24/1",
         "rank": 9,
-        "verdict": "Last: 19 Oct 26 HYD 1200M 3/9 beaten 6 at 20 off 25, 54.5kg. 28 days out. HCP 12. Latest work 13 Nov KOL: Admiringly (P. Tejeshwar ) 34 Moved easy.",
+        "verdict": "Last: 19 Oct 26 HYD 1200M 3/9 beaten 6 at 20 off 25, 54.5kg. 28 days out. HCP 12. Latest work 14 Nov KOL: Admiringly (P. Tejeshwar ) 1-9 600/55.2, 400/35.6 Unextended",
         "similar": "Nearest trip: 19 Oct 26 HYD 1200M Class 4, 3/9 beaten 6 vs FARSIRIS.",
         "form": [
           {
@@ -6856,6 +6856,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "14 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+9)",
+            "note": "Admiringly (P. Tejeshwar ) 1-9 600/55.2, 400/35.6 Unextended"
+          },
+          {
             "date": "13 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+4)",
@@ -6872,12 +6878,6 @@ export const races: Race[] = [
             "venue": "BAN",
             "clock": "600m outer sand (-1)",
             "note": "Heimirich (S.Hinayathulla ) 43.5 Stretched."
-          },
-          {
-            "date": "19 Oct",
-            "venue": "BAN",
-            "clock": "1000m inner sand (-8)",
-            "note": "Eagle Eye (Rb), Heimirich (Rayan Ahmed ), 1-7 600 In 39 They Moved Well."
           }
         ]
       }
@@ -6889,7 +6889,7 @@ export const SHEET: SheetMeeting = {
   "banner": "HRC HYDERABAD",
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "16-11-2026 - HYD - MONDAY - 8 CARD",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 14 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 15 Nov 26.",
   "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
   "races": [
     {
