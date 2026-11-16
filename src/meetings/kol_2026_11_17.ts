@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 6,
   "nextBest": "GOLDEN WARRIOR",
   "longshot": "ROCKET ROD",
-  "irDayBest": "unpublished",
+  "irDayBest": "LUTHER 5 (8)",
   "feature": "The Aristotle Handicap"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹300000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "7-runner. Class 5 / For Horses Rated 1-26",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. TOTALLY EPIC (5) 2. MRS BRANDO (1) 3. GLOBAL FASHION (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TOTALLY EPIC (5).",
-    "irPick": "unpublished",
+    "irPick": "1. TOTALLY EPIC (5) 2. MRS BRANDO (1) 3. GLOBAL FASHION (2)",
     "ourPick": "TOTALLY EPIC (5)",
     "nap": false,
     "runners": [
@@ -709,9 +709,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "04 Mar 2018 WHOMAKESTHERULES 59 Kgs 1:34.80 Secs",
     "shape": "10-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SANAYA (7) 2. DIVINE GIFT (3) 3. VIKING (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GOODWILL (1).",
-    "irPick": "unpublished",
+    "irPick": "1. SANAYA (7) 2. DIVINE GIFT (3) 3. VIKING (6)",
     "ourPick": "GOODWILL (1)",
     "nap": false,
     "runners": [
@@ -731,7 +731,7 @@ export const races: Race[] = [
         "last5": "9-3-1-3-3-.",
         "tissue": "8/5",
         "rank": 1,
-        "verdict": "Last: 26 Sep 26 KOL 2000M 3/5 beaten 9 at 5 off 45, 62kg. 52 days out. HCP 38. Latest work 11 Nov KOL: Goodwill (R Manish ) 51 400 In 31.6 Eased up.",
+        "verdict": "Last: 26 Sep 26 KOL 2000M 3/5 beaten 9 at 5 off 45, 62kg. 52 days out. HCP 38. Latest work 16 Nov KOL: Goodwill (R Manish ) 34 Unextended",
         "similar": "Nearest trip: 06 Aug 26 KOL 1400M Class 4, 3/12 beaten 7 vs UPPER STREET.",
         "form": [
           {
@@ -785,6 +785,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "16 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Goodwill (R Manish ) 34 Unextended"
+          },
+          {
             "date": "11 Nov",
             "venue": "KOL",
             "clock": "600m outer sand (+6)",
@@ -801,12 +807,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+5)",
             "note": "Goodwill (R Manish ) 50.5 400 In 31 Moved easy."
-          },
-          {
-            "date": "30 Oct",
-            "venue": "KOL",
-            "clock": "400m inner sand (+0)",
-            "note": "Goodwill (Chetan Gowda), Seina (Md Sameer), Jungle Cruise (Apprentice ), 30.5 Trio Finished By ½ Lengths And 2 Lengths."
           }
         ]
       },
@@ -1629,9 +1629,9 @@ export const races: Race[] = [
     "purse": "₹550000",
     "record": "04 Mar 2018 WHOMAKESTHERULES 59 Kgs 1:34.80 Secs",
     "shape": "8-runner. Class 2 / For Horses Rated 61-86,Rated 41-66 Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. OLIVER (6) 2. SAIKO (2) 3. NATURAL GRACE (8). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GOLDEN WARRIOR (1).",
-    "irPick": "unpublished",
+    "irPick": "1. OLIVER (6) 2. SAIKO (2) 3. NATURAL GRACE (8)",
     "ourPick": "GOLDEN WARRIOR (1)",
     "nap": false,
     "runners": [
@@ -2407,9 +2407,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "9-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. KEITARO (9) 2. QUEEN ANULA (2) 3. RENAISSANCE (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win QUEEN ANULA (2).",
-    "irPick": "unpublished",
+    "irPick": "1. KEITARO (9) 2. QUEEN ANULA (2) 3. RENAISSANCE (5)",
     "ourPick": "QUEEN ANULA (2)",
     "nap": false,
     "runners": [
@@ -3280,9 +3280,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
     "shape": "10-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LUTHER (8) 2. THREE LITTLE WORDS (5) 3. ANIGRAHA (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SUPERLATIVE (2).",
-    "irPick": "unpublished",
+    "irPick": "1. LUTHER (8) 2. THREE LITTLE WORDS (5) 3. ANIGRAHA (9)",
     "ourPick": "SUPERLATIVE (2)",
     "nap": false,
     "runners": [
@@ -4236,9 +4236,9 @@ export const races: Race[] = [
     "purse": "₹750000",
     "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
     "shape": "8-runner. Class 1 / For Horses Rated 81 And Above,Rated 61-86 Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SHINE (5) 2. BLACKSTONE (4) 3. ABHICANDRA (8). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GLORIOUS KING (2).",
-    "irPick": "unpublished",
+    "irPick": "1. SHINE (5) 2. BLACKSTONE (4) 3. ABHICANDRA (8)",
     "ourPick": "GLORIOUS KING (2)",
     "nap": true,
     "runners": [
@@ -5014,9 +5014,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
     "shape": "10-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SANTANA ROW (1) 2. TETSU (2) 3. ADEYA (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MIGHTY ZO (5).",
-    "irPick": "unpublished",
+    "irPick": "1. SANTANA ROW (1) 2. TETSU (2) 3. ADEYA (10)",
     "ourPick": "MIGHTY ZO (5)",
     "nap": false,
     "runners": [
@@ -5126,7 +5126,7 @@ export const races: Race[] = [
         "wt": "59.50",
         "al": "",
         "shoes": "A",
-        "eq": "",
+        "eq": "TS",
         "rtg": "34 / 44",
         "last5": "2-2-3-1-1-.",
         "tissue": "35/8",
