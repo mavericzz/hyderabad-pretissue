@@ -4638,7 +4638,7 @@ export const races: Race[] = [
         "last5": "1-1-1-5-4-.",
         "tissue": "24/1",
         "rank": 8,
-        "verdict": "Last: 16 Sep 26 KOL 1400M 4/5 beaten 13.75 at 12 off 96, 57.5kg. 62 days out. HCP 70. Latest work 15 Nov MYS: Give A Spin (Rb), Moon Shine (Rb ), 1-11 800/55, 600/41, Pair Moved Well, Latter To Note.",
+        "verdict": "Last: 16 Sep 26 KOL 1400M 4/5 beaten 13.75 at 12 off 96, 57.5kg. 62 days out. HCP 70. Latest work 17 Nov BAN: Sunshine (Rozario ) 1-16 600 In 44 Stretched.",
         "similar": "Nearest trip: 16 Sep 26 KOL 1400M For Horses, 4/5 beaten 13.75 vs TRAKILA.",
         "form": [
           {
@@ -4692,6 +4692,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "BAN",
+            "clock": "1000m outer sand (+1)",
+            "note": "Sunshine (Rozario ) 1-16 600 In 44 Stretched."
+          },
+          {
             "date": "15 Nov",
             "venue": "MYS",
             "clock": "1000m outer sand (-4)",
@@ -4708,12 +4714,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "1200m outer sand (+9)",
             "note": "Born To Shine (V Jaiswal), Brihati (M Baskar ), 1-39.2 1000/1-22, 800/1-1.6, 600/45.4, 400/29.6 Both Moved Up Nicely."
-          },
-          {
-            "date": "14 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+0)",
-            "note": "Saiko (Hindu Singh), Shine (RB ), 59.5 600/44.8, 400/28.6 Former 2 lengths better"
           }
         ]
       },
@@ -5588,7 +5588,7 @@ export const races: Race[] = [
         "last5": "9-9-7-3-11-.",
         "tissue": "24/1",
         "rank": 10,
-        "verdict": "Last: 03 Oct 26 KOL 1200M 11/12 beaten 19 at 15 off 35, 57kg. 45 days out. HCP 1. Latest work 13 Nov BAN: Mayne Magic (P P Dhebe), Majestic Legacy (Aleemuddin), Pearl Star (J H Arul), Srivalli (B L Paswan), Jailer (Shreyas Singh), Ladyness (A R Pradeep ), 1-27.70 Won by: 1 1/4, 7 3/4, 1 1/2 & lnk, 1st named caught the eye ladyness planted and after jump.",
+        "verdict": "Last: 03 Oct 26 KOL 1200M 11/12 beaten 19 at 15 off 35, 57kg. 45 days out. HCP 1. Latest work 17 Nov BAN: Royal Legacy (D Patel ) 1-29 1000 In 1-11.5 600 In 42 Good.",
         "similar": "Nearest trip: 03 Oct 26 KOL 1200M Class 4, 11/12 beaten 19 vs SULTANA.",
         "form": [
           {
@@ -5642,6 +5642,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "BAN",
+            "clock": "1200m outer sand (-1)",
+            "note": "Royal Legacy (D Patel ) 1-29 1000 In 1-11.5 600 In 42 Good."
+          },
+          {
             "date": "13 Nov",
             "venue": "BAN",
             "clock": "1400m mock race (-17)",
@@ -5658,12 +5664,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+4)",
             "note": "Legacy Field (Apprentice ) 34 Unextended."
-          },
-          {
-            "date": "05 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+2)",
-            "note": "Legacy Field (Apprentice ) 1-2 600 In 47 400 In 30.8 Moved freely."
           }
         ]
       },
