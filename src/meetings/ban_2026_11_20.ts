@@ -5,7 +5,7 @@ export const MEETING = {
   "venue": "BANGALORE (BAN)",
   "date": "Friday 20 November 2026",
   "first": "01:30 PM",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 19 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 20 Nov 26.",
   "going": "Bangalore turf. Auto-built from the IndiaRace card; going is not independently verified.",
   "dayBest": "MONEY BAGS",
   "dayBestRace": 6,
@@ -4419,7 +4419,7 @@ export const races: Race[] = [
         "last5": "2-3-10-3-5-.",
         "tissue": "24/1",
         "rank": 6,
-        "verdict": "Last: 24 Oct 26 MYS 1200M 5/7 beaten 4 at 20 off 102, 57kg. 27 days out. HCP 98. Latest work 15 Nov MYS: Crown Drive (S Kabdhar ) 1-23 1000/1-05, 800/51, 600/38, Moved Impressively.",
+        "verdict": "Last: 24 Oct 26 MYS 1200M 5/7 beaten 4 at 20 off 102, 57kg. 27 days out. HCP 98. Latest work 18 Nov MYS: Crown Drive (RB ) 1-26 1000/1-12, 800/56, 600/43 Moved freely",
         "similar": "Nearest trip: 24 Oct 26 MYS 1200M Term Race, 5/7 beaten 4 vs RIEKO.",
         "form": [
           {
@@ -4473,6 +4473,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "18 Nov",
+            "venue": "MYS",
+            "clock": "1200m outer sand (-4)",
+            "note": "Crown Drive (RB ) 1-26 1000/1-12, 800/56, 600/43 Moved freely"
+          },
+          {
             "date": "15 Nov",
             "venue": "MYS",
             "clock": "1200m outer sand (-7)",
@@ -4489,12 +4495,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "600m outer sand (-2)",
             "note": "Crown Drive (Rb ) 43 Moved freely."
-          },
-          {
-            "date": "02 Nov",
-            "venue": "MYS",
-            "clock": "600m outer sand (-2)",
-            "note": "Crown Drive (RB ) 43 Moved Freely"
           }
         ]
       },
@@ -6560,7 +6560,7 @@ export const SHEET: SheetMeeting = {
   "banner": "BTC BANGALORE",
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "20-11-2026 - BAN - FRIDAY - 8 CARD",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 19 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 20 Nov 26.",
   "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
   "races": [
     {
