@@ -191,10 +191,10 @@ export const races: Race[] = [
             "note": "Gold Script (Rb ) 1-2 600 In 48 400 In 31 Moved smoothly."
           },
           {
-            "date": "29 Oct",
+            "date": "09 Nov",
             "venue": "KOL",
-            "clock": "400m inner sand (-3)",
-            "note": "Gold Script (Rb ) 27 spurted well"
+            "clock": "200m gate practices (-102)",
+            "note": "Gold Script (Apprentice ) 18 Jumped out well and started to move easy"
           }
         ]
       },
@@ -214,7 +214,7 @@ export const races: Race[] = [
         "last5": "4-3-3-4-4-.",
         "tissue": "56/5",
         "rank": 2,
-        "verdict": "Last: 08 Sep 26 KOL 1100M 0/9 beaten 0 at ? off 26, 52.5kg. 74 days out. HCP 33. Latest work 07 Nov KOL: Rosalia (P Tejeshwar ) 1-0.2 600/46.4, 400/29 Moved Freely.",
+        "verdict": "Last: 08 Sep 26 KOL 1100M 0/9 beaten 0 at ? off 26, 52.5kg. 74 days out. HCP 33. Latest work 17 Nov KOL: Rosalia (P Tejeshwar ) 1-5 600/46.2, 400/28 Extended In Last Two Furlongs.",
         "similar": "Nearest trip: 08 Sep 26 KOL 1100M Class 4, 0/9 beaten 0 vs FELIX.",
         "form": [
           {
@@ -268,6 +268,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Rosalia (P Tejeshwar ) 1-5 600/46.2, 400/28 Extended In Last Two Furlongs."
+          },
+          {
             "date": "07 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+0)",
@@ -284,12 +290,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+5)",
             "note": "Rosalia (P Tejeshwar ) 1-5 600/46.4, 400/28 Shaped Well."
-          },
-          {
-            "date": "07 Aug",
-            "venue": "KOL",
-            "clock": "400m outer sand (+2)",
-            "note": "Rosalia (P Tejeshwar ) 32 Moved Easy."
           }
         ]
       },
@@ -452,6 +452,12 @@ export const races: Race[] = [
             "note": "Tekton (RB ) 28 Moved smoothly"
           },
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (Even)",
+            "note": "Tekton (Rb ) 45 400/29 Moved Freely."
+          },
+          {
             "date": "03 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (-1)",
@@ -462,12 +468,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
             "note": "Tekton (Suraj Pal ) 33 Moved Easy."
-          },
-          {
-            "date": "04 Sep",
-            "venue": "KOL",
-            "clock": "600m gate practices (-5)",
-            "note": "Tekton (Rb In ) 40 Jumped Out Well."
           }
         ]
       },
@@ -677,7 +677,7 @@ export const races: Race[] = [
         "last5": "5-.",
         "tissue": "1/4",
         "rank": 1,
-        "verdict": "Last: 19 Apr 26 DEL 1400M 5/6 beaten 14 at ? off ?, 55kg. 216 days out. HCP 57. Latest work 13 Nov KOL: Rocket Rod (K Sunny Kumar), Windy Creek (V Jaiswal ), 47.5 400 In 29 Former finished 3 lengths ahead.",
+        "verdict": "Last: 19 Apr 26 DEL 1400M 5/6 beaten 14 at ? off ?, 55kg. 216 days out. HCP 57. Latest work 17 Nov KOL: Windy Creek (K Sunny Kumar ) 48 400/29.8 Moved Freely.",
         "similar": "Nearest trip: 19 Apr 26 DEL 1400M Term Race, 5/6 beaten 14 vs ENRICA.",
         "form": [
           {
@@ -695,6 +695,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "Windy Creek (K Sunny Kumar ) 48 400/29.8 Moved Freely."
+          },
+          {
             "date": "13 Nov",
             "venue": "KOL",
             "clock": "600m outer sand (+2)",
@@ -711,12 +717,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
             "note": "Windy Creek (Rb ) 33 Moved easy."
-          },
-          {
-            "date": "31 Oct",
-            "venue": "KOL",
-            "clock": "400m outer sand (-1)",
-            "note": "Windy Creek (Rb ) 29 Moved freely."
           }
         ]
       },
@@ -1057,6 +1057,12 @@ export const races: Race[] = [
             "note": "Kadhal (Md Sameer ) 33.5 Moved easy"
           },
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+7)",
+            "note": "Bullets And Roses (Rb), Kadhal (Rb ), 52 400/33.2 Former Finished 4 Lengths Ahead."
+          },
+          {
             "date": "16 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (-1)",
@@ -1067,12 +1073,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+1)",
             "note": "Bullets and Roses (V Jaiswal), Kadhal (Apprentice ), 46.5 400/27.8 Former extended and finished distance in front"
-          },
-          {
-            "date": "13 Nov",
-            "venue": "KOL",
-            "clock": "400m outer sand (+2)",
-            "note": "Kadhal (Rb ) 32.5 Moved easy."
           }
         ]
       },
@@ -1187,7 +1187,7 @@ export const races: Race[] = [
         "last5": "6-1-7-8-8-.",
         "tissue": "24/1",
         "rank": 14,
-        "verdict": "Last: 03 Apr 26 KOL 1200M 8/9 beaten 17 at 10 off 11, 52.5kg. 232 days out. HCP -24. Latest work 16 Nov KOL: Phenomenal Lady (Shezad Khan ) 33 Moved easy",
+        "verdict": "Last: 03 Apr 26 KOL 1200M 8/9 beaten 17 at 10 off 11, 52.5kg. 232 days out. HCP -24. Latest work 19 Nov KOL: Phenomenal Lady (V Jaiswal ) 45 400/29 Moved Freely.",
         "similar": "Nearest trip: 03 Apr 26 KOL 1200M Class 5, 8/9 beaten 17 vs NO WORRY.",
         "form": [
           {
@@ -1241,6 +1241,18 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (Even)",
+            "note": "Phenomenal Lady (V Jaiswal ) 45 400/29 Moved Freely."
+          },
+          {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (-2)",
+            "note": "Phenomenal Lady (V Jaiswal ) 43 400/27 Moved Nicely."
+          },
+          {
             "date": "16 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
@@ -1251,18 +1263,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (Even)",
             "note": "Phenomenal Lady (V Jaiswal ) 45 400/28 Moved on the bit"
-          },
-          {
-            "date": "13 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+5)",
-            "note": "Phenomenal Lady (V Jaiswal ) 1-5.5 600 In 49.2 400 In 31.8 Moved easy."
-          },
-          {
-            "date": "10 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+5)",
-            "note": "Phenomenal Lady (V. Jaiswal ) 1-5 600 In 49 400 In 30.8 Moved easy."
           }
         ]
       }
@@ -1983,7 +1983,7 @@ export const races: Race[] = [
         "last5": "4-2-1-1-4-.",
         "tissue": "4/1",
         "rank": 3,
-        "verdict": "Last: 24 Oct 26 MYS 1200M 4/16 beaten 5.25 at 7/2 off 79, 60kg. 28 days out. HCP 79. Latest work 16 Nov KOL: Sicyon (M S Deora ) 48 400/30 Moved freely",
+        "verdict": "Last: 24 Oct 26 MYS 1200M 4/16 beaten 5.25 at 7/2 off 79, 60kg. 28 days out. HCP 79. Latest work 17 Nov KOL: Sicyon (P Teveor ) 1-48.2 1200/1-34, 1000/1-18, 800/1-00, 600/46, 400/29 Moved On The Bit.",
         "similar": "Nearest trip: 24 Oct 26 MYS 1200M Class 2, 4/16 beaten 5.25 vs FLIGHT ON.",
         "form": [
           {
@@ -2037,6 +2037,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "1400m outer sand (+3)",
+            "note": "Sicyon (P Teveor ) 1-48.2 1200/1-34, 1000/1-18, 800/1-00, 600/46, 400/29 Moved On The Bit."
+          },
+          {
             "date": "16 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+18)",
@@ -2053,12 +2059,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "1200m outer sand (+9)",
             "note": "Bullet Proof (P Trevor), Sicyon (P Tejeshwar ), 1-39 1000/1-24, 800/1-5, 600/48, 400/31 Former Finished 6 Lengths Ahead."
-          },
-          {
-            "date": "13 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+3)",
-            "note": "Sicyon (P. Tejeshwar ) 1-3.5 600 In 48.6 400 In 31.8 Moved freely."
           }
         ]
       },
@@ -2173,7 +2173,7 @@ export const races: Race[] = [
         "last5": "1-1-2-10-11-.",
         "tissue": "3/2",
         "rank": 1,
-        "verdict": "Last: 26 Sep 26 KOL 1100M 11/12 beaten 23.75 at 12 off 79, 59kg. 56 days out. HCP 86. Latest work 14 Nov KOL: Aperol (RB ) 29 Moved freely",
+        "verdict": "Last: 26 Sep 26 KOL 1100M 11/12 beaten 23.75 at 12 off 79, 59kg. 56 days out. HCP 86. Latest work 17 Nov KOL: Aperol (Rb ) 1-5 600/49, 400/31.2 Eased Up.",
         "similar": "Nearest trip: 03 Apr 26 KOL 1200M Class 2, 10/13 beaten 4.75 vs MERLET.",
         "form": [
           {
@@ -2227,6 +2227,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Aperol (Rb ) 1-5 600/49, 400/31.2 Eased Up."
+          },
+          {
             "date": "14 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (-1)",
@@ -2243,12 +2249,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+2)",
             "note": "Aperol (Rb ) 32 Moved easy."
-          },
-          {
-            "date": "12 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+6)",
-            "note": "Aperol (Azharuddin ) 51 400 In 35.6 Unextended."
           }
         ]
       },
@@ -2268,7 +2268,7 @@ export const races: Race[] = [
         "last5": "5-1-2-1-6-.",
         "tissue": "97/5",
         "rank": 6,
-        "verdict": "Last: 13 Aug 26 KOL 1400M 6/11 beaten 10.25 at 11/4 off 77, 60kg. 100 days out. HCP 65. Latest work 07 Nov KOL: Fable (Apprentice ) 58 60044, 400/28 Moved On The Bit.",
+        "verdict": "Last: 13 Aug 26 KOL 1400M 6/11 beaten 10.25 at 11/4 off 77, 60kg. 100 days out. HCP 65. Latest work 17 Nov KOL: Fable (P Tejeshwar ) 43.5 400/27.6 Moved Freely.",
         "similar": "Nearest trip: 13 Aug 26 KOL 1400M Class 2, 6/11 beaten 10.25 vs CIGAR GALAXY.",
         "form": [
           {
@@ -2322,6 +2322,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (-1)",
+            "note": "Fable (P Tejeshwar ) 43.5 400/27.6 Moved Freely."
+          },
+          {
             "date": "07 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (-2)",
@@ -2338,12 +2344,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+4)",
             "note": "Fable (Apprentice ) 49 400/31.2 Moved Easy."
-          },
-          {
-            "date": "30 Oct",
-            "venue": "KOL",
-            "clock": "800m inner sand (+1)",
-            "note": "Sky Force (P Tejeshwar), Fable (Apprentice ), 1-1 600/47, 400/30 Former Holds Latter By A Length."
           }
         ]
       },
@@ -2458,7 +2458,7 @@ export const races: Race[] = [
         "last5": "1-2-3-1-1-.",
         "tissue": "73/10",
         "rank": 4,
-        "verdict": "Last: 26 Sep 26 KOL 1400M 1/7 beaten won at 11/20 off 62, 60.5kg. 56 days out. HCP 74. Latest work 14 Nov KOL: Fortis (P Trevor), Exceed (Ajoy ), 1-1.5 600/45.2, 400/29.4 Former finished 3 lengths in front",
+        "verdict": "Last: 26 Sep 26 KOL 1400M 1/7 beaten won at 11/20 off 62, 60.5kg. 56 days out. HCP 74. Latest work 19 Nov KOL: As You Like It (P Tejeshwar), Exceed (Apprentice ), 59 600/44, 400/28 Former Finished 3 Lengths Ahead.",
         "similar": "Nearest trip: 26 Sep 26 KOL 1400M Class 3, 1/7 beaten 0 vs EXCEED.",
         "form": [
           {
@@ -2512,6 +2512,18 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "As You Like It (P Tejeshwar), Exceed (Apprentice ), 59 600/44, 400/28 Former Finished 3 Lengths Ahead."
+          },
+          {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "1000m outer sand (+4)",
+            "note": "Exceed (P Tejeshwar ) 1-19 800/1-0, 600/45, 400/29 Fit And Well."
+          },
+          {
             "date": "14 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+1)",
@@ -2522,18 +2534,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+1)",
             "note": "Fortis (P Trevor), Exceed (Ajoy ), 1-1.6 600/45.2, 400/29.4 Former Finished 3 Lengths In Front."
-          },
-          {
-            "date": "12 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+11)",
-            "note": "As You Like It (P. Tejeshwar), Exceed (Apprentice ), 1-11 600 In 54 400 In 36.2 Both moved half pace former distance ahead."
-          },
-          {
-            "date": "11 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+8)",
-            "note": "Exceed (P. Tejeshwar), As You Like It (Ajoy ), 1-8.5 600 In 53.4 400 In 36 Both were finished completely easy."
           }
         ]
       },
@@ -2553,7 +2553,7 @@ export const races: Race[] = [
         "last5": "4-1-1-5-1-.",
         "tissue": "21/10",
         "rank": 2,
-        "verdict": "Last: 26 Sep 26 KOL 1200M 1/9 beaten won at 6 off 61, 60kg. 56 days out. 5kg claim. HCP 84. Latest work 07 Nov KOL: Trillionaire (K Sunny Kumar ) 33.566 Moved Easy.",
+        "verdict": "Last: 26 Sep 26 KOL 1200M 1/9 beaten won at 6 off 61, 60kg. 56 days out. 5kg claim. HCP 84. Latest work 19 Nov KOL: Trillionaire (Apprentice), Cool Faddy (K Sunny Kumar ), 34 Former Was Distance Ahead.",
         "similar": "Nearest trip: 26 Sep 26 KOL 1200M Class 3, 1/9 beaten 0 vs TRILLIONAIRE.",
         "form": [
           {
@@ -2607,6 +2607,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Trillionaire (Apprentice), Cool Faddy (K Sunny Kumar ), 34 Former Was Distance Ahead."
+          },
+          {
             "date": "07 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
@@ -2623,12 +2629,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+21)",
             "note": "Trillionaire (K Sunny Kumar ) 1-6.5 600 In 50.8 400 In 32 Moved easy."
-          },
-          {
-            "date": "30 Oct",
-            "venue": "KOL",
-            "clock": "800m monsoon (-3)",
-            "note": "Trillionaire (Apprentice ) 57 600/43, 400/29 Eased Up."
           }
         ]
       },
@@ -2648,7 +2648,7 @@ export const races: Race[] = [
         "last5": "3-1-3-2-2-.",
         "tissue": "24/1",
         "rank": 7,
-        "verdict": "Last: 26 Sep 26 KOL 1100M 2/12 beaten 2.5 at 2 off 67, 53kg. 56 days out. HCP 59. Latest work 15 Nov KOL: Romping Home (M Baskar ) 36 Moved half pace",
+        "verdict": "Last: 26 Sep 26 KOL 1100M 2/12 beaten 2.5 at 2 off 67, 53kg. 56 days out. HCP 59. Latest work 19 Nov KOL: Romping Home (M Baskar ) 1-5.5 600/52.4, 400/31.8 Moved Easy.",
         "similar": "Nearest trip: 26 Mar 26 KOL 1400M Class 2, 2/8 beaten 1.75 vs FABLE.",
         "form": [
           {
@@ -2702,6 +2702,18 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Romping Home (M Baskar ) 1-5.5 600/52.4, 400/31.8 Moved Easy."
+          },
+          {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (-1)",
+            "note": "Romping Home (M Baskar ) 43.5 400/26.4 Excelled."
+          },
+          {
             "date": "15 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+6)",
@@ -2712,18 +2724,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (-1)",
             "note": "Romping Home (M Baskar ) 44 400/26 Spurted Well."
-          },
-          {
-            "date": "03 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+4)",
-            "note": "Romping Home (M Baskar ) 49.5 400/33 Unextended."
-          },
-          {
-            "date": "24 Oct",
-            "venue": "KOL",
-            "clock": "400m outer sand (+2)",
-            "note": "Romping Home (M Baskar ) 32 moved easy."
           }
         ]
       },
@@ -2856,7 +2856,7 @@ export const races: Race[] = [
         "last5": "3-2-1-1-1-.",
         "tissue": "13/10",
         "rank": 2,
-        "verdict": "Last: 03 Oct 26 KOL 2000M 1/5 beaten won at 14/10 off 97, 59.5kg. 49 days out. HCP 111. Latest work 18 Nov KOL: Mindful (M Baskar ) 33 Moved easy",
+        "verdict": "Last: 03 Oct 26 KOL 2000M 1/5 beaten won at 14/10 off 97, 59.5kg. 49 days out. HCP 111. Latest work 19 Nov KOL: Mindful (M Baskar ) 1-05 600/53, 400/35 Moved Easy.",
         "similar": "Nearest trip: 13 Aug 26 KOL 1400M Class 2, 2/11 beaten 0 vs CIGAR GALAXY.",
         "form": [
           {
@@ -2910,6 +2910,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Mindful (M Baskar ) 1-05 600/53, 400/35 Moved Easy."
+          },
+          {
             "date": "18 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
@@ -2926,12 +2932,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+2)",
             "note": "Mindful (M Baskar ) 47 400 In 27.2 Extended towards end."
-          },
-          {
-            "date": "12 Nov",
-            "venue": "KOL",
-            "clock": "400m outer sand (+2)",
-            "note": "Mindful (M Baskar ) 32 Moved easy."
           }
         ]
       },
@@ -3349,7 +3349,7 @@ export const races: Race[] = [
         "last5": "6-11-2-3-4-.",
         "tissue": "11/10",
         "rank": 1,
-        "verdict": "Last: 06 Aug 26 KOL 1100M 0/10 beaten 0 at ? off 38, 58.5kg. 107 days out. HCP 48. Latest work 14 Nov KOL: Priceless Prince (RB ) 33.5 Moved easy",
+        "verdict": "Last: 06 Aug 26 KOL 1100M 0/10 beaten 0 at ? off 38, 58.5kg. 107 days out. HCP 48. Latest work 17 Nov KOL: Priceless Prince (Rb), Ananya (Azharuddin ), 58 600/44.2, 400/28 Finished Together.",
         "similar": "Nearest trip: 27 Mar 26 KOL 1200M Class 4, 3/11 beaten 2.5 vs MI ARION.",
         "form": [
           {
@@ -3403,6 +3403,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (-2)",
+            "note": "Priceless Prince (Rb), Ananya (Azharuddin ), 58 600/44.2, 400/28 Finished Together."
+          },
+          {
             "date": "14 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
@@ -3419,12 +3425,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+0)",
             "note": "Priceless Prince (Rb), Jimmy Bee (Sk Israil ), 1-0.5 600 In 45.2 400 In 28 Pair finished levelled."
-          },
-          {
-            "date": "11 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (-2)",
-            "note": "Priceless Prince (Apprentice ) 58 600 In 44 400 In 28 Moved fluently."
           }
         ]
       },
@@ -3444,7 +3444,7 @@ export const races: Race[] = [
         "last5": "3-3-3-1-.",
         "tissue": "53/10",
         "rank": 3,
-        "verdict": "Last: 26 Aug 26 KOL 1600M 1/7 beaten won at 2 off 27, 53kg. 87 days out. HCP 37. Latest work 10 Nov KOL: Rambha (P. Tejeshwar ) 1-4 600 In 47 400 In 30 Unextended.",
+        "verdict": "Last: 26 Aug 26 KOL 1600M 1/7 beaten won at 2 off 27, 53kg. 87 days out. HCP 37. Latest work 17 Nov KOL: Rambha (P Tejeshwar ) 1-2.2 600/47, 400/29.2 Moved Freely.",
         "similar": "Nearest trip: 26 Aug 26 KOL 1600M Class 4, 1/7 beaten 0 vs RAMBHA.",
         "form": [
           {
@@ -3498,6 +3498,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+2)",
+            "note": "Rambha (P Tejeshwar ) 1-2.2 600/47, 400/29.2 Moved Freely."
+          },
+          {
             "date": "10 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+4)",
@@ -3514,12 +3520,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+10)",
             "note": "Rambha (P Tejeshwar ) 55.5 400/34 Moved Half Pace."
-          },
-          {
-            "date": "22 Aug",
-            "venue": "KOL",
-            "clock": "400m outer sand (Even)",
-            "note": "Rambha (Vinit Chavan ) 30 Moved Easy."
           }
         ]
       },
@@ -4137,7 +4137,7 @@ export const races: Race[] = [
         "last5": "8-4-2-3-3-.",
         "tissue": "24/1",
         "rank": 7,
-        "verdict": "Last: 12 Sep 26 PUN 2000M 3/8 beaten 5.75 at 10 off 30, 56kg. 70 days out. HCP 11. Latest work 09 Sep PUN: Hermanus (A Prakash), Legadema (rb ), 1-37 1200 1-22, 1000 1-07, 800 53, 600 40, Pair moved together.",
+        "verdict": "Last: 12 Sep 26 PUN 2000M 3/8 beaten 5.75 at 10 off 30, 56kg. 70 days out. HCP 11. Latest work 19 Nov KOL: Hermanus (P Tejeshwar ) 1-5.5 600/48.8, 400/32.6 Moved Easy.",
         "similar": "Nearest trip: 02 Aug 26 PUN 1400M Class 4, 2/7 beaten 2 vs AVANTE.",
         "form": [
           {
@@ -4191,6 +4191,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "19 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Hermanus (P Tejeshwar ) 1-5.5 600/48.8, 400/32.6 Moved Easy."
+          },
+          {
             "date": "09 Sep",
             "venue": "PUN",
             "clock": "1400m inner sand (-8)",
@@ -4207,12 +4213,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m gate practice (-5)",
             "note": "Hermanus (Siddharth), Oliver (Umesh ), 1-10 800 56, 600 42, Level jump, former finished 2Ls ahead."
-          },
-          {
-            "date": "27 Jul",
-            "venue": "PUN",
-            "clock": "1000m inner sand (-6)",
-            "note": "Azalea (Siddharth), Hermanus (Vivek G ), 1-09 800 53, 600 40, Pair moved together."
           }
         ]
       },
@@ -4327,7 +4327,7 @@ export const races: Race[] = [
         "last5": "2-5-3-6-4-.",
         "tissue": "13/4",
         "rank": 2,
-        "verdict": "Last: 02 Aug 26 PUN 1400M 4/7 beaten 3 at 15 off 28, 57kg. 111 days out. 5kg claim. HCP 36. Latest work 15 Nov KOL: Spectra (V Jaiswal ) 58.5 600/44.8, 400/28.6 Moved smoothly",
+        "verdict": "Last: 02 Aug 26 PUN 1400M 4/7 beaten 3 at 15 off 28, 57kg. 111 days out. 5kg claim. HCP 36. Latest work 17 Nov KOL: Spectra (V Jaiswal ) 45.5 400/28 Extended Nicely.",
         "similar": "Nearest trip: 02 Aug 26 PUN 1400M Class 4, 4/7 beaten 3 vs AVANTE.",
         "form": [
           {
@@ -4381,6 +4381,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "17 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+0)",
+            "note": "Spectra (V Jaiswal ) 45.5 400/28 Extended Nicely."
+          },
+          {
             "date": "15 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (-1)",
@@ -4397,12 +4403,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+2)",
             "note": "Spectra (Rb ) 32 Moved Easy."
-          },
-          {
-            "date": "31 Oct",
-            "venue": "KOL",
-            "clock": "800m outer sand (Even)",
-            "note": "Spectra (Rb ) 1-0 600 In 43.6 400 In 27.8 Moved fluently."
           }
         ]
       },
