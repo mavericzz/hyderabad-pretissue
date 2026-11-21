@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 4,
   "nextBest": "VIVALDO",
   "longshot": "CORINTHIAN",
-  "irDayBest": "unpublished",
+  "irDayBest": "PERCEPTION 4 (2)",
   "feature": "The Circar Plate"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Horses Rated 20 to 45, 3 Year Olds And Upward (Whips Not Permitted)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ZORINELLA (6) 2. SPORTING TOUCH (5) 3. SURYAVANSHI (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SURYAVANSHI (2).",
-    "irPick": "unpublished",
+    "irPick": "1. ZORINELLA (6) 2. SPORTING TOUCH (5) 3. SURYAVANSHI (2)",
     "ourPick": "SURYAVANSHI (2)",
     "nap": false,
     "runners": [
@@ -730,9 +730,9 @@ export const races: Race[] = [
     "purse": "₹840000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "10-runner. Class 2 / A Handicap For Horses Rated 60 to 85, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AYUSHMAN (4) 2. HANUMANMAHABALA (7) 3. POLE STAR (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win WALKING THUNDER (3).",
-    "irPick": "unpublished",
+    "irPick": "1. AYUSHMAN (4) 2. HANUMANMAHABALA (7) 3. POLE STAR (10)",
     "ourPick": "WALKING THUNDER (3)",
     "nap": false,
     "runners": [
@@ -1692,9 +1692,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Sep 2014 MACHIAVELLIANISM 62 Kgs 1:37.43 Secs",
     "shape": "10-runner. Class 4 / A Handicap For Horses Rated 20 to 45, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. GRIT 'N' GRACE (3) 2. NORTHERN SKY (7) 3. KINSHIP (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win KINSHIP (1).",
-    "irPick": "unpublished",
+    "irPick": "1. GRIT 'N' GRACE (3) 2. NORTHERN SKY (7) 3. KINSHIP (1)",
     "ourPick": "KINSHIP (1)",
     "nap": false,
     "runners": [
@@ -2606,9 +2606,9 @@ export const races: Race[] = [
     "purse": "₹1225000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "9-runner. Class 1 / A Handicap For Horses Rated 80 and above, 3 Year Olds And Upward (Top weight will not exceed 63 Kgs)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. PERCEPTION (2) 2. UCHCHAIHSHRAVAS (4) 3. CORINTHIAN (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ONE N ONLY (1).",
-    "irPick": "unpublished",
+    "irPick": "1. PERCEPTION (2) 2. UCHCHAIHSHRAVAS (4) 3. CORINTHIAN (6)",
     "ourPick": "ONE N ONLY (1)",
     "nap": true,
     "runners": [
@@ -3467,9 +3467,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Horses Rated 20 to 45, 3 Year Olds And Upward (Whips Not Permitted)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MY WAY MY RULES (1) 2. GACCHANMANASVIN (6) 3. ADITYA (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win INDERDHANUSH (4).",
-    "irPick": "unpublished",
+    "irPick": "1. MY WAY MY RULES (1) 2. GACCHANMANASVIN (6) 3. ADITYA (2)",
     "ourPick": "INDERDHANUSH (4)",
     "nap": false,
     "runners": [
@@ -4164,9 +4164,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "11-runner. Class 3 / A Handicap For Horses Rated 40 to 65, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. COSMIC GIFT (5) 2. SUPER SPLASH (9) 3. SEE THE LIGHT (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MISS SMILEY ANGEL (4).",
-    "irPick": "unpublished",
+    "irPick": "1. COSMIC GIFT (5) 2. SUPER SPLASH (9) 3. SEE THE LIGHT (3)",
     "ourPick": "MISS SMILEY ANGEL (4)",
     "nap": false,
     "runners": [
@@ -5135,9 +5135,9 @@ export const races: Race[] = [
     "purse": "₹840000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "10-runner. Class 2 / A Handicap For Horses Rated 60 to 85, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. STAR OF OPERA (2) 2. TORCHBEARER (6) 3. VIVALDO (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win VIVALDO (1).",
-    "irPick": "unpublished",
+    "irPick": "1. STAR OF OPERA (2) 2. TORCHBEARER (6) 3. VIVALDO (1)",
     "ourPick": "VIVALDO (1)",
     "nap": false,
     "runners": [
