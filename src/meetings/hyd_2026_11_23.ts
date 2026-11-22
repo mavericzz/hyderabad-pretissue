@@ -5,7 +5,7 @@ export const MEETING = {
   "venue": "HYDERABAD (HYD)",
   "date": "Monday 23 November 2026",
   "first": "01:55 PM",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 22 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 23 Nov 26.",
   "going": "Hyderabad turf. Auto-built from the IndiaRace card; going is not independently verified.",
   "dayBest": "CLEFAIRY",
   "dayBestRace": 4,
@@ -93,6 +93,12 @@ export const races: Race[] = [
         "form": [],
         "work": [
           {
+            "date": "22 Nov",
+            "venue": "HYD",
+            "clock": "800m sand (Even)",
+            "note": "First Kiss (App), Carbon Warrior (Afroz Khan ), 1-0 600/45, Pair Finished Level."
+          },
+          {
             "date": "21 Nov",
             "venue": "HYD",
             "clock": "800m sand (Even)",
@@ -126,6 +132,12 @@ export const races: Race[] = [
         "similar": "No race form.",
         "form": [],
         "work": [
+          {
+            "date": "22 Nov",
+            "venue": "HYD",
+            "clock": "800m sand (Even)",
+            "note": "Her Ladyship (K Mukesh), Big Bertha (Afroz Khan ), 1-0 600/45, Pair Moved Well."
+          },
           {
             "date": "21 Nov",
             "venue": "HYD",
@@ -2468,7 +2480,7 @@ export const races: Race[] = [
         "last5": "6-13-4-7-.",
         "tissue": "21/2",
         "rank": 6,
-        "verdict": "Last: 09 Nov 26 HYD 1100M 7/13 beaten 10.75 at 10 off 27, 55kg. 14 days out. HCP 7. Latest work 21 Nov HYD: Bodhi (P Ajeeth K ) 1-2 600/45, Moved Easy.",
+        "verdict": "Last: 09 Nov 26 HYD 1100M 7/13 beaten 10.75 at 10 off 27, 55kg. 14 days out. HCP 7. Latest work 22 Nov HYD: Bodhi (P Ajeeth K ) 1-2 600/45, Moved Easy.",
         "similar": "Nearest trip: 19 Oct 26 HYD 1200M Class 4, 4/9 beaten 7.5 vs FARSIRIS.",
         "form": [
           {
@@ -2522,6 +2534,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "22 Nov",
+            "venue": "HYD",
+            "clock": "800m sand (+2)",
+            "note": "Bodhi (P Ajeeth K ) 1-2 600/45, Moved Easy."
+          },
+          {
             "date": "21 Nov",
             "venue": "HYD",
             "clock": "800m sand (+2)",
@@ -2538,12 +2556,6 @@ export const races: Race[] = [
             "venue": "HYD",
             "clock": "800m sand (Even)",
             "note": "Bodhi (Kuldeep Jr), Grey Angel (P Ajeeth K ), 1-0 600/44 pair moved well"
-          },
-          {
-            "date": "13 Oct",
-            "venue": "HYD",
-            "clock": "800m sand (-2)",
-            "note": "Bodhi (Kuldeep Jr ) 58 600/44, Good."
           }
         ]
       },
@@ -3263,7 +3275,7 @@ export const races: Race[] = [
         "last5": "8-8-8-11-8-.",
         "tissue": "5/2",
         "rank": 2,
-        "verdict": "Last: 16 Nov 26 HYD 1200M 8/8 beaten 14 at 20 off 22, 60.5kg. 7 days out. 5kg claim. HCP 19. Latest work 28 Aug HYD: Meadow (Mohit Singh ) 1-0 600/44 Unextended.",
+        "verdict": "Last: 16 Nov 26 HYD 1200M 8/8 beaten 14 at 20 off 22, 60.5kg. 7 days out. 5kg claim. HCP 19. Latest work 22 Nov PUN: Meadow Springs (App), Desert Prudence (Ramswarup ), 41 Former finished a length ahead",
         "similar": "Nearest trip: 16 Nov 26 HYD 1200M Class 5, 8/8 beaten 14 vs TIMELESS ELEGANCE.",
         "form": [
           {
@@ -3317,6 +3329,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "22 Nov",
+            "venue": "PUN",
+            "clock": "600m inner sand (-4)",
+            "note": "Meadow Springs (App), Desert Prudence (Ramswarup ), 41 Former finished a length ahead"
+          },
+          {
             "date": "28 Aug",
             "venue": "HYD",
             "clock": "800m sand (Even)",
@@ -3333,12 +3351,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "1400m outer sand (-1)",
             "note": "Meadow Flower (Ayaz Khan ) 1-44 (1400-600)/57, Eased Up in the Straight."
-          },
-          {
-            "date": "18 May",
-            "venue": "MYS",
-            "clock": "800m outer sand (-5)",
-            "note": "Meadow Flower (RB), Eagle Bluff (S.G. Prasad ), 55 600/40, Pair Un-Extended"
           }
         ]
       }
@@ -4316,7 +4328,7 @@ export const SHEET: SheetMeeting = {
   "banner": "HRC HYDERABAD",
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "23-11-2026 - HYD - MONDAY - 6 CARD",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 22 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 23 Nov 26.",
   "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
   "races": [
     {
