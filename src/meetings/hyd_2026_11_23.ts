@@ -3980,7 +3980,7 @@ export const races: Race[] = [
         "last5": "5-4-6-4-8-.",
         "tissue": "47/5",
         "rank": 4,
-        "verdict": "Last: 21 Sep 26 HYD 1200M 8/12 beaten 7.25 at 20 off 37, 58kg. 63 days out. HCP 29. Latest work 18 Nov HYD: Sargent (P Ajeeth K ) 58 600/44 Improved",
+        "verdict": "Last: 21 Sep 26 HYD 1200M 8/12 beaten 7.25 at 20 off 37, 58kg. 63 days out. HCP 29. Latest work 22 Nov MYS: Singer Sargent (RB ) 1-12 800/56, 600/40 Moved well",
         "similar": "Nearest trip: 21 Sep 26 HYD 1200M Class 4, 8/12 beaten 7.25 vs GOLDEN UNICORN.",
         "form": [
           {
@@ -4034,6 +4034,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "22 Nov",
+            "venue": "MYS",
+            "clock": "1000m outer sand (-3)",
+            "note": "Singer Sargent (RB ) 1-12 800/56, 600/40 Moved well"
+          },
+          {
             "date": "18 Nov",
             "venue": "HYD",
             "clock": "800m sand (-2)",
@@ -4050,12 +4056,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "800m outer sand (-3)",
             "note": "Singer Sargent (Rb ) 57 600 In 42 Moved well."
-          },
-          {
-            "date": "21 Oct",
-            "venue": "MYS",
-            "clock": "800m outer sand (-1)",
-            "note": "Singer Sargent (Rb ) 59 600/43, Moved Freely."
           }
         ]
       },
