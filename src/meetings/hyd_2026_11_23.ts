@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 4,
   "nextBest": "ASHWA DENALI",
   "longshot": "FLYING FURY",
-  "irDayBest": "unpublished",
+  "irDayBest": "TERM DEPOSIT 3 (1)",
   "feature": "The Ch. V. Lakshmi Prasad Rao Sirdesai Sircilla Memorial Trophy"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹1225000",
     "record": "09 Aug 2026 N R I CRYPTO POWER 54.5 Kgs 1:05.26 Secs",
     "shape": "6-runner. Maiden / For Horses 2 year olds only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AERONAUTIC (1) 2. CARBON WARRIOR (2) 3. CLEOPATRA (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win AERONAUTIC (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AERONAUTIC (1) 2. CARBON WARRIOR (2) 3. CLEOPATRA (4)",
     "ourPick": "AERONAUTIC (1)",
     "nap": false,
     "runners": [
@@ -235,9 +235,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "8-runner. Class 4 / A Handicap For Maiden Horses Rated 20 to 45, 3 Year Olds And Upward (Whips Not Permitted)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DIVINE STRIDES (3) 2. DREAM TO FLY (2) 3. ADALYNN (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win DREAM TO FLY (2).",
-    "irPick": "unpublished",
+    "irPick": "1. DIVINE STRIDES (3) 2. DREAM TO FLY (2) 3. ADALYNN (7)",
     "ourPick": "DREAM TO FLY (2)",
     "nap": false,
     "runners": [
@@ -887,9 +887,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "9-runner. Class 4 / A Handicap For Horses Rated 20 to 45, 4 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. TERM DEPOSIT (1) 2. STAR COUNCILLOR (3) 3. BEECH WOOD (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win TERM DEPOSIT (1).",
-    "irPick": "unpublished",
+    "irPick": "1. TERM DEPOSIT (1) 2. STAR COUNCILLOR (3) 3. BEECH WOOD (9)",
     "ourPick": "TERM DEPOSIT (1)",
     "nap": false,
     "runners": [
@@ -1705,9 +1705,9 @@ export const races: Race[] = [
     "purse": "₹740000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "8-runner. Class 3 / A Handicap For Horses Rated 40 to 65, 4 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. DARING SPIRIT (5) 2. TOOTSIE DARLING (8) 3. EQUINE POWER (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win CLEFAIRY (1).",
-    "irPick": "unpublished",
+    "irPick": "1. DARING SPIRIT (5) 2. TOOTSIE DARLING (8) 3. EQUINE POWER (6)",
     "ourPick": "CLEFAIRY (1)",
     "nap": true,
     "runners": [
@@ -2446,9 +2446,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "14 Oct 2019 ISABELLA 50.5 Kgs 1:23.84 Secs",
     "shape": "10-runner. Class 5 / A Handicap For Maiden Horses Rated Up To 25, 3 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. N R I SUNPOWER (3) 2. BODHI (1) 3. MOONLITE ROSE (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ALOY (6).",
-    "irPick": "unpublished",
+    "irPick": "1. N R I SUNPOWER (3) 2. BODHI (1) 3. MOONLITE ROSE (2)",
     "ourPick": "ALOY (6)",
     "nap": false,
     "runners": [
@@ -3354,9 +3354,9 @@ export const races: Race[] = [
     "purse": "₹650000",
     "record": "21 Aug 2016 DANCING PHOENIX 54 Kgs 1:11.31 Secs",
     "shape": "11-runner. Class 4 / A Handicap For Horses Rated 20 to 45, 5 Year Olds And Upward",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. RIVAL (2) 2. NORMUI (4) 3. FEDERER (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ASHWA DENALI (5).",
-    "irPick": "unpublished",
+    "irPick": "1. RIVAL (2) 2. NORMUI (4) 3. FEDERER (1)",
     "ourPick": "ASHWA DENALI (5)",
     "nap": false,
     "runners": [
