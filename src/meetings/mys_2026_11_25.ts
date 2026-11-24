@@ -5,13 +5,13 @@ export const MEETING = {
   "venue": "MYSORE (MYS)",
   "date": "Wednesday 25 November 2026",
   "first": "02:00 PM",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 24 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 25 Nov 26.",
   "going": "Mysore turf. Auto-built from the IndiaRace card; going is not independently verified.",
   "dayBest": "SMILES OF FORTUNE",
   "dayBestRace": 5,
   "nextBest": "MYSTIC DIVINE",
   "longshot": "STAR OF LIGHT",
-  "irDayBest": "unpublished",
+  "irDayBest": "MONEY FAIR 6 (1)",
   "feature": "The B.r.hills Plate Div-2"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹375000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "12-runner. Class 5 / For Horses Rated 00 to 25",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LOOKING FOR LADOO (4) 2. MISS SULTANA (1) 3. CITY OF HUSTLE (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win DAVIDS DELIGHT (6).",
-    "irPick": "unpublished",
+    "irPick": "1. LOOKING FOR LADOO (4) 2. MISS SULTANA (1) 3. CITY OF HUSTLE (2)",
     "ourPick": "DAVIDS DELIGHT (6)",
     "nap": false,
     "runners": [
@@ -1184,9 +1184,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 4 / For Horses Rated 20 to 45",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. NOZOMI (8) 2. MISTY WARRIOR (3) 3. GOLD FAME (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GOLD FAME (1).",
-    "irPick": "unpublished",
+    "irPick": "1. NOZOMI (8) 2. MISTY WARRIOR (3) 3. GOLD FAME (1)",
     "ourPick": "GOLD FAME (1)",
     "nap": false,
     "runners": [
@@ -2300,9 +2300,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "13 Jul 2016 SAIGAR 50.5 Kgs 1:04:26 Secs",
     "shape": "12-runner. Class 4 / For Horses Rated 20 to 45, 5 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ROYAL CHIVALRY (5) 2. SATIN LASS (4) 3. ANKUSH (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SATIN LASS (4).",
-    "irPick": "unpublished",
+    "irPick": "1. ROYAL CHIVALRY (5) 2. SATIN LASS (4) 3. ANKUSH (9)",
     "ourPick": "SATIN LASS (4)",
     "nap": false,
     "runners": [
@@ -3440,9 +3440,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 4 / For Horses Rated 20 to 45",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SANDS OF DUBAI (4) 2. MAJOR SAAB (5) 3. GOLDEN SABRE (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GOLDEN SABRE (2).",
-    "irPick": "unpublished",
+    "irPick": "1. SANDS OF DUBAI (4) 2. MAJOR SAAB (5) 3. GOLDEN SABRE (2)",
     "ourPick": "GOLDEN SABRE (2)",
     "nap": false,
     "runners": [
@@ -4548,9 +4548,9 @@ export const races: Race[] = [
     "purse": "₹700000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "10-runner. Class 2 / For Horses Rated 60 and above",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MOTHER'S GRACE (1) 2. STAR OF LIGHT (7) 3. GRIZZLY (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SMILES OF FORTUNE (9).",
-    "irPick": "unpublished",
+    "irPick": "1. MOTHER'S GRACE (1) 2. STAR OF LIGHT (7) 3. GRIZZLY (2)",
     "ourPick": "SMILES OF FORTUNE (9)",
     "nap": true,
     "runners": [
@@ -5516,9 +5516,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "29 Feb 2020 CORFE CASTLE 59 Kgs 1:08.79 Secs",
     "shape": "12-runner. Class 3 / For Horses Rated 40 to 65",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MONEY FAIR (1) 2. NIGHT RAIDER (3) 3. IRON KING (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win NIGHT RAIDER (3).",
-    "irPick": "unpublished",
+    "irPick": "1. MONEY FAIR (1) 2. NIGHT RAIDER (3) 3. IRON KING (6)",
     "ourPick": "NIGHT RAIDER (3)",
     "nap": false,
     "runners": [
@@ -6656,9 +6656,9 @@ export const races: Race[] = [
     "purse": "₹575000",
     "record": "01 Mar 2020 MULTIFACETED 57 Kgs 1:21.05 Secs",
     "shape": "12-runner. Class 3 / For Horses Rated 40 to 65, 5 years old and over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MYSTIC DIVINE (1) 2. DEAR LADY (8) 3. SHERPA (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MYSTIC DIVINE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. MYSTIC DIVINE (1) 2. DEAR LADY (8) 3. SHERPA (4)",
     "ourPick": "MYSTIC DIVINE (1)",
     "nap": false,
     "runners": [
@@ -7786,7 +7786,7 @@ export const SHEET: SheetMeeting = {
   "banner": "MTC MYSORE",
   "title": "HANDICAP ANALYSIS & FORM RATING (LTO)",
   "when": "25-11-2026 - MYS - WEDNESDAY - 7 CARD",
-  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 24 Nov 26.",
+  "source": "IndiaRace racecard, previous runs with track, and published trackwork as of 25 Nov 26.",
   "note": "BNC RTG is the last published official mark. LTO and HCP use the Indian kg scale: 2 rating points = 1 kg, 1 length ≈ 0.17s, and 1 length = 1 kg at 1200m (scale factor = dist/1200). A beaten horse is mark-ran-off minus that kg-behind times 2. Last-run kg vs the class average (55 kg, or 53 kg in Class 5) is also scaled by dist/1200; maidens skip that so 56 vs 54.5 set-weights are not mixed in. HCP is that last-start figure plus 2 points per kg apprentice claim. Official allotted kg is Base + (Rating − topweight Rating)/2, capped 47–62 kg. Green HCP is well-in versus that allotted weight, red is well-out. First starters and runs beaten 20L+ show ###. Speed RTG is last winning time plus beaten lengths, per 200m (lower is faster). Tissue is a 120% book, not official odds.",
   "races": [
     {
