@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 6,
   "nextBest": "DESERT SHIELD",
   "longshot": "TOLKIEN",
-  "irDayBest": "unpublished",
+  "irDayBest": "ROYAL VANGUARD 7(1)",
   "feature": "The Muthyalamaduvu Plate Div-2"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹510000",
     "record": "12 Jul 2026 MONEY BAGS 52 Kgs 1:22.36 Secs",
     "shape": "8-runner. Class 4 / Horses Rated 20 To 45 4 Years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. THE GOLDEN DREAM (3) 2. APHELION (4) 3. N R I JETPOWER (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win THE GOLDEN DREAM (3).",
-    "irPick": "unpublished",
+    "irPick": "1. THE GOLDEN DREAM (3) 2. APHELION (4) 3. N R I JETPOWER (7)",
     "ourPick": "THE GOLDEN DREAM (3)",
     "nap": false,
     "runners": [
@@ -731,9 +731,9 @@ export const races: Race[] = [
     "purse": "₹450000",
     "record": "30 Nov 2018 MAURITANIA 59.5 Kgs 1:09.94 Secs",
     "shape": "12-runner. Class 5 / Horses Rated 00 To 25 5 Years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. LG'S SCRIPT (6) 2. SHAHENSHAAH (5) 3. FLAMINGO DREAM (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SEA DIAMOND (4).",
-    "irPick": "unpublished",
+    "irPick": "1. LG'S SCRIPT (6) 2. SHAHENSHAAH (5) 3. FLAMINGO DREAM (9)",
     "ourPick": "SEA DIAMOND (4)",
     "nap": false,
     "runners": [
@@ -1822,9 +1822,9 @@ export const races: Race[] = [
     "purse": "₹510000",
     "record": "12 Jul 2026 MONEY BAGS 52 Kgs 1:22.36 Secs",
     "shape": "9-runner. Class 4 / Horses Rated 20 To 45 4 Years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. HIDDEN DREAMS (5) 2. HYPERDRIVE (3) 3. DESERT SHIELD (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win DESERT SHIELD (2).",
-    "irPick": "unpublished",
+    "irPick": "1. HIDDEN DREAMS (5) 2. HYPERDRIVE (3) 3. DESERT SHIELD (2)",
     "ourPick": "DESERT SHIELD (2)",
     "nap": false,
     "runners": [
@@ -2671,9 +2671,9 @@ export const races: Race[] = [
     "purse": "₹510000",
     "record": "01 Jan 1989 DIVINE LIGHT 59 Kgs 1:34.09 Secs",
     "shape": "8-runner. Class 4 / Horses Rated 20 To 45",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. WANGANUI (1) 2. STARSINHEREYES (5) 3. SHINING DAWN (4). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win WANGANUI (1).",
-    "irPick": "unpublished",
+    "irPick": "1. WANGANUI (1) 2. STARSINHEREYES (5) 3. SHINING DAWN (4)",
     "ourPick": "WANGANUI (1)",
     "nap": false,
     "runners": [
@@ -3329,9 +3329,9 @@ export const races: Race[] = [
     "purse": "₹750000",
     "record": "30 Nov 2018 MAURITANIA 59.5 Kgs 1:09.94 Secs",
     "shape": "10-runner. Maiden / For Horses 3 Years Old Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. WHISTLING GLORY (7) 2. CHARMING PROSPECT (8) 3. WHATADYNAMICSTRIDE (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win JAVELIN (3).",
-    "irPick": "unpublished",
+    "irPick": "1. WHISTLING GLORY (7) 2. CHARMING PROSPECT (8) 3. WHATADYNAMICSTRIDE (6)",
     "ourPick": "JAVELIN (3)",
     "nap": false,
     "runners": [
@@ -4060,9 +4060,9 @@ export const races: Race[] = [
     "purse": "₹700000",
     "record": "-",
     "shape": "5-runner. Class 2 / Horses Rated 60 To 85",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. REFINED AGGRESSION (4) 2. TOLKIEN (2) 3. CIRCLE OF DREAMS (5). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win REFINED AGGRESSION (4).",
-    "irPick": "unpublished",
+    "irPick": "1. REFINED AGGRESSION (4) 2. TOLKIEN (2) 3. CIRCLE OF DREAMS (5)",
     "ourPick": "REFINED AGGRESSION (4)",
     "nap": true,
     "runners": [
@@ -4535,9 +4535,9 @@ export const races: Race[] = [
     "purse": "₹510000",
     "record": "01 Jan 1989 DIVINE LIGHT 59 Kgs 1:34.09 Secs",
     "shape": "9-runner. Class 4 / Horses Rated 20 To 45",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ROYAL VANGUARD (1) 2. TIPPED OFF (3) 3. SIGRID (9). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ROYAL VANGUARD (1).",
-    "irPick": "unpublished",
+    "irPick": "1. ROYAL VANGUARD (1) 2. TIPPED OFF (3) 3. SIGRID (9)",
     "ourPick": "ROYAL VANGUARD (1)",
     "nap": false,
     "runners": [

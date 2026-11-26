@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 3,
   "nextBest": "MAHOGANY",
   "longshot": "TOUCH OF GREY",
-  "irDayBest": "unpublished",
+  "irDayBest": "ARISTOCRATIC QUEEN 2(7)",
   "feature": "The Zavaray S. Poonawalla Bangalore 1000 Guineas (Gr.2)"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹510000",
     "record": "24 Mar 2023 SIEGE COURAGEOUS 55 Kgs 1:05.65 Secs",
     "shape": "8-runner. Class 4 / Horses Rated 20 To 45 4 Years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. EBOTSE (1) 2. WINDCLEAVER (4) 3. ZAYANA (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win EBOTSE (1).",
-    "irPick": "unpublished",
+    "irPick": "1. EBOTSE (1) 2. WINDCLEAVER (4) 3. ZAYANA (2)",
     "ourPick": "EBOTSE (1)",
     "nap": false,
     "runners": [
@@ -737,9 +737,9 @@ export const races: Race[] = [
     "purse": "₹750000",
     "record": "12 Jul 2026 MONEY BAGS 52 Kgs 1:22.36 Secs",
     "shape": "8-runner. Maiden / For Horses 3 Years Old Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. ARISTOCRATIC QUEEN (7) 2. EDISON (2) 3. KNOTTY TALE (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win KNOTTY TALE (3).",
-    "irPick": "unpublished",
+    "irPick": "1. ARISTOCRATIC QUEEN (7) 2. EDISON (2) 3. KNOTTY TALE (3)",
     "ourPick": "KNOTTY TALE (3)",
     "nap": false,
     "runners": [
@@ -1351,9 +1351,9 @@ export const races: Race[] = [
     "purse": "₹1100000",
     "record": "01 Jan 1989 DIVINE LIGHT 59 Kgs 1:34.09 Secs",
     "shape": "4-runner. Class 1 / Horses Rated 80 And Above 60-85 Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. VICTOR HUGO (1) 2. WINFIELD (4) 3. TOUCH OF GREY (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SASSY SARAH (3).",
-    "irPick": "unpublished",
+    "irPick": "1. VICTOR HUGO (1) 2. WINFIELD (4) 3. TOUCH OF GREY (2)",
     "ourPick": "SASSY SARAH (3)",
     "nap": true,
     "runners": [
@@ -1749,9 +1749,9 @@ export const races: Race[] = [
     "purse": "₹630000",
     "record": "12 Jul 2026 MONEY BAGS 52 Kgs 1:22.36 Secs",
     "shape": "11-runner. Class 3 / Horses Rated 40 To 65",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. BLACK IRISH (10) 2. THE LEADER (3) 3. GLORIOUS STRIDES (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win GLORIOUS STRIDES (2).",
-    "irPick": "unpublished",
+    "irPick": "1. BLACK IRISH (10) 2. THE LEADER (3) 3. GLORIOUS STRIDES (2)",
     "ourPick": "GLORIOUS STRIDES (2)",
     "nap": false,
     "runners": [
@@ -2769,9 +2769,9 @@ export const races: Race[] = [
     "purse": "₹4950000",
     "record": "01 Jan 1989 DIVINE LIGHT 59 Kgs 1:34.09 Secs",
     "shape": "5-runner. Term Race / For Horses 3 Years Old Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MOONVEIL (4) 2. STARZELLA (5) 3. MAHOGANY (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MAHOGANY (2).",
-    "irPick": "unpublished",
+    "irPick": "1. MOONVEIL (4) 2. STARZELLA (5) 3. MAHOGANY (2)",
     "ourPick": "MAHOGANY (2)",
     "nap": false,
     "runners": [
@@ -3262,9 +3262,9 @@ export const races: Race[] = [
     "purse": "₹510000",
     "record": "24 Mar 2023 SIEGE COURAGEOUS 55 Kgs 1:05.65 Secs",
     "shape": "8-runner. Class 4 / Horses Rated 20 To 45 4 Years Old And Over",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. AGRADOR (5) 2. EXCELLENCE (3) 3. SUPREME SUCCESS (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SUPREME SUCCESS (1).",
-    "irPick": "unpublished",
+    "irPick": "1. AGRADOR (5) 2. EXCELLENCE (3) 3. SUPREME SUCCESS (1)",
     "ourPick": "SUPREME SUCCESS (1)",
     "nap": false,
     "runners": [
@@ -3986,9 +3986,9 @@ export const races: Race[] = [
     "purse": "₹630000",
     "record": "24 Mar 2023 SIEGE COURAGEOUS 55 Kgs 1:05.65 Secs",
     "shape": "12-runner. Class 3 / Horses Rated 40 To 65",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SIEGE STORM (6) 2. SEIZE THE GREY (12) 3. AUSPICIOUS KING (7). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BRIGHT THUNDER (1).",
-    "irPick": "unpublished",
+    "irPick": "1. SIEGE STORM (6) 2. SEIZE THE GREY (12) 3. AUSPICIOUS KING (7)",
     "ourPick": "BRIGHT THUNDER (1)",
     "nap": false,
     "runners": [
@@ -5173,7 +5173,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 55
           },
-          "nty": null,
+          "nty": 2.75,
           "open": null,
           "tissue": "7/5",
           "rank": 1,
@@ -5326,7 +5326,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 55
           },
-          "nty": null,
+          "nty": 2.75,
           "open": null,
           "tissue": "24/1",
           "rank": 8,
@@ -5377,7 +5377,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 53
           },
-          "nty": null,
+          "nty": 1.8,
           "open": null,
           "tissue": "17/5",
           "rank": 3,
@@ -5669,7 +5669,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 56
           },
-          "nty": null,
+          "nty": 2.75,
           "open": null,
           "tissue": "24/1",
           "rank": 7,
@@ -5904,7 +5904,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 0.45,
           "open": null,
           "tissue": "5/2",
           "rank": 3,
@@ -6043,7 +6043,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 57
           },
-          "nty": null,
+          "nty": 2.75,
           "open": null,
           "tissue": "3/2",
           "rank": 2,
@@ -6145,7 +6145,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 2",
             "wt": 60
           },
-          "nty": null,
+          "nty": 3.5,
           "open": null,
           "tissue": "13/10",
           "rank": 1,
@@ -6196,7 +6196,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 1",
             "wt": 59
           },
-          "nty": null,
+          "nty": 0.55,
           "open": null,
           "tissue": "79/4",
           "rank": 4,
@@ -6488,7 +6488,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 62
           },
-          "nty": null,
+          "nty": 2.5,
           "open": null,
           "tissue": "37/4",
           "rank": 5,
@@ -6539,7 +6539,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 61.5
           },
-          "nty": null,
+          "nty": 3,
           "open": null,
           "tissue": "103/10",
           "rank": 6,
@@ -6743,7 +6743,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 56
           },
-          "nty": null,
+          "nty": 1.6,
           "open": null,
           "tissue": "24/1",
           "rank": 11,
@@ -6882,7 +6882,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Maiden",
             "wt": 55.5
           },
-          "nty": null,
+          "nty": 10,
           "open": null,
           "tissue": "24/1",
           "rank": 4,
@@ -6933,7 +6933,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 1.6,
           "open": null,
           "tissue": "1/4",
           "rank": 1,
@@ -6984,7 +6984,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 53.5
           },
-          "nty": null,
+          "nty": 3.5,
           "open": null,
           "tissue": "24/1",
           "rank": 5,
@@ -7035,7 +7035,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 2.5,
           "open": null,
           "tissue": "24/1",
           "rank": 3,
@@ -7086,7 +7086,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Term Race",
             "wt": 56
           },
-          "nty": null,
+          "nty": 1.8,
           "open": null,
           "tissue": "77/10",
           "rank": 2,
@@ -7225,7 +7225,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 52.5
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "25/2",
           "rank": 6,
@@ -7276,7 +7276,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 59.5
           },
-          "nty": null,
+          "nty": 2.5,
           "open": null,
           "tissue": "9/2",
           "rank": 3,
@@ -7327,7 +7327,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 58.5
           },
-          "nty": null,
+          "nty": 3.25,
           "open": null,
           "tissue": "4/1",
           "rank": 2,
@@ -7378,7 +7378,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 57.5
           },
-          "nty": null,
+          "nty": 1.1,
           "open": null,
           "tissue": "81/10",
           "rank": 4,
@@ -7480,7 +7480,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 4",
             "wt": 57
           },
-          "nty": null,
+          "nty": 2.5,
           "open": null,
           "tissue": "25/2",
           "rank": 7,
@@ -7619,7 +7619,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 60
           },
-          "nty": null,
+          "nty": 3.5,
           "open": null,
           "tissue": "17/8",
           "rank": 1,
@@ -7670,7 +7670,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 61
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "15/2",
           "rank": 4,
@@ -7721,7 +7721,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 59
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "42/5",
           "rank": 5,
@@ -7874,7 +7874,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 58
           },
-          "nty": null,
+          "nty": 1.6,
           "open": null,
           "tissue": "24/1",
           "rank": 11,
@@ -7925,7 +7925,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 56
           },
-          "nty": null,
+          "nty": 7,
           "open": null,
           "tissue": "75/8",
           "rank": 6,
@@ -7976,7 +7976,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 54.5
           },
-          "nty": null,
+          "nty": 6,
           "open": null,
           "tissue": "37/10",
           "rank": 2,
@@ -8027,7 +8027,7 @@ export const SHEET: SheetMeeting = {
             "cls": "Class 3",
             "wt": 55
           },
-          "nty": null,
+          "nty": 1.4,
           "open": null,
           "tissue": "24/1",
           "rank": 8,
@@ -8223,4 +8223,235 @@ export const SHEET: SheetMeeting = {
   ]
 };
 
-export const NIGHT = null;
+export const NIGHT = {
+  "banner": "BTC BANGALORE",
+  "title": "NIGHT / MORNING / OPENING ODDS",
+  "version": "AUTO",
+  "when": "27-11-2026 - BAN - FRIDAY - 7 CARD",
+  "source": "IndiaRace odds page: Night Odds, Morning Odds and Opening Odds, converted to the same to-1 scale.",
+  "note": "Green is a positive night call (two shortest), red is a fade (two longest), yellow is a watch. Morning and opening fill when IndiaRace posts them. After the race, Morning falls back to official SP.",
+  "odds": {
+    "1": [
+      {
+        "cloth": 1,
+        "night": 2.75,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": 2.75,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 5,
+        "night": 1.8,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      }
+    ],
+    "2": [
+      {
+        "cloth": 2,
+        "night": 2.75,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": 0.45,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      }
+    ],
+    "3": [
+      {
+        "cloth": 1,
+        "night": 2.75,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": 3.5,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 4,
+        "night": 0.55,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      }
+    ],
+    "4": [
+      {
+        "cloth": 5,
+        "night": 2.5,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": 3,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 10,
+        "night": 1.6,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      }
+    ],
+    "5": [
+      {
+        "cloth": 1,
+        "night": 10,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 2,
+        "night": 1.6,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 3,
+        "night": 3.5,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 4,
+        "night": 2.5,
+        "morning": null,
+        "opening": null,
+        "call": "watch"
+      },
+      {
+        "cloth": 5,
+        "night": 1.8,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      }
+    ],
+    "6": [
+      {
+        "cloth": 2,
+        "night": 6,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 3,
+        "night": 2.5,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 4,
+        "night": 3.25,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 5,
+        "night": 1.1,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": 2.5,
+        "morning": null,
+        "opening": null,
+        "call": "watch"
+      }
+    ],
+    "7": [
+      {
+        "cloth": 1,
+        "night": 3.5,
+        "morning": null,
+        "opening": null,
+        "call": "watch"
+      },
+      {
+        "cloth": 2,
+        "night": 6,
+        "morning": null,
+        "opening": null,
+        "call": "watch"
+      },
+      {
+        "cloth": 3,
+        "night": 6,
+        "morning": null,
+        "opening": null,
+        "call": "watch"
+      },
+      {
+        "cloth": 6,
+        "night": 1.6,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      },
+      {
+        "cloth": 7,
+        "night": 7,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 8,
+        "night": 6,
+        "morning": null,
+        "opening": null,
+        "call": "neg"
+      },
+      {
+        "cloth": 9,
+        "night": 1.4,
+        "morning": null,
+        "opening": null,
+        "call": "pos"
+      }
+    ]
+  },
+  "gridCloths": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ]
+};
