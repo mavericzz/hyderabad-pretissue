@@ -49,6 +49,8 @@ import { MEETING as mys20261125Meta, races as mys20261125Races, SHEET as mys2026
 import { MEETING as ban20261127Meta, races as ban20261127Races, SHEET as ban20261127Sheet, NIGHT as ban20261127Night } from "./ban_2026_11_27.ts";
 import { MEETING as ban20261128Meta, races as ban20261128Races, SHEET as ban20261128Sheet, NIGHT as ban20261128Night } from "./ban_2026_11_28.ts";
 import { MEETING as kol20261128Meta, races as kol20261128Races, SHEET as kol20261128Sheet, NIGHT as kol20261128Night } from "./kol_2026_11_28.ts";
+import { MEETING as hyd20261129Meta, races as hyd20261129Races, SHEET as hyd20261129Sheet, NIGHT as hyd20261129Night } from "./hyd_2026_11_29.ts";
+import { MEETING as mum20261129Meta, races as mum20261129Races, SHEET as mum20261129Sheet, NIGHT as mum20261129Night } from "./mum_2026_11_29.ts";
 
 export const GENERATED_MEETINGS = [
   {
@@ -832,5 +834,39 @@ export const GENERATED_MEETINGS = [
     resultSource: "",
     swim: [] as SwimEntry[],
     night: kol20261128Night ?? undefined,
+  },
+  {
+    id: "hyd-2026-11-29",
+    date: "2026-11-29",
+    dateTab: dateTab("2026-11-29"),
+    center: "hyd",
+    centerLabel: labelForCenter("hyd"),
+    short: "HYD",
+    hasNight: Boolean(hyd20261129Night),
+    extraCopy: false,
+    meta: hyd20261129Meta,
+    races: hyd20261129Races as unknown as Race[],
+    sheet: hyd20261129Sheet as unknown as SheetMeeting,
+    results: [] as RaceResult[],
+    resultSource: "",
+    swim: [] as SwimEntry[],
+    night: hyd20261129Night ?? undefined,
+  },
+  {
+    id: "mum-2026-11-29",
+    date: "2026-11-29",
+    dateTab: dateTab("2026-11-29"),
+    center: "mum",
+    centerLabel: labelForCenter("mum"),
+    short: "MUM",
+    hasNight: Boolean(mum20261129Night),
+    extraCopy: false,
+    meta: mum20261129Meta,
+    races: mum20261129Races as unknown as Race[],
+    sheet: mum20261129Sheet as unknown as SheetMeeting,
+    results: [] as RaceResult[],
+    resultSource: "",
+    swim: [] as SwimEntry[],
+    night: mum20261129Night ?? undefined,
   }
 ];

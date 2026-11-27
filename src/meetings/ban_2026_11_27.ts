@@ -5174,7 +5174,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": 2.75,
-          "open": null,
+          "open": 3,
           "tissue": "7/5",
           "rank": 1,
           "speed": 12.26,
@@ -5225,7 +5225,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": null,
-          "open": null,
+          "open": 7,
           "tissue": "25/4",
           "rank": 4,
           "speed": 13.24,
@@ -5327,7 +5327,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": 2.75,
-          "open": null,
+          "open": 4,
           "tissue": "24/1",
           "rank": 8,
           "speed": 12.79,
@@ -5378,7 +5378,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": 1.8,
-          "open": null,
+          "open": 2.75,
           "tissue": "17/5",
           "rank": 3,
           "speed": 12.3,
@@ -5429,7 +5429,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53
           },
           "nty": null,
-          "open": null,
+          "open": 8,
           "tissue": "49/4",
           "rank": 5,
           "speed": 12.52,
@@ -5670,7 +5670,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": 2.75,
-          "open": null,
+          "open": 4.5,
           "tissue": "24/1",
           "rank": 7,
           "speed": 13.32,
@@ -5905,7 +5905,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": 0.45,
-          "open": null,
+          "open": 0.3,
           "tissue": "5/2",
           "rank": 3,
           "speed": 12.01,
@@ -6044,7 +6044,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57
           },
           "nty": 2.75,
-          "open": null,
+          "open": 3,
           "tissue": "3/2",
           "rank": 2,
           "speed": 14.52,
@@ -6146,7 +6146,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": 3.5,
-          "open": null,
+          "open": 4,
           "tissue": "13/10",
           "rank": 1,
           "speed": 11.88,
@@ -6197,7 +6197,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": 0.55,
-          "open": null,
+          "open": 0.7,
           "tissue": "79/4",
           "rank": 4,
           "speed": 13.72,
@@ -6489,7 +6489,7 @@ export const SHEET: SheetMeeting = {
             "wt": 62
           },
           "nty": 2.5,
-          "open": null,
+          "open": 4,
           "tissue": "37/4",
           "rank": 5,
           "speed": 12.57,
@@ -6540,7 +6540,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61.5
           },
           "nty": 3,
-          "open": null,
+          "open": 4,
           "tissue": "103/10",
           "rank": 6,
           "speed": 12.53,
@@ -6744,7 +6744,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": 1.6,
-          "open": null,
+          "open": 1.3,
           "tissue": "24/1",
           "rank": 11,
           "speed": 13.11,
@@ -6795,7 +6795,7 @@ export const SHEET: SheetMeeting = {
             "wt": 51
           },
           "nty": null,
-          "open": null,
+          "open": 6,
           "tissue": "24/1",
           "rank": 9,
           "speed": 12.88,
@@ -6883,7 +6883,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55.5
           },
           "nty": 10,
-          "open": null,
+          "open": 10,
           "tissue": "24/1",
           "rank": 4,
           "speed": 12.71,
@@ -6934,7 +6934,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": 1.6,
-          "open": null,
+          "open": 2,
           "tissue": "1/4",
           "rank": 1,
           "speed": 12.86,
@@ -6985,7 +6985,7 @@ export const SHEET: SheetMeeting = {
             "wt": 53.5
           },
           "nty": 3.5,
-          "open": null,
+          "open": 5,
           "tissue": "24/1",
           "rank": 5,
           "speed": 12.82,
@@ -7036,7 +7036,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": 2.5,
-          "open": null,
+          "open": 2,
           "tissue": "24/1",
           "rank": 3,
           "speed": 12.56,
@@ -7087,7 +7087,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": 1.8,
-          "open": null,
+          "open": 2.5,
           "tissue": "77/10",
           "rank": 2,
           "speed": 11.95,
@@ -7226,7 +7226,7 @@ export const SHEET: SheetMeeting = {
             "wt": 52.5
           },
           "nty": 6,
-          "open": null,
+          "open": 7,
           "tissue": "25/2",
           "rank": 6,
           "speed": 12.65,
@@ -7277,7 +7277,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59.5
           },
           "nty": 2.5,
-          "open": null,
+          "open": 3,
           "tissue": "9/2",
           "rank": 3,
           "speed": 12.92,
@@ -7328,7 +7328,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58.5
           },
           "nty": 3.25,
-          "open": null,
+          "open": 4.5,
           "tissue": "4/1",
           "rank": 2,
           "speed": 13.42,
@@ -7379,7 +7379,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57.5
           },
           "nty": 1.1,
-          "open": null,
+          "open": 1.3,
           "tissue": "81/10",
           "rank": 4,
           "speed": 12.78,
@@ -7481,7 +7481,7 @@ export const SHEET: SheetMeeting = {
             "wt": 57
           },
           "nty": 2.5,
-          "open": null,
+          "open": 4,
           "tissue": "25/2",
           "rank": 7,
           "speed": 13.58,
@@ -7620,7 +7620,7 @@ export const SHEET: SheetMeeting = {
             "wt": 60
           },
           "nty": 3.5,
-          "open": null,
+          "open": 3.25,
           "tissue": "17/8",
           "rank": 1,
           "speed": 11.73,
@@ -7671,7 +7671,7 @@ export const SHEET: SheetMeeting = {
             "wt": 61
           },
           "nty": 6,
-          "open": null,
+          "open": 8,
           "tissue": "15/2",
           "rank": 4,
           "speed": null,
@@ -7722,7 +7722,7 @@ export const SHEET: SheetMeeting = {
             "wt": 59
           },
           "nty": 6,
-          "open": null,
+          "open": 8,
           "tissue": "42/5",
           "rank": 5,
           "speed": 13.45,
@@ -7875,7 +7875,7 @@ export const SHEET: SheetMeeting = {
             "wt": 58
           },
           "nty": 1.6,
-          "open": null,
+          "open": 2.5,
           "tissue": "24/1",
           "rank": 11,
           "speed": 12.89,
@@ -7926,7 +7926,7 @@ export const SHEET: SheetMeeting = {
             "wt": 56
           },
           "nty": 7,
-          "open": null,
+          "open": 8,
           "tissue": "75/8",
           "rank": 6,
           "speed": 12.95,
@@ -7977,7 +7977,7 @@ export const SHEET: SheetMeeting = {
             "wt": 54.5
           },
           "nty": 6,
-          "open": null,
+          "open": 8,
           "tissue": "37/10",
           "rank": 2,
           "speed": 12.3,
@@ -8028,7 +8028,7 @@ export const SHEET: SheetMeeting = {
             "wt": 55
           },
           "nty": 1.4,
-          "open": null,
+          "open": 1.6,
           "tissue": "24/1",
           "rank": 8,
           "speed": null,
@@ -8235,38 +8235,52 @@ export const NIGHT = {
       {
         "cloth": 1,
         "night": 2.75,
-        "morning": null,
-        "opening": null,
+        "morning": 2.5,
+        "opening": 3,
         "call": "pos"
+      },
+      {
+        "cloth": 2,
+        "night": null,
+        "morning": 6,
+        "opening": 7,
+        "call": "neg"
       },
       {
         "cloth": 4,
         "night": 2.75,
-        "morning": null,
-        "opening": null,
-        "call": "neg"
+        "morning": 3.5,
+        "opening": 4,
+        "call": "watch"
       },
       {
         "cloth": 5,
         "night": 1.8,
-        "morning": null,
-        "opening": null,
+        "morning": 2,
+        "opening": 2.75,
         "call": "pos"
+      },
+      {
+        "cloth": 6,
+        "night": null,
+        "morning": null,
+        "opening": 8,
+        "call": "neg"
       }
     ],
     "2": [
       {
         "cloth": 2,
         "night": 2.75,
-        "morning": null,
-        "opening": null,
+        "morning": 3.5,
+        "opening": 4.5,
         "call": "pos"
       },
       {
         "cloth": 7,
         "night": 0.45,
-        "morning": null,
-        "opening": null,
+        "morning": 0.4,
+        "opening": 0.3,
         "call": "pos"
       }
     ],
@@ -8274,22 +8288,22 @@ export const NIGHT = {
       {
         "cloth": 1,
         "night": 2.75,
-        "morning": null,
-        "opening": null,
+        "morning": 2.5,
+        "opening": 3,
         "call": "pos"
       },
       {
         "cloth": 3,
         "night": 3.5,
-        "morning": null,
-        "opening": null,
+        "morning": 3.25,
+        "opening": 4,
         "call": "neg"
       },
       {
         "cloth": 4,
         "night": 0.55,
-        "morning": null,
-        "opening": null,
+        "morning": 0.6,
+        "opening": 0.7,
         "call": "pos"
       }
     ],
@@ -8297,59 +8311,66 @@ export const NIGHT = {
       {
         "cloth": 5,
         "night": 2.5,
-        "morning": null,
-        "opening": null,
+        "morning": 3.5,
+        "opening": 4,
         "call": "pos"
       },
       {
         "cloth": 6,
         "night": 3,
-        "morning": null,
-        "opening": null,
+        "morning": 3.5,
+        "opening": 4,
         "call": "neg"
       },
       {
         "cloth": 10,
         "night": 1.6,
-        "morning": null,
-        "opening": null,
+        "morning": 1.4,
+        "opening": 1.3,
         "call": "pos"
+      },
+      {
+        "cloth": 11,
+        "night": null,
+        "morning": null,
+        "opening": 6,
+        "call": "neg"
       }
     ],
     "5": [
       {
         "cloth": 1,
         "night": 10,
-        "morning": null,
-        "opening": null,
+        "morning": 10,
+        "opening": 10,
         "call": "neg"
       },
       {
         "cloth": 2,
         "night": 1.6,
-        "morning": null,
-        "opening": null,
+        "morning": 2.75,
+        "opening": 2,
         "call": "pos"
       },
       {
         "cloth": 3,
         "night": 3.5,
-        "morning": null,
-        "opening": null,
+        "morning": 4,
+        "opening": 5,
         "call": "neg"
       },
       {
         "cloth": 4,
         "night": 2.5,
-        "morning": null,
-        "opening": null,
+        "morning": 2.5,
+        "opening": 2,
         "call": "watch"
       },
       {
         "cloth": 5,
         "night": 1.8,
-        "morning": null,
-        "opening": null,
+        "morning": 2.75,
+        "opening": 2.5,
         "call": "pos"
       }
     ],
@@ -8358,35 +8379,35 @@ export const NIGHT = {
         "cloth": 2,
         "night": 6,
         "morning": null,
-        "opening": null,
+        "opening": 7,
         "call": "neg"
       },
       {
         "cloth": 3,
         "night": 2.5,
-        "morning": null,
-        "opening": null,
+        "morning": 2.75,
+        "opening": 3,
         "call": "pos"
       },
       {
         "cloth": 4,
         "night": 3.25,
-        "morning": null,
-        "opening": null,
+        "morning": 3.5,
+        "opening": 4.5,
         "call": "neg"
       },
       {
         "cloth": 5,
         "night": 1.1,
-        "morning": null,
-        "opening": null,
+        "morning": 1.2,
+        "opening": 1.3,
         "call": "pos"
       },
       {
         "cloth": 7,
         "night": 2.5,
-        "morning": null,
-        "opening": null,
+        "morning": 3.5,
+        "opening": 4,
         "call": "watch"
       }
     ],
@@ -8394,50 +8415,50 @@ export const NIGHT = {
       {
         "cloth": 1,
         "night": 3.5,
-        "morning": null,
-        "opening": null,
+        "morning": 3.5,
+        "opening": 3.25,
         "call": "watch"
       },
       {
         "cloth": 2,
         "night": 6,
         "morning": null,
-        "opening": null,
+        "opening": 8,
         "call": "watch"
       },
       {
         "cloth": 3,
         "night": 6,
         "morning": null,
-        "opening": null,
+        "opening": 8,
         "call": "watch"
       },
       {
         "cloth": 6,
         "night": 1.6,
-        "morning": null,
-        "opening": null,
+        "morning": 1.8,
+        "opening": 2.5,
         "call": "pos"
       },
       {
         "cloth": 7,
         "night": 7,
         "morning": null,
-        "opening": null,
+        "opening": 8,
         "call": "neg"
       },
       {
         "cloth": 8,
         "night": 6,
         "morning": null,
-        "opening": null,
+        "opening": 8,
         "call": "neg"
       },
       {
         "cloth": 9,
         "night": 1.4,
-        "morning": null,
-        "opening": null,
+        "morning": 1.6,
+        "opening": 1.6,
         "call": "pos"
       }
     ]
@@ -8452,6 +8473,7 @@ export const NIGHT = {
     7,
     8,
     9,
-    10
+    10,
+    11
   ]
 };
