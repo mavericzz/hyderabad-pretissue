@@ -11,7 +11,7 @@ export const MEETING = {
   "dayBestRace": 5,
   "nextBest": "ENOLA HOLMES",
   "longshot": "CIGAR GALAXY",
-  "irDayBest": "unpublished",
+  "irDayBest": "PINNACLE 6 (2)",
   "feature": "The Gaitform Calcutta 1000 Guineas (Gr.3)"
 };
 
@@ -26,9 +26,9 @@ export const races: Race[] = [
     "purse": "₹300000",
     "record": "23 Jan 2017 COLOMBIANA 57 Kgs 2:02.07 Secs",
     "shape": "7-runner. Class 5 / For Horses Rated 1-26",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. NO WORRY (1) 2. THE PRESENCE (7) 3. SOUL AQUARIAN (6). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win NO WORRY (1).",
-    "irPick": "unpublished",
+    "irPick": "1. NO WORRY (1) 2. THE PRESENCE (7) 3. SOUL AQUARIAN (6)",
     "ourPick": "NO WORRY (1)",
     "nap": false,
     "runners": [
@@ -40,7 +40,7 @@ export const races: Race[] = [
         "pedigree": "Dali(USA) - Allee Bleue",
         "trainer": "Rutherford Alford",
         "jockey": "N Darshan",
-        "wt": "60.00",
+        "wt": "60",
         "al": "2.5",
         "shoes": "A",
         "eq": "HOOD-BB",
@@ -135,7 +135,7 @@ export const races: Race[] = [
         "pedigree": "Sanus Per Aquam(IRE) - Schiavone",
         "trainer": "B R Reddy",
         "jockey": "Ranveer Singh",
-        "wt": "59.50",
+        "wt": "59.5",
         "al": "5",
         "shoes": "A",
         "eq": "TS",
@@ -230,7 +230,7 @@ export const races: Race[] = [
         "pedigree": "Sedgefield(USA) - Spark Of Silver",
         "trainer": "Vijay Singh",
         "jockey": "K Mukesh Kumar",
-        "wt": "58.50",
+        "wt": "58.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -325,7 +325,7 @@ export const races: Race[] = [
         "pedigree": "Top Class(USA) - Harmony",
         "trainer": "Ajay Sharma",
         "jockey": "Withdrawn",
-        "wt": "55.50",
+        "wt": "55.5",
         "al": "",
         "shoes": "A",
         "eq": "BLK",
@@ -396,7 +396,7 @@ export const races: Race[] = [
         "pedigree": "Quasar - Pristina",
         "trainer": "Vikash Jaiswal",
         "jockey": "Vivek G",
-        "wt": "55.50",
+        "wt": "55.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -491,7 +491,7 @@ export const races: Race[] = [
         "pedigree": "Sanus Per Aquam(IRE) - Crown Princess",
         "trainer": "Javed Khan",
         "jockey": "A Sandesh",
-        "wt": "55.50",
+        "wt": "55.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-HOOD",
@@ -586,7 +586,7 @@ export const races: Race[] = [
         "pedigree": "Multitude - Southern Fantasy",
         "trainer": "Shafiq Khan",
         "jockey": "Vishal Bunde",
-        "wt": "55.00",
+        "wt": "55",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -594,7 +594,7 @@ export const races: Race[] = [
         "last5": "5-5-5-7-3-.",
         "tissue": "24/1",
         "rank": 4,
-        "verdict": "Last: 17 Nov 26 KOL 1400M 3/7 beaten 3.25 at ? off 15, 55kg. 11 days out. HCP 12. Latest work 24 Nov KOL: The Presence (RB ) 1-4.5 600/47, 400/31.1 Moved easy",
+        "verdict": "Last: 17 Nov 26 KOL 1400M 3/7 beaten 3.25 at ? off 15, 55kg. 11 days out. HCP 12. Latest work 26 Nov KOL: The Presence (H G Rathore), Gimmler (S A Amit ), 39 moved half pace.",
         "similar": "Nearest trip: 17 Nov 26 KOL 1400M Class 5, 3/7 beaten 3.25 vs MRS BRANDO.",
         "form": [
           {
@@ -648,6 +648,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+9)",
+            "note": "The Presence (H G Rathore), Gimmler (S A Amit ), 39 moved half pace."
+          },
+          {
             "date": "24 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+4)",
@@ -664,12 +670,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
             "note": "The Presence (Rb ) 33 Moved Easy."
-          },
-          {
-            "date": "30 Sep",
-            "venue": "KOL",
-            "clock": "600m outer sand (+3)",
-            "note": "Aeropoli (Aryan J), The Presence (rb ), 48.5 400/29.6 finished together."
           }
         ]
       }
@@ -685,9 +685,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "01 Jan 2006 ROMANTIC FIRE 57 Kgs 1:09.65 Secs",
     "shape": "12-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SANTANA ROW (7) 2. ENOLA HOLMES (5) 3. LAVISH GIRL (10). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win ENOLA HOLMES (5).",
-    "irPick": "unpublished",
+    "irPick": "1. SANTANA ROW (7) 2. ENOLA HOLMES (5) 3. LAVISH GIRL (10)",
     "ourPick": "ENOLA HOLMES (5)",
     "nap": false,
     "runners": [
@@ -699,7 +699,7 @@ export const races: Race[] = [
         "pedigree": "Dali(USA) - Malakeye Ziba",
         "trainer": "Rutherford Alford",
         "jockey": "S A Amit",
-        "wt": "62.00",
+        "wt": "62",
         "al": "",
         "shoes": "A",
         "eq": "TS-BB",
@@ -707,7 +707,7 @@ export const races: Race[] = [
         "last5": "5-1-4-6-2-.",
         "tissue": "11/4",
         "rank": 2,
-        "verdict": "Last: 17 Nov 26 KOL 1200M 2/10 beaten 4.5 at 15 off 62, 60.5kg. 11 days out. HCP 64. Latest work 25 Nov KOL: Gimmler (S A A Amit ) 35.5 Moved Easy.",
+        "verdict": "Last: 17 Nov 26 KOL 1200M 2/10 beaten 4.5 at 15 off 62, 60.5kg. 11 days out. HCP 64. Latest work 26 Nov KOL: The Presence (H G Rathore), Gimmler (S A Amit ), 39 moved half pace.",
         "similar": "Nearest trip: 17 Nov 26 KOL 1200M Class 3, 2/10 beaten 4.5 vs LUTHER.",
         "form": [
           {
@@ -761,6 +761,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+9)",
+            "note": "The Presence (H G Rathore), Gimmler (S A Amit ), 39 moved half pace."
+          },
+          {
             "date": "25 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+5)",
@@ -777,12 +783,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (-2)",
             "note": "Gimmler (Shezad Khan ) 58 600/44, 400/28 Moved Well."
-          },
-          {
-            "date": "05 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+6)",
-            "note": "Gimmler (S A Amit ) 51 400 In 33 Moved easy."
           }
         ]
       },
@@ -794,7 +794,7 @@ export const races: Race[] = [
         "pedigree": "Multitude - Skylight Express",
         "trainer": "Sabeel Shariff",
         "jockey": "Arman Khan",
-        "wt": "59.00",
+        "wt": "59",
         "al": "",
         "shoes": "S",
         "eq": "TS-BLK-XNB",
@@ -889,7 +889,7 @@ export const races: Race[] = [
         "pedigree": "Roderic O'connor(IRE) - She Is Special",
         "trainer": "Shafiq Khan",
         "jockey": "P Tejeshwar",
-        "wt": "59.00",
+        "wt": "59",
         "al": "",
         "shoes": "S",
         "eq": "TS-BB",
@@ -897,7 +897,7 @@ export const races: Race[] = [
         "last5": "10-6-8-4-6-.",
         "tissue": "46/5",
         "rank": 4,
-        "verdict": "Last: 17 Nov 26 KOL 1200M 6/10 beaten 8.5 at 20 off 61, 60kg. 11 days out. HCP 54. Latest work 24 Nov KOL: Superlative (RB), Most and More (rb ), 34 Unextended",
+        "verdict": "Last: 17 Nov 26 KOL 1200M 6/10 beaten 8.5 at 20 off 61, 60kg. 11 days out. HCP 54. Latest work 26 Nov KOL: Superlative (Aryan Japtap ) 48.5 400/29.8 Moved freely",
         "similar": "Nearest trip: 17 Nov 26 KOL 1200M Class 3, 6/10 beaten 8.5 vs LUTHER.",
         "form": [
           {
@@ -951,6 +951,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+3)",
+            "note": "Superlative (Aryan Japtap ) 48.5 400/29.8 Moved freely"
+          },
+          {
             "date": "24 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+4)",
@@ -967,12 +973,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+2)",
             "note": "Superlative (rb ) 1-2.5 600/47.6, 400/30.8 moved freely."
-          },
-          {
-            "date": "20 Sep",
-            "venue": "KOL",
-            "clock": "400m outer sand (+4)",
-            "note": "Superlative (Apprentice ) 34 unextended."
           }
         ]
       },
@@ -984,7 +984,7 @@ export const races: Race[] = [
         "pedigree": "Speaking Of Which(IRE) - La Dona",
         "trainer": "Bharath Singh",
         "jockey": "R Vaibhav",
-        "wt": "58.50",
+        "wt": "58.5",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -1079,7 +1079,7 @@ export const races: Race[] = [
         "pedigree": "Fiero(JPN) - Tower Bridge",
         "trainer": "Neil Darashah",
         "jockey": "N Darshan",
-        "wt": "58.50",
+        "wt": "58.5",
         "al": "2.5",
         "shoes": "A",
         "eq": "TS",
@@ -1174,7 +1174,7 @@ export const races: Race[] = [
         "pedigree": "Roderic O'connor(IRE) - Aspenglow(USA)",
         "trainer": "V Ajith Kumar",
         "jockey": "Md Sameer",
-        "wt": "58.50",
+        "wt": "58.5",
         "al": "",
         "shoes": "S",
         "eq": "TS",
@@ -1269,7 +1269,7 @@ export const races: Race[] = [
         "pedigree": "Fiero(JPN) - Cheerleader",
         "trainer": "Vikash Jaiswal",
         "jockey": "Md Azharuddin",
-        "wt": "57.50",
+        "wt": "57.5",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -1364,7 +1364,7 @@ export const races: Race[] = [
         "pedigree": "Excellent Art(GB) - Phantasmagoric(IRE)",
         "trainer": "V Ajith Kumar",
         "jockey": "R Manish",
-        "wt": "53.00",
+        "wt": "53",
         "al": "",
         "shoes": "S",
         "eq": "TS-XNB",
@@ -1459,7 +1459,7 @@ export const races: Race[] = [
         "pedigree": "Leitir Mor(IRE) - Memory Bay",
         "trainer": "Sabeel Shariff",
         "jockey": "Vinay Jaiswal",
-        "wt": "52.50",
+        "wt": "52.5",
         "al": "",
         "shoes": "S",
         "eq": "TS-XNB",
@@ -1554,7 +1554,7 @@ export const races: Race[] = [
         "pedigree": "Dali(USA) - Queen Credible",
         "trainer": "Vijay Singh",
         "jockey": "Hindu Singh",
-        "wt": "51.00",
+        "wt": "51",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK-BB",
@@ -1649,7 +1649,7 @@ export const races: Race[] = [
         "pedigree": "Top Class(USA) - Vijay Sakhi",
         "trainer": "B R Reddy",
         "jockey": "M S Deora",
-        "wt": "50.00",
+        "wt": "50",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -1744,7 +1744,7 @@ export const races: Race[] = [
         "pedigree": "Sedgefield(USA) - Spark Of Silver",
         "trainer": "Vikash Jaiswal",
         "jockey": "A S Peter",
-        "wt": "50.00",
+        "wt": "50",
         "al": "",
         "shoes": "S",
         "eq": "TS",
@@ -1843,9 +1843,9 @@ export const races: Race[] = [
     "purse": "₹400000",
     "record": "04 Mar 2018 WHOMAKESTHERULES 59 Kgs 1:34.80 Secs",
     "shape": "14-runner. Class 4 / For Horses Rated 21-46,Rated 1-26,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. MUKESHIAR (10) 2. MIGHTY ZO (3) 3. VIVALDI (1). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win MIGHTY ZO (3).",
-    "irPick": "unpublished",
+    "irPick": "1. MUKESHIAR (10) 2. MIGHTY ZO (3) 3. VIVALDI (1)",
     "ourPick": "MIGHTY ZO (3)",
     "nap": false,
     "runners": [
@@ -1857,7 +1857,7 @@ export const races: Race[] = [
         "pedigree": "Roderic O'connor(IRE) - Ice Glacier",
         "trainer": "Aashay Doctor",
         "jockey": "Hindu Singh",
-        "wt": "61.50",
+        "wt": "61.5",
         "al": "",
         "shoes": "A",
         "eq": "XNB",
@@ -1952,7 +1952,7 @@ export const races: Race[] = [
         "pedigree": "Quasar - Penny Lane",
         "trainer": "Vikash Jaiswal",
         "jockey": "R Shelar",
-        "wt": "61.00",
+        "wt": "61",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -2047,7 +2047,7 @@ export const races: Race[] = [
         "pedigree": "Shifting Power(GB) - Dovers Hill",
         "trainer": "Rutherford Alford",
         "jockey": "N Darshan",
-        "wt": "60.00",
+        "wt": "60",
         "al": "2.5",
         "shoes": "A",
         "eq": "TS-XNB",
@@ -2124,7 +2124,7 @@ export const races: Race[] = [
         "pedigree": "Declaration Of War(IRE) - Strides Of Glory",
         "trainer": "Ajay Sharma",
         "jockey": "Jitu Singh",
-        "wt": "58.50",
+        "wt": "58.5",
         "al": "5",
         "shoes": "A",
         "eq": "TS-BLK-CNB",
@@ -2132,7 +2132,7 @@ export const races: Race[] = [
         "last5": "5-10-7-12-5-.",
         "tissue": "15/4",
         "rank": 3,
-        "verdict": "Last: 14 Nov 26 KOL 1100M 5/10 beaten 12.5 at 15 off 41, 60kg. 14 days out. 5kg claim. HCP 37. Latest work 23 Nov KOL: Heer (Jitu Apprentice ) 1-5.2 600/51, 400/33.8 Moved Easy.",
+        "verdict": "Last: 14 Nov 26 KOL 1100M 5/10 beaten 12.5 at 15 off 41, 60kg. 14 days out. 5kg claim. HCP 37. Latest work 26 Nov KOL: Heer (Jitu Singh ) 37 Unextended",
         "similar": "Nearest trip: 29 Apr 26 DEL 1400M Class 4, 2/8 beaten 1.75 vs LADY DANGER.",
         "form": [
           {
@@ -2186,6 +2186,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+7)",
+            "note": "Heer (Jitu Singh ) 37 Unextended"
+          },
+          {
             "date": "23 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+5)",
@@ -2202,12 +2208,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "800m outer sand (-1)",
             "note": "Shamsheer (RB ) 59 600/43 Moved freely"
-          },
-          {
-            "date": "14 Nov",
-            "venue": "MYS",
-            "clock": "600m outer sand (-4)",
-            "note": "Sheer Elegance (RB ) 41 Moved freely"
           }
         ]
       },
@@ -2219,7 +2219,7 @@ export const races: Race[] = [
         "pedigree": "Dreamfield(GB) - Lady Legend",
         "trainer": "P Quinn",
         "jockey": "Shezad Khan",
-        "wt": "57.50",
+        "wt": "57.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-CNB",
@@ -2227,7 +2227,7 @@ export const races: Race[] = [
         "last5": "2-3-6-9-8-.",
         "tissue": "24/1",
         "rank": 11,
-        "verdict": "Last: 14 Nov 26 KOL 1400M 8/8 beaten 32 at 20 off 36, 56kg. 14 days out. HCP -4. Latest work 12 Nov KOL: Legacy Field (Shezad Khan), Stellantis (Rb ), 1-3 600 In 47.4 400 In 29.4 Pair remained unextended & finished levelled.",
+        "verdict": "Last: 14 Nov 26 KOL 1400M 8/8 beaten 32 at 20 off 36, 56kg. 14 days out. HCP -4. Latest work 26 Nov KOL: Legacy Field (Jitu Singh ) 47 400/30 Moved freely",
         "similar": "Nearest trip: 14 Nov 26 KOL 1400M Class 4, 8/8 beaten 32 vs VOULA.",
         "form": [
           {
@@ -2281,6 +2281,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Legacy Field (Jitu Singh ) 47 400/30 Moved freely"
+          },
+          {
             "date": "12 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+3)",
@@ -2297,12 +2303,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+2)",
             "note": "Legacy Field (Apprentice ) 1-2 600 In 47 400 In 30.8 Moved freely."
-          },
-          {
-            "date": "02 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+5)",
-            "note": "Legacy Field (Apprentice ) 50.5 400 In 30.6 Unextended."
           }
         ]
       },
@@ -2314,7 +2314,7 @@ export const races: Race[] = [
         "pedigree": "Leitir Mor(IRE) - Aviette",
         "trainer": "S S Habbu",
         "jockey": "M S Deora",
-        "wt": "56.50",
+        "wt": "56.5",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -2322,7 +2322,7 @@ export const races: Race[] = [
         "last5": "12-13-4-14-4-.",
         "tissue": "24/1",
         "rank": 6,
-        "verdict": "Last: 14 Nov 26 KOL 1400M 4/8 beaten 7.5 at 8 off 32, 54kg. 14 days out. HCP 12. Latest work 25 Nov KOL: Azalea (M S Deora ) 1-5 600/50, 400/32.2 Moved Easy.",
+        "verdict": "Last: 14 Nov 26 KOL 1400M 4/8 beaten 7.5 at 8 off 32, 54kg. 14 days out. HCP 12. Latest work 26 Nov KOL: Azalea (M S Deora ) 51 400/32.2 Moved easy",
         "similar": "Nearest trip: 14 Nov 26 KOL 1400M Class 4, 4/8 beaten 7.5 vs VOULA.",
         "form": [
           {
@@ -2376,6 +2376,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+6)",
+            "note": "Azalea (M S Deora ) 51 400/32.2 Moved easy"
+          },
+          {
             "date": "25 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+5)",
@@ -2392,12 +2398,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+6)",
             "note": "Azalea (M S Deora ) 51.5 400/32.6 Moved Easy."
-          },
-          {
-            "date": "02 Nov",
-            "venue": "KOL",
-            "clock": "400m inner sand (+1)",
-            "note": "Azalea (Rb ) 31 Moved easy."
           }
         ]
       },
@@ -2409,7 +2409,7 @@ export const races: Race[] = [
         "pedigree": "David Livingston(IRE) - Satwa Pearl",
         "trainer": "B R Reddy",
         "jockey": "P Tejeshwar",
-        "wt": "56.50",
+        "wt": "56.5",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -2504,7 +2504,7 @@ export const races: Race[] = [
         "pedigree": "Dreamfield(GB) - Aymaras",
         "trainer": "Vikash Jaiswal",
         "jockey": "Vishal Bunde",
-        "wt": "56.00",
+        "wt": "56",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -2599,7 +2599,7 @@ export const races: Race[] = [
         "pedigree": "Moonlight Magic(GB) - Snowy Day In La(IRE)",
         "trainer": "Neil Darashah",
         "jockey": "Md Sameer",
-        "wt": "55.00",
+        "wt": "55",
         "al": "",
         "shoes": "A",
         "eq": "EP",
@@ -2607,7 +2607,7 @@ export const races: Race[] = [
         "last5": "3-5-2-7-11-.",
         "tissue": "24/1",
         "rank": 12,
-        "verdict": "Last: 29 Mar 26 MUM 1400M 11/14 beaten 15 at 20 off 25, 51.5kg. 244 days out. HCP -18. Latest work 25 Nov KOL: Oliver (Md Sameer), Crystal Clear (R Manish ), 1-5 600/48.2, 400/30 Former Moved 6 Lengths Ahead.",
+        "verdict": "Last: 29 Mar 26 MUM 1400M 11/14 beaten 15 at 20 off 25, 51.5kg. 244 days out. HCP -18. Latest work 26 Nov KOL: Crystal Clear (R Manish ) 32 Unextended",
         "similar": "Nearest trip: 29 Mar 26 MUM 1400M Class 4, 11/14 beaten 15 vs ASHWA GYPSY.",
         "form": [
           {
@@ -2661,6 +2661,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Crystal Clear (R Manish ) 32 Unextended"
+          },
+          {
             "date": "25 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+5)",
@@ -2677,12 +2683,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+4)",
             "note": "Crystal Clear (R Manish ) 49 400 In 31 Moved easy."
-          },
-          {
-            "date": "06 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+3)",
-            "note": "Crystal Clear (R Manish ) 48 400 In 30 Moved easy."
           }
         ]
       },
@@ -2694,7 +2694,7 @@ export const races: Race[] = [
         "pedigree": "Excellent Art(GB) - Hold The Universe(IRE)",
         "trainer": "Vijay Singh",
         "jockey": "K Mukesh Kumar",
-        "wt": "54.50",
+        "wt": "54.5",
         "al": "",
         "shoes": "A",
         "eq": "BLK-XNB",
@@ -2777,7 +2777,7 @@ export const races: Race[] = [
         "pedigree": "Leitir Mor(IRE) - Alacritas(GB)",
         "trainer": "B Mahesh",
         "jockey": "R Manish",
-        "wt": "54.00",
+        "wt": "54",
         "al": "",
         "shoes": "S",
         "eq": "TS-CNB",
@@ -2848,7 +2848,7 @@ export const races: Race[] = [
         "pedigree": "Saamidd(GB) - Chemical Romance",
         "trainer": "B R Reddy",
         "jockey": "S A Amit",
-        "wt": "53.50",
+        "wt": "53.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -2856,7 +2856,7 @@ export const races: Race[] = [
         "last5": "6-4-3-6-7-.",
         "tissue": "24/1",
         "rank": 13,
-        "verdict": "Last: 21 Nov 26 KOL 1400M 7/9 beaten 19.25 at 12 off 28, 52kg. 7 days out. HCP -24. Latest work 25 Nov KOL: Cool Daddy (K Sunny Kumar ) 1-5 600/49, 400/33.2 Moved Easy.",
+        "verdict": "Last: 21 Nov 26 KOL 1400M 7/9 beaten 19.25 at 12 off 28, 52kg. 7 days out. HCP -24. Latest work 26 Nov KOL: Cool Daddy (Ranveer Singh ) 34 Moved easy",
         "similar": "Nearest trip: 21 Nov 26 KOL 1400M Class 4, 7/9 beaten 19.25 vs SASEKA.",
         "form": [
           {
@@ -2910,6 +2910,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+4)",
+            "note": "Cool Daddy (Ranveer Singh ) 34 Moved easy"
+          },
+          {
             "date": "25 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+5)",
@@ -2926,12 +2932,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+2)",
             "note": "Cool Daddy (K Sunny Kumar ) 47 400/28.8 Extended slightly"
-          },
-          {
-            "date": "31 Oct",
-            "venue": "KOL",
-            "clock": "400m monsoon track (+1)",
-            "note": "Cool Daddy (Apprentice ) 31.5 Moved easy."
           }
         ]
       },
@@ -2943,7 +2943,7 @@ export const races: Race[] = [
         "pedigree": "Excelebration(IRE) - Age Of Elegance(IRE)",
         "trainer": "Shafiq Khan",
         "jockey": "Vinay Jaiswal",
-        "wt": "51.50",
+        "wt": "51.5",
         "al": "",
         "shoes": "S",
         "eq": "TS-HOOD",
@@ -3038,7 +3038,7 @@ export const races: Race[] = [
         "pedigree": "Charmo(FR) - Velvet Queen",
         "trainer": "Vikash Jaiswal",
         "jockey": "A S Peter",
-        "wt": "50.00",
+        "wt": "50",
         "al": "",
         "shoes": "S",
         "eq": "TS-ANB",
@@ -3134,12 +3134,12 @@ export const races: Race[] = [
     "class": "Term Race / For Horses 3 Years Old Only (No allowance can be claimed)",
     "dist": "1600m",
     "time": "03:15 PM",
-    "purse": "₹0",
+    "purse": "₹3746875",
     "record": "04 Mar 2018 WHOMAKESTHERULES 59 Kgs 1:34.80 Secs",
     "shape": "6-runner. Term Race / For Horses 3 Years Old Only (No allowance can be claimed)",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. SHRISHTI (4) 2. ANGELISA (1) 3. NALEDI (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win SHRISHTI (4).",
-    "irPick": "unpublished",
+    "irPick": "1. SHRISHTI (4) 2. ANGELISA (1) 3. NALEDI (3)",
     "ourPick": "SHRISHTI (4)",
     "nap": false,
     "runners": [
@@ -3151,7 +3151,7 @@ export const races: Race[] = [
         "pedigree": "Win Legend(JPN) - Angelique",
         "trainer": "P Shroff",
         "jockey": "Vivek G",
-        "wt": "57.00",
+        "wt": "57",
         "al": "",
         "shoes": "A",
         "eq": "TS-HOOD",
@@ -3159,7 +3159,7 @@ export const races: Race[] = [
         "last5": "2-7-6-2-3-.",
         "tissue": "155/8",
         "rank": 4,
-        "verdict": "Last: 31 Oct 26 PUN 1600M 3/7 beaten 1.75 at 5/2 off 45, 51.5kg. 28 days out. HCP 31. Latest work 24 Nov KOL: Angelisa (R Vaibhav), Viking (M S Deora ), 58.5 600/43.8, 400/27.6 Former finished distance ahead",
+        "verdict": "Last: 31 Oct 26 PUN 1600M 3/7 beaten 1.75 at 5/2 off 45, 51.5kg. 28 days out. HCP 31. Latest work 26 Nov KOL: Angelisa (R Vaibhav ) 47 400/31.8 Eased up towards end",
         "similar": "Nearest trip: 31 Oct 26 PUN 1600M Class 3, 3/7 beaten 1.75 vs DIEGO GARCIA.",
         "form": [
           {
@@ -3213,6 +3213,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+2)",
+            "note": "Angelisa (R Vaibhav ) 47 400/31.8 Eased up towards end"
+          },
+          {
             "date": "24 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (-1)",
@@ -3229,12 +3235,6 @@ export const races: Race[] = [
             "venue": "PUN",
             "clock": "1000m inner sand (+11)",
             "note": "Rossetti (Kirtish), Angelisa (Vivek G ), 1-26 1000 1-11, 800 55, 600 41, Pair level"
-          },
-          {
-            "date": "19 Oct",
-            "venue": "PUN",
-            "clock": "1400m inner sand (-6)",
-            "note": "Dalilah (Yash), Angelisa (A.Prakash ), 1-39 1200 1-23, 1000 1-08, 800 53, 600 39, Pair moved together."
           }
         ]
       },
@@ -3246,7 +3246,7 @@ export const races: Race[] = [
         "pedigree": "Dreamfield(GB) - Fly Like The Wind",
         "trainer": "Vijay Singh",
         "jockey": "K Mukesh Kumar",
-        "wt": "57.00",
+        "wt": "57",
         "al": "",
         "shoes": "A",
         "eq": "",
@@ -3341,7 +3341,7 @@ export const races: Race[] = [
         "pedigree": "Cougar Mountain(IRE) - Oomph",
         "trainer": "P Shroff",
         "jockey": "Yash Narredu",
-        "wt": "57.00",
+        "wt": "57",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -3349,7 +3349,7 @@ export const races: Race[] = [
         "last5": "2-2-.",
         "tissue": "24/1",
         "rank": 6,
-        "verdict": "Last: 13 Sep 26 PUN 1400M 2/9 beaten 1.75 at 1 off 28, 52.5kg. 76 days out. HCP 18. Latest work 25 Nov KOL: Naledi (R Vaibhav ) 1-5 600/48, 400/31.6 Moved Easy.",
+        "verdict": "Last: 13 Sep 26 PUN 1400M 2/9 beaten 1.75 at 1 off 28, 52.5kg. 76 days out. HCP 18. Latest work 26 Nov KOL: Naledi (R Vaibhav ) 58.5 600/44.6, 400/28.8 Moved on the bit",
         "similar": "Nearest trip: 13 Sep 26 PUN 1400M Class 4, 2/9 beaten 1.75 vs COFFEE AT ELEVEN.",
         "form": [
           {
@@ -3379,6 +3379,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Naledi (R Vaibhav ) 58.5 600/44.6, 400/28.8 Moved on the bit"
+          },
+          {
             "date": "25 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+5)",
@@ -3395,12 +3401,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+5)",
             "note": "Naledi (R Vaibhav ) 1-5.5 600/48, 400/29 Shaped Nicely."
-          },
-          {
-            "date": "17 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+5)",
-            "note": "Naledi (R Vaibhav ) 1-5.5 600/49, 400/30 Moved On The Bit."
           }
         ]
       },
@@ -3412,7 +3412,7 @@ export const races: Race[] = [
         "pedigree": "Win Legend(JPN) - Bright Future",
         "trainer": "Rajesh Narredu",
         "jockey": "Suraj Narredu",
-        "wt": "57.00",
+        "wt": "57",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -3420,7 +3420,7 @@ export const races: Race[] = [
         "last5": "2-1-2-1-2-.",
         "tissue": "3/8",
         "rank": 1,
-        "verdict": "Last: 03 Oct 26 KOL 2000M 2/6 beaten 0 at 2 off 60, 54.5kg. 56 days out. HCP 58. Latest work 18 Nov KOL: Shrishti (M Baskar ) 1-1 600/45, 400/28 Moved freely",
+        "verdict": "Last: 03 Oct 26 KOL 2000M 2/6 beaten 0 at 2 off 60, 54.5kg. 56 days out. HCP 58. Latest work 26 Nov KOL: Shrishti (M Baskar ) 57 400/36.2 Unextended",
         "similar": "Nearest trip: 08 Sep 26 KOL 1400M Term Race, 1/4 beaten 0 vs SHRISHTI.",
         "form": [
           {
@@ -3474,6 +3474,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "600m outer sand (+12)",
+            "note": "Shrishti (M Baskar ) 57 400/36.2 Unextended"
+          },
+          {
             "date": "18 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+1)",
@@ -3490,12 +3496,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+4)",
             "note": "Shrishti (M Baskar ) 1-4.6 600 In 46.4 400 In 28 Moved smoothly."
-          },
-          {
-            "date": "07 Nov",
-            "venue": "KOL",
-            "clock": "400m outer sand (-4)",
-            "note": "Shrishti (M Baskar ) 26 Spurted Nicely."
           }
         ]
       },
@@ -3507,7 +3507,7 @@ export const races: Race[] = [
         "pedigree": "Leitir Mor(IRE) - Isn't She Special",
         "trainer": "S S Attaollahi",
         "jockey": "A Sandesh",
-        "wt": "57.00",
+        "wt": "57",
         "al": "",
         "shoes": "A",
         "eq": "TS-CNB",
@@ -3515,7 +3515,7 @@ export const races: Race[] = [
         "last5": "3-1-3-2-5-.",
         "tissue": "24/1",
         "rank": 5,
-        "verdict": "Last: 18 Sep 26 MYS 1600M 5/6 beaten 9 at 20 off 41, 56kg. 71 days out. HCP 20. Latest work 25 Nov KOL: Shutterfly (M S Deora ) 1-40.5 1000/1-25, 800/1-6, 600/51, 40/33.8 Unextended.",
+        "verdict": "Last: 18 Sep 26 MYS 1600M 5/6 beaten 9 at 20 off 41, 56kg. 71 days out. HCP 20. Latest work 26 Nov KOL: Shutterfly (M S Deora ) 2-4 1400/1-46.2, 1200/1-33.2, 100/1-18.6, 800/1-0.6, 600/46.8, 400/29.6 Moved fluently",
         "similar": "Nearest trip: 18 Sep 26 MYS 1600M Term Race, 5/6 beaten 9 vs ROYAL LEGACY.",
         "form": [
           {
@@ -3569,6 +3569,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "1600m outer sand (+4)",
+            "note": "Shutterfly (M S Deora ) 2-4 1400/1-46.2, 1200/1-33.2, 100/1-18.6, 800/1-0.6, 600/46.8, 400/29.6 Moved fluently"
+          },
+          {
             "date": "25 Nov",
             "venue": "KOL",
             "clock": "1200m outer sand (+10)",
@@ -3585,12 +3591,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+3)",
             "note": "Shutterfly (M S Deora ) 33.5 Unextended"
-          },
-          {
-            "date": "15 Nov",
-            "venue": "KOL",
-            "clock": "400m outer sand (+4)",
-            "note": "Shutterfly (RB ) 34 Moved easy"
           }
         ]
       },
@@ -3602,7 +3602,7 @@ export const races: Race[] = [
         "pedigree": "Western Aristocrat(USA) - Halaqa(IRE)",
         "trainer": "Aashay Doctor",
         "jockey": "P Trevor",
-        "wt": "57.00",
+        "wt": "57",
         "al": "",
         "shoes": "A",
         "eq": "",
@@ -3610,7 +3610,7 @@ export const races: Race[] = [
         "last5": "1-1-.",
         "tissue": "27/10",
         "rank": 2,
-        "verdict": "Last: 14 Nov 26 KOL 1400M 1/8 beaten won at 4/10 off 35, 55.5kg. 14 days out. HCP 48. Latest work 24 Nov KOL: Vivaldi (Ajoy), Voula (P. Tejeshwar ), 56.5 600/41.4, 400/28.6 Finished close together",
+        "verdict": "Last: 14 Nov 26 KOL 1400M 1/8 beaten won at 4/10 off 35, 55.5kg. 14 days out. HCP 48. Latest work 26 Nov KOL: Voula (P. Tejeshwar), Mulan (Shah Alam ), 1-0 600/44.2, 400/26 Former extended in last two furlongs and finished distance ahead",
         "similar": "Nearest trip: 14 Nov 26 KOL 1400M Class 4, 1/8 beaten 0 vs VOULA.",
         "form": [
           {
@@ -3640,6 +3640,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (Even)",
+            "note": "Voula (P. Tejeshwar), Mulan (Shah Alam ), 1-0 600/44.2, 400/26 Former extended in last two furlongs and finished distance ahead"
+          },
+          {
             "date": "24 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (-3)",
@@ -3656,12 +3662,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+5)",
             "note": "Voula (P Tejeshwar ) 35 Unextended."
-          },
-          {
-            "date": "12 Nov",
-            "venue": "KOL",
-            "clock": "400m outer sand (+6)",
-            "note": "Voula (P. Tejeshwar), Live It Love It (Apprentice ), 36 Both were moved absolutely easy while latter was distance behind."
           }
         ]
       }
@@ -3677,9 +3677,9 @@ export const races: Race[] = [
     "purse": "₹750000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "10-runner. Class 1 / For Horses Rated 81 And Above,Rated 61-86 Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. CIGAR GALAXY (8) 2. BIG BAY (5) 3. KING LOUIS (2). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win BIG BAY (5).",
-    "irPick": "unpublished",
+    "irPick": "1. CIGAR GALAXY (8) 2. BIG BAY (5) 3. KING LOUIS (2)",
     "ourPick": "BIG BAY (5)",
     "nap": true,
     "runners": [
@@ -3691,7 +3691,7 @@ export const races: Race[] = [
         "pedigree": "Win Legend(JPN) - Practicallyperfect",
         "trainer": "Aashay Doctor",
         "jockey": "K Mukesh Kumar",
-        "wt": "60.00",
+        "wt": "60",
         "al": "",
         "shoes": "A",
         "eq": "TS-CNB",
@@ -3786,7 +3786,7 @@ export const races: Race[] = [
         "pedigree": "Win Legend(JPN) - Georgina(GB)",
         "trainer": "Neil Darashah",
         "jockey": "A Sandesh",
-        "wt": "58.50",
+        "wt": "58.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-XNB",
@@ -3881,7 +3881,7 @@ export const races: Race[] = [
         "pedigree": "Leitir Mor(IRE) - Balmoral Castle",
         "trainer": "B R Reddy",
         "jockey": "S A Amit",
-        "wt": "57.50",
+        "wt": "57.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-HOOD",
@@ -3976,7 +3976,7 @@ export const races: Race[] = [
         "pedigree": "Deauville(IRE) - Sheryl",
         "trainer": "S S Attaollahi",
         "jockey": "Hindu Singh",
-        "wt": "57.50",
+        "wt": "57.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-CNB",
@@ -3984,7 +3984,7 @@ export const races: Race[] = [
         "last5": "1-1-1-2-6-.",
         "tissue": "24/1",
         "rank": 8,
-        "verdict": "Last: 26 Jul 26 BAN 1600M 6/8 beaten 7.25 at 20 off 92, 52kg. 125 days out. HCP 65. Latest work 25 Nov KOL: Xanthe (M S Deora ) 45.5 400/29 Moved On The Bit.",
+        "verdict": "Last: 26 Jul 26 BAN 1600M 6/8 beaten 7.25 at 20 off 92, 52kg. 125 days out. HCP 65. Latest work 26 Nov KOL: Xanthe (M S Deora ) 1-4.5 600/48, 400/30.8 Moved easy",
         "similar": "Nearest trip: 26 Jul 26 BAN 1600M For Horses, 6/8 beaten 7.25 vs ALFONSINE.",
         "form": [
           {
@@ -4038,6 +4038,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+4)",
+            "note": "Xanthe (M S Deora ) 1-4.5 600/48, 400/30.8 Moved easy"
+          },
+          {
             "date": "25 Nov",
             "venue": "KOL",
             "clock": "600m outer sand (+0)",
@@ -4054,12 +4060,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (-3)",
             "note": "Xanthene (M S Deora ) 56.5 600/40.8, 400/25 Extended Nicely."
-          },
-          {
-            "date": "30 Oct",
-            "venue": "BAN",
-            "clock": "1400m outer sand (-5)",
-            "note": "Xanthe (Salman Khan ) 1-39.5 1200 In 1-24 1000 In 1-10 600 In 43.5 Impressed."
           }
         ]
       },
@@ -4071,7 +4071,7 @@ export const races: Race[] = [
         "pedigree": "Speaking Of Which(IRE) - Clementi",
         "trainer": "Deepesh Narredu",
         "jockey": "Suraj Narredu",
-        "wt": "56.50",
+        "wt": "56.5",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -4079,7 +4079,7 @@ export const races: Race[] = [
         "last5": "4-9-3-2-1-.",
         "tissue": "7/5",
         "rank": 1,
-        "verdict": "Last: 14 Nov 26 KOL 1100M 1/9 beaten won at 7/10 off 82, 60kg. 14 days out. HCP 94. Latest work 24 Nov KOL: Big Bay (M Baskar ) 1-0.5 600/43.4, 400/26.2 Extended towards end.",
+        "verdict": "Last: 14 Nov 26 KOL 1100M 1/9 beaten won at 7/10 off 82, 60kg. 14 days out. HCP 94. Latest work 26 Nov KOL: Big Bay (V Jaiswal ) 1-1 600/46, 400/28.4 Shaped nicely",
         "similar": "Nearest trip: 16 Sep 26 KOL 1400M Class 2, 2/12 beaten 5.5 vs CIGAR GALAXY.",
         "form": [
           {
@@ -4133,6 +4133,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+1)",
+            "note": "Big Bay (V Jaiswal ) 1-1 600/46, 400/28.4 Shaped nicely"
+          },
+          {
             "date": "24 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+0)",
@@ -4149,12 +4155,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+2)",
             "note": "Big Bay (V Jaiswal ) 32 Eased Up."
-          },
-          {
-            "date": "04 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+0)",
-            "note": "Big Bay (M Baskar ) 44.5 400/25.8 Excelled In Last 400m."
           }
         ]
       },
@@ -4166,7 +4166,7 @@ export const races: Race[] = [
         "pedigree": "Net Whizz(USA) - Crimson Cheer(USA)",
         "trainer": "Ajay Sharma",
         "jockey": "Vinay Jaiswal",
-        "wt": "55.00",
+        "wt": "55",
         "al": "",
         "shoes": "A",
         "eq": "BLK",
@@ -4261,7 +4261,7 @@ export const races: Race[] = [
         "pedigree": "Dali(USA) - Roman Flame",
         "trainer": "S S Habbu",
         "jockey": "Vivek G",
-        "wt": "54.00",
+        "wt": "54",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -4269,7 +4269,7 @@ export const races: Race[] = [
         "last5": "1-3-3-3-2-.",
         "tissue": "24/1",
         "rank": 7,
-        "verdict": "Last: 17 Nov 26 KOL 1200M 2/8 beaten 4 at 10 off 87, 50kg. 11 days out. HCP 69. Latest work 24 Nov KOL: Abhicandra (M S Deora ) 1-0.5 600/46.6, 400/28.6 Moved up nively",
+        "verdict": "Last: 17 Nov 26 KOL 1200M 2/8 beaten 4 at 10 off 87, 50kg. 11 days out. HCP 69. Latest work 26 Nov KOL: Abhicandra (M S Deora ) 1-5.5 600/50.8, 400/32.8 Eased up",
         "similar": "Nearest trip: 17 Nov 26 KOL 1200M Class 1, 2/8 beaten 4 vs SHINE.",
         "form": [
           {
@@ -4323,6 +4323,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+5)",
+            "note": "Abhicandra (M S Deora ) 1-5.5 600/50.8, 400/32.8 Eased up"
+          },
+          {
             "date": "24 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+0)",
@@ -4339,12 +4345,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+1)",
             "note": "Abhicandra (Apprentice ) 1-1 600/46.2, 400/29.2 Moved nicely"
-          },
-          {
-            "date": "14 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (+1)",
-            "note": "Abhicandra (Apprentice ) 1-1.2 600/46.2, 400/29.2 Moved Nicely."
           }
         ]
       },
@@ -4356,7 +4356,7 @@ export const races: Race[] = [
         "pedigree": "Western Aristocrat(USA) - Celestial Way",
         "trainer": "Aashay Doctor",
         "jockey": "P Trevor",
-        "wt": "53.50",
+        "wt": "53.5",
         "al": "",
         "shoes": "A",
         "eq": "TS",
@@ -4364,7 +4364,7 @@ export const races: Race[] = [
         "last5": "2-2-1-1-1-.",
         "tissue": "27/8",
         "rank": 3,
-        "verdict": "Last: 16 Sep 26 KOL 1400M 1/12 beaten won at 5/2 off 74, 56.5kg. 73 days out. HCP 88. Latest work 24 Nov KOL: Cigar Galaxy (P. Tejeshwar ) 44.5 400/29.4 Moved on the bit",
+        "verdict": "Last: 16 Sep 26 KOL 1400M 1/12 beaten won at 5/2 off 74, 56.5kg. 73 days out. HCP 88. Latest work 26 Nov KOL: Cigar Galaxy (P. Tejeshwar ) 58.5 600/42.8, 400/27 Moved smoothly",
         "similar": "Nearest trip: 16 Sep 26 KOL 1400M Class 2, 1/12 beaten 0 vs CIGAR GALAXY.",
         "form": [
           {
@@ -4418,6 +4418,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (-1)",
+            "note": "Cigar Galaxy (P. Tejeshwar ) 58.5 600/42.8, 400/27 Moved smoothly"
+          },
+          {
             "date": "24 Nov",
             "venue": "KOL",
             "clock": "600m outer sand (+0)",
@@ -4434,12 +4440,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (+0)",
             "note": "Cigar Galaxy (Ajoy ) 1-0.2 600/45.2, 400/30.2 Moved On The Bit."
-          },
-          {
-            "date": "17 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+6)",
-            "note": "Cigar Galaxy (Ajoy), As You Like It (P Tejeshwar ), 51 400/31.2 Former Finished A Length In Front."
           }
         ]
       },
@@ -4451,7 +4451,7 @@ export const races: Race[] = [
         "pedigree": "Phoenix Tower(USA) - Jolie Rue(USA)",
         "trainer": "Vikash Jaiswal",
         "jockey": "A S Peter",
-        "wt": "50.00",
+        "wt": "50",
         "al": "",
         "shoes": "S",
         "eq": "TS-BB",
@@ -4546,7 +4546,7 @@ export const races: Race[] = [
         "pedigree": "Fiero(JPN) - Memory",
         "trainer": "Sabeel Shariff",
         "jockey": "Jitu Singh",
-        "wt": "50.00",
+        "wt": "50",
         "al": "5",
         "shoes": "S",
         "eq": "TS-XNB",
@@ -4645,9 +4645,9 @@ export const races: Race[] = [
     "purse": "₹500000",
     "record": "03 Mar 2024 SIEGE COURAGEOUS 56.5 Kgs 1:22.52 Secs",
     "shape": "8-runner. Class 3 / For Horses Rated 41-66,Rated 21-46,. Eligible",
-    "similarRace": "IndiaRace: unpublished. This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
+    "similarRace": "IndiaRace: 1. PINNACLE (2) 2. QUEEN ANULA (1) 3. ENCHANTING (3). This sheet uses last-start PR on the Indian kg scale (1L = 1 kg at 1200m) plus claim and well-in vs allotted weight.",
     "tissueNote": "120% book from HCP ranks. Win QUEEN ANULA (1).",
-    "irPick": "unpublished",
+    "irPick": "1. PINNACLE (2) 2. QUEEN ANULA (1) 3. ENCHANTING (3)",
     "ourPick": "QUEEN ANULA (1)",
     "nap": false,
     "runners": [
@@ -4659,7 +4659,7 @@ export const races: Race[] = [
         "pedigree": "Sedgefield(USA) - Grey Mist",
         "trainer": "V Ajith Kumar",
         "jockey": "R Vaibhav",
-        "wt": "60.00",
+        "wt": "60",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -4667,7 +4667,7 @@ export const races: Race[] = [
         "last5": "1-5-6-2-3-.",
         "tissue": "1/4",
         "rank": 1,
-        "verdict": "Last: 17 Nov 26 KOL 1400M 3/9 beaten 1.25 at 2 off 59, 60kg. 11 days out. HCP 68. Latest work 14 Nov KOL: Queen Anula (RB ) 1-1.5 600/46, 400/29.8 Moved freely",
+        "verdict": "Last: 17 Nov 26 KOL 1400M 3/9 beaten 1.25 at 2 off 59, 60kg. 11 days out. HCP 68. Latest work 26 Nov KOL: Queen Anula (R Manish ) 32 Moved easy",
         "similar": "Nearest trip: 17 Nov 26 KOL 1400M Class 3, 3/9 beaten 1.25 vs RENAISSANCE.",
         "form": [
           {
@@ -4721,6 +4721,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Queen Anula (R Manish ) 32 Moved easy"
+          },
+          {
             "date": "14 Nov",
             "venue": "KOL",
             "clock": "800m outer sand (+1)",
@@ -4737,12 +4743,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "600m outer sand (+1)",
             "note": "Queen Anula (R Vaibhav ) 46 400 In 29.8 Shaped well."
-          },
-          {
-            "date": "07 Nov",
-            "venue": "KOL",
-            "clock": "800m outer sand (-2)",
-            "note": "Queen Anula (R Vaibhav ) 57.5 600/43.4, 400/28.6 Moved Smoothly."
           }
         ]
       },
@@ -4754,7 +4754,7 @@ export const races: Race[] = [
         "pedigree": "Land Force(IRE) - Relaxez Vous(IRE)",
         "trainer": "M Narredu",
         "jockey": "Suraj Narredu",
-        "wt": "57.00",
+        "wt": "57",
         "al": "",
         "shoes": "A",
         "eq": "TS-SSCP",
@@ -4762,7 +4762,7 @@ export const races: Race[] = [
         "last5": "2-3-1-1-2-.",
         "tissue": "129/10",
         "rank": 3,
-        "verdict": "Last: 08 Sep 26 KOL 1400M 2/4 beaten 6.5 at 11/10 off 55, 56kg. 81 days out. HCP 42. Latest work 23 Nov KOL: Pinnacle (M Baskar ) 43.5 400/27 Excelled.",
+        "verdict": "Last: 08 Sep 26 KOL 1400M 2/4 beaten 6.5 at 11/10 off 55, 56kg. 81 days out. HCP 42. Latest work 26 Nov KOL: Pinnacle (M Baskar ) 32 unextended",
         "similar": "Nearest trip: 08 Sep 26 KOL 1400M Term Race, 2/4 beaten 6.5 vs SHRISHTI.",
         "form": [
           {
@@ -4816,6 +4816,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "26 Nov",
+            "venue": "KOL",
+            "clock": "400m outer sand (+2)",
+            "note": "Pinnacle (M Baskar ) 32 unextended"
+          },
+          {
             "date": "23 Nov",
             "venue": "KOL",
             "clock": "600m outer sand (-1)",
@@ -4832,12 +4838,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "400m outer sand (+2)",
             "note": "Pinnacle (M Baskar ) 32 Moved Easy."
-          },
-          {
-            "date": "18 Nov",
-            "venue": "KOL",
-            "clock": "600m outer sand (+3)",
-            "note": "Pinnacle (M Baskar ) 48.5 400/31.8 Moved easy"
           }
         ]
       },
@@ -4849,7 +4849,7 @@ export const races: Race[] = [
         "pedigree": "Win Legend(JPN) - Nanhipari",
         "trainer": "S S Habbu",
         "jockey": "M S Deora",
-        "wt": "56.50",
+        "wt": "56.5",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -4944,7 +4944,7 @@ export const races: Race[] = [
         "pedigree": "Gusto(GB) - Time Square",
         "trainer": "V Ajith Kumar",
         "jockey": "Vinay Jaiswal",
-        "wt": "55.50",
+        "wt": "55.5",
         "al": "",
         "shoes": "S",
         "eq": "TS-HOOD",
@@ -5039,7 +5039,7 @@ export const races: Race[] = [
         "pedigree": "Dreamfield(GB) - Actual",
         "trainer": "Neil Darashah",
         "jockey": "R Manish",
-        "wt": "53.00",
+        "wt": "53",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -5134,7 +5134,7 @@ export const races: Race[] = [
         "pedigree": "Air Support(USA) - Cerise Noir",
         "trainer": "Shafiq Khan",
         "jockey": "A S Peter",
-        "wt": "53.00",
+        "wt": "53",
         "al": "",
         "shoes": "S",
         "eq": "TS-XNB-HOOD",
@@ -5229,7 +5229,7 @@ export const races: Race[] = [
         "pedigree": "Win Legend(JPN) - Twice Over",
         "trainer": "Vijay Singh",
         "jockey": "Hindu Singh",
-        "wt": "52.00",
+        "wt": "52",
         "al": "",
         "shoes": "A",
         "eq": "TS-BLK",
@@ -5324,7 +5324,7 @@ export const races: Race[] = [
         "pedigree": "Excellent Art(GB) - Coccinella",
         "trainer": "Rutherford Alford",
         "jockey": "S A Amit",
-        "wt": "51.00",
+        "wt": "51",
         "al": "",
         "shoes": "A",
         "eq": "TS-XNB",
