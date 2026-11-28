@@ -2132,7 +2132,7 @@ export const races: Race[] = [
         "last5": "5-10-7-12-5-.",
         "tissue": "15/4",
         "rank": 3,
-        "verdict": "Last: 14 Nov 26 KOL 1100M 5/10 beaten 12.5 at 15 off 41, 60kg. 14 days out. 5kg claim. HCP 37. Latest work 26 Nov KOL: Heer (Jitu Singh ) 37 Unextended",
+        "verdict": "Last: 14 Nov 26 KOL 1100M 5/10 beaten 12.5 at 15 off 41, 60kg. 14 days out. 5kg claim. HCP 37. Latest work 28 Nov MYS: Sheer Elegance (Rb ) 53 600/38, Moved Attractively.",
         "similar": "Nearest trip: 29 Apr 26 DEL 1400M Class 4, 2/8 beaten 1.75 vs LADY DANGER.",
         "form": [
           {
@@ -2186,6 +2186,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "28 Nov",
+            "venue": "MYS",
+            "clock": "800m outer sand (-7)",
+            "note": "Sheer Elegance (Rb ) 53 600/38, Moved Attractively."
+          },
+          {
             "date": "26 Nov",
             "venue": "KOL",
             "clock": "400m outer sand (+7)",
@@ -2202,12 +2208,6 @@ export const races: Race[] = [
             "venue": "MYS",
             "clock": "800m outer sand (-1)",
             "note": "Shamsheer (Rb ) 59 600/43, Looks Fit."
-          },
-          {
-            "date": "17 Nov",
-            "venue": "MYS",
-            "clock": "800m outer sand (-1)",
-            "note": "Shamsheer (RB ) 59 600/43 Moved freely"
           }
         ]
       },
@@ -3159,7 +3159,7 @@ export const races: Race[] = [
         "last5": "2-7-6-2-3-.",
         "tissue": "155/8",
         "rank": 4,
-        "verdict": "Last: 31 Oct 26 PUN 1600M 3/7 beaten 1.75 at 5/2 off 45, 51.5kg. 28 days out. HCP 31. Latest work 26 Nov KOL: Angelisa (R Vaibhav ) 47 400/31.8 Eased up towards end",
+        "verdict": "Last: 31 Oct 26 PUN 1600M 3/7 beaten 1.75 at 5/2 off 45, 51.5kg. 28 days out. HCP 31. Latest work 27 Nov KOL: Angelisa (R Vaibhav ) 1-9.8 600/52, 400/33.4 Unextended",
         "similar": "Nearest trip: 31 Oct 26 PUN 1600M Class 3, 3/7 beaten 1.75 vs DIEGO GARCIA.",
         "form": [
           {
@@ -3213,6 +3213,12 @@ export const races: Race[] = [
         ],
         "work": [
           {
+            "date": "27 Nov",
+            "venue": "KOL",
+            "clock": "800m outer sand (+9)",
+            "note": "Angelisa (R Vaibhav ) 1-9.8 600/52, 400/33.4 Unextended"
+          },
+          {
             "date": "26 Nov",
             "venue": "KOL",
             "clock": "600m outer sand (+2)",
@@ -3229,12 +3235,6 @@ export const races: Race[] = [
             "venue": "KOL",
             "clock": "800m outer sand (-26)",
             "note": "Angelisa (R Vaibhav ) 33.5 Unextended"
-          },
-          {
-            "date": "28 Oct",
-            "venue": "PUN",
-            "clock": "1000m inner sand (+11)",
-            "note": "Rossetti (Kirtish), Angelisa (Vivek G ), 1-26 1000 1-11, 800 55, 600 41, Pair level"
           }
         ]
       },
